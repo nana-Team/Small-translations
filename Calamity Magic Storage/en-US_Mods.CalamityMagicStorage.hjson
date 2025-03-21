@@ -1,0 +1,75 @@
+Tiles.CalamityStorageUnit.MapEntry: Calamity Storage Unit
+
+Items: {
+	AuricStorageUnitItem: {
+		DisplayName: Auric Storage Unit
+		Tooltip:
+			'''
+			A component for storing items in a Magic Storage storage system
+			Can store up to 880 items
+			'''
+	}
+
+	CosmiliteStorageUnitItem: {
+		DisplayName: Cosmilite Storage Unit
+		Tooltip:
+			'''
+			A component for storing items in a Magic Storage storage system
+			Can store up to 800 items
+			'''
+	}
+
+	ShadowspecStorageUnitItem: {
+		DisplayName: Shadowspec Storage Unit
+		Tooltip:
+			'''
+			A component for storing items in a Magic Storage storage system
+			Can store up to 1000 items
+			'''
+	}
+
+	UelibloomStorageUnitItem: {
+		DisplayName: Uelibloom Storage Unit
+		Tooltip:
+			'''
+			A component for storing items in a Magic Storage storage system
+			Can store up to 720 items
+			'''
+	}
+
+	UpgradeAuric: {
+		DisplayName: Auric Storage Upgrade
+		Tooltip:
+			'''
+			Upgrades storage unit to 880 capacity
+			Right Click a Cosmilite Storage Unit to use
+			'''
+	}
+
+	UpgradeCosmilite: {
+		DisplayName: Cosmilite Storage Upgrade
+		Tooltip:
+			'''
+			Upgrades storage unit to 800 capacity
+			Right Click a Uelibloom Storage Unit to use
+			'''
+	}
+
+	UpgradeShadowspec: {
+		DisplayName: Shadowspec Storage Upgrade
+		Tooltip:
+			'''
+			Upgrades storage unit to 1000 capacity
+			Right Click a Auric Storage Unit to use
+			'''
+	}
+
+	UpgradeUelibloom: {
+		DisplayName: Uelibloom Storage Upgrade
+		Tooltip:
+			'''
+			Upgrades storage unit to 720 capacity
+			Right Click a Terra Storage Unit to use
+			'''
+	}
+}

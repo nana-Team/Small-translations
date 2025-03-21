@@ -1,0 +1,321 @@
+Items: {
+	BorealWoodSignItem: {
+		DisplayName: Boreal Wood Sign
+		Tooltip: ""
+	}
+
+	CopperSignItem: {
+		DisplayName: Copper Sign
+		Tooltip: ""
+	}
+
+	GoldSignItem: {
+		DisplayName: Gold Sign
+		Tooltip: ""
+	}
+
+	IronSignItem: {
+		DisplayName: Iron Sign
+		Tooltip: ""
+	}
+
+	PalmWoodSignItem: {
+		DisplayName: Palm Wood Sign
+		Tooltip: ""
+	}
+
+	RichMahoganySignItem: {
+		DisplayName: Rich Mahogany Sign
+		Tooltip: ""
+	}
+
+	SilverSignItem: {
+		DisplayName: Silver Sign
+		Tooltip: ""
+	}
+
+	CactusSignItem: {
+		DisplayName: Cactus Sign
+		Tooltip: ""
+	}
+
+	DirtSignItem: {
+		DisplayName: Dirt Sign
+		Tooltip: ""
+	}
+
+	WoodSignSwordItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignUpItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignArrowItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignChestItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignHeartItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignHelmetItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignLegsItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignMagicItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignPetItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	WoodSignShoesItem: {
+		DisplayName: "{$ItemName.Sign}"
+		Tooltip: ""
+	}
+
+	CrimtaneSignItem: {
+		DisplayName: Crimtane Sign
+		Tooltip: ""
+	}
+
+	DemoniteSignItem: {
+		DisplayName: Demonite Sign
+		Tooltip: ""
+	}
+
+	SlimeSignItem: {
+		DisplayName: Slime Sign
+		Tooltip: ""
+	}
+
+	FleshSignItem: {
+		DisplayName: Flesh Sign
+		Tooltip: ""
+	}
+
+	LeadSignItem: {
+		DisplayName: Lead Sign
+		Tooltip: ""
+	}
+
+	PlatinumSignItem: {
+		DisplayName: Platinum Sign
+		Tooltip: ""
+	}
+
+	TinSignItem: {
+		DisplayName: Tin Sign
+		Tooltip: ""
+	}
+
+	TungstenSignItem: {
+		DisplayName: Tungsten Sign
+		Tooltip: ""
+	}
+
+	BambooSignItem: {
+		DisplayName: Bamboo Sign
+		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	MartianHoloSignItem: {
+		DisplayName: Martian Holo Sign
+		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	ObsidianSignItem: {
+		DisplayName: Obsidian Sign
+		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	PumpkinSignItem: {
+		DisplayName: Pumpkin Sign
+		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	SpiderSignItem: {
+		DisplayName: Spider Sign
+		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	DynastySignItem: {
+		DisplayName: Dynasty Sign
+		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	LesionSignItem: {
+		DisplayName: Lesion Sign
+		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	MushroomSignItem: {
+		DisplayName: Mushroom Sign
+		Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+	}
+
+	NebulaSignItem: {
+		DisplayName: Nebula Sign
+		Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+	}
+
+	SolarSignItem: {
+		DisplayName: Solar Sign
+		Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+	}
+
+	StardustSignItem: {
+		DisplayName: Stardust Sign
+		Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+	}
+
+	VortexSignItem: {
+		DisplayName: Vortex Sign
+		Tooltip: "[c/00FFFF:Sprite by GabeHasWon]"
+	}
+
+	GlassSignItem: {
+		DisplayName: Glass Sign
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
+	}
+
+	LihzahrdSignItem: {
+		DisplayName: Lihzahrd Sign
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
+	}
+
+	SkywareSignItem: {
+		DisplayName: Skyware Sign
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
+	}
+
+	SpookySignItem: {
+		DisplayName: Spooky Sign
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
+	}
+
+	SteampunkSignItem: {
+		DisplayName: Steampunk Sign
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
+	}
+
+	AshWoodSignItem: {
+		DisplayName: Ash Wood Sign
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
+	}
+
+	BalloonSignItem: {
+		DisplayName: Balloon Sign
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
+	}
+
+	BoneSignItem: {
+		DisplayName: Bone Sign
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
+	}
+
+	PearlwoodSignItem: {
+		DisplayName: Pearlwood Sign
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
+	}
+
+	ReefSignItem: {
+		DisplayName: Reef Sign
+		Tooltip: "[c/00FFFF:Sprite by qAngel]"
+	}
+
+	CloudSignItem: {
+		DisplayName: Cloud Sign
+		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
+	}
+
+	CrystalSignItem: {
+		DisplayName: Crystal Sign
+		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
+	}
+
+	SandstoneSignItem: {
+		DisplayName: Sandstone Sign
+		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
+	}
+
+	SnowSignItem: {
+		DisplayName: Snow Sign
+		Tooltip: "[c/00FFFF:Sprite by Omnomnomnom]"
+	}
+
+	EbonwoodSignItem: {
+		DisplayName: Ebonwood Sign
+		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
+	}
+
+	FrozenSignItem: {
+		DisplayName: Frozen Sign
+		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
+	}
+
+	GraniteSignItem: {
+		DisplayName: Granite Sign
+		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
+	}
+
+	HoneySignItem: {
+		DisplayName: Honey Sign
+		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
+	}
+
+	ShadewoodSignItem: {
+		DisplayName: Shadewood Sign
+		Tooltip: "[c/00FFFF:Sprite by xBirdie]"
+	}
+
+	BlueDungeonSignItem: {
+		DisplayName: Blue Dungeon Sign
+		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
+	}
+
+	GreenDungeonSignItem: {
+		DisplayName: Green Dungeon Sign
+		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
+	}
+
+	PinkDungeonSignItem: {
+		DisplayName: Pink Dungeon Sign
+		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
+	}
+
+	MarbleSignItem: {
+		DisplayName: Marble Sign
+		Tooltip: "[c/00FFFF:Sprite by Vovosch]"
+	}
+
+	ChristmasSignItem: {
+		DisplayName: Christmas Sign
+		Tooltip: "[c/00FFFF:Sprite by Fuffles]"
+	}
+
+	MeteoriteSignItem: {
+		DisplayName: Meteorite Sign
+		Tooltip: "[c/00FFFF:Sprite by This is Many]"
+	}
+}

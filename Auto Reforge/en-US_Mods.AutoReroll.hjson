@@ -1,0 +1,20 @@
+UI: {
+	LeaveMe: Leave me
+	UseMouse: Use mouse wheel to change value
+}
+
+Configs: {
+	Config: {
+		DisplayName: Config
+
+		ReforgePerSec: {
+			Label: AutoReforge Speed
+			Tooltip: Reforge Per Sec
+		}
+
+		UseDefaultReforgeMenu: {
+			Label: Use Default Reforge Menu
+			Tooltip: ""
+		}
+	}
+}

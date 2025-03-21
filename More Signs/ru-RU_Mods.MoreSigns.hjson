@@ -1,0 +1,321 @@
+Items: {
+	BorealWoodSignItem: {
+		DisplayName: Табличка из северного дерева
+		Tooltip: ""
+	}
+
+	CopperSignItem: {
+		DisplayName: Медная табличка
+		Tooltip: ""
+	}
+
+	GoldSignItem: {
+		DisplayName: Золотая табличка
+		Tooltip: ""
+	}
+
+	IronSignItem: {
+		DisplayName: Железная табличка
+		Tooltip: ""
+	}
+
+	PalmWoodSignItem: {
+		DisplayName: Табличка из пальмового дерева
+		Tooltip: ""
+	}
+
+	RichMahoganySignItem: {
+		DisplayName: Табличка из красного дерева
+		Tooltip: ""
+	}
+
+	SilverSignItem: {
+		DisplayName: Серебряная табличка
+		Tooltip: ""
+	}
+
+	CactusSignItem: {
+		DisplayName: Кактусовая табличка
+		Tooltip: ""
+	}
+
+	DirtSignItem: {
+		DisplayName: Земляная табличка
+		Tooltip: ""
+	}
+
+	WoodSignSwordItem: {
+		DisplayName: Табличка «Меч»
+		Tooltip: ""
+	}
+
+	WoodSignUpItem: {
+		DisplayName: Табличка «Вверх»
+		Tooltip: ""
+	}
+
+	WoodSignArrowItem: {
+		DisplayName: Табличка «Стрела»
+		Tooltip: ""
+	}
+
+	WoodSignChestItem: {
+		DisplayName: Табличка «Нагрудник»
+		Tooltip: ""
+	}
+
+	WoodSignHeartItem: {
+		DisplayName: Табличка «Средце»
+		Tooltip: ""
+	}
+
+	WoodSignHelmetItem: {
+		DisplayName: Табличка «Шлем»
+		Tooltip: ""
+	}
+
+	WoodSignLegsItem: {
+		DisplayName: Табличка «Поножи»
+		Tooltip: ""
+	}
+
+	WoodSignMagicItem: {
+		DisplayName: Табличка «Магия»
+		Tooltip: ""
+	}
+
+	WoodSignPetItem: {
+		DisplayName: Табличка «Питомец»
+		Tooltip: ""
+	}
+
+	WoodSignShoesItem: {
+		DisplayName: Табличка «Ботинки»
+		Tooltip: ""
+	}
+
+	CrimtaneSignItem: {
+		DisplayName: Багротановая табличка
+		Tooltip: ""
+	}
+
+	DemoniteSignItem: {
+		DisplayName: Демонитовая табличка
+		Tooltip: ""
+	}
+
+	SlimeSignItem: {
+		DisplayName: Слизневая табличка
+		Tooltip: ""
+	}
+
+	FleshSignItem: {
+		DisplayName: Табличка из плоти
+		Tooltip: ""
+	}
+
+	LeadSignItem: {
+		DisplayName: Свинцовая табличка
+		Tooltip: ""
+	}
+
+	PlatinumSignItem: {
+		DisplayName: Платиновая табличка
+		Tooltip: ""
+	}
+
+	TinSignItem: {
+		DisplayName: Оловянная табличка
+		Tooltip: ""
+	}
+
+	TungstenSignItem: {
+		DisplayName: Вольфрамовая табличка
+		Tooltip: ""
+	}
+
+	BambooSignItem: {
+		DisplayName: Бамбуковая табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
+	}
+
+	MartianHoloSignItem: {
+		DisplayName: Марсианская голографическая табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
+	}
+
+	ObsidianSignItem: {
+		DisplayName: Обсидиановая табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
+	}
+
+	PumpkinSignItem: {
+		DisplayName: Тыквенная табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
+	}
+
+	SpiderSignItem: {
+		DisplayName: Паучья табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
+	}
+
+	DynastySignItem: {
+		DisplayName: Восточная табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
+	}
+
+	LesionSignItem: {
+		DisplayName: Табличка из гнили
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
+	}
+
+	MushroomSignItem: {
+		DisplayName: Грибная табличка
+		Tooltip: "[c/00FFFF:Спрайт от GabeHasWon]"
+	}
+
+	NebulaSignItem: {
+		DisplayName: Табличка туманности
+		Tooltip: "[c/00FFFF:Спрайт от GabeHasWon]"
+	}
+
+	SolarSignItem: {
+		DisplayName: Солнечная табличка
+		Tooltip: "[c/00FFFF:Спрайт от GabeHasWon]"
+	}
+
+	StardustSignItem: {
+		DisplayName: Табличка звёздной пыли
+		Tooltip: "[c/00FFFF:Спрайт от GabeHasWon]"
+	}
+
+	VortexSignItem: {
+		DisplayName: Вихревая табличка
+		Tooltip: "[c/00FFFF:Спрайт от GabeHasWon]"
+	}
+
+	GlassSignItem: {
+		DisplayName: Стеклянная табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
+	}
+
+	LihzahrdSignItem: {
+		DisplayName: Ящщеровая табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
+	}
+
+	SkywareSignItem: {
+		DisplayName: Заоблачная табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
+	}
+
+	SpookySignItem: {
+		DisplayName: Жуткая табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
+	}
+
+	SteampunkSignItem: {
+		DisplayName: Паромеханическая табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
+	}
+
+	AshWoodSignItem: {
+		DisplayName: Табличка из пепельного дерева
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
+	}
+
+	BalloonSignItem: {
+		DisplayName: Надувная табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
+	}
+
+	BoneSignItem: {
+		DisplayName: Костяная табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
+	}
+
+	PearlwoodSignItem: {
+		DisplayName: Табличка из жемчужного дерева
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
+	}
+
+	ReefSignItem: {
+		DisplayName: Рифовая табличка
+		Tooltip: "[c/00FFFF:Спрайт от qAngel]"
+	}
+
+	CloudSignItem: {
+		DisplayName: Табличка из облака
+		Tooltip: "[c/00FFFF:Спрайт от Omnomnomnom]"
+	}
+
+	CrystalSignItem: {
+		DisplayName: Кристальная табличка
+		Tooltip: "[c/00FFFF:Спрайт от Omnomnomnom]"
+	}
+
+	SandstoneSignItem: {
+		DisplayName: Песчаниковая табличка
+		Tooltip: "[c/00FFFF:Спрайт от Omnomnomnom]"
+	}
+
+	SnowSignItem: {
+		DisplayName: Снежная табличка
+		Tooltip: "[c/00FFFF:Спрайт от Omnomnomnom]"
+	}
+
+	EbonwoodSignItem: {
+		DisplayName: Табличка из эбонитового дерева
+		Tooltip: "[c/00FFFF:Спрайт от xBirdie]"
+	}
+
+	FrozenSignItem: {
+		DisplayName: Замороженная табличка
+		Tooltip: "[c/00FFFF:Спрайт от xBirdie]"
+	}
+
+	GraniteSignItem: {
+		DisplayName: Гранитная табличка
+		Tooltip: "[c/00FFFF:Спрайт от xBirdie]"
+	}
+
+	HoneySignItem: {
+		DisplayName: Медовая табличка
+		Tooltip: "[c/00FFFF:Спрайт от xBirdie]"
+	}
+
+	ShadewoodSignItem: {
+		DisplayName: Табличка из мрачного дерева
+		Tooltip: "[c/00FFFF:Спрайт от xBirdie]"
+	}
+
+	BlueDungeonSignItem: {
+		DisplayName: Табличка синей Темницы
+		Tooltip: "[c/00FFFF:Спрайт от Vovosch]"
+	}
+
+	GreenDungeonSignItem: {
+		DisplayName: Табличка зелёной Темницы
+		Tooltip: "[c/00FFFF:Спрайт от Vovosch]"
+	}
+
+	PinkDungeonSignItem: {
+		DisplayName: Табличка розовой Темницы
+		Tooltip: "[c/00FFFF:Спрайт от Vovosch]"
+	}
+
+	MarbleSignItem: {
+		DisplayName: Мраморная табличка
+		Tooltip: "[c/00FFFF:Спрайт от Vovosch]"
+	}
+
+	ChristmasSignItem: {
+		DisplayName: Сосновая табличка
+		Tooltip: "[c/00FFFF:Спрайт от Fuffles]"
+	}
+
+	MeteoriteSignItem: {
+		DisplayName: Метеоритная табличка
+		Tooltip: "[c/00FFFF:Спрайт от This is Many]"
+	}
+}

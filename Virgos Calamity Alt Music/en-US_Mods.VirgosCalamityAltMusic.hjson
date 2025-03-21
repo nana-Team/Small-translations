@@ -1,0 +1,36 @@
+Configs: {
+	Config: {
+		DisplayName: Config
+		MusicReplaceHeader: Music Replacements
+
+		DesertScourgeEnabled: {
+			Label: Desert Scourge
+			Tooltip: Replaces the Desert Scourges theme with "Droughted Descent" by Virgo
+		}
+
+		CrabulonEnabled: {
+			Label: Crabulon
+			Tooltip: Replaces Crabulons theme with "Saprophyte Shellfish" by Virgo
+		}
+
+		HiveMindEnabled: {
+			Label: Hive Mind
+			Tooltip: Replaces the Hive Minds theme with "Vitiated Carcass" by Virgo
+		}
+
+		PerforatorEnabled: {
+			Label: Perforators
+			Tooltip: Replaces the Perforators theme with "Visceral Amalgamate" by Virgo
+		}
+
+		SlogEnabled: {
+			Label: Slime God
+			Tooltip: Replaces the Slime Gods theme with "Heavenly Entanglement" by Virgo and MicelTheGuy
+		}
+
+		SunkenSeaEnabled: {
+			Label: Sunken Sea
+			Tooltip: Replaces the Sunken Seas theme with "Sanctum" by Virgo
+		}
+	}
+}

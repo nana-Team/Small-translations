@@ -1,0 +1,34 @@
+Configs: {
+	DebugConfig: {
+		DisplayName: Конфигурация для разработчиков
+
+		debug_ViewAllLoadedModAmbiences: {
+			Label: Отображать все переменные с параметром Mod.Call
+			Tooltip: ""
+		}
+
+		debug_AsmNames: {
+			Label: Отображать источники переменных с параметром Mod.Call
+			Tooltip: ""
+		}
+	}
+
+	PlayerConfig: {
+		DisplayName: Клиентская конфигурация
+
+		player_FadeAmbienceOnFocusLost: {
+			Label: Выключать звуки из мода, если окно с игрой свёрнуто
+			Tooltip: ""
+		}
+
+		footstepVolumes: {
+			Tooltip: ""
+			Label: Громкость шагов
+		}
+
+		Headers: {
+			Footsteps: Звуки шагов
+			Ambience: Фоновые звуки
+		}
+	}
+}

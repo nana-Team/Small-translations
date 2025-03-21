@@ -1,0 +1,206 @@
+﻿Mods: {
+	InfectedQualities: {
+		Items: {
+			DivinePowder: {
+				DisplayName: Священный порошок
+				Tooltip: Распространяет освящение
+			}
+
+			KeyOfNaught: {
+				DisplayName: Ключ нечести
+				Tooltip:
+					'''
+					{$ItemTooltip.NightKey}
+					Призывает мимика альтернативного биома зла
+					'''
+			}
+
+			Placables: {
+				CorruptSnowBlock.DisplayName: Нечестивый снег
+				CrimsonSnowBlock.DisplayName: Свернувшаяся кровь
+				HallowedSnowBlock.DisplayName: Святой снег
+
+				PylonOfNightBlock: {
+					DisplayName: Пилон ночи
+					Tooltip:
+						'''
+						Позволяет телепортироваться к другому пилону даже без жителей поблизости
+						Работает только в биомах зла
+						Можно установить только один тип, соответствующий биому
+						'''
+				}
+
+				CorruptSapphireGemstoneBlock.DisplayName: Сапфировый эбонит
+				CorruptRubyGemstoneBlock.DisplayName: Рубиновый эбонит
+				CorruptEmeraldGemstoneBlock.DisplayName: Изумрудный эбонит
+				CorruptTopazGemstoneBlock.DisplayName: Топазовый эбонит
+				CorruptAmethystGemstoneBlock.DisplayName: Аметистовый эбонит
+				CorruptDiamondGemstoneBlock.DisplayName: Алмазный эбонит
+				CorruptAmberGemstoneBlock.DisplayName: Янтарный эбонит
+				CrimsonSapphireGemstoneBlock.DisplayName: Сапфировый багряный камень
+				CrimsonRubyGemstoneBlock.DisplayName: Рубиновый багряный камень
+				CrimsonEmeraldGemstoneBlock.DisplayName: Изумрудный багряный камень
+				CrimsonTopazGemstoneBlock.DisplayName: Топазовый багряный камень
+				CrimsonAmethystGemstoneBlock.DisplayName: Аметистовый багряный камень
+				CrimsonDiamondGemstoneBlock.DisplayName: Алмазный багряный камень
+				CrimsonAmberGemstoneBlock.DisplayName: Янтарный багряный камень
+				HallowedSapphireGemstoneBlock.DisplayName: Сапфировый жемчужный камень
+				HallowedRubyGemstoneBlock.DisplayName: Рубиновый жемчужный камень
+				HallowedEmeraldGemstoneBlock.DisplayName: Изумрудный жемчужный камень
+				HallowedTopazGemstoneBlock.DisplayName: Топазовый жемчужный камень
+				HallowedAmethystGemstoneBlock.DisplayName: Аметистовый жемчужный камень
+				HallowedDiamondGemstoneBlock.DisplayName: Алмазный жемчужный камень
+				HallowedAmberGemstoneBlock.DisplayName: Янтарный жемчужный камень
+			}
+		}
+
+		Biomes: {
+			CorruptJungle: {
+				DisplayName: Искажённые джунгли
+				TownNPCDialogueName: Искажённые джунгли
+			}
+
+			CrimsonJungle: {
+				DisplayName: Багряные джунгли
+				TownNPCDialogueName: Багряные джунгли
+			}
+
+			HallowedJungle: {
+				DisplayName: Освящённые джунгли
+				TownNPCDialogueName: Освящённые джунгли
+			}
+		}
+
+		Config: {
+			Title: {
+				Main: {
+					Client: Клиентская конфигурация
+					Server: Серверная конфигурация
+				}
+
+				Content: Конфигурация контента
+				Experimental: Конфигурация экспериментальных функций
+				Visual: Конфигурация визуала
+				Audio: Конфигурация звука
+			}
+
+			InfectedBiomes: {
+				Label: Заражённые биомы
+				Tooltip:
+					'''
+					Добавляет новый контент для заражённых биомов
+					На данный момент добавляет биом освящённых джунглей, а также заражённые бутоны Плантеры, фрукты жизни и блоки снега
+					Хлорофит не сможет препятствовать распространению заражений до убийства Плантеры
+					'''
+			}
+
+			InfectedMosses: {
+				Label: Заражение мхов
+				Tooltip:
+					'''
+					Искажение, багрянец и освящение больше не будут разрушать мох на блоках камня, создавая вместо этого заражённый камень, покрытый мхом
+					Частично совместимо с текстурпаками: несветящиеся мхи могут немного отличаться по своей текстуре
+					'''
+			}
+
+			InfectedGemstones: {
+				Label: Заражение блоков самоцветов
+				Tooltip:
+					'''
+					Блоки самоцветов в камне теперь также смогут заражаться искажением, багрянцем и освящением
+					Частично совместимо с текстурпаками: часть с самоцветом будет неизменяема, но спрайт самого камня будет изменятся
+					'''
+			}
+
+			PylonOfNight: {
+				Label: Пилон ночи
+				Tooltip: Добавляет пилон ночи, позволяющий телепортироваться в искажение и багрянец при помощи системы пилонов
+			}
+
+			KeyOfNaught: {
+				Label: Ключ нечисти
+				Tooltip:
+					'''
+					Добавляет ключ нечести, с помощью которого можно призвать мимика из альтернативного биома зла
+					Ключ создаётся из тех же материалов, что и ключ ночи, но требует нахождения в биоме кладбища
+					'''
+			}
+
+			DivinePowder: {
+				Label: Священный порошок
+				Tooltip:
+					'''
+					Добавляет священный порошок, позволяющий распространять освящение также, как и другие заражения
+					Очищающий порошок также сможет очищать освящение
+					'''
+			}
+
+			HardmodeChasmPurification: {
+				Label: Очищать разломы в хардмоде
+				Tooltip:
+					'''
+					Естественно сгенерировавшиеся биомы мирового зла будут очищаться после победы над Стеной плоти
+					Эта настройка никак не влияет на V-образные заражения, появляющиеся после перехода в хардмод
+					Не работает в мирах с сидом «Dont dig up», а также с установленным модом Remnants
+					'''
+			}
+
+			DisableInfectionSpread: {
+				Label: Отключить распространение заражений
+				Tooltip:
+					'''
+					Искажение, багрянец и освящение никогда не смогут распространятся на другие блоки
+					Предположительно, должно быть совместимо с другими модами, если их код написан правильно
+					'''
+			}
+
+			AllowNPCsInEvilBiomes: {
+				Label: Жители в заражениях
+				Tooltip:
+					'''
+					Позволяет городским НИПам жить в искажении и багрянце
+					Однако их уровень счастья в таком случае всегда будет на минимуме
+					'''
+			}
+
+			AltarEvilSpawning: {
+				Label: Создание заражённых блоков алтарями
+				Tooltip:
+					'''
+					Возвращает старую механику игры, при которой разрушение алтаря могло создать заражённый блок в случайном месте в мире
+					Для любителей страдать
+					'''
+			}
+
+			InfectedPlantera: {
+				Label: Спрайт заражённой Плантеры
+				Tooltip:
+					'''
+					Добавляет альтернативные спрайты для Плантеры, использующиеся, если призвать её в искажении, багрянце или освящении
+					Эта настройка может быть несовместима с модами, изменяющими спрайт Плантеры, поэтому отключите её, если столкнётесь с проблемами
+					Эта настройка никак не влияет на спрайт самого бутона плантеры
+					ПРИМЕЧАНИЕ: не предназначено для призыва нескольких Плантер за раз
+					'''
+			}
+
+			BiomeSightWallHighlightBrightness: {
+				Label: Подсветка стен биомным зрением
+				Tooltip:
+					'''
+					Эффект зелья биомного зрения теперь также будет подствечивать стены с заданной яркостью
+					Установите значение на 0, чтобы полностью отключить его
+					'''
+			}
+
+			HallowedJungleMusic: {
+				Label: Музыка освящения в джунглях
+				Tooltip: Музыка освящения будеть играть в освящённых джунглях. Можеть быть несовместимо с модами, измняющими музыку.
+			}
+		}
+
+		Misc: {
+			ChasmPurifyMessage: Разломы заражения очищены!
+			Pylon: Пилон
+		}
+	}
+}

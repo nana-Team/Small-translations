@@ -1,0 +1,191 @@
+# This file contains all the translations for ModConfig elements.
+# This file shows off the feature of splitting localization files into multiple files. This file is named "{CultureCode}_Mods.ExampleMod.Configs", meaning that the "Mods.ExampleMod.Configs" prefix is assumed for all entries in this file. This can be useful for organization purposes.
+# For more info on the multiple files and prefix features, see https://github.com/tModLoader/tModLoader/wiki/Localization#multiple-files and https://github.com/tModLoader/tModLoader/wiki/Localization#prefix
+
+Common: {
+	LocalizedLabel: This Label is from the localization files: {$Mods.ExampleMod.Common.PaperAirplane}
+	LocalizedTooltip: This tooltip is from the localization files.
+	LocalizedHeader: Headers can help organize
+	LocalizedLabelDynamic: Localized Label Dynamic
+	InterpolatedLabel: Item: [i:{0}]. Number: {1} {^1:change;changes}. Text: {2}. Localized Text: {3}.
+	InterpolatedTooltip: "[c/{1}:Use to disable the] [c/{2}:{0}] [c/{1}:feature]"
+}
+
+MainConfig: {
+	IncreasedBasePlayerSpeed: {
+		Label: Увеличить базовую скорость передвижения игрока
+		Tooltip:
+			'''
+			Увеличивает базовую скорость передвижения игрока на 50%
+			[c/C0C0C0:(Не складывается с бонусом к скорости передвижения из Calamity)]
+			'''
+	}
+
+	IncreasedBaseMiningSpeed: {
+		Label: Увеличить базовую скорость копания игрока
+		Tooltip:
+			'''
+			Увеличивает базовую скорость добычи блоков игроком на 100%
+			[c/C0C0C0:(Не складывается с бонусом к скорости копания из Calamity)]
+			'''
+	}
+
+	IncreasedNaturalPotionYield: {
+		Tooltip: Существенно увеличивает количество получаемых зелий с деревянных и золотых сундуков
+		Label: Увеличить количество получаемых зелий с сундуков
+	}
+
+	BonusChestLoot: {
+		Tooltip: Расширяет список возможной добычи с сундуков, добавляя в него новые предметы (пока что к таким относится только "{$ItemName.SlimeCrown}")
+		Label: Дополнительная добыча с сундуков
+	}
+
+	Headers: {
+		WorldGeneration: Генерация мира
+		ExtraLoot: Дополнительная добыча
+		NPCS: Ассортимент НИПов
+		NewItems: Новые предметы
+		Player: Изменения игрока и рецепты предметов
+	}
+
+	RareBiomeEnemiesHaveHigherBiomeKeyChance: {
+		Tooltip: С особо редких существ ключи от биомных сундуков темницы будут выпадать с 20%-ным шансом
+		Label: Повышенный шанс выпадения ключей биома с редких существ
+	}
+
+	SkeletronDropGoldenKeys: {
+		Tooltip: Со Скелетрона будет сразу выпадать два золотых ключа
+		Label: Золотые ключи со Скелетрона
+	}
+
+	WallOfFleshDropSouls: {
+		Tooltip: Со Стены плоти будет выпадать по 15-25 душ света и ночи
+		Label: Души света и ночи со Стены плоти
+	}
+
+	QueenSlimeDropPearls: {
+		Tooltip: С Королевы слизней будут выпадать все виды жемчужин
+		Label: Жемчужины с Королевы слизней
+	}
+
+	EyeOfCthuluDropLens: {
+		Tooltip: С Глаза Ктулху будут выпадать обычные, а с некоторым шансом ещё и чёрные линзы
+		Label: Линзы с Глаза Ктулху
+	}
+
+	PillarsDropSummonItem: {
+		Tooltip: С небесных башен будут выпадать новые предметы, призывающие их же на случай, если вам не хватит фрагментов
+		Label: Призывалки небесных башен с самих башен
+	}
+
+	PillarsDropMoreFragments: {
+		Tooltip: С небесных башен будет выпадать на 50 фрагментов больше обычного
+		Label: Больше фрагментов с небесных башен
+	}
+
+	AlwaysSellPylons: {
+		Tooltip: НИПы всегда будут продавать пилоны биома, в котором находятся
+		Label: Всегда продавать пилоны
+	}
+
+	DistressBeacon: {
+		Tooltip: Добавляет аварийный маячок — призывалку Марсианского нашествия, для создания которой потребуется ещё один новый предмет с сундуков небесных островов
+		Label: Аварийный маячок
+	}
+
+	Twinoculars: {
+		Tooltip: Добавляет бифокальные линзы и близненокль — улучшенные версии бинокля, создать которые можно после Скелетрона и Близнецов соответственно
+		Label: Улучшения бинокля
+	}
+
+	BinocularsBuff: {
+		Tooltip: Добавляет биноклю эффект зелья ночного зрения и охотника
+		Label: Бафф бинокля
+	}
+
+	Nightwatch: {
+		Tooltip: Добавляет часы ночи — предмет, позволяющий переключать и проматывать время суток, получить который можно после Мозга Ктулху/Пожирателя миров
+		Label: Часы ночи
+	}
+
+	AlternativeFishingPotionRecipes: {
+		Tooltip: Добавляет зельям, для создания которых необходимо рыбачить, альтернативные рецепты, не требующие рыбалки, зато требующие хардмодные материалы
+		Label: Альтернативные рецепты создания зелий
+	}
+
+	CraftableTruffleWorm: {
+		Tooltip: Добавляет рецепт создания трюфельного червя из душ всех механических боссов
+		Label: Рецепт трюфельного червя
+	}
+
+	CraftableShadowKey: {
+		Tooltip: Добавляет рецепт создания теневого ключа из костей
+		Label: Рецепт теневого ключа
+	}
+
+	CraftableLifeFruit: {
+		Tooltip: Добавляет рецепт создания фрукта жизни из эктоплазмы
+		Label: Рецепт фрукта жизни
+	}
+
+	CraftableUniversalPylon: {
+		Tooltip: Добавляет рецепт создания универсального пилона из любого пилона и волшебного зеркала
+		Label: Рецепт универсального пилона
+	}
+
+	CraftableMovementAccessories: {
+		Tooltip: Добавляет рецепты создания нескольких аксессуаров, улучшающих передвижение
+		Label: Рецепты аксессуаров передвижения
+	}
+
+	StartWithEssentials: {
+		Tooltip:
+			'''
+			У новых персонажей в инвентаре сразу будет мешок с предметами, которые пригодятся в самом начале игры — верёвки, бомбы, зелья и пр.
+			[c/C0C0C0:(Не появляется у персонажей, если включён Calamity)]
+			'''
+		Label: Стартовый мешок с предметами
+	}
+
+	DisplayName: Конфигурация
+
+	TinkererSellsDPSMeter: {
+		Label: Продавать измеритель урона
+		Tooltip: Гоблин будет продавать измеритель урона
+	}
+
+	CraftableSlimeStaff: {
+		Label: Рецепт посоха слизней
+		Tooltip: Добавляет рецепт создания посоха слизней из древесины и геля
+	}
+
+	PrismaticConcoction: {
+		Label: Призматическая смесь
+		Tooltip: Добавляет призматическую смесь — дорогой в создании предмет, привлекающий к вам огромное количество призматических златоглазок
+	}
+
+	BloodmoonCharm: {
+		Label: Кулон кровавой луны
+		Tooltip: Добавляет кулон кровавой луны — предмет, ускоряющий появление существ и выпадающий с врагов кровавой луны
+	}
+
+	AetherMagnet: {
+		Label: Эфирный магнит
+		Tooltip: Добавляет эфирный магнит — хардмодный предмет, помогающий найти мерцание
+	}
+
+	SpidersDropSilk: {
+		Label: Шёлк с пауков
+		Tooltip: Со всех пауков будет выпадать шёлк
+	}
+
+	BonusNaturalPotionYield: {
+		Tooltip: Бонусное количество всех получаемых зелий с сундуков
+		Label: Увеличенное количество зелий с сундуков
+	}
+
+	BonusDungeonPotions: {
+		Tooltip: В сундуках темницы можно будет найти особо полезные усиляющие зелья (например зелья ярости, гнева, инферно и т.д)
+		Label: Дополнительные зелья с сундуков темницы
+	}
+}

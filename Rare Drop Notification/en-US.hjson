@@ -1,0 +1,125 @@
+Mods: {
+	RareDropNotification: {
+		// Notification Texts
+		RareDrop: "[c/<color>:Rare Drop! <itemName>] [i:<item>] [c/<color>:(<chance>% chance)]"
+		SuperRareDrop: "[c/<color>:SUPER RARE DROP! <itemName>] [i:<item>] [c/<color>:(<chance>% chance)]"
+		SuperRareAnnouncement: "[c/<color>:<name> has found a <itemName>] [i:<item>] [c/<color>:with <chance>% chance!]"
+		//
+		// Configs Titles etc.
+		ConfigName: Notification Customization
+		BlacklistedItems: Blacklisted Items
+		BlacklistedItemsTip:
+			'''
+			These items will not create a Notification for you.
+			No matter how they are obtained & how rare they are.
+			'''
+		Mechanics: Notification Mechanics
+		Sound: Rare Drop Sound Effect Settings
+		Experimental: Experimental Settings
+		//
+		// Regular Text Customization Settings
+		TriggerThreshold: Trigger Threshold %
+		TriggerThresholdTip: Rare Drop Message and Sound effect only triggers when drop chance of dropped item is below this value.
+		TextColor: Color of rare drop text
+		TextColorTip: ""
+		ShowResearch: Enable Disabling Notifications For Researched Items
+		ShowResearchTip: Fully researched items in Journey Mode will not have a notification appear for them when dropped.
+		//
+		// Super Rare Drop Text Customization Settings
+		EnableSuperRare: Enable Super Rare Drop Message
+		EnableSuperRareTip: Disabling this will only have regular Rare Drop Text & Sound working.
+		SuperTriggerThreshold: Super Rare Notification Threshold %
+		SuperTriggerThresholdTip:
+			'''
+			Drops below this chance will trigger a 'Super Rare Drop' message.
+			Super Rare Drops can have a different Color & Sound.
+			In Multiplayer, these drops are announced to all other Players.
+			A Player with 'Show Other Players Super Rare Drops' off
+			won't see your 'Super Rare Drop' messages on their game.
+			'''
+		SuperTextColor: Super Rare Drop Text Color
+		SuperTextColorTip: ""
+		EnableAnnouncements: Show Other Players Super Rare Drops
+		EnableAnnouncementsTip:
+			'''
+			With this option on; you will see other Players'
+			Super Rare drops while in Multiplayer.
+			'''
+		//
+		// Sound Customization Settings
+		SoundVolume: Sound Effect Volume
+		SoundVolumeTip:
+			'''
+			Sets the volume of rare loot drop sound effect.
+			Set this to 0 to entirely stop the sound effect code from running.
+			'''
+		SoundPitch: Sound Effect Pitch
+		SoundPitchTip: Sets the base pitch of rare loot drop sound effect.
+		SoundPitchVariation: Sound Effect Pitch Variation
+		SoundPitchVariationTip:
+			'''
+			Sets the possible amount of pitch can be increased/decreased when rare loot drop sound effect is played.
+			Recommended to have this more than 0, as it can reduce repetitiveness of the sound effect.
+			'''
+		CurrentSound: Current Sound Effect
+		CurrentSoundTip:
+			'''
+			Sound effect to play when a rare loot has been dropped.
+			Does nothing if custom sound effect is turned on.
+			'''
+		SuperCurrentSound: Super Rare Sound Effect
+		SuperCurrentSoundTip:
+			'''
+			Sound effect to play when a super rare loot has been dropped.
+			Does nothing if super rare drop custom sound effect is turned off.
+			'''
+
+		Configs: {
+			SoundEffect: {
+				Tooltip: Selection of which sound effect to be played when a rare loot gets dropped.
+				HypixelSkyblock.Label: Hypixel Skyblock Rare Drop
+				CSGO.Label: CS:GO Case Legendary Drop
+				PSO2.Label: Phantasy Star Online 2 Rare Drop
+				PokemonRBY.Label: Pokemon R/B/Y Acquiring Item
+				Item35.Label: Terraria Bell Ring
+				Item129.Label: Terraria Golf Ball Sunking In
+				Item150.Label: Terraria Mimic Projectile Reflect
+				Zombie15.Label: Terraria Mouse Squeak
+			}
+		}
+
+		// Experimental Customization Settings
+		EnableCustom: Enable Custom Sound Effect
+		EnableCustomTip:
+			'''
+			Custom sound effect path will not take in effect if this isn't enabled.
+			So you can choose to switch it out without removing the path.
+			'''
+		CustomSound: Custom Sound Effect Path [c/FF0000:USE AT YOUR OWN RISK]
+		CustomSoundTip:
+			'''
+			Type in the path of desired sound effect here, and it will be played when a Rare Loot is dropped.
+			Use ModName/FileDestination/SoundsName for Mod Sound effects. (Refer to Desired Mod's GitHub page or its extracted files)
+			Create your 'own mod' and include the sound you want to use, then proceed to use path above to use any sound you want.
+			Use Terraria/Sounds/SoundsName for vanilla sounds. (Refer to 'File' at https://terraria.wiki.gg/wiki/Sound_IDs (use _ for spaces))
+			Its heavily recommended to write/find the path, and copy-paste here, as writing in this textbox may have its difficulties.
+			[c/FF0000:Experimental Feature: WRONG PATHS CAUSE ERRORS! ALTHOUGH LOSSES ETC. ARE UNLIKELY USE AT YOUR OWN RISK!]
+			'''
+		EnableSuperCustom: Enable Custom Sound Effect for Super Rare Drops
+		EnableSuperCustomTip:
+			'''
+			Custom Super Rare Sound Effect Path will not take in effect if this isn't enabled.
+			So you can choose to switch it out without removing the path.
+			'''
+		SuperCustomSound: Custom Super Rare Sound Effect Path [c/FF0000:USE AT YOUR OWN RISK]
+		SuperCustomSoundTip:
+			'''
+			Type in the path of desired sound effect here, and it will be played when a Super Rare Loot is dropped.
+			Use ModName/FileDestination/SoundsName for Mod Sound effects. (Refer to Desired Mod's GitHub page or its extracted files)
+			Create your 'own mod' and include the sound you want to use, then proceed to use path above to use any sound you want.
+			Use Terraria/Sounds/SoundsName for vanilla sounds. (Refer to 'File' at https://terraria.wiki.gg/wiki/Sound_IDs (use _ for spaces))
+			Its heavily recommended to write/find the path, and copy-paste here, as writing in this textbox may have its difficulties.
+			[c/FF0000:Experimental Feature: WRONG PATHS CAUSE ERRORS! ALTHOUGH LOSSES ETC. ARE UNLIKELY USE AT YOUR OWN RISK!]
+			'''
+	}
+}

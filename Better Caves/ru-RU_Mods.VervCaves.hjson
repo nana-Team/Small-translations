@@ -1,0 +1,113 @@
+﻿Items: {
+	GravityTrapItem: {
+		DisplayName: Гравитационная ловушка
+		Tooltip: ""
+	}
+
+	PressureTrapItem: {
+		DisplayName: Ловушка с напором воздуха
+		Tooltip: ""
+	}
+
+	MushroomRing: {
+		DisplayName: Грибное кольцо
+		Tooltip:
+			'''
+			Позволяет собирать исцеляющие сферы с убитых врагов
+			Срабатывает не чаще, чем раз в 10 секунд
+			'''
+	}
+
+	MarbleStiletto: {
+		DisplayName: Мраморный стилет
+		Tooltip: Увеличивает урон на 3 ед. по врагам поблизости
+	}
+
+	GraniteEmblem: {
+		DisplayName: Гранитная эмблема
+		Tooltip: Увеличивает урон на 75% по врагам, чей уровень здоровья выше 90%
+	}
+
+	ShimmerTrapItem: {
+		DisplayName: Ловушка с мерцанием
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	GravityBuff: {
+		DisplayName: Перевёрнутая гравитация
+		Description: Вы падаете вверх... или всё же вниз?
+	}
+}
+
+Projectiles: {
+	GravityPulse.DisplayName: Гравитационный импульс
+	Pressure.DisplayName: Напор воздуха
+	MushroomRingProjectile.DisplayName: Грибное лечение
+	MarbleStilettoProjectile.DisplayName: Аура мраморного стилета
+	ShimmerSpray.DisplayName: Струя мерцания
+}
+
+Configs: {
+	VervCavesConfig: {
+		DisplayName: Конфигурация
+
+		Headers: {
+			Rifts: Разломы
+			Chasms: Расщелины
+			Large: Полости
+			Pressure: Ловушки с напором воздуха
+			Gravity: Гравитационные ловушки
+			Traps: Ловушкопокалипсис
+			NoData: Отключить весь новый контент
+			Platforms: Платформы
+			Shimmer: Ловушки с мерцанием
+		}
+
+		Rift: {
+			Label: Генерируемое количество
+			Tooltip: Значение в %
+		}
+
+		Chasm: {
+			Label: Генерируемое количество
+			Tooltip: Значение в %
+		}
+
+		Large: {
+			Label: Генерируемое количество
+			Tooltip: Значение в %
+		}
+
+		Pressure: {
+			Label: Генерируемое количество
+			Tooltip: Значение в %
+		}
+
+		Gravity: {
+			Label: Генерируемое количество
+			Tooltip: Значение в %
+		}
+
+		Traps: {
+			Label: Генерировать О-О-ОЧЕНЬ МНОГО ЛОВУШЕК в мире
+			Tooltip: Если что, вас предупреждали
+		}
+
+		NoData: {
+			Label: Отключить генерацию новых ловушек и добычи в сундуках
+			Tooltip: Это в дальнейшем позволит вам выключить этот мод и использовать сгенерированный мир без каких-либо проблем
+		}
+
+		Platforms: {
+			Label: Генерируемое количество
+			Tooltip: Значение в %
+		}
+
+		Shimmer: {
+			Label: Генерируемое количество
+			Tooltip: Значение в %
+		}
+	}
+}

@@ -1,0 +1,36 @@
+Configs: {
+	Config: {
+		DisplayName: Конфигурация
+		MusicReplaceHeader: Замена музыки
+
+		DesertScourgeEnabled: {
+			Label: Пустынный бич
+			Tooltip: Заменяет тему Пустынного бича на «Droughted Descent» от Virgo
+		}
+
+		CrabulonEnabled: {
+			Label: Крабулон
+			Tooltip: Заменяет тему Крабулона на «Saprophyte Shellfish» от Virgo
+		}
+
+		HiveMindEnabled: {
+			Label: Разум улья
+			Tooltip: Заменяет тему Разума улья «Vitiated Carcass» от Virgo
+		}
+
+		PerforatorEnabled: {
+			Label: Перфораторы
+			Tooltip: Заменяет тему Перфораторов на «Visceral Amalgamate» от Virgo
+		}
+
+		SlogEnabled: {
+			Label: Бог слизней
+			Tooltip: Заменяет тему Бога слизней на «Heavenly Entanglement» от Virgo и MicelTheGuy
+		}
+
+		SunkenSeaEnabled: {
+			Label: Затерянное море
+			Tooltip: Заменяет тему затерянного моря на «Sanctum» от Virgo
+		}
+	}
+}

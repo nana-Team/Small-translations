@@ -1,0 +1,337 @@
+Mods: {
+	BiomeTitles: {
+		Title: {
+			Terraria: {
+				Meteor_Crash_Site: Место падения метеорита
+				Graveyard: Кладбище
+				Hive: Улей
+				The_Dungeon: Темница
+				The_Temple: Храм джунглей
+				Nebula_Pillar: Башня туманности
+				Solar_Pillar: Башня солнечной вспышки
+				Stardust_Pillar: Башня звёздной пыли
+				Vortex_Pillar: Башня вихря
+				Granite_Cave: Гранитная пещера
+				Marble_Cave: Мраморная пещера
+				Underground_Glowing_Mushroom: Пещера светящихся грибов
+				Glowing_Mushroom: Лес светящихся грибов
+				Underground_Jungle: Подземные джунгли
+				Corrupt_Cave_Desert: Искажённая подземная пустыня
+				Crimson_Cave_Desert: Багряная подземная пустыня
+				Hallow_Cave_Desert: Освящённая подземная пустыня
+				Cave_Desert: Подземная пустыня
+				Corrupt_Ice_Caves: Искажённые ледяные пещеры
+				Crimson_Ice_Caves: Багряные ледяные пещеры
+				Hallow_Ice_Caves: Освящённые ледяные пезеры
+				Ice_Caves: Ледяные пещеры
+				Underground_Corruption: Искажённые пещеры
+				Underground_Crimson: Багряные пещеры
+				Underground_Hallow: Освящённые пещеры
+				Ocean: Океан
+				Sky: Космос
+				Underground: Подземелье
+				Caverns: Пещеры
+				Hell: Преисподняя
+				Jungle: Джунгли
+				Corrupt_Desert: Искажённая пустыня
+				Crimson_Desert: Багряная пустыня
+				Hallow_Desert: Освящённая пустыня
+				Desert: Пустыня
+				Tundra: Снега
+				Corruption: Искажение
+				Crimson: Багрянец
+				Hallow: Освящение
+				Forest: Лес
+			}
+
+			Aequus: {
+				GlowingMossBiome: Glowing Moss
+				GoreNestBiome: Gore Nest
+				RadonMossBiome: Radon Moss
+				CrabCreviceBiome: Crab Crevice
+				FakeUnderworldBiome: Fake Underworld
+			}
+
+			Arbour.ArborBiome: остров умиротворения
+
+			BobBlender2: {
+				TreeBiome: Tree
+				VoidBiome: Void
+				BobBiome: Bob Biome
+				BobsBobBiome: Bobs Bob Island
+				BobTowerBiome: Bob Tower
+				CorrodedBiome: Corroded
+				CursedBiome: Cursed
+				DarkmatterBiome: Darkmatter
+				MemeBiome: Meme
+				StrangeBiome: Strange Biome
+				StrangeDungeonBiome: Strange Dungeon
+				StrangeUndergroundBiome: Strange Undergrond
+				SurfaceBiome: Strange Surface
+			}
+
+			CalamityMod: {
+				UndergroundAstralBiome: Подземная Астральная инфекция
+				AbovegroundAstralDesertBiome: Астральная пустыня
+				AbovegroundAstralSnowBiome: Астральные снега
+				AbovegroundAstralBiome: Астральная инфекция
+				BrimstoneCragsBiome: Серная скала
+				SulphurousSeaBiome: Сернистое море
+				SunkenSeaBiome: Затонувшее море
+				AbyssLayer1Biome: Сернистые глубины
+				AbyssLayer2Biome: Мутные воды
+				AbyssLayer3Biome: Термальные источники
+				AbyssLayer4Biome: Пустота
+			}
+
+			TheConfectionRebirth: {
+				IceConfectionUndergroundBiome: Пломбирные пещеры
+				SandConfectionUndergroundBiome: Шоколадные пещеры
+				ConfectionUndergroundBiome: Ослащённые пещеры
+				IceConfectionSurfaceBiome: Пломбирные снега
+				SandConfectionSurfaceBiome: Шоколадная пустыня
+				ConfectionBiomeSurface: Ослащение
+			}
+
+			CosmeticVariety: {
+				CelestialSurfaceBiome: Celestial Surface
+				GardenBiome: Garden
+				GardenSurfaceBiome: Garden Surface
+			}
+
+			InfernumMode: {
+				LostColosseumBiome: Затерянный Колизей
+				ProfanedTempleBiome: Осквернённый храм
+			}
+
+			Redemption: {
+				BlazingBastionBiome: Пылающая цитадель
+				LidenBiome: Лидэн
+				LidenBiomeAlpha: Альфа
+				LidenBiomeOmega: Омега
+				SlayerShipBiome: Потерпевший крушение крейсер Короля-охотника
+				LabBiome: Заброшенная лаборатория
+				SoullessBiome: Бездушные пещеры
+				WastelandCorruptionBiome: Пустошь искажения
+				WastelandCrimsonBiome: Пустошь багрянца
+				WastelandDesertBiome: Пустынная пустошь
+				WastelandPurityBiome: Пустошь
+				WastelandSnowBiome: Снежная пустошь
+			}
+
+			Remnants: {
+				GoldenCity: Золотой город
+				Growth: Корневище
+				OceanCave: Пещера океана
+				Pyramid: Пирамида
+				Hive: Улей
+				JungleTemple: Храм джунглей
+				MarbleCave: Мраморная пещера
+				Vault: Убежище
+			}
+
+			SpiritMod: {
+				AsteroidBiome: Asteroid Field
+				SynthwaveSurfaceBiome: Hyperspace
+				BriarSurfaceBiome: Briar Forest
+				BriarUndergroundBiome: Briar Caves
+				SpiritSurfaceBiome: Spirit Surface
+				SpiritUndergroundBiome: Spirit Underground
+			}
+
+			Spooky: {
+				CatacombBiome: Мрачные катакомбы
+				SpookyBiome: Жуткий лес
+				SpookyBiomeUg: Жуткое подземелье
+				SpookyHellBiome: Глазастая долина
+			}
+
+			// This mod is not finished cuz I don't know which biomes there actually are
+			StarsAbove: {
+				ObservatoryBiome: Обсерватория Гиперборея
+				// AstarteDriverBiome: Astarte Driver
+				// BleachedWorldBiome: Bleached World
+				// CorvusBiome: Corvus
+				// LyraBiome: Lyra
+				// FriendlySpaceBiome: Pyxis
+				// MoonBiome: Moon
+				// SeaOfStarsBiome: Sea of Stars
+			}
+
+			TheDepths.DepthsBiome: Глубины
+
+			ThoriumMod: {
+				DepthsBiome: Акватические глубины
+				BloodChamber: Погребение Кровавой камеры
+			}
+
+			Verdant: {
+				VerdantBiome: Цветение
+				VerdantUndergroundBiome: Цветущие пещеры
+			}
+		}
+	}
+
+	BTitles: {
+		Configs: {
+			GeneralConfig: {
+				DisplayName: Конфигурация
+
+				Headers: {
+					Visuals_Config: Визуал
+					Advanced_Customization: Кастомизация
+					Animation: Анимации
+				}
+
+				Position: {
+					Label: Расположение
+					Tooltip: Местоположение плашки с названием биома на экране
+				}
+
+				CustomPositionX.Label: Расположение по оси X
+				CustomPositionY.Label: Расположение по оси Y
+
+				Scale: {
+					Label: Размер
+					Tooltip: Размер плашки с названием биома
+				}
+
+				UseCustomTextColors: {
+					Label: Цветные названия
+					Tooltip: Названия биомов на плашке будут окрашены подходящим цветом
+				}
+
+				ShowIcons: {
+					Label: Иконки биомов
+					Tooltip: Рядом с названиями биомов на плашке будут отображаться их иконки из бестиария, если они есть
+				}
+
+				DisplaySubtitle: {
+					Label: Плашка с источником биомов
+					Tooltip: Под названиями биомов будет также отображаться из какого они мода
+				}
+
+				EnableBackgrounds: {
+					Label: Рамка вокруг названий
+					Tooltip: У плашек с названиями биомов и их источниками будут красивые рамочки
+				}
+
+				HideWhileInventoryOpen: {
+					Label: Не показывать плашку с открытым инвентарём
+					Tooltip: Плашка с названиями биомов будет скрыта, пока у вас открыт инвентарь
+				}
+
+				CustomBiomeNames: {
+					Label: Заменить названия биомам
+					Tooltip: В этом меню вы можете переписать оригинальное название любого биома на своё
+				}
+
+				EnableDraggableTitle: {
+					Label: Возможность перетаскивать плашку с названиями
+					Tooltip: Позволяет переместить плашку в нужное вам место, если в настройке «Расположение» установлено «своё»
+				}
+
+				BiomeCheckDelay: {
+					Label: Интервалы между проверками
+					Tooltip: Сколько секунд будет проходить между каждой проверкой на биом, в которым вы находитесь
+				}
+
+				TitleAnimation: {
+					Label: Анимации
+					Tooltip: Тип анимаций появления и угасания плашки с названиями
+				}
+
+				VisibilityDuration: {
+					Label: Длительность отображения плашки с названиями
+					Tooltip: 
+						'''
+						Сколько секунд плашка с названиями будет отображаться на экране
+						Установите значение на 0, чтобы плашка не пропадала вообще
+						'''
+
+					TransitionInDuration: {
+						Label: Длительность анимации появления
+						Tooltip: Сколько секунд потребуется для плавного появления плашки с названиями
+					}
+
+					TransitionOutDuration: {
+						Label: Длительность анимации угасания
+						Tooltip: Сколько секунд потребуется для плавного угасания плашки с названиями
+					}
+				}
+
+				TransitionInDuration: {
+					Label: Длительность анимации появления
+					Tooltip: Сколько секунд потребуется для плавного появления плашки с названиями
+				}
+
+				TransitionOutDuration: {
+					Label: Длительность анимации угасания
+					Tooltip: Сколько секунд потребуется для плавного угасания плашки с названиями
+				}
+
+				PositionOption: {
+					Top.Label: сверху посередине
+					Bottom.Label: снизу посередине
+					RPGStyle.Label: как в RPG играх (снизу слева)
+					Custom.Label: своё
+				}
+
+				ScaleOption: {
+					Small.Label: маленький
+					Normal.Label: обычный
+					Big.Label: большой
+				}
+
+				BiomeNameMapping: {
+					CurrentName: {
+						Label: Название в оригинале
+						Tooltip: Изначальное название биома, может быть как на русском, так и на английском
+					}
+
+					NewName: {
+						Label: Новое название
+						Tooltip: Название, которые вы хотите, чтобы было у биома
+					}
+				}
+
+				TitleAnimationType: {
+					None.Label: отсутствуют
+					ShowFade.Label: появление и угасание
+					ShowFadeSwipe.Label: скольжение
+				}
+			}
+
+			PositionOption: {
+				Top.Label: сверху посередине
+				Bottom.Label: снизу посередине
+				RPGStyle.Label: как в RPG играх (снизу слева)
+				Custom.Label: своё
+			}
+
+			ScaleOption: {
+				Small.Label: маленький
+				Normal.Label: обычный
+				Big.Label: большой
+			}
+
+			BiomeNameMapping: {
+				CurrentName: {
+					Label: Название в оригинале
+					Tooltip: Изначальное название биома, может быть как на русском, так и на английском
+				}
+
+				NewName: {
+					Label: Новое название
+					Tooltip: Название, которые вы хотите, чтобы было у биома
+				}
+			}
+
+			TitleAnimationType: {
+				None.Label: отсутствуют
+				ShowFade.Label: появление и угасание
+				ShowFadeSwipe.Label: скольжение
+			}
+		}
+	}
+}

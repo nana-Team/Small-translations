@@ -1,0 +1,844 @@
+Buffs: {
+	BloodFlame: {
+		DisplayName: Blood Flame
+		Description: Mods.SticksOfLife.Buffs.BloodFlame.Description
+	}
+
+	Wounded: {
+		DisplayName: Wounded
+		Description: Mods.SticksOfLife.Buffs.Wounded.Description
+	}
+}
+
+Items: {
+	StickNecklace: {
+		DisplayName: Stick Necklace
+		Tooltip: Boosts Stick damage by 5%
+	}
+
+	StickRing: {
+		DisplayName: Stick Ring
+		Tooltip: Boosts Stick damage by 3%
+	}
+
+	StickHat: {
+		DisplayName: Stick Hat
+		Tooltip: ""
+	}
+
+	StickPants: {
+		DisplayName: Stick Pants
+		Tooltip: ""
+	}
+
+	StickShirt: {
+		DisplayName: Stick Shirt
+		Tooltip: ""
+	}
+
+	BrokenStick: {
+		DisplayName: Broken Stick
+		Tooltip: Jesse, the stick is broken
+	}
+
+	AcornStick: {
+		DisplayName: Жёлудиная палка
+		Tooltip: Палка с орешником... Ой, т.е. орехом
+	}
+
+	AdamantiteStick: {
+		DisplayName: Адамантитовая палка
+		Tooltip: Кто этот Адам?
+	}
+
+	AmberStick: {
+		DisplayName: Янтарная палка
+		Tooltip: What pronouns do Amber Heards lawyers prefer? Hear/say
+	}
+
+	AmethystStick: {
+		DisplayName: Аметистовая палка
+		Tooltip: Какой религии придерживается аметист? Аметизм.
+	}
+
+	BeeStick: {
+		DisplayName: Пчелиная палка
+		Tooltip: Пчел ты, пчел ты, пчел тыы
+	}
+
+	BloodStick: {
+		DisplayName: Blood Stick
+		Tooltip: Guh???
+	}
+
+	BoneStick: {
+		DisplayName: Костяная палка
+		Tooltip: Угадайте на чём был основан спрайт
+	}
+
+	BorealStick: {
+		DisplayName: Палка из северного дерева
+		Tooltip: это... просто ещё одна палка
+	}
+
+	BrainStick: {
+		DisplayName: Мозговая палка
+		Tooltip: О да, это время большого мозга
+	}
+
+	CactusStick: {
+		DisplayName: Кактусовая палка
+		Tooltip: Может быть колючая
+	}
+
+	CannonStick: {
+		DisplayName: Пушечная палка
+		Tooltip: ээээээмммм
+	}
+
+	ChlorophyteStick: {
+		DisplayName: Хлорофитовая палка
+		Tooltip: У ребёнка из моего подвала закончились шутки.
+	}
+
+	CobaltStick: {
+		DisplayName: Cobalt Stick
+		Tooltip: Котая шутка может быть пWhat do you call a joke that is based on cobalt, radon, and yttrium? CoNCHeNNaя
+	}
+
+	CopperStick: {
+		DisplayName: Copper Stick
+		Tooltip: I was gonna tell a joke about copper, But i Cu are not interested
+	}
+
+	CrimtaneStick: {
+		DisplayName: Багротановая палка
+		Tooltip: Помогите, я заперт в подвале
+	}
+
+	CrystalStick: {
+		DisplayName: Кристальная палочка
+		Tooltip: Уолтер, нам нужно готовить уолтер
+	}
+
+	DemoniteStick: {
+		DisplayName: Демонитовая палка
+		Tooltip: да, конечно придумать шутку для каждого предмета будет просто...
+	}
+
+	DestroyerStick: {
+		DisplayName: Палка уничтожения
+		Tooltip: Пиу-пиу
+	}
+
+	DiamondStick: {
+		DisplayName: Алмазная палка
+		Tooltip: Какое прозвище у умелого однорукого алмаза? Бриллиантовая рука.
+	}
+
+	DukeStickron: {
+		DisplayName: Герцог Палкрон
+		Tooltip: Забавное название, да?
+	}
+
+	DynastyWoodStick: {
+		DisplayName: Палка из востоного дерева
+		Tooltip: Это прост деревянная палка. Всё.
+	}
+
+	EbonwoodStick: {
+		DisplayName: Палка из эбонитового дерева
+		Tooltip: Ещё одна палка... но испорченная!
+	}
+
+	EmeraldStick: {
+		DisplayName: Emerald Stick
+		Tooltip: What does an emerald do to get fit? Gemnastics
+	}
+
+	FeatheredStick: {
+		DisplayName: Перистая палка
+		Tooltip: Что тяжелее, 1000 кило железа или 1000 кило птичьего пуха?
+	}
+
+	FieryStick: {
+		DisplayName: Пылающая палка
+		Tooltip: Просто огонь!
+	}
+
+	FishStick: {
+		DisplayName: Палка с рыбой
+		Tooltip:
+		'''
+		Зачем нужен зефир на палочке, когда есть рыба на палочке?
+		[c/beffab:Получает 50%-ный шанс критического удара во время дождя]
+		'''
+	}
+
+	GoldStick: {
+		DisplayName: Золотая палка
+		Tooltip: Что может быть лучше, чем золотая медаль Паралимпийских игр? Две ноги.
+	}
+
+	HallowedStick: {
+		DisplayName: Освящённая палка
+		Tooltip: типо святоша я хз
+	}
+
+	HellstoneStick: {
+		DisplayName: Палка из адского камня
+		Tooltip: я е**л это всё переводить если честно
+	}
+
+	IronStick: {
+		DisplayName: Iron Stick
+		Tooltip: When a man eats too much iron, He becomes Fe-male
+	}
+
+	LeadStick: {
+		DisplayName: Lead Stick
+		Tooltip: You can lead a horse to water, You can't make them do the back stroke... wait thats the wrong lead
+	}
+
+	LihzahrdStick: {
+		DisplayName: Lihzahrd Stick
+		Tooltip: Can you spell it correctly?
+	}
+
+	MageStick: {
+		DisplayName: Mage Stick
+		Tooltip: Legalize nuclear bombs
+	}
+
+	MagicStick: {
+		DisplayName: Бузинная палка
+		Tooltip: Рандомная х***я, вперёд!
+	}
+
+	MahoganyStick: {
+		DisplayName: Mahogany Stick
+		Tooltip: You guessed it... its a stick
+	}
+
+	MeteoriteStick: {
+		DisplayName: Meteorite Stick
+		Tooltip: What did the meteor say to the planet? Lemme smash
+	}
+
+	MoonStick: {
+		DisplayName: Lunar Stick
+		Tooltip: Sigma Sigma On The Wall... yeah thats all you get for beating the game
+	}
+
+	MythrilStick: {
+		DisplayName: Mythril Stick
+		Tooltip: Depending on which universe you inhabit, it may be spelled Mithril.
+	}
+
+	NebulaStick: {
+		DisplayName: Nebula Stick
+		Tooltip: I just died on apex legends
+	}
+
+	NightsStick: {
+		DisplayName: Nights Stick
+		Tooltip: Waltuh, Stop licking me Waltuh
+	}
+
+	ObsidianStick: {
+		DisplayName: Obsidian Stick
+		Tooltip: Its a hard stick, might be heavy, just like ur mum
+	}
+
+	OrichalcumStick: {
+		DisplayName: Orichalcum Stick
+		Tooltip: Spell Orichalcum without the Orichal hehe
+	}
+
+	PalladiumStick: {
+		DisplayName: Palladium Stick
+		Tooltip: You dont understand the pain in finding a joke for this ore.
+	}
+
+	PalmWoodStick: {
+		DisplayName: Palm Wood Stick
+		Tooltip: Welp... its a stick
+	}
+
+	PearlwoodStick: {
+		DisplayName: Pearlwood Stick
+		Tooltip: If it aint a stick
+	}
+
+	PixieStick: {
+		DisplayName: Pixie Stick
+		Tooltip: Burd from fortnite
+	}
+
+	PlantStick: {
+		DisplayName: Plant Stick
+		Tooltip: Botany plants lately?
+	}
+
+	PlatinumStick: {
+		DisplayName: Платиновая палка
+		Tooltip: Вообще-то это платиновый мем, ты просто не шаришь
+	}
+
+	PrimeMechStick: {
+		DisplayName: Prime's Saw
+		Tooltip: I have never been in my prime
+	}
+
+	RainbowStick: {
+		DisplayName: Rainbow Stick
+		Tooltip: It's raining bows
+	}
+
+	RubyStick: {
+		DisplayName: Рубиновая палка
+		Tooltip: хз не придумал
+	}
+
+	SapphireStick: {
+		DisplayName: Sapphire Stick
+		Tooltip: the artist said he didn't have any cyan, cobalt, royal, or sapphire paint.That was completely out of the blue.
+	}
+
+	ShadewoodStick: {
+		DisplayName: Shadewood Stick
+		Tooltip: Its a normal stick... but a bit shady
+	}
+
+	ShadowStick: {
+		DisplayName: Shadowflame Stick
+		Tooltip: I don't trust my shadow, he's a shady guy
+	}
+
+	ShroomiteStick: {
+		DisplayName: Shroomite Stick
+		Tooltip: Im on the shrooms right now
+	}
+
+	SilverStick: {
+		DisplayName: Silver Stick
+		Tooltip: What do you call Dragon with no silver? A dron
+	}
+
+	SkullStick: {
+		DisplayName: Skull Stick
+		Tooltip: Skull Emoji
+	}
+
+	SlimyStick: {
+		DisplayName: Slimy Stick
+		Tooltip: It be a bit slippery
+	}
+
+	SmashStick: {
+		DisplayName: Smash Stick
+		Tooltip: Smash
+	}
+
+	SolarStick: {
+		DisplayName: Solar Stick
+		Tooltip: What's the difference between you and the sun? I dont want to fly into you
+	}
+
+	SpectralStick: {
+		DisplayName: Spectral Stick
+		Tooltip: I am losing sanity.
+	}
+
+	SpookyWoodStick: {
+		DisplayName: Spooky Wood Stick
+		Tooltip: It do be a spooky stick
+	}
+
+	SporeStick: {
+		DisplayName: Spore Stick
+		Tooltip: Wish i was on shrooms right now.
+	}
+
+	StardustStick: {
+		DisplayName: Stardust Stick
+		Tooltip: I wouldn't mind flying into a star.
+	}
+
+	Starick: {
+		DisplayName: Starstruck Stick
+		Tooltip: Why don't aliens visit Earth? Because we have a 1 star rating.
+	}
+
+	Stickmasa: {
+		DisplayName: Stickmasa
+		Tooltip: I am empty inside
+	}
+
+	StickOfGrass: {
+		DisplayName: Stick Of Grass
+		Tooltip: Jesse, lets cook weed instead
+	}
+
+	StickOfSparking: {
+		DisplayName: Stick Of Sparking
+		Tooltip: sparkle sparkle
+	}
+
+	StingerStick: {
+		DisplayName: Stinger Stick
+		Tooltip: Ouch
+	}
+
+	StoneStick: {
+		DisplayName: Stone Stick
+		Tooltip: Its a stick... but stone
+	}
+
+	TerraStick: {
+		DisplayName: Terra Stick
+		Tooltip: Terra Stick? More like devious lick.
+	}
+
+	TinStick: {
+		DisplayName: Tin Stick
+		Tooltip: Have you seen my impression of a tin opener? It's uncanny.
+	}
+
+	TitaniumStick: {
+		DisplayName: Titanium Stick
+		Tooltip: Why was titanium afraid of iron and argon? Because there is nothing to fear but FEAR itself
+	}
+
+	TopazStick: {
+		DisplayName: Topaz Stick
+		Tooltip: I have an exam about gemstones. I don't think I'm going topaz.
+	}
+
+	TrueHallowedStick: {
+		DisplayName: Истинная освящённая палка
+		Tooltip: типо трушный святоша я хз
+	}
+
+	TrueNightsStick: {
+		DisplayName: True Nights Stick
+		Tooltip: Waltuh, Stop eating me Waltuh
+	}
+
+	TungstenStick: {
+		DisplayName: Tungsten Stick
+		Tooltip: What element tastes the best? Tungsten.
+	}
+
+	TurtleStick: {
+		DisplayName: Turtle Stick
+		Tooltip: Why couldn't the turtle get up? Because he had reptile disfunction.
+	}
+
+	TwinsStick: {
+		DisplayName: Twins Stick
+		Tooltip:
+			'''
+			I always feel like somebody's watching me
+			[c/beffab:Right-click to swap firing modes]
+			'''
+	}
+
+	VortexStick: {
+		DisplayName: Vortex Stick
+		Tooltip: It sucks
+	}
+
+	WallStick: {
+		DisplayName: Hungering Stick
+		Tooltip: Kill
+	}
+
+	WatchingStick: {
+		DisplayName: Watching Stick
+		Tooltip: Damn, i already made that joke
+	}
+
+	WoodenStick: {
+		DisplayName: Wooden Stick
+		Tooltip: Its a stick... what did you expect?
+	}
+
+	WormStick: {
+		DisplayName: Worm Stick
+		Tooltip: You know what else looks like a worm?
+	}
+
+	ZenithStick: {
+		DisplayName: Stick of Life
+		Tooltip: "[c/c2ffe0:The pinnacle of poor melee weapons.]"
+	}
+
+	Zombick: {
+		DisplayName: Zombick
+		Tooltip: Appears to be the leg of a zombie, my favourite fastfood is KFC
+	}
+
+	HeartStick: {
+		DisplayName: Heart Stick
+		Tooltip: I love my girlfriend, B
+	}
+
+	AshWoodStick: {
+		DisplayName: Ash Wood Stick
+		Tooltip: Waltuh... stop eating the dog waltuh
+	}
+
+	ManaStick: {
+		DisplayName: Mana Stick
+		Tooltip: fun fact, its currently 9:34 am
+	}
+
+	TastyStick: {
+		DisplayName: Tasty Stick
+		Tooltip: why would you eat a stick?
+	}
+
+	StickKunai: {
+		DisplayName: Stick Kunai
+		Tooltip: is this kiriko
+	}
+
+	ExplosiveStickKunai: {
+		DisplayName: Explosive Stick Kunai
+		Tooltip: bang bang into the room
+	}
+
+	Stickastar: {
+		DisplayName: Stickastar
+		Tooltip:
+			'''
+			Is this genji?
+			[c/beffab:Right-Click to throw 3 Stickastar's ]
+			'''
+	}
+
+	StickJavelin: {
+		DisplayName: Stick Javelin
+		Tooltip:
+			'''
+			Is this orisa
+			[c/beffab: Righ-click to throw ]
+			'''
+	}
+
+	StickBullet: {
+		DisplayName: Stick Bullet
+		Tooltip: a bullet but stick, how genius!
+	}
+
+	MegaStark: {
+		DisplayName: Mega Stark
+		Tooltip: tony?
+	}
+
+	FamiliarStick: {
+		DisplayName: Familiar Stick
+		Tooltip: I recognise this from somewhere
+	}
+
+	Stoyo: {
+		DisplayName: Stoyo
+		Tooltip: So a yoyo walks into a bar�
+	}
+
+	VerdantTrident: {
+		Tooltip:
+			'''
+			That is stick-tastic
+			[c/beffab: Use RMB to stab enemies then LMB to throw them with tremendous force. ]
+			'''
+		DisplayName: Verdant Trident
+	}
+
+	HellwoodStoyo: {
+		Tooltip:
+			'''
+			crazy? i was crazy once
+			[c/beffab: explodes every 10 hits ]
+			'''
+		DisplayName: Hellwood Stoyo
+	}
+
+	StickShoes: {
+		DisplayName: Stick Shoes
+		Tooltip: god this is awful
+	}
+
+	JumpingStick: {
+		Tooltip: jumpy
+		DisplayName: Jumping Stick
+	}
+
+	RogisLog: {
+		DisplayName: Rogi's Log
+		Tooltip: "[c/6196e7:-Friend Stick-]"
+	}
+
+	DangoStick: {
+		DisplayName: Dango Stick
+		Tooltip: yum
+	}
+
+	RoyalLuminaryStick: {
+		Tooltip:
+			'''
+			Sigma stick
+			[c/beffab:right click to launch it]
+			'''
+		DisplayName: Royal Luminary Stick
+	}
+
+	IceBreakerStick: {
+		DisplayName: Ice Breaker Stick
+		Tooltip: cold
+	}
+
+	TheStickOfDiscord: {
+		Tooltip: boogie woogie?
+		DisplayName: The Stick Of Discord
+	}
+
+	StickOfNight: {
+		DisplayName: Stick Of Night
+		Tooltip:
+			'''
+			THE MOON HAUNTS YOU
+			[c/beffab: Use during night for full power]
+			'''
+	}
+
+	SunStick: {
+		DisplayName: Sun Stick
+		Tooltip:
+			'''
+			bright ahh
+			[c/beffab: Use during daylight for full power]
+			'''
+	}
+
+	StickaflyItem: {
+		DisplayName: Stickafly Item
+		Tooltip: ""
+	}
+
+	ShadewoodStickaflyItem: {
+		DisplayName: Shadewood Stickafly Item
+		Tooltip: ""
+	}
+
+	AshwoodStickaflyItem: {
+		DisplayName: Ashwood Stickafly Item
+		Tooltip: ""
+	}
+
+	BorealWoodStickaflyItem: {
+		DisplayName: Boreal Wood Stickafly Item
+		Tooltip: ""
+	}
+
+	EbonwoodStickaflyItem: {
+		DisplayName: Ebonwood Stickafly Item
+		Tooltip: ""
+	}
+
+	PalmwoodStickaflyItem: {
+		DisplayName: Palmwood Stickafly Item
+		Tooltip: ""
+	}
+
+	PearlwoodStickaflyItem: {
+		DisplayName: Pearlwood Stickafly Item
+		Tooltip: ""
+	}
+
+	RichMahoganyStickaflyItem: {
+		DisplayName: Rich Mahogany Stickafly Item
+		Tooltip: ""
+	}
+
+	StickPistol: {
+		DisplayName: Stick Pistol
+		Tooltip: pew pew
+	}
+
+	LuckyStick: {
+		DisplayName: Lucky Stick
+		Tooltip: more like gambler stick
+	}
+
+	MStixteen: {
+		DisplayName: M-Stixteen
+		Tooltip:
+			'''
+			sigma 
+			[c/beffab:Right-click for sniper mode]
+			'''
+	}
+
+	Siffema: {
+		DisplayName: Siffema
+		Tooltip:
+			'''
+			coolio ahh stick
+			[c/beffab:build up then Right-click to unleash a stabbing explosion]
+			'''
+	}
+
+	Starrow: {
+		DisplayName: Starrow
+		Tooltip: its a arrow stick!!!!!!
+	}
+
+	Stow: {
+		DisplayName: Stow
+		Tooltip: stick bow? yuhhh
+	}
+
+	HellStow: {
+		DisplayName: Hell Stow
+		Tooltip: hell bow yuhhhh
+	}
+
+	SlimyStow: {
+		DisplayName: Slimy Stow
+		Tooltip: ew
+	}
+
+	SlimyStoyo: {
+		DisplayName: Slimy Stoyo
+		Tooltip: eww
+	}
+
+	TideStow: {
+		Tooltip: bubbly
+		DisplayName: Tide Stow
+	}
+
+	StarickLance: {
+		DisplayName: Starick Lance
+		Tooltip: coolio moolio
+	}
+}
+
+Projectiles: {
+	AcornProj.DisplayName: Acorn Proj
+	BoneStickProjectile.DisplayName: Bone Stick Projectile
+	BoneStickProj.DisplayName: Bone Stick Proj
+	BrainStickProj.DisplayName: Brain Stick Proj
+	EyeProjectile.DisplayName: Eye Projectile
+	EyeProj.DisplayName: Eye Proj
+	MageStickProj.DisplayName: Mage Stick Proj
+	MageStickProjD.DisplayName: Mage Stick Proj D
+	MageStickProjE.DisplayName: Mage Stick Proj E
+	MoonStickProj.DisplayName: Moon Stick Proj
+	NebulaStickProj.DisplayName: Nebula Stick Proj
+	PixieStickStab.DisplayName: Pixie Stick Stab
+	PrimeMechStickHoldout.DisplayName: Prime Mech Stick Holdout
+	SporeStickHoldout.DisplayName: Spore Stick Holdout
+	StardustStickExplosion.DisplayName: Stardust Stick Explosion
+	StickmasaHoldout.DisplayName: Stickmasa Holdout
+	StickOfSparkingHoldout.DisplayName: Stick Of Sparking Holdout
+	StickOfSparkingProj.DisplayName: Stick Of Sparking Proj
+	TerraStickProj.DisplayName: Terra Stick Proj
+	TerraStickProj2.DisplayName: Terra Stick Proj2
+	TrueHallowedStickHoldout.DisplayName: True Hallowed Stick Holdout
+	TrueHallowedStickProj.DisplayName: True Hallowed Stick Proj
+	TurtleStickProj.DisplayName: Turtle Stick Proj
+	TurtleStickProjD.DisplayName: Turtle Stick Proj D
+	VortexStickProj.DisplayName: Vortex Stick Proj
+	WallStickProj.DisplayName: Wall Stick Proj
+	ZenithStickProjectile.DisplayName: Zenith Stick Projectile
+	ZenithStickProj.DisplayName: Zenith Stick Proj
+	CannonStickProj.DisplayName: Cannon Stick Proj
+	SporeStickProjectile.DisplayName: Spore Stick Projectile
+	StickKunaiProj.DisplayName: Stick Kunai Proj
+	ExplosiveStickKunaiProj.DisplayName: Explosive Stick Kunai Proj
+	StickastarProj.DisplayName: Stickastar Proj
+	StickJavelinProj.DisplayName: Stick Javelin Proj
+	StickJavelinProjectile.DisplayName: Stick Javelin Projectile
+	StickBulletProj.DisplayName: Stick Bullet Proj
+	NebulaLaser.DisplayName: Nebula Laser
+	NebulaStickHeld.DisplayName: Nebula Stick Held
+	NebulaBolt.DisplayName: Nebula Bolt
+	StoyoProj.DisplayName: Stoyo Proj
+	VerdantTridentProjectile.DisplayName: Verdant Trident Projectile
+	VerdantTridentThrownProjectile.DisplayName: Verdant Trident Thrown Projectile
+	HellwoodStoyoProjectile.DisplayName: Hellwood Stoyo Projectile
+	MegaStarkHeldProj.DisplayName: Mega Stark Held Proj
+	RoyalLuminaryStickProj.DisplayName: Royal Luminary Stick Proj
+	RoyalLuminaryStickProj2.DisplayName: Royal Luminary Stick Proj2
+	RoyalLuminaryStickProj3.DisplayName: Royal Luminary Stick Proj3
+	IceBreakerStickProj.DisplayName: Ice Breaker Stick Proj
+	DiscordProj.DisplayName: Discord Proj
+	JumpingStickGunHeldProj.DisplayName: Jumping Stick Gun Held Proj
+	StickOfNightProj.DisplayName: Stick Of Night Proj
+	SunStickProj.DisplayName: Sun Stick Proj
+	StickPistolHeldProj.DisplayName: Stick Pistol Held Proj
+	ChopsticksProjectile.DisplayName: Chopsticks Projectile
+	ChopstickProj.DisplayName: Chopstick Proj
+	MStixteenHeldProj.DisplayName: M Stixteen Held Proj
+	TheRune.DisplayName: The Rune
+	SiffemaExplosionProjectile.DisplayName: Siffema Explosion Projectile
+	SiffemaHeldProjectile.DisplayName: Siffema Held Projectile
+	StarrowProj.DisplayName: Starrow Proj
+	FireStarrowProj.DisplayName: Fire Starrow Proj
+	SlimyStarrowProj.DisplayName: Slimy Starrow Proj
+	SlimyStoyoProj.DisplayName: Slimy Stoyo Proj
+	TideBubble.DisplayName: Tide Bubble
+	TideStarrow.DisplayName: Tide Starrow
+	StarrickLanceProj.DisplayName: Starrick Lance Proj
+	StarickLanceProj.DisplayName: Starick Lance Proj
+}
+
+NPCs: {
+	Stark.DisplayName: Stark
+	StickBug.DisplayName: Stick Bug
+	Stickafly.DisplayName: Stickafly
+	ShadewoodStickafly.DisplayName: Shadewood Stickafly
+	AshwoodStickafly.DisplayName: Ashwood Stickafly
+	BorealWoodStickafly.DisplayName: Boreal Wood Stickafly
+	EbonwoodStickafly.DisplayName: Ebonwood Stickafly
+	PalmwoodStickafly.DisplayName: Palmwood Stickafly
+	PearlwoodStickafly.DisplayName: Pearlwood Stickafly
+	RichMahoganyStickafly.DisplayName: Rich Mahogany Stickafly
+	LogMantis.DisplayName: Log Mantis
+	LogMantis2.DisplayName: Log Mantis
+}
+
+DamageClasses.StickDamage.DisplayName: ед. палочного урона
+Keybinds.jumpingStick.DisplayName: jumping Stick
+
+Configs: {
+	ScreenShakeConfig: {
+		DisplayName: Screen Shake Config
+
+		EnableCameraShake: {
+			Label: Enable Camera Shake
+			Tooltip: ""
+		}
+	}
+
+	ItemScreenShake: {
+		DisplayName: Item Screen Shake
+
+		EnableCameraShake: {
+			Label: Enable Camera Shake
+			Tooltip: ""
+		}
+	}
+
+	NpcScreenShake: {
+		DisplayName: Npc Screen Shake
+
+		EnableCameraShake: {
+			Label: Enable Camera Shake
+			Tooltip: ""
+		}
+	}
+}

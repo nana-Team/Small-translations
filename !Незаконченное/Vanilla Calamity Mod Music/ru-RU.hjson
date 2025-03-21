@@ -1,0 +1,427 @@
+Mods: {
+	UnCalamityModMusic: {
+		Configs: {
+			MusicConfig: {
+				DisplayName: Конфигурация музыки
+				MusicTogglesHeader: Настройка музыки
+				ConditionChangesHeader: Настройка условий
+
+				WorkshopThemes: {
+					Label: "[i:UnCalamityModMusic/WorkshopTier1MusicBox] Темы мастерской"
+					Tooltip:
+						'''
+						Toggles the Workshop themes that play when near certain crafting stations.
+						If you're looking to disable the Town themes, use the separate No Town Music mod or use Shadow Candles.
+						'''
+				}
+
+				HardmodeInterlude: {
+					Label: "[i:UnCalamityModMusic/HardmodeInterludeMusicBox] Интерлюдия хардмода"
+					Tooltip:
+						'''
+						Toggles a music event that plays when entering Hardmode.
+						If you're looking to disable the Credits, use the separate No In-game Credits mod.
+						'''
+				}
+
+				AbyssLayer3Alt: {
+					Label: "[i:UnCalamityModMusic/AbyssLayer3AltMusicBox] Альтернативная тема 3 слоя бездны"
+					Tooltip: Toggles an alternate theme for the 3rd layer of the Abyss.
+				}
+
+				PrioritizeInfernumMusic: {
+					Label: "[i:WallOfFleshGoatMountItem] Приоритет Infernum Music"
+					Tooltip:
+						'''
+						Toggles whether Infernum music will take priority over VCMM music.
+						This option does nothing if the Infernum Mode Music mod is disabled.
+						This option does not affect Calamity bosses.
+						'''
+				}
+
+				OverrideAnahitasLure: {
+					Label: "[i:UnCalamityModMusic/OceanDayMusicBox] Override Anahita's Lure"
+					Tooltip: Toggles whether the Anahita's Lure theme will override the Ocean themes.
+				}
+			}
+
+			OtherConfig: {
+				DisplayName: Other Config
+				AmbienceTogglesHeader: Ambience Toggles
+				OtherChangesHeader: Other Changes
+
+				AmbienceFrequency: {
+					Label: "[i:Bunny] Ambience Frequency"
+					Tooltip:
+						'''
+						Adjusts the frequency at which ambience will replace normal music, from 0% to 100%.
+						If at 100%, all music except boss and event music will be disabled.
+						'''
+				}
+
+				DisableBeeHiveAmbience: {
+					Label: "[i:BeeWax] Disable Bee Hive Ambience"
+					Tooltip: Toggles ambience in Bee Hives if ambience is enabled.
+				}
+
+				DisableSpiderCaveAmbience: {
+					Label: "[i:SpiderFang] Disable Spider Cave Ambience"
+					Tooltip: Toggles ambience in Spider Caves if ambience is enabled.
+				}
+
+				MusicBoxRecipes: {
+					Label: "[i:HeavyWorkBench] Music Box Recipes"
+					Tooltip: Toggles all music boxes recipes that require a Heavy Work Bench.
+				}
+
+				MusicBoxResprite: {
+					Label: "[i:MusicBox] Empty Music Box Resprite"
+					Tooltip: Toggles a resprite of the empty, unrecorded music box.
+				}
+			}
+		}
+
+		Items: {
+			AbyssLayer3AltMusicBox: {
+				DisplayName: Музыкальная шкатулка (Бездна, третий слой — альтернативная)
+				Tooltip: Воспроизводит «R'lyehian Depths» от Heart Plus Up!
+			}
+
+			BloodMoonDeathMusicBox: {
+				DisplayName: Музыкальная шкатулка (Кровавая луна, Смерть)
+				Tooltip: Воспроизводит «Sanguine Eclipse» от Thriplerex
+			}
+
+			BloodMoonMusicBox: {
+				DisplayName: Музыкальная шкатулка (Кровавая луна)
+				Tooltip: Воспроизводит «Congealing Shadows» от Thriplerex
+			}
+
+			BrainofCthulhuMusicBox: {
+				DisplayName: Музыкальная шкатулка (Мозг Ктулху)
+				Tooltip: Воспроизводит «Madness Incarnate» от Heart Plus Up! è SkippyZii
+			}
+
+			CavernsMusicBox: {
+				DisplayName: Музыкальная шкатулка (Пещеры)
+				Tooltip: Воспроизводит «Nearing the Inferno» от Heart Plus Up!
+			}
+
+			CorruptionMusicBox: {
+				DisplayName: Музыкальная шкатулка (Искажение)
+				Tooltip: Воспроизводит «Writhing Shadows» от Heart Plus Up!
+			}
+
+			CorruptionUndergroundMusicBox: {
+				DisplayName: Музыкальная шкатулка (Подземное искажение)
+				Tooltip: Воспроизводит «Between the Shadows» от Heart Plus Up!
+			}
+
+			CrimsonMusicBox: {
+				DisplayName: Музыкальная шкатулка (Багрянец)
+				Tooltip: Воспроизводит «Clotted Lands» от SkippyZii
+			}
+
+			CrimsonUndergroundMusicBox: {
+				DisplayName: Музыкальная шкатулка (Подземный багрянец)
+				Tooltip: Воспроизводит «Inside the Beast» от SkippyZii
+			}
+
+			DesertMusicBox: {
+				DisplayName: Музыкальная шкатулка (Пустыня)
+				Tooltip: Воспроизводит «Scorched to Dust» от Heart Plus Up!
+			}
+
+			DungeonMusicBox: {
+				DisplayName: Музыкальная шкатулка (Темница)
+				Tooltip: Воспроизводит «Chambers of the Tyrant» от Heart Plus Up!
+			}
+
+			EaterofWorldsMusicBox: {
+				DisplayName: Музыкальная шкатулка (Пожиратели миров)
+				Tooltip: Воспроизводит «Menace of the Chasms» от Heart Plus Up!
+			}
+
+			EyeofCthulhuMusicBox: {
+				DisplayName: Музыкальная шкатулка (Глаз Ктулху)
+				Tooltip: Воспроизводит «Bloodshot Barrage» от Heart Plus Up! è novaGnomes
+			}
+
+			FalseEpilogueMusicBox: {
+				DisplayName: Музыкальная шкатулка (Лживый эпилог)
+				Tooltip: Воспроизводит «The Memory of a Cruel World» от Heart Plus Up!
+			}
+
+			ForestDayAfternoonMusicBox: {
+				DisplayName: Музыкальная шкатулка (Дневной лес, после полудня)
+				Tooltip: Воспроизводит «A Legend's Strife (Lament)» от Heart Plus Up!
+			}
+
+			ForestDayDawnMusicBox: {
+				DisplayName: Музыкальная шкатулка (Дневной лес, рассвет)
+				Tooltip: Воспроизводит «A Legend's Strife (Acceptance)» от Heart Plus Up!
+			}
+
+			ForestDayEveningMusicBox: {
+				DisplayName: Музыкальная шкатулка (Дневной лес, вечер)
+				Tooltip: Воспроизводит «A Legend's Strife (Grief)» от Heart Plus Up!
+			}
+
+			ForestDayMorningMusicBox: {
+				DisplayName: Музыкальная шкатулка (Дневной лес, утро)
+				Tooltip: Воспроизводит «A Legend's Strife (Epiphany)» от Heart Plus Up!
+			}
+
+			ForestNightMusicBox: {
+				DisplayName: Музыкальная шкатулка (Ночной лес)
+				Tooltip: Воспроизводит «Laze of the Sky» от Heart Plus Up!
+			}
+
+			GeodesMusicBox: {
+				DisplayName: Музыкальная шкатулка (Жеоды)
+				Tooltip: Воспроизводит «Amidst the Minerals» от Heart Plus Up!
+			}
+
+			GlowingMushroomFieldsMusicBox: {
+				DisplayName: Музыкальная шкатулка (Лес светящихся грибов)
+				Tooltip: Воспроизводит «Psychedelic Depths» от Heart Plus Up!
+			}
+
+			HardmodeInterludeMusicBox: {
+				DisplayName: Музыкальная шкатулка (Хардмод, интерлюдия)
+				Tooltip: Воспроизводит «The Resurrection of a Cruel World» от Salvati
+			}
+
+			KingSlimeMusicBox: {
+				DisplayName: Музыкальная шкатулка (Король слизней)
+				Tooltip: Воспроизводит «Gelatinous Monarch» от Heart Plus Up!
+			}
+
+			LanternFestivalMusicBox: {
+				DisplayName: Музыкальная шкатулка (Фестиваль фонарей)
+				Tooltip: Воспроизводит «Serenity» от Heart Plus Up!
+			}
+
+			MeteoriteMusicBox: {
+				DisplayName: Музыкальная шкатулка (Место падения метеорита)
+				Tooltip: Воспроизводит «The Abomination's Omen» от Heart Plus Up!
+			}
+
+			MoonLordMusicBox: {
+				DisplayName: Музыкальная шкатулка (Лунный лорд)
+				Tooltip:
+					'''
+					Воспроизводит «Virtuous Radiance» от psykomatic
+					Эта шкатулка содержит песню-заполнитель
+					'''
+			}
+
+			OceanDayMusicBox: {
+				DisplayName: Музыкальная шкатулка (Дневной океан)
+				Tooltip: Воспроизводит «shoreline» от Heart Plus Up!
+			}
+
+			OceanNightMusicBox: {
+				DisplayName: Музыкальная шкатулка (Ночной океан)
+				Tooltip: Воспроизводит «serene tides» от Heart Plus Up!
+			}
+
+			OceanRainMusicBox: {
+				DisplayName: Музыкальная шкатулка (Дождь в океане)
+				Tooltip: Воспроизводит «waves» от Heart Plus Up!
+			}
+
+			RainLegacyMusicBox: {
+				DisplayName: Музыкальная шкатулка (Дождь, старая версия)
+				Tooltip: Воспроизводит «Grey Sky» от Heart Plus Up!
+			}
+
+			RainMusicBox: {
+				DisplayName: Музыкальная шкатулка (Дождь)
+				Tooltip: Воспроизводит «downpour» от Heart Plus Up!
+			}
+
+			SkeletronMusicBox: {
+				DisplayName: Музыкальная шкатулка (Скелетрон)
+				Tooltip: Воспроизводит «Wrath From the Crypt» от Heart Plus Up!
+			}
+
+			SlimeRainMusicBox: {
+				DisplayName: Музыкальная шкатулка (Слизнепад)
+				Tooltip: Воспроизводит «Gelatin Showers» от Heart Plus Up!
+			}
+
+			SpaceMusicBox: {
+				DisplayName: Музыкальная шкатулка (Космос)
+				Tooltip: Воспроизводит «Starry Ascent» от Heart Plus Up!
+			}
+
+			TorchGodMusicBox: {
+				DisplayName: Музыкальная шкатулка (Бог факелов)
+				Tooltip: Воспроизводит «Trial от Fire» от Heart Plus Up!
+			}
+
+			TorchGodRevengeanceMusicBox: {
+				DisplayName: Музыкальная шкатулка (Бог факлов, Месть)
+				Tooltip: Воспроизводит a variant of 'Trial от Fire» от Heart Plus Up!
+			}
+
+			TownDayMusicBox: {
+				DisplayName: Музыкальная шкатулка (Дневной город)
+				Tooltip: Воспроизводит «Haven in the Sunlight» от Heart Plus Up!
+			}
+
+			TownNightMusicBox: {
+				DisplayName: Музыкальная шкатулка (Ночной город)
+				Tooltip: Воспроизводит «Moonlit Haven» от Heart Plus Up!
+			}
+
+			TownPartyMusicBox: {
+				DisplayName: Музыкальная шкатулка (Празднующий город)
+				Tooltip: Воспроизводит «Celebration Haven» от Heart Plus Up!
+			}
+
+			TownRainMusicBox: {
+				DisplayName: Музыкальная шкатулка (Дождь в городе)
+				Tooltip: Воспроизводит «Haven in Overcast» от Heart Plus Up!
+			}
+
+			TundraMusicBox: {
+				DisplayName: Музыкальная шкатулка (Снега)
+				Tooltip: Воспроизводит «Frozen Over» от Heart Plus Up!
+			}
+
+			TundraUndergroundMusicBox: {
+				DisplayName: Музыкальная шкатулка (Подземные снега)
+				Tooltip: Воспроизводит «Inside the Glaciers» от Heart Plus Up!
+			}
+
+			UndergroundMusicBox: {
+				DisplayName: Музыкальная шкатулка (Подземелье)
+				Tooltip: Воспроизводит «Under the Earth» от Heart Plus Up!
+			}
+
+			UnderworldMusicBox: {
+				DisplayName: Музыкальная шкатулка (Преисподняя)
+				Tooltip: Воспроизводит «Descent Into Hell's Fury» от Heart Plus Up!
+			}
+
+			WallofFleshMusicBox: {
+				DisplayName: Музыкальная шкатулка (Стена плоти)
+				Tooltip: Воспроизводит «Fated Insurrection» от Heart Plus Up!
+			}
+
+			WorkshopTier1MusicBox: {
+				DisplayName: Музыкальная шкатулка (Мастерская, ранг 1)
+				Tooltip: Воспроизводит «Metal, Wood, and Fire» от Heart Plus Up!
+			}
+
+			WorkshopTier2MusicBox: {
+				DisplayName: Музыкальная шкатулка (Мастерская, ранг 2)
+				Tooltip: Воспроизводит «The Sky and the Depths» от Heart Plus Up!
+			}
+
+			WorkshopTier3MusicBox: {
+				DisplayName: Музыкальная шкатулка (Мастерская, ранг 3)
+				Tooltip: Воспроизводит «Mythic Metals and Enchanted Fires» от Heart Plus Up!
+			}
+
+			WorkshopTier4MusicBox: {
+				DisplayName: Музыкальная шкатулка (Мастерская, ранг 4)
+				Tooltip: Воспроизводит «Fruits of Your Labor» от Heart Plus Up!
+			}
+
+			WorkshopTier5MusicBox: {
+				DisplayName: Музыкальная шкатулка (Мастерская, ранг 5)
+				Tooltip: Воспроизводит «False Gods and Ancient Elements» от Heart Plus Up!
+			}
+
+			WorkshopTier6MusicBox: {
+				DisplayName: Музыкальная шкатулка (Мастерская, ранг 6)
+				Tooltip: Воспроизводит «Master's Forge» от Heart Plus Up!
+			}
+		}
+
+		Menus: {
+			ResurrectionMenu: Resurrection Style
+			MemoryMenu: Memory Style
+		}
+
+		ModSupport: {
+			MusicDisplay: {
+				SongNames: {
+					AbyssLayer3Alt: R'lyehian Depths
+					Space: Starry Ascent
+					Underworld: Descent Into Hell's Fury
+					Meteorite: The Abomination's Omen
+					WorkshopTier6: Master's Forge
+					WorkshopTier5: False Gods and Ancient Elements
+					WorkshopTier4: Fruits of Your Labor
+					WorkshopTier3: Mythic Metals and Enchanted Fires
+					WorkshopTier2: The Sky and the Depths
+					WorkshopTier1: Metal, Wood, and Fire
+					TownNight: Moonlit Haven
+					TownNight_Noiseless: Moonlit Haven
+					TownDay: Haven in the Sunlight
+					Dungeon: Chambers of the Tyrant
+					GlowingMushroomFields: Psychedelic Depths
+					Corruption: Writhing Shadows
+					CorruptionUnderground: Between the Shadows
+					Crimson: Clotted Lands
+					CrimsonUnderground: Inside the Beast
+					Geodes: Amidst the Minerals
+					Tundra: Frozen Over
+					TundraUnderground: Inside the Glaciers
+					Caverns: Nearing the Inferno
+					Underground: Under the Earth
+					OceanNight: serene tides
+					OceanDay: shoreline
+					Desert: Scorched to Dust
+					ForestNight: Laze of the Sky
+					ForestDayEvening: A Legend's Strife (Grief)
+					ForestDayAfternoon: A Legend's Strife (Lament)
+					ForestDayMorning: A Legend's Strife (Epiphany)
+					ForestDayDawn: A Legend's Strife (Acceptance)
+					MoonLord: Virtuous Radiance
+					WallofFlesh: Fated Insurrection
+					Skeletron: Wrath From the Crypt
+					BrainofCthulhu: Madness Incarnate
+					EaterofWorlds: Menace of the Chasms
+					EyeofCthulhu: Bloodshot Barrage
+					KingSlime: Gelatinous Monarch
+					TorchGod: Trial от Fire
+					TorchGodRevengeance: Trial от Fire
+					BloodMoon: Congealing Shadows
+					BloodMoonDeath: Sanguine Eclipse
+					SlimeRain: Gelatin Showers
+					OceanRain: waves
+					TownRain: Haven in Overcast
+					Rain: downpour
+					TownParty: Celebration Haven
+					LanternFestival: Serenity
+					HardmodeInterlude: The Resurrection of a Cruel World
+					FalseEpilogue: The Memory of a Cruel World
+					RainLegacy: Grey Sky
+				}
+
+				Authors: {
+					HeartPlusUp: от Heart Plus Up!
+					HeartPlusUpFeature1: от Heart Plus Up! и novaGnomes
+					HeartPlusUpFeature2: от Heart Plus Up! и SkippyZii
+					HeartPlusUpFeature3: от Heart Plus Up! и Universe
+					Salvati: от Salvati
+					SkippyZii: от SkippyZii
+					Thriplerex: от Thriplerex
+					Universe: от Universe
+					psykomatic: от psykomatic
+				}
+			}
+		}
+
+		Recipes: {
+			EvilPowder: порошок мирового зла
+			SillyTiedBalloon: нелепый привязанный надувной шарик
+			NameMismatchError: Обнаружено несоответствие внутренних названий предметов из этого рецепта и предметов из другого мода. Рецепт этого предмета был отключён.
+		}
+	}
+}

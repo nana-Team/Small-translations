@@ -1,0 +1,349 @@
+Configs: {
+	Config: {
+		DisplayName: Конфигурация
+
+		ammoLine: {
+			Label: Улучшенные описания боеприпасов, стрелкового оружия и прочего
+			Tooltip:
+				'''
+				Добавляет строчку в описания оружия о названии и количестве боеприпаса, которое используется в данный момент
+				Если подходящих боеприпасов нет, в этой строчке будет указано, какой тип боеприпасов нужен
+				Эта настройка работает в том числе с удочками и с «Очизнителем»
+				'''
+			No: "Требуются "
+			Bait: черви, насекомые или другие виды наживки
+			Arrow: стрелы
+			Coin: монеты
+			Bullet: пули или патроны
+			Sand: блоки песка
+			Dart: дротики
+			Rocket: ракеты
+			Solution: заряды раствора
+			Flare: сигнальные ракеты
+		}
+
+		velocityLine: {
+			Label: Отображать скорость снарядов
+			Tooltip:
+				'''
+				Добавляет строчку в описания предметов о скорости полёта выпускаемых ими снарядов.
+				Эта настройка не будет правильно работать с предметами, выпускающими несколько разных снарядов, со
+				снарядами, чьё поведение меняется в полёте или в прочих более сложных условиях.
+			Display: " ед. скорости снаряда"
+		}
+
+		priceLine: {
+			Label: Улучшенное описание стоимости предметов
+			Tooltip:
+				'''
+				Улучшает ванильную строчку про стоимость предметов, убирая из неё ненужные надписи и улучшая цвет текста
+				Эта строчка будет отображаться даже вне меню магазина НИПов — в таком случае в ней будет указана базовая стоимость предмета
+				'''
+			platinum: "[c/{0}:{1} {$LegacyInterface.15} ]"
+			gold: "[c/{0}:{1} {$LegacyInterface.16} ]"
+			silver: "[c/{0}:{1} {$LegacyInterface.17} ]"
+			copper: "[c/{0}:{1} {$LegacyInterface.18}]"
+		}
+
+		speedLine: {
+			Label: Улучшенное описание скорости использования предметов
+			Tooltip: Улучшает ванильную строчку про скорость предметов, заменяя слова конкретными значениями в использованиях в секунду
+			Display: " использов./сек."
+		}
+
+		knockbackLine: {
+			Label: Улучшенное описание отбрасывания предметов
+			Tooltip: Улучшает ванильную строчку про силу отбрасывания, заменяя слова конкретными значениями
+			Display: " ед. силы отбрасывания"
+		}
+
+		wpnPlusAmmoDmg: {
+			Label: Учитывать урон боеприпасов в строчке про урон оружия
+			Tooltip: ""
+		}
+
+		wpnPlusAmmoKb: {
+			Label: Учитывать отбрасывание от боеприпасов в строчке про отбрасывание оружия
+			Tooltip: Эта настройка ничего не делает, если выключена настройка «Улучшенное описание отбрасывания предметов»
+		}
+
+		wpnPlusAmmoVelocity: {
+			Label: Учитывать скорость боеприпасов в строчке про скорость полёта снарядов оружия
+			Tooltip: ""
+		}
+
+		modNameNextToItemName: {
+			Label: Отображать название мода-источника рядом с названием предмета
+			Tooltip: ""
+		}
+
+		bgColor: {
+			Label: Цвет
+			Tooltip: ""
+		}
+
+		spritebgColor: {
+			Label: Цвет рамки для спрайта предмета
+			Tooltip: Цвет рамки, в которой расположен спрайт предмета в его описании
+		}
+
+		paddingRight: {
+			Label: Правая граница рамки описания
+			Tooltip: Количество пикселей справа от описания предмета, которые все ещё будет охватывать рамка
+		}
+
+		paddingLeft: {
+			Label: Левая граница рамки описания
+			Tooltip: Количество пикселей слева от описания предмета, которые все ещё будет охватывать рамка
+		}
+
+		paddingTop: {
+			Label: Верхняя границы рамки описания
+			Tooltip: Количество пикселей над описанием предмета, которые все ещё будет охватывать рамка
+		}
+
+		paddingBottom: {
+			Label: Нижняя граница рамки описания
+			Tooltip: Количество пикселей под описанием предмета, которые все ещё будет охватывать рамка
+		}
+
+		x: {
+			Label: Расположение описания предмета по оси X
+			Tooltip: Расположение описания предмета в пикселях по оси X относительно курсора
+		}
+
+		y: {
+			Label: Расположение описания предмета по оси Y
+			Tooltip: Расположение описания предмета в пикселях по оси Y относительно курсора
+		}
+
+		spacing: {
+			Label: Интервалы между строчками в описаниях
+			Tooltip: Дополнительное количество пикселей между каждой строчкой в описаниях предметов
+		}
+
+		sprite: {
+			Label: Спрайт предмета в его описании
+			Tooltip: Отображать спрайт предмета в его описании
+		}
+
+		spriteBorderPadding: {
+			Label: Размер рамки вокруг спрайта предмета в описании
+			Tooltip: ""
+		}
+
+		spriteBorder: {
+			Label: Включить рамку вокруг спрайта предмета в описании
+			Tooltip: ""
+		}
+
+		spriteMin: {
+			Label: Минимальный размер рамки вокруг спрайта предмета в описании
+			Tooltip: ""
+		}
+
+		spriteTextPadding: {
+			Label: Расстояние между рамкой со спрайтом предмета и его описанием
+			Tooltip: ""
+		}
+
+		textPulse: {
+			Label: Text Pulse
+			Tooltip: ""
+		}
+
+		ammoCrit: {
+			Label: Crit chance line for ammo
+			Tooltip: Off by default because ammo crit chance doesn't affect crit chance.
+		}
+
+		tileBoost: {
+			Label: +- X range
+			Tooltip: How much more/less range the tool has, in tiles. (A=0 to disable, White to bypass override)
+		}
+
+		ammo: {
+			Label: Ammo
+			Tooltip: The item is ammo. (A=0 to disable, White to bypass override)
+		}
+
+		badMod: {
+			Label: Bad Modifier
+			Tooltip: (A=0 to disable, White to bypass override)
+		}
+
+		placeable: {
+			Label: Can be placed
+			Tooltip: The item can be placed. (A=0 to disable, White to bypass override)
+		}
+
+		consumable: {
+			Label: Consumable
+			Tooltip: The item is consumable. (A=0 to disable, White to bypass override)
+		}
+
+		wandConsumes: {
+			Label: Consumes X
+			Tooltip: What item a tile wand consumes. (A=0 to disable, White to bypass override)
+		}
+
+		dmg: {
+			Label: Damage
+			Tooltip: The item's damage and class. (A=0 to disable, White to bypass override)
+		}
+
+		equipable: {
+			Label: Equipable
+			Tooltip: The item is equipable. (A=0 to disable, White to bypass override)
+		}
+
+		social: {
+			Label: Equipped in social slot
+			Tooltip: The item is in a social slot. (A=0 to disable, White to bypass override)
+		}
+
+		etherianMana: {
+			Label: Etherian Mana Warning
+			Tooltip: '''"Cannot be used without Etherian Mana until the Eternia Crystal has been defended" (A=0 to disable, White to bypass override)'''
+		}
+
+		expert: {
+			Label: Expert
+			Tooltip: The item is from Expert Mode. (A=0 to disable, White to bypass override)
+		}
+
+		fav: {
+			Label: Marked as favorite
+			Tooltip: (A=0 to disable, White to bypass override)
+		}
+
+		favDescr: {
+			Label: Favorite Description
+			Tooltip: '''"Quick trash, stacking, and selling will be blocked" (A=0 to disable, White to bypass override)'''
+		}
+
+		goodMod: {
+			Label: Good Modifier
+			Tooltip: (A=0 to disable, White to bypass override)
+		}
+
+		wellFedExpert: {
+			Label: Increases life regeneration
+			Tooltip: In Expert Mode, shows that the food increases life regeneration. (A=0 to disable, White to bypass override)
+		}
+
+		knockback: {
+			Label: Knockback
+			Tooltip: The item's knockback. (A=0 to disable, White to bypass override)
+		}
+
+		material: {
+			Label: Material
+			Tooltip: The item can be used to craft something. (A=0 to disable, White to bypass override)
+		}
+
+		quest: {
+			Label: Quest Item
+			Tooltip: The item is a quest item. (A=0 to disable, White to bypass override)
+		}
+
+		needsBait: {
+			Label: Requires bait to catch fish
+			Tooltip: The fishing pole requires bait to catch fish. (A=0 to disable, White to bypass override)
+		}
+
+		healLife: {
+			Label: Restores X life
+			Tooltip: How much life the player restores when using the item. (A=0 to disable, White to bypass override)
+		}
+
+		healMana: {
+			Label: Restores X mana
+			Tooltip: How much mana the player restores when using the item. (A=0 to disable, White to bypass override)
+		}
+
+		setBonus: {
+			Label: Set Bonus
+			Tooltip: The armor's set bonus description. (A=0 to disable, White to bypass override)
+		}
+
+		socialDescr: {
+			Label: Social Description
+			Tooltip: '''"No stats will be gained" (A=0 to disable, White to bypass override)'''
+		}
+
+		speed: {
+			Label: Speed
+			Tooltip: The item's attack speed. (A=0 to disable, White to bypass override)
+		}
+
+		useMana: {
+			Label: Uses X mana
+			Tooltip: How much mana the item consumes when used. (A=0 to disable, White to bypass override)
+		}
+
+		vanity: {
+			Label: Vanity Item
+			Tooltip: The item is vanity. (A=0 to disable, White to bypass override)
+		}
+
+		defense: {
+			Label: X defense
+			Tooltip: The item's defense. (A=0 to disable, White to bypass override)
+		}
+
+		buffTime: {
+			Label: X minute duration
+			Tooltip: The item's buff duration. (A=0 to disable, White to bypass override)
+		}
+
+		axePow: {
+			Label: X% axe power
+			Tooltip: The item's axe power. (A=0 to disable, White to bypass override)
+		}
+
+		baitPow: {
+			Label: X% bait power
+			Tooltip: The bait's bait power. (A=0 to disable, White to bypass override)
+		}
+
+		critChance: {
+			Label: X% critical strike chance
+			Tooltip: The item's crit chance. (A=0 to disable, White to bypass override)
+		}
+
+		fishingPow: {
+			Label: X% fishing power
+			Tooltip: The fishing pole's fishing power. (A=0 to disable, White to bypass override)
+		}
+
+		hammerPow: {
+			Label: X% hammer power
+			Tooltip: The item's hammer power. (A=0 to disable, White to bypass override)
+		}
+
+		pickPow: {
+			Label: X% pickaxe power
+			Tooltip: The item's pickaxe power. (A=0 to disable, White to bypass override)
+		}
+
+		journeyResearch: {
+			Label: Journey Research
+			Tooltip: The research progress of the item (Journey Mode Only) (A=0 to disable, White to bypass override)
+		}
+
+		modNameColor: {
+			Label: Mod Name
+			Tooltip: The mod that the item is from. (A=0 to disable, White to bypass override)
+		}
+
+		Headers: {
+			CustomTooltipLines: Custom Tooltip Lines
+			Background: Background
+			Offset: Offset
+			Miscellaneous: Miscellaneous
+			VanillaTooltipLines: Vanilla Tooltip Lines & Color
+			ItemSprite: Item Sprite Header
+		}
+	}
+}

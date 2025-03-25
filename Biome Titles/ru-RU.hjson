@@ -1,5 +1,8 @@
 Mods: {
 	BiomeTitles: {
+		ChatAdvertisementPart1: "Спасибо за использование Biome Titles! Также попробуйте мой другой мод: "
+		ChatAdvertisementPart2: Global Chat!
+
 		Title: {
 			Terraria: {
 				Meteor_Crash_Site: Место падения метеорита
@@ -10,31 +13,31 @@ Mods: {
 				Nebula_Pillar: Башня туманности
 				Solar_Pillar: Башня солнечной вспышки
 				Stardust_Pillar: Башня звёздной пыли
-				Vortex_Pillar: Башня вихря
+				Vortex_Pillar: Вихревая башня
 				Granite_Cave: Гранитная пещера
 				Marble_Cave: Мраморная пещера
 				Underground_Glowing_Mushroom: Пещера светящихся грибов
 				Glowing_Mushroom: Лес светящихся грибов
-				Underground_Jungle: Подземные джунгли
+				Underground_Jungle: Подземные жжунгли
 				Corrupt_Cave_Desert: Искажённая подземная пустыня
-				Crimson_Cave_Desert: Багряная подземная пустыня
+				Crimson_Cave_Desert: Багровая подземная пустыня
 				Hallow_Cave_Desert: Освящённая подземная пустыня
-				Cave_Desert: Подземная пустыня
+				Cave_Desert: Подземнаая пустыня
 				Corrupt_Ice_Caves: Искажённые ледяные пещеры
-				Crimson_Ice_Caves: Багряные ледяные пещеры
-				Hallow_Ice_Caves: Освящённые ледяные пезеры
+				Crimson_Ice_Caves: Багровые ледяные пещеры
+				Hallow_Ice_Caves: Освящённые ледяные пещеры
 				Ice_Caves: Ледяные пещеры
-				Underground_Corruption: Искажённые пещеры
-				Underground_Crimson: Багряные пещеры
-				Underground_Hallow: Освящённые пещеры
+				Underground_Corruption: Подземное искажение
+				Underground_Crimson: Подземный багрянец
+				Underground_Hallow: Подземное освящение
 				Ocean: Океан
 				Sky: Космос
 				Underground: Подземелье
 				Caverns: Пещеры
-				Hell: Преисподняя
+				Hell: Преисподня
 				Jungle: Джунгли
 				Corrupt_Desert: Искажённая пустыня
-				Crimson_Desert: Багряная пустыня
+				Crimson_Desert: Багровая пустыня
 				Hallow_Desert: Освящённая пустыня
 				Desert: Пустыня
 				Tundra: Снега
@@ -52,7 +55,7 @@ Mods: {
 				FakeUnderworldBiome: Fake Underworld
 			}
 
-			Arbour.ArborBiome: остров умиротворения
+			Arbour.ArborBiome: Остров умиротворения
 
 			BobBlender2: {
 				TreeBiome: Tree
@@ -122,25 +125,25 @@ Mods: {
 			Remnants: {
 				GoldenCity: Золотой город
 				Growth: Корневище
-				OceanCave: Пещера океана
+				OceanCave: Коралловый риф
 				Pyramid: Пирамида
 				Hive: Улей
 				JungleTemple: Храм джунглей
-				MarbleCave: Мраморная пещера
+				MarbleCave: Мраморное ущелье
 				Vault: Убежище
 			}
 
 			SpiritMod: {
-				AsteroidBiome: Asteroid Field
-				SynthwaveSurfaceBiome: Hyperspace
-				BriarSurfaceBiome: Briar Forest
-				BriarUndergroundBiome: Briar Caves
-				SpiritSurfaceBiome: Spirit Surface
-				SpiritUndergroundBiome: Spirit Underground
+				AsteroidBiome: Астероиды
+				SynthwaveSurfaceBiome: Синтвейв
+				BriarSurfaceBiome: Поросль
+				BriarUndergroundBiome: Подземная поросль
+				SpiritSurfaceBiome: Сумрак
+				SpiritUndergroundBiome: Подземный сумрак
 			}
 
 			Spooky: {
-				CatacombBiome: Мрачные катакомбы
+				CatacombBiome: Катакомбы
 				SpookyBiome: Жуткий лес
 				SpookyBiomeUg: Жуткое подземелье
 				SpookyHellBiome: Глазастая долина
@@ -148,26 +151,75 @@ Mods: {
 
 			// This mod is not finished cuz I don't know which biomes there actually are
 			StarsAbove: {
-				ObservatoryBiome: Обсерватория Гиперборея
-				// AstarteDriverBiome: Astarte Driver
-				// BleachedWorldBiome: Bleached World
-				// CorvusBiome: Corvus
-				// LyraBiome: Lyra
-				// FriendlySpaceBiome: Pyxis
-				// MoonBiome: Moon
-				// SeaOfStarsBiome: Sea of Stars
+				ObservatoryBiome: Обсерватория
+				AstarteDriverBiome: Глубокий космос
+				BleachedWorldBiome: Обесцвеченный мир
+				CorvusBiome: Корвус
+				LyraBiome: Лира
+				FriendlySpaceBiome: Дружелюбный космос
+				MoonBiome: Луна
+				SeaOfStarsBiome: Море звёзд
 			}
 
 			TheDepths.DepthsBiome: Глубины
 
 			ThoriumMod: {
 				DepthsBiome: Акватические глубины
-				BloodChamber: Погребение Кровавой камеры
+				BloodChamber: Кровавая камера
 			}
 
 			Verdant: {
 				VerdantBiome: Цветение
-				VerdantUndergroundBiome: Цветущие пещеры
+				VerdantUndergroundBiome: Цветение
+			}
+
+			Stellamod: {
+				AbyssBiome: Abyss
+				AcidBiome: Acid Plains
+				IshtarBiome: Ishtar
+				MorrowUndergroundBiome: Morrow Underground
+				VeriplantUndergroundBiome: Veriplant Underground
+				AlcadziaBiome: Alcadzia
+				CathedralBiome: Cathedral
+				FableBiome: Fabled Wilds
+				IlluriaBiome: Illuria
+				MarrowSurfaceBiome: Marrow Surface
+				StarbloomBiome: Starbloom
+				VeilBiome: Veil
+				XixVillage: Xix Village
+				AurelusBiome: Aurelus Temple
+				CatacombFlames: Catacombs - Flames
+				CatacombTrap: Catacombs - Trap
+				CatacombWater: Catacombs - Water
+				CindersparkBiome: Cinderspark
+				DrakonicManor: Drakonic Manor
+				EngineerShop: Engineer's Shop
+				GovheilCastle: Govheil Castle
+				Laboratory: Laboratory
+				NaxtrinTemple: Naxtrin Temple
+				SeaTemple: Sea Temple
+			}
+
+			MultidimensionMod: {
+				FrozenUnderworld: Frozen Underworld
+				ShroomForest: Shroom Forest
+			}
+
+			SpiritReforged: {
+				SavannaBiome: Саванна
+				HallowSavannaBiome: Освящённая саванна
+			}
+
+			RothurModRedux: {
+				CrystalSurfaceBiome: Кристалл
+				CrystalUndergroundBiome: Кристаллическое Подземелье
+			}
+
+			JadeFables.JadeLakeBiome: Jade Lake
+
+			ITD: {
+				BlueshroomGrovesBiome: Blueshroom Groves
+				BlueshroomGrovesSurfaceBiome: Blueshroom Groves
 			}
 		}
 	}
@@ -181,18 +233,19 @@ Mods: {
 					Visuals_Config: Визуал
 					Advanced_Customization: Кастомизация
 					Animation: Анимации
+					Auto_Detection: Автоопределение
 				}
 
 				Position: {
-					Label: Расположение
-					Tooltip: Местоположение плашки с названием биома на экране
+					Label: Расположение плашки
+					Tooltip: Расположение плашки с названием биома на экране
 				}
 
 				CustomPositionX.Label: Расположение по оси X
 				CustomPositionY.Label: Расположение по оси Y
 
 				Scale: {
-					Label: Размер
+					Label: Размер плашки
 					Tooltip: Размер плашки с названием биома
 				}
 
@@ -205,7 +258,7 @@ Mods: {
 					Label: Иконки биомов
 					Tooltip: Рядом с названиями биомов на плашке будут отображаться их иконки из бестиария, если они есть
 				}
-
+				
 				DisplaySubtitle: {
 					Label: Плашка с источником биомов
 					Tooltip: Под названиями биомов будет также отображаться из какого они мода
@@ -242,7 +295,7 @@ Mods: {
 				}
 
 				VisibilityDuration: {
-					Label: Длительность отображения плашки с названиями
+					Label: Длительность отображения
 					Tooltip: 
 						'''
 						Сколько секунд плашка с названиями будет отображаться на экране
@@ -273,7 +326,7 @@ Mods: {
 				PositionOption: {
 					Top.Label: сверху посередине
 					Bottom.Label: снизу посередине
-					RPGStyle.Label: как в RPG играх (снизу слева)
+					RPGStyle.Label: снизу слева
 					Custom.Label: своё
 				}
 
@@ -300,12 +353,22 @@ Mods: {
 					ShowFade.Label: появление и угасание
 					ShowFadeSwipe.Label: скольжение
 				}
+
+				AutoDetectBiomes: {
+					Label: Автоматическое определение источников биомов
+					Tooltip: Плашка источника биома будет атоматически генерироваться у биомов из модов, с которыми не настроена поддержка
+				}
+
+				AutoDetectNewBiomes: {
+					Label: Автоматически определять новые биомы
+					Tooltip: Плашка биома будет атоматически генерироваться у биомов из модов, с которыми не настроена поддержка
+				}
 			}
 
 			PositionOption: {
 				Top.Label: сверху посередине
 				Bottom.Label: снизу посередине
-				RPGStyle.Label: как в RPG играх (снизу слева)
+				RPGStyle.Label: снизу слева
 				Custom.Label: своё
 			}
 

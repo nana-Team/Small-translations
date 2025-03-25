@@ -1,0 +1,68 @@
+Configs: {
+	GeneralConfig: {
+		Headers: {
+		}
+
+		Position: {
+		}
+
+		CustomPositionX.Tooltip: ""
+		CustomPositionY.Tooltip: ""
+
+		Scale: {
+		}
+
+		UseCustomTextColors: {
+		}
+
+		ShowIcons: {
+		}
+
+		DisplaySubtitle: {
+		}
+
+		EnableBackgrounds: {
+		}
+
+		HideWhileInventoryOpen: {
+		}
+
+		CustomBiomeNames: {
+		}
+
+		EnableDraggableTitle: {
+		}
+
+		BiomeCheckDelay: {
+		}
+
+		TitleAnimation: {
+		}
+
+		VisibilityDuration: {
+		}
+
+		TransitionInDuration: {
+		}
+
+		TransitionOutDuration: {
+		}
+
+		HideWhileBossIsAlive: {
+			Label: Скрывать плашку, когда босс жив
+			Tooltip: Плашки биомов не будут появляться во время битвы с боссами
+		}
+	}
+
+	PositionOption.Tooltip: ""
+	ScaleOption.Tooltip: ""
+	BiomeNameMapping.Tooltip: ""
+
+	CurrentName: {
+	}
+
+	NewName: {
+	}
+
+	TitleAnimationType.Tooltip: ""
+}

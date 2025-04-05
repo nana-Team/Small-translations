@@ -240,9 +240,13 @@ Configs: {
 			Tooltip: Controls volume multiplier of footsteps. Set to zero to not hear any.
 		}
 
-		entityFootsteps: {
-			Label: Entity Footsteps
-			Tooltip: Toggles footstep audio for numerous NPCs, including Town NPCs, Zombies, and more.
+		entityFootstepsVolume: {
+			Label: Entity Footsteps Volume
+			Tooltip:
+				'''
+				Sets the volume of footstep audio for numerous NPCs, including Town NPCs, Zombies, and more.
+				Set to 0 to disable.
+				'''
 		}
 	}
 }

@@ -2,428 +2,428 @@ PreferencesConfig: {
 	DisplayName: Preferences
 
 	Headers: {
-		ToneMapping: Tone Mapping
-		SmoothLighting: Smooth Lighting
-		AmbientOcclusion: Ambient Occlusion
-		LightingEngine: Fancy Lighting Engine
-		SkyColor: Fancy Sky Colors
+		ToneMapping: Тональное отображение
+		SmoothLighting: Мягкое освещение
+		AmbientOcclusion: Затенение окружения
+		LightingEngine: Движок Fancy Lighting
+		SkyColor: Детализированное небо
 	}
 
 	# General
 	
 	ThreadCount: {
-		Label: Thread Count
+		Label: Количество ядер
 		Tooltip:
 			'''
-			How many threads smooth lighting and the fancy lighting engine use
+			Как много ядер будут использованы для мягкого освещения и движка Fancy Lighting
 
-			Higher values typically improve performance with diminishing returns
-			Values greater than the number of CPU hardware threads may reduce performance
-			The default value should be close to optimal
+			Высокие значения обычно немного повышают производительность
+			Значения выше количества физически доступных ядер могут снизить производительность
+			Значения по умолчанию обычно являются оптимальными
 			'''
 	}
 
 	Gamma: {
-		Label: Content Gamma (%)
+		Label: Гамма (%)
 		Tooltip:
 			'''
-			The gamma value used by light and texture colors
+			Значения гаммы, используемое освещением и текстурами
 
-			The final image is converted to a display gamma of 2.2 regardless of this setting
-			Higher values increase the contrast between bright and dark areas
-			A value of 220% corresponds to a gamma of 2.2
+			Финальное изображение конвертируется в гамму дисплея, равной 2.2, в независимости от установленного значения
+			Высокие значения увеличивают контраст между светлыми и тёмными участками изображения
+			Значение 220% соответствует значению гаммы 2.2
 			'''
 	}
 
 	UseSrgb: {
-		Label: sRGB Output
+		Label: Использование sRGB
 		Tooltip:
 			'''
-			Whether to output colors in sRGB instead of gamma 2.2
+			Управляет когда отображать цвета в sRGB вместо гаммы 2.2
 
-			Enable if dark colors are desaturated and too bright
-			Recommended to enable when using Windows 11 HDR
+			Включите если тёмные участки кажутся слишком светлыми или ненасыщенными
+			Рекомендуется включать вместе с включённым Windows 11 HDR
 			'''
 	}
 
 	# Smooth Lighting
 	
 	NormalMapsIntensity: {
-		Label: Normal Maps Strength
+		Label: Сила отображения нормалей
 		Tooltip:
 			'''
-			The strength of rendered normal maps
+			Сила отображаемых нормалей
 
-			Higher values make surfaces appear rougher/bumpier
-			Simulated normal maps must be enabled for this setting to have any effect
+			Высокие значения делают поверхность более резкой/грубой
+			Симуляция отображения нормалей должна быть включена для работы данной настройки
 			'''
 	}
 
 	FineNormalMaps: {
-		Label: Fine Normal Maps
+		Label: Детализация нормалей
 		Tooltip:
 			'''
-			Toggles between coarse and fine simulated normal maps
+			Переключается между детализированным и грубым отображением нормалей
 
-			Coarse normal maps are simulated at half resolution, matching vanilla textures
-			Fine normal maps are simulated at full resolution
-			Recommended to enable when using HD textures
+			Грубое отображение вычисляется от половины разрешения экрана, идентично ванильным текстурам
+			Детализированное отображение вычисляется при полном разрешении
+			Рекомендуется включать вместе с HD текстурами
 			'''
 	}
 
 	Exposure: {
-		Label: Exposure (Full HDRR) (%)
+		Label: Экспозиция (Full HDRR) (%)
 		Tooltip:
 			'''
-			The exposure used when tone mapping the scene from HDR to SDR
+			Экспозиция используется при смене динамического диапазона с HDR на SDR
 
-			Higher values result in a brighter image
-			Full HDR rendering must be in use for this setting to have any effect
+			Высокие значения обычно делают изображение светлее
+			Режим HDR должен быть включен для работы данной настройки
 			'''
 	}
 
 	BloomRadius: {
-		Label: Bloom Radius
+		Label: Радиус свечения
 		Tooltip:
 			'''
-			The radius of the bloom effect
+			Радиус эффектов свечения
 
-			Higher values result in a larger glow around bright objects
-			Bloom must be enabled for this setting to have any effect
+			Высокие значение делают свечение вокруг ярких объектов больше
+			Свечение должно быть включено для работы данной настройки
 			'''
 	}
 
 	BloomStrength: {
-		Label: Bloom Strength
+		Label: Сила отображения свечения
 		Tooltip:
 			'''
-			The strength of the bloom effect
+			Сила эффектов свечения
 
-			Higher values result in a brighter glow around bright objects
-			Bloom must be enabled for this setting to have any effect
+			Высокие значение делают свечение вокруг ярких объектов ярче
+			Свечение должно быть включено для работы данной настройки
 			'''
 	}
 
 	UseHdrCompatibilityFixes: {
-		Label: Mod Compatibility Fixes for Full HDRR
+		Label: Исправления для совместимостью с HDR
 		Tooltip:
 			'''
-			Enable fixes that may improve mod compatibility when using full HDR rendering
+			Включите исправления которые могут помочь с совместимостью мода и режима HDR
 
-			May prevent some visual issues when using other mods
-			Has a small impact on visuals and performance
+			Может избавить от некоторых проблем с отображением, связанных с другими модами
+			Слабо влияет на качество отображения и производительность
 			'''
 	}
 
 	DisableHdrDuringBossFights: {
-		Label: Disable HDRR During Boss Fights and Events
+		Label: Выключать HDR во время битвы с боссом или события
 		Tooltip:
 			'''
-			Disable HDR rendering during boss fights and events
+			Выключите HDR во время битвы с боссом или события
 
-			May prevent visual issues with some modded boss fights
-			Affects bosses with a boss health bar and events with a progress bar
+			Может избавить от некоторых проблем с отображением, связанных с модовыми боссами
+			Влияет на боссов и события со своей шкалой здоровья
 			'''
 	}
 
 	RenderOnlyLight: {
-		Label: (Debug) Show Light Colors
-		Tooltip: Display light colors directly without tile and wall textures
+		Label: (Отладка) Показывать цвета освещения
+		Tooltip: Показывает цвета освещения без блоков и текстур
 	}
 
 	# Ambient Occlusion
 	
 	AmbientOcclusionRadius: {
-		Label: Ambient Occlusion Radius
+		Label: Радиус затенения
 		Tooltip:
 			'''
-			The radius of blur used in ambient occlusion
+			Радиус размытия, используемого для затенения
 
-			Higher values result in larger ambient occlusion shadows
+			Высокие значения делают тени у объектов больше
 			'''
 	}
 
 	AmbientOcclusionIntensity: {
-		Label: Ambient Occlusion Exponent (%)
+		Label: Экспонента затенения (%)
 		Tooltip:
 			'''
-			How strongly light is affected by ambient occlusion
+			Как сильно затенение влияет на окружающий свет
 
-			Higher values result in larger, darker ambient occlusion shadows
+			Высокие значения делают тени у объектов больше и темнее
 			'''
 	}
 
 	AmbientLightProportion: {
-		Label: Ambient Light Proportion (%)
+		Label: Пропорция затенения (%)
 		Tooltip:
 			'''
-			The proportion of light affected by ambient occlusion
+			Пропорция света, на который влияет затенение
 
-			Higher values result in darker ambient occlusion shadows
+			Высокие значения делают тени у объектов темнее
 			'''
 	}
 
 	# Fancy Lighting Engine
 	
 	FancyLightingEngineLightLoss: {
-		Label: Shadow Strength (%)
+		Label: Сила отображения теней (%)
 		Tooltip:
 			'''
-			How much light is lost exiting solid blocks
+			Как много света теряется за твёрдыми блоками
 
-			Higher values result in darker shadows
-			A value of 100% blocks all light from exiting solid blocks
+			Высокие значения делают тени темнее
+			Значение в 100% блокирует прохождение любого света за твёрдые блоки
 			'''
 	}
 
 	FancyLightingEngineLightAbsorption: {
-		Label: Solid Block Light Absorption (%)
+		Label: Поглощение света блоками (%)
 		Tooltip:
 			'''
-			How much light is absorbed by solid blocks
+			Как много света поглощается твёрдыми блоками
 
-			Lower values allow light to spread farther into solid blocks
-			A value of 100% is equivalent to vanilla
+			Низкие значения позволяют свету проходить дальше
+			Значение в 100% эквивалентно ванильному отображению
 			'''
 	}
 
 	FancyLightingEngineIndirectBrightness: {
-		Label: Indirect Lighting Brightness (%)
+		Label: Яркость непрямого освещения (%)
 		Tooltip:
 			'''
-			How bright indirect lighting is compared to direct lighting
+			Насколько ярким является непрямое освещение по отношению к прямому освещению
 
-			Global illumination must be enabled for this setting to have any effect
+			Глобальное освещение должно быть включено для работы данной настройки
 			'''
 	}
 
 	FancyLightingEngineNonSolidOpaque: {
-		Label: Shadows from Non-Solid Tiles
+		Label: Тени от нетвёрдых блоков
 		Tooltip:
 			'''
-			Whether light is lost exiting non-solid tiles
+			Определяет потерю света при выходе за нетвёрдые блоки
 
-			Primarily affects vines
+			В основном влияет на лозы
 			'''
 	}
 
 	# Fancy Sky Colors
 	
 	UseCustomSkyColors: {
-		Label: Fancy Sky Colors
+		Label: Детализированные цвета у неба
 		Tooltip:
 			'''
-			Use new sky colors
+			Используйте новые цвета для неба
 
-			Primarily affects how sunrises and sunsets appear
+			В основном влияет на восходы и закаты
 			'''
 	}
 
 	CustomSkyPreset: {
-		Label: Sky Color Profile
-		Tooltip: Which set of sky colors is used
+		Label: Профиль цветов у неба
+		Tooltip: Определяет какой набор цветов используется
 	}
 }
 
 LightingConfig: {
-	DisplayName: Quality Settings
+	DisplayName: Настройки качества
 
 	Headers: {
-		SmoothLighting: Smooth Lighting
-		AmbientOcclusion: Ambient Occlusion
-		LightingEngine: Fancy Lighting Engine
-		SkyColor: Sky Color
+		SmoothLighting: Мягкое освещение
+		AmbientOcclusion: Затенение окружения
+		LightingEngine: Движок Fancy Lighting
+		SkyColor: Детализированное небо
 	}
 
 	# General
 	
 	QualityPreset: {
-		Label: Quality Preset
-		Tooltip: Presets for the settings below
+		Label: Преднастройка качества
+		Tooltip: Преднастройки для параметров ниже
 	}
 
 	# Smooth Lighting
 	
 	UseSmoothLighting: {
-		Label: Smooth Lighting
+		Label: Мягкое освещение
 		Tooltip:
 			'''
-			Use smooth lighting
+			Используйте мягкое освещение блоков
 
-			Makes light appear less blocky
-			Performance is primarily affected by single-threaded CPU and GPU performance
+			Делает свет менее фрагментированным
+			В основном влияет на производительных однопоточных процессоров
 			'''
 	}
 
 	UseLightMapBlurring: {
-		Label: Light Map Blurring
+		Label: Размытие света у блоков
 		Tooltip:
 			'''
-			Whether to blur the light map
+			Определяет размывать ли свет у блоков
 
-			Applies a per-tile blur to the light map before rendering
-			Smooths sharp light transitions
+			Накладывает поблочное размытие на карту освещения
+			Делает переход света более гладким
 			'''
 	}
 
 	UseEnhancedBlurring: {
-		Label: Enhanced Light Map Blurring
+		Label: Улучшенное вычисление размытия
 		Tooltip:
 			'''
-			Use an improved method to blur the light map
+			Испоьзуйте улучшенный метод вычисления размытия
 
-			When enabled, the light absorption of each tile affects how the light map is blurred
+			Когда включен, поглощение света блоками влияет на размытие света
 			'''
 	}
 
 	SimulateNormalMaps: {
-		Label: Simulated Normal Maps
+		Label: Симуляция отображения нормалей
 		Tooltip:
 			'''
-			Render normal maps which are automatically generated using tile and wall textures
+			Отображать нормали, которые автоматически генерируются с блоков и стен
 
-			Makes surfaces appear rough/bumpy
+			Делает поверхность непостоянной и грубой
 			'''
 	}
 
 	UseEnhancedGlowMaskSupport: {
-		Label: Improved Glow Effect Accuracy
+		Label: Улучшенная точность отображения свечения
 		Tooltip:
 			'''
-			Use a more accurate technique to render glow effects
+			Используйте более точный метод для отображения эффектов свечения
 
-			When disabled, glow effect brightness may differ from vanilla
+			Когда выключено, яркость эффектов свечения может отличаться от ванильной
 			'''
 	}
 
 	LightMapRenderMode: {
-		Label: Render Mode
+		Label: Режим работы
 		Tooltip:
 			'''
-			How light is rendered
+			Как обрабатывается свет
 
-			High-dynamic-range rendering (HDRR) can display light with above 100% brightness
-			When using HDR rendering, the final image is tone mapped to standard dynamic range (SDR)
+			Вычисление с высоким динамическим диапазоном (HDRR) может отображать цвета выше 100% яркости
+			Использование HDR требует перехода тональности изображения к стандартному динамическому диапазону (SDR)
 			'''
 	}
 
 	HdrBloom: {
-		Label: Bloom (Full HDRR)
+		Label: Свечение (Full HDRR)
 		Tooltip:
 			'''
-			Render bloom when using full HDR rendering
+			Вычислять свечение при использовании HDR
 
-			Adds a soft glow around bright objects
+			Добавляет мягкое свечение вокруг ярких объектов
 			'''
 	}
 
 	# Ambient Occlusion
 	
 	UseAmbientOcclusion: {
-		Label: Ambient Occlusion
+		Label: Затенение окружения
 		Tooltip:
 			'''
-			Use ambient occlusion
+			Используйте затенение окружения
 
-			When enabled, tiles produce shadows in front of walls
-			Performance is primarily affected by GPU performance
+			При включении, добавляет тени твёрдым блокам за стенами
+			Влияет в основном на производительность видеокарты
 			'''
 	}
 
 	DoNonSolidAmbientOcclusion: {
-		Label: Ambient Occlusion from Non-Solid Tiles
+		Label: Затенение у нетвёрдых блоков
 		Tooltip:
 			'''
-			Whether non-solid tiles generate ambient occlusion
+			Определяет могут ли нетвёрдые блоки получать затенение
 
-			Non-solid tiles generate weaker ambient occlusion
-			Primarily affects furniture and torches
+			Нетвёрдые блоки получают тени поменьше, чем у твёрдых
+			В основном влияет на мебель и факела
 			'''
 	}
 
 	DoTileEntityAmbientOcclusion: {
-		Label: Ambient Occlusion from Tile Entities
+		Label: Затенение у блоков-существ
 		Tooltip:
 			'''
-			Whether tile entities generate ambient occlusion
+			Определяет могут ли блоки-существа получать затенение
 
-			Tile entities generate weaker ambient occlusion
-			Primarily affects tiles that are affected by wind
+			Блоки-существа получают тени поменьше, чем у твёрдых
+			В основном влияет на блоки, которые подвержены действию ветра
 			'''
 	}
 
 	# Fancy Lighting Engine
 	
 	UseFancyLightingEngine: {
-		Label: Fancy Lighting Engine
+		Label: Движок Fancy Lighting
 		Tooltip:
 			'''
-			Use a new lighting engine
+			Используйте новый вычислительный движок
 
-			When enabled, light is spread more realistically with pronounced shadows
-			Has a larger performance impact the more light sources there are in the scene
-			Performance is primarily affected by multithreaded CPU performance
+			Делает распространение света более реалистичным с соответствующими тенями
+			Влияние на производительность зависит от источников света на экране
+			Влияет на производитлеьность многопоточных процессоров
 			'''
 	}
 
 	FancyLightingEngineUseTemporal: {
-		Label: Temporal Optimization
+		Label: Оптимизация по времени
 		Tooltip:
 			'''
-			Use temporal optimization with the fancy lighting engine
+			Используйте оптимизацию по времени с новым вычислительным движком
 
-			When enabled, tunes lighting quality using data from the previous lighting update
-			Improves lighting performance in more intensely lit areas
-			May sometimes cause a slight but noticeable reduction in lighting quality
+			Когда включён, настраивает качество отображения света в зависимости от его предыдущего состояния
+			Увеличивает производительность в интенсивно освещённых областях экрана
+			Может немного снизить качество освещения
 			'''
 	}
 
 	FancyLightingEngineMode: {
-		Label: Shadow Accuracy
-		Tooltip: How accurate shadows are
+		Label: Точность теней
+		Tooltip: Насколько тени точные
 	}
 
 	SimulateGlobalIllumination: {
-		Label: Global Illumination
+		Label: Глобальное освещение
 		Tooltip:
 			'''
-			Use a basic form of global illumination
+			Использует базовую модель глобального освещения
 
-			When enabled, indirect lighting makes shadows less dark
+			Когда включено, у непрямого освещения получаются менее тёмные тени
 			'''
 	}
 }
 
 LightingEngineMode: {
 	Tooltip: ""
-	Low.Label: Low
-	Medium.Label: Medium
-	High.Label: High
+	Low.Label: Низкое качество
+	Medium.Label: Среднее качество
+	High.Label: Высокое качество
 }
 
 Preset: {
 	Tooltip: ""
-	CustomPreset.Label: Custom
-	VanillaPreset.Label: Vanilla
-	MinimalPreset.Label: Minimal
-	LowPreset.Label: Low
-	MediumPreset.Label: Medium
-	HighPreset.Label: High
-	UltraPreset.Label: Ultra
+	CustomPreset.Label: Пользовательский режим
+	VanillaPreset.Label: Ванильный режим
+	MinimalPreset.Label: Очень низкое качество
+	LowPreset.Label: Низкое качество
+	MediumPreset.Label: Среднее качество
+	HighPreset.Label: Высокое качество
+	UltraPreset.Label: Ультра качество
 }
 
 RenderMode: {
 	Tooltip: ""
-	Bilinear.Label: Bilinear Upscaling
-	Bicubic.Label: Bicubic Upscaling
-	BicubicOverbright.Label: Basic HDR Rendering
-	EnhancedHdr.Label: Full HDR Rendering
+	Bilinear.Label: Билинейная аппроксимация
+	Bicubic.Label: Бикубическая аппроксимация
+	BicubicOverbright.Label: Базовый режим HDR
+	EnhancedHdr.Label: Полный режим HDR
 }
 
 SkyColorPreset: {
 	Tooltip: ""
-	Profile1.Label: Profile 1
-	Profile2.Label: Profile 2
-	Profile3.Label: Profile 3
-	Profile4.Label: Profile 4
+	Profile1.Label: Профиль 1
+	Profile2.Label: Профиль 2
+	Profile3.Label: Профиль 3
+	Profile4.Label: Профиль 4
 }

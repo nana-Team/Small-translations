@@ -1,0 +1,429 @@
+PreferencesConfig: {
+	DisplayName: Preferences
+
+	Headers: {
+		ToneMapping: Tone Mapping
+		SmoothLighting: Smooth Lighting
+		AmbientOcclusion: Ambient Occlusion
+		LightingEngine: Fancy Lighting Engine
+		SkyColor: Fancy Sky Colors
+	}
+
+	# General
+	
+	ThreadCount: {
+		Label: Thread Count
+		Tooltip:
+			'''
+			How many threads smooth lighting and the fancy lighting engine use
+
+			Higher values typically improve performance with diminishing returns
+			Values greater than the number of CPU hardware threads may reduce performance
+			The default value should be close to optimal
+			'''
+	}
+
+	Gamma: {
+		Label: Content Gamma (%)
+		Tooltip:
+			'''
+			The gamma value used by light and texture colors
+
+			The final image is converted to a display gamma of 2.2 regardless of this setting
+			Higher values increase the contrast between bright and dark areas
+			A value of 220% corresponds to a gamma of 2.2
+			'''
+	}
+
+	UseSrgb: {
+		Label: sRGB Output
+		Tooltip:
+			'''
+			Whether to output colors in sRGB instead of gamma 2.2
+
+			Enable if dark colors are desaturated and too bright
+			Recommended to enable when using Windows 11 HDR
+			'''
+	}
+
+	# Smooth Lighting
+	
+	NormalMapsIntensity: {
+		Label: Normal Maps Strength
+		Tooltip:
+			'''
+			The strength of rendered normal maps
+
+			Higher values make surfaces appear rougher/bumpier
+			Simulated normal maps must be enabled for this setting to have any effect
+			'''
+	}
+
+	FineNormalMaps: {
+		Label: Fine Normal Maps
+		Tooltip:
+			'''
+			Toggles between coarse and fine simulated normal maps
+
+			Coarse normal maps are simulated at half resolution, matching vanilla textures
+			Fine normal maps are simulated at full resolution
+			Recommended to enable when using HD textures
+			'''
+	}
+
+	Exposure: {
+		Label: Exposure (Full HDRR) (%)
+		Tooltip:
+			'''
+			The exposure used when tone mapping the scene from HDR to SDR
+
+			Higher values result in a brighter image
+			Full HDR rendering must be in use for this setting to have any effect
+			'''
+	}
+
+	BloomRadius: {
+		Label: Bloom Radius
+		Tooltip:
+			'''
+			The radius of the bloom effect
+
+			Higher values result in a larger glow around bright objects
+			Bloom must be enabled for this setting to have any effect
+			'''
+	}
+
+	BloomStrength: {
+		Label: Bloom Strength
+		Tooltip:
+			'''
+			The strength of the bloom effect
+
+			Higher values result in a brighter glow around bright objects
+			Bloom must be enabled for this setting to have any effect
+			'''
+	}
+
+	UseHdrCompatibilityFixes: {
+		Label: Mod Compatibility Fixes for Full HDRR
+		Tooltip:
+			'''
+			Enable fixes that may improve mod compatibility when using full HDR rendering
+
+			May prevent some visual issues when using other mods
+			Has a small impact on visuals and performance
+			'''
+	}
+
+	DisableHdrDuringBossFights: {
+		Label: Disable HDRR During Boss Fights and Events
+		Tooltip:
+			'''
+			Disable HDR rendering during boss fights and events
+
+			May prevent visual issues with some modded boss fights
+			Affects bosses with a boss health bar and events with a progress bar
+			'''
+	}
+
+	RenderOnlyLight: {
+		Label: (Debug) Show Light Colors
+		Tooltip: Display light colors directly without tile and wall textures
+	}
+
+	# Ambient Occlusion
+	
+	AmbientOcclusionRadius: {
+		Label: Ambient Occlusion Radius
+		Tooltip:
+			'''
+			The radius of blur used in ambient occlusion
+
+			Higher values result in larger ambient occlusion shadows
+			'''
+	}
+
+	AmbientOcclusionIntensity: {
+		Label: Ambient Occlusion Exponent (%)
+		Tooltip:
+			'''
+			How strongly light is affected by ambient occlusion
+
+			Higher values result in larger, darker ambient occlusion shadows
+			'''
+	}
+
+	AmbientLightProportion: {
+		Label: Ambient Light Proportion (%)
+		Tooltip:
+			'''
+			The proportion of light affected by ambient occlusion
+
+			Higher values result in darker ambient occlusion shadows
+			'''
+	}
+
+	# Fancy Lighting Engine
+	
+	FancyLightingEngineLightLoss: {
+		Label: Shadow Strength (%)
+		Tooltip:
+			'''
+			How much light is lost exiting solid blocks
+
+			Higher values result in darker shadows
+			A value of 100% blocks all light from exiting solid blocks
+			'''
+	}
+
+	FancyLightingEngineLightAbsorption: {
+		Label: Solid Block Light Absorption (%)
+		Tooltip:
+			'''
+			How much light is absorbed by solid blocks
+
+			Lower values allow light to spread farther into solid blocks
+			A value of 100% is equivalent to vanilla
+			'''
+	}
+
+	FancyLightingEngineIndirectBrightness: {
+		Label: Indirect Lighting Brightness (%)
+		Tooltip:
+			'''
+			How bright indirect lighting is compared to direct lighting
+
+			Global illumination must be enabled for this setting to have any effect
+			'''
+	}
+
+	FancyLightingEngineNonSolidOpaque: {
+		Label: Shadows from Non-Solid Tiles
+		Tooltip:
+			'''
+			Whether light is lost exiting non-solid tiles
+
+			Primarily affects vines
+			'''
+	}
+
+	# Fancy Sky Colors
+	
+	UseCustomSkyColors: {
+		Label: Fancy Sky Colors
+		Tooltip:
+			'''
+			Use new sky colors
+
+			Primarily affects how sunrises and sunsets appear
+			'''
+	}
+
+	CustomSkyPreset: {
+		Label: Sky Color Profile
+		Tooltip: Which set of sky colors is used
+	}
+}
+
+LightingConfig: {
+	DisplayName: Quality Settings
+
+	Headers: {
+		SmoothLighting: Smooth Lighting
+		AmbientOcclusion: Ambient Occlusion
+		LightingEngine: Fancy Lighting Engine
+		SkyColor: Sky Color
+	}
+
+	# General
+	
+	QualityPreset: {
+		Label: Quality Preset
+		Tooltip: Presets for the settings below
+	}
+
+	# Smooth Lighting
+	
+	UseSmoothLighting: {
+		Label: Smooth Lighting
+		Tooltip:
+			'''
+			Use smooth lighting
+
+			Makes light appear less blocky
+			Performance is primarily affected by single-threaded CPU and GPU performance
+			'''
+	}
+
+	UseLightMapBlurring: {
+		Label: Light Map Blurring
+		Tooltip:
+			'''
+			Whether to blur the light map
+
+			Applies a per-tile blur to the light map before rendering
+			Smooths sharp light transitions
+			'''
+	}
+
+	UseEnhancedBlurring: {
+		Label: Enhanced Light Map Blurring
+		Tooltip:
+			'''
+			Use an improved method to blur the light map
+
+			When enabled, the light absorption of each tile affects how the light map is blurred
+			'''
+	}
+
+	SimulateNormalMaps: {
+		Label: Simulated Normal Maps
+		Tooltip:
+			'''
+			Render normal maps which are automatically generated using tile and wall textures
+
+			Makes surfaces appear rough/bumpy
+			'''
+	}
+
+	UseEnhancedGlowMaskSupport: {
+		Label: Improved Glow Effect Accuracy
+		Tooltip:
+			'''
+			Use a more accurate technique to render glow effects
+
+			When disabled, glow effect brightness may differ from vanilla
+			'''
+	}
+
+	LightMapRenderMode: {
+		Label: Render Mode
+		Tooltip:
+			'''
+			How light is rendered
+
+			High-dynamic-range rendering (HDRR) can display light with above 100% brightness
+			When using HDR rendering, the final image is tone mapped to standard dynamic range (SDR)
+			'''
+	}
+
+	HdrBloom: {
+		Label: Bloom (Full HDRR)
+		Tooltip:
+			'''
+			Render bloom when using full HDR rendering
+
+			Adds a soft glow around bright objects
+			'''
+	}
+
+	# Ambient Occlusion
+	
+	UseAmbientOcclusion: {
+		Label: Ambient Occlusion
+		Tooltip:
+			'''
+			Use ambient occlusion
+
+			When enabled, tiles produce shadows in front of walls
+			Performance is primarily affected by GPU performance
+			'''
+	}
+
+	DoNonSolidAmbientOcclusion: {
+		Label: Ambient Occlusion from Non-Solid Tiles
+		Tooltip:
+			'''
+			Whether non-solid tiles generate ambient occlusion
+
+			Non-solid tiles generate weaker ambient occlusion
+			Primarily affects furniture and torches
+			'''
+	}
+
+	DoTileEntityAmbientOcclusion: {
+		Label: Ambient Occlusion from Tile Entities
+		Tooltip:
+			'''
+			Whether tile entities generate ambient occlusion
+
+			Tile entities generate weaker ambient occlusion
+			Primarily affects tiles that are affected by wind
+			'''
+	}
+
+	# Fancy Lighting Engine
+	
+	UseFancyLightingEngine: {
+		Label: Fancy Lighting Engine
+		Tooltip:
+			'''
+			Use a new lighting engine
+
+			When enabled, light is spread more realistically with pronounced shadows
+			Has a larger performance impact the more light sources there are in the scene
+			Performance is primarily affected by multithreaded CPU performance
+			'''
+	}
+
+	FancyLightingEngineUseTemporal: {
+		Label: Temporal Optimization
+		Tooltip:
+			'''
+			Use temporal optimization with the fancy lighting engine
+
+			When enabled, tunes lighting quality using data from the previous lighting update
+			Improves lighting performance in more intensely lit areas
+			May sometimes cause a slight but noticeable reduction in lighting quality
+			'''
+	}
+
+	FancyLightingEngineMode: {
+		Label: Shadow Accuracy
+		Tooltip: How accurate shadows are
+	}
+
+	SimulateGlobalIllumination: {
+		Label: Global Illumination
+		Tooltip:
+			'''
+			Use a basic form of global illumination
+
+			When enabled, indirect lighting makes shadows less dark
+			'''
+	}
+}
+
+LightingEngineMode: {
+	Tooltip: ""
+	Low.Label: Low
+	Medium.Label: Medium
+	High.Label: High
+}
+
+Preset: {
+	Tooltip: ""
+	CustomPreset.Label: Custom
+	VanillaPreset.Label: Vanilla
+	MinimalPreset.Label: Minimal
+	LowPreset.Label: Low
+	MediumPreset.Label: Medium
+	HighPreset.Label: High
+	UltraPreset.Label: Ultra
+}
+
+RenderMode: {
+	Tooltip: ""
+	Bilinear.Label: Bilinear Upscaling
+	Bicubic.Label: Bicubic Upscaling
+	BicubicOverbright.Label: Basic HDR Rendering
+	EnhancedHdr.Label: Full HDR Rendering
+}
+
+SkyColorPreset: {
+	Tooltip: ""
+	Profile1.Label: Profile 1
+	Profile2.Label: Profile 2
+	Profile3.Label: Profile 3
+	Profile4.Label: Profile 4
+}

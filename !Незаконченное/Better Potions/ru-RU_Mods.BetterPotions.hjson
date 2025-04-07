@@ -101,11 +101,11 @@ Items: {
 	}
 
 	FlightPotionWings: {
-		DisplayName: Flight Potion Wings
+		DisplayName: Крылья зелья полёта
 		Tooltip:
 			'''
-			A dummy item to facilitate custom wings with Flight Potion
-			You shouldn't be reading this!
+			Тестовый предмет для создания крыльев от зелья полёта
+			Тебе не положено это читать!
 			'''
 	}
 

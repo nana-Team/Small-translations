@@ -26,6 +26,6 @@ public class Archery : GlobalItem
             return;
         }
 
-        line.Text = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.ArcheryTip");
+        line.Text = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.ArcheryPotion");
     }
 }

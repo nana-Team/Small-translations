@@ -28,7 +28,7 @@ public class BuilderPotionGlobalBuff : GlobalBuff
         }
 
         if (BetterPotionsConfig.Instance.PotionChanges_Builder) {
-            tip = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.BuilderTip");
+            tip = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.BuilderPotion");
         } else {
             tip = Language.GetTextValue("ItemTooltip.BuilderPotion");
         }
@@ -48,7 +48,7 @@ public class BuilderPotionGlobalItem : GlobalItem
         }
 
         if (BetterPotionsConfig.Instance.PotionsAndBuffsImprovedTooltips) {
-            line.Text = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.BuilderBuffTip");
+            line.Text = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.BuilderBuff");
         } else {
             line.Text = Language.GetTextValue("BuffDescription.BuilderIncreases");
         }

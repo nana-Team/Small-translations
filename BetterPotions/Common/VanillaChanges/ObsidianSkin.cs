@@ -26,7 +26,7 @@ public class ObsidianSkinGlobalBuff : GlobalBuff
             return;
         }
 
-        tip = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.ObsidianSkinBuffTip");
+        tip = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.BuffObsidianSkin");
     }
 }
 
@@ -42,6 +42,6 @@ public class ObsidianSkinGlobalItem : GlobalItem
             return;
         }
 
-        line.Text = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.ObsidianSkinTip");
+        line.Text = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.ObsidianSkinPotion");
     }
 }

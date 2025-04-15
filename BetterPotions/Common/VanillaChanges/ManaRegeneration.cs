@@ -25,7 +25,7 @@ public class ManaRegenerationGlobalBuff : GlobalBuff
             return;
         }
 
-        tip = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.ManaRegenerationTip");
+        tip = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.ManaRegenerationPotion");
     }
 }
 
@@ -64,6 +64,6 @@ public class ManaRegenerationGlobalItem : GlobalItem
             return;
         }
 
-        line.Text = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.ManaRegenerationBuffTip");
+        line.Text = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.BuffManaRegeneration");
     }
 }

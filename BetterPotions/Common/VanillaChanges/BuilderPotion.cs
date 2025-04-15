@@ -48,7 +48,7 @@ public class BuilderPotionGlobalItem : GlobalItem
         }
 
         if (BetterPotionsConfig.Instance.PotionsAndBuffsImprovedTooltips) {
-            line.Text = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.BuilderBuff");
+            line.Text = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.BuffBuilder");
         } else {
             line.Text = Language.GetTextValue("BuffDescription.BuilderIncreases");
         }

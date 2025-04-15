@@ -26,7 +26,7 @@ public class SummoningGlobalBuff : GlobalBuff
             return;
         }
 
-        tip = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.SummoningBuffTip");
+        tip = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.BuffSummoning");
     }
 }
 
@@ -42,6 +42,6 @@ public class SummoningGlobalItem : GlobalItem
             return;
         }
 
-        line.Text = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.SummoningTip");
+        line.Text = Language.GetTextValue("Mods.BetterPotions.VanillaChanges.SummoningPotion");
     }
 }

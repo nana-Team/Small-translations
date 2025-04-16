@@ -5,7 +5,7 @@ Items: {
 			BaronClicker.DisplayName: Baron's Clicker
 			CursedClicker.DisplayName: Cursed Clicker
 			LightClicker.DisplayName: Light Clicker
-			MagicaClicker.DisplayName: Magica Clicker
+			MagickaClicker.DisplayName: Magicka Clicker
 		}
 	}
 
@@ -41,8 +41,8 @@ Items: {
 			[i:FargoClickers/RGBEnchantment] Every 75 hits done propels a chromatic burst on target position
 			[i:FargoClickers/MiceEnchantment] Getting hit after teleport within 1 second grants:
 			* [i:FargoClickers/RGBEnchantment] propels a chromatic burst
-			* [i:FargoClickers/OverclockEnchantment] doubled attack speed
-			* [i:FargoClickers/MiceEnchantment] increased move speed and acceleration by 15%
+			* [i:FargoClickers/OverclockEnchantment] doubled attack speed for 15 seconds
+			* [i:FargoClickers/MiceEnchantment] invincibility for 3 second, increased movement speed and acceleration by 15% for 15 seconds
 			[i:FargoClickers/PrecursorEnchantment] Summon damaging trail for cursor
 			Effect of Master Keychain, Big Red Button and Bottomless Box of Paperclips
 			'All world is game?'
@@ -95,9 +95,10 @@ Items: {
 		DisplayName: Mice Enchantment
 		Tooltip:
 			'''
-			Press the Mice Teleport to teleport to mouse position
-			There is a 10 second cooldown for this effect
-			Taking damage grants immunity to all damage for 2 seconds, incresed max run speed, acceleration and attack speed by 10% for 10 seconds
+			Teleport has a 10 second cooldown 
+			Taking damage in short time after teleport
+			grants invincibility for 2 seconds, increased movement speed, acceleration and attack speed by 10% for 10 seconds
+			and increased cooldown to 30 seconds
 			'Normality Relocator reference'
 			'''
 	}
@@ -124,13 +125,13 @@ ClickEffect: {
 		Description: Spread an light bombs that slowdown and creates damagable aura
 	}
 
-	MagicaEnchantment: {
-		Name: Magica Enchantment
+	MagickaEnchantment: {
+		Name: Magicka Enchantment
 		Description: Grants extra damage hitbox
 	}
 
-	MagicaPower: {
-		Name: Magica Power
+	MagickaPower: {
+		Name: Magicka Power
 		Description: Your clicks now has extra damage hitbox
 	}
 }
@@ -187,7 +188,7 @@ ExpandedTooltips: {
 }
 
 Buffs: {
-	MagicaClickerBuff: {
+	MagickaClickerBuff: {
 		DisplayName: Magica Enchantment
 		Description: Your clicks now has extra damage hitbox
 	}

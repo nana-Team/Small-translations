@@ -41,8 +41,8 @@ Items: {
 			[i:FargoClickers/RGBEnchantment] Создаёт цветовой взрыв за каждые 75 кликов по цели
 			[i:FargoClickers/MiceEnchantment] Получение урона в течении 1 секунды после телепортации:
 			- [i:FargoClickers/RGBEnchantment] вызывает цветовой взрыв;
-			- [i:FargoClickers/OverclockEnchantment] удваивает скорость атаки;
-			- [i:FargoClickers/MiceEnchantment] увеличивает скорость передвижение и ускорение на 15%
+			- [i:FargoClickers/OverclockEnchantment] удваивает скорость атаки на 15 секунд;
+			- [i:FargoClickers/MiceEnchantment] даёт 3 секунды неуязвимости, а также увеличивает скорость передвижение и ускорение на 15% на 15 секунд
 			[i:FargoClickers/PrecursorEnchantment] Призывает наносящий урон хвост из курсоров
 			Даёт эффекты от мастер-связки ключей, большой красной кнопки и бездонной коропки скрепок
 			'Без игры жизни нет, не так ли?'
@@ -183,7 +183,7 @@ Keybinds.MiceTeleport.DisplayName: Мышиный телепорт
 ExpandedTooltips: {
 	ClickerRadius: Увеличивает базовый радиус кликов на 100% 
 	ClickerEffect: Снижает трубемое количество кликов для эффекта курсора на 20%
-	MatrixForce: "[i:FargoClickers/ForceOfMatrix] Получение урона после мышиной теоепортацииTaking damage after Mice Teleport grant burst of projectiles and extra speed-based stats"
+	MatrixForce: "[i:FargoClickers/ForceOfMatrix] Получение урона после мышиной телепортации вызывает взрыв из снарядов и даёт бонусы к скоростям"
 }
 
 Buffs: {

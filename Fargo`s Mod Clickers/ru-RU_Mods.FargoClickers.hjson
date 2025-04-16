@@ -157,7 +157,7 @@ Toggler: {
 	OverclockBottomlessBoxofPaperclipsEffect: Бездонная коробка скрепок
 	PrecursorEffect: Хвост из курсоров
 	PrecursorMasterKeychainEffect: Мастер-связка ключей
-	MiceEffect: Мышиная телепортация
+	MiceEffect: Телепортация мыши
 }
 
 WizardEffect: {
@@ -170,7 +170,7 @@ WizardEffect: {
 
 ActiveSkills: {
 	MiceKeyEffect: {
-		DisplayName: Мышиная телепортация
+		DisplayName: Телепортация мыши
 		Tooltip:
 			'''
 			Телепортирует вас в место курсора
@@ -179,12 +179,12 @@ ActiveSkills: {
 	}
 }
 
-Keybinds.MiceTeleport.DisplayName: Мышиный телепорт
+Keybinds.MiceTeleport.DisplayName: Телепортация мыши
 
 ExpandedTooltips: {
 	ClickerRadius: Увеличивает базовый радиус кликов на 100% 
 	ClickerEffect: Снижает требуемое количество кликов для эффекта курсора на 20%
-	MatrixForce: "[i:FargoClickers/ForceOfMatrix] Получение урона после мышиной телепортации вызывает взрыв из снарядов и даёт бонусы к скоростям"
+	MatrixForce: "[i:FargoClickers/ForceOfMatrix] Получение урона после телепортации мыши вызывает взрыв из снарядов и даёт бонусы к скоростям"
 }
 
 Buffs: {

@@ -5,7 +5,7 @@ Items: {
 			BaronClicker.DisplayName: Курсор Барона
 			CursedClicker.DisplayName: Проклятый курсор
 			LightClicker.DisplayName: Световой курсор
-			MagicaClicker.DisplayName: Курсор магики
+			MagickaClicker.DisplayName: Курсор магики
 		}
 	}
 
@@ -29,7 +29,7 @@ Items: {
 			Снижает требуемое количество кликов для эффекта курсора на 20%
 			{0}
 			'''
-		NormalAccessories: Даёт эффекты от предметов «{$Mods.ClickerClass.Items.GamerCrate.DisplayName}», «{$Mods.ClickerClass.Items.AimbotModule}», «{$Mods.ClickerClass.Items.ChocolateMilkCookies}», «{$Mods.ClickerClass.Items.RegalClickingGlove}» и «{$Mods.ClickerClass.Items.SMedal}»
+		NormalAccessories: Даёт эффекты от предметов «{$Mods.ClickerClass.Items.GamerCrate.DisplayName}», «{$Mods.ClickerClass.Items.AimbotModule.DisplayName}», «{$Mods.ClickerClass.Items.ChocolateMilkCookies.DisplayName}», «{$Mods.ClickerClass.Items.RegalClickingGlove.DisplayName}» и «{$Mods.ClickerClass.Items.SMedal.DisplayName}»
 		CalamityAccessories: Даёт эффекты от предметов «{$Mods.CalamityClickers.Items.Accessories.DOG.DisplayName}», «{$Mods.CalamityClickers.Items.Accessories.BloodyChocCookies.DisplayName}», «{$Mods.CalamityClickers.Items.Accessories.CosmicClickingGlove.DisplayName}» и «{$Mods.CalamityClickers.Items.Accessories.SSMedal.DisplayName}»
 	}
 
@@ -44,7 +44,7 @@ Items: {
 			- [i:FargoClickers/OverclockEnchantment] удваивает скорость атаки на 15 секунд;
 			- [i:FargoClickers/MiceEnchantment] даёт 3 секунды неуязвимости, а также 15 секунд увеличения скорости передвижения и ускорения на 15%
 			[i:FargoClickers/PrecursorEnchantment] Призывает наносящий урон хвост из курсоров
-			Даёт эффекты от предметов «{$Mods.ClickerClass.Items.MasterKeychain}», «{$Mods.ClickerClass.Items.BigRedButton}» и «{$Mods.ClickerClass.Items.BottomlessBoxofPaperclips}»
+			Даёт эффекты от предметов «{$Mods.ClickerClass.Items.MasterKeychain.DisplayName}», «{$Mods.ClickerClass.Items.BigRedButton.DisplayName}» и «{$Mods.ClickerClass.Items.BottomlessBoxofPaperclips.DisplayName}»
 			'Без игры жизни нет, не так ли?'
 			'''
 	}
@@ -64,7 +64,7 @@ Items: {
 		Tooltip:
 			'''
 			Создаёт цветовой взрыв за каждые 100 кликов по цели
-			Даёт эффект от предмета «{$Mods.ClickerClass.Items.BigRedButton}»
+			Даёт эффект от предмета «{$Mods.ClickerClass.Items.BigRedButton.DisplayName}»
 			'Ого, переливающаяся клава'
 			'''
 	}
@@ -74,7 +74,7 @@ Items: {
 		Tooltip:
 			'''
 			Призывает 5 дополнительных курсоров, которые будут следовать друг за другом за вашим основным
-			Даёт эффект от предмета «{$Mods.ClickerClass.Items.MasterKeychain}»
+			Даёт эффект от предмета «{$Mods.ClickerClass.Items.MasterKeychain.DisplayName}»
 			'Да, это реально'
 			'''
 	}
@@ -85,7 +85,7 @@ Items: {
 			'''
 			Каждые 10 000 ед. нанесённого урона накладывают бафф «Разгон» на 5 секунд
 			Разгон увеличивает скорость атаки в 1,5 раза и имеет 60 секунд перезарядки
-			Даёт эффект от предмета «{$Mods.ClickerClass.Items.BottomlessBoxofPaperclips}»
+			Даёт эффект от предмета «{$Mods.ClickerClass.Items.BottomlessBoxofPaperclips.DisplayName}»
 			'Готовы к разгону процессора?'
 			'''
 	}
@@ -94,7 +94,6 @@ Items: {
 		DisplayName: Усиление мыши
 		Tooltip:
 			'''
-			Нажмите клавишу «Мышиный телепорт», чтобы телепортироваться к месту курсора
 			Эта способность имеет 10 секунд перезарядки
 			Получение урона после телепорта даёт невосприимчивость ко всему урону на 2 секунды,
 			а также увеличивает скорость передвижения, ускорение и скорость атаки на 10% на 10 секунд
@@ -124,12 +123,12 @@ ClickEffect: {
 		Description: Разбрасывает световые бомбы, которые при взрыве оставляют за собой замедляющуюю и наносящую урон ауру
 	}
 
-	MagicaEnchantment: {
+	MagickaEnchantment: {
 		Name: Усиление магики
 		Description: Ещё сильнее увеличивает хитбокс кликов
 	}
 
-	MagicaPower: {
+	MagickaPower: {
 		Name: Сила магики
 		Description: Ещё сильнее увеличивает хитбокс кликов
 	}
@@ -187,7 +186,7 @@ ExpandedTooltips: {
 }
 
 Buffs: {
-	MagicaClickerBuff: {
+	MagickaClickerBuff: {
 		DisplayName: Усиление магики
 		Description: Хитбокс кликов увеличен
 	}

@@ -16,6 +16,7 @@ Items: {
 			Увеличивает урон курсоров на 18%
 			Увеличивает базовый радиус курсоров на 10%
 			Увеличивает шанс критического удара курсором на 8%
+			'Это только начало...'
 			'''
 	}
 
@@ -28,6 +29,7 @@ Items: {
 			Увеличивает базовый радиус курсоров на 75%
 			Снижает требуемое количество кликов для эффекта курсора на 20%
 			{0}
+			'Игра началась'
 			'''
 		NormalAccessories: Даёт эффекты от предметов «{$Mods.ClickerClass.Items.GamerCrate.DisplayName}», «{$Mods.ClickerClass.Items.AimbotModule.DisplayName}», «{$Mods.ClickerClass.Items.ChocolateMilkCookies.DisplayName}», «{$Mods.ClickerClass.Items.RegalClickingGlove.DisplayName}» и «{$Mods.ClickerClass.Items.SMedal.DisplayName}»
 		CalamityAccessories: Даёт эффекты от предметов «{$Mods.CalamityClickers.Items.Accessories.DOG.DisplayName}», «{$Mods.CalamityClickers.Items.Accessories.BloodyChocCookies.DisplayName}», «{$Mods.CalamityClickers.Items.Accessories.CosmicClickingGlove.DisplayName}» и «{$Mods.CalamityClickers.Items.Accessories.SSMedal.DisplayName}»

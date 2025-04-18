@@ -29,7 +29,6 @@ Configs: {
 				Добавляет строчку в описания предметов о скорости полёта выпускаемых ими снарядов.
 				Эта настройка не будет правильно работать с предметами, выпускающими несколько разных снарядов, со
 				снарядами, чьё поведение меняется в полёте или в прочих более сложных условиях.
-			Display: " ед. скорости снаряда"
 		}
 
 		priceLine: {
@@ -39,10 +38,6 @@ Configs: {
 				Улучшает ванильную строчку про стоимость предметов, убирая из неё ненужные надписи и улучшая цвет текста
 				Эта строчка будет отображаться даже вне меню магазина НИПов — в таком случае в ней будет указана базовая стоимость предмета
 				'''
-			platinum: "[c/{0}:{1} {$LegacyInterface.15} ]"
-			gold: "[c/{0}:{1} {$LegacyInterface.16} ]"
-			silver: "[c/{0}:{1} {$LegacyInterface.17} ]"
-			copper: "[c/{0}:{1} {$LegacyInterface.18}]"
 		}
 
 		speedLine: {
@@ -54,7 +49,12 @@ Configs: {
 		knockbackLine: {
 			Label: Улучшенное описание отбрасывания предметов
 			Tooltip: Улучшает ванильную строчку про силу отбрасывания, заменяя слова конкретными значениями
-			Display: " ед. силы отбрасывания"
+		}
+
+		wingFlyTimeLine: {
+			Label: Wing Fly Time
+			Tooltip: Shows the flight time of wings
+			Unit: Fly Time: {0}
 		}
 
 		wpnPlusAmmoDmg: {
@@ -342,7 +342,7 @@ Configs: {
 			Background: Background
 			Offset: Offset
 			Miscellaneous: Miscellaneous
-			VanillaTooltipLines: Vanilla Tooltip Lines & Color
+			VanillaTooltipLines: Vanilla Tooltip Lines & Color [c/ff2222:(ALPHA=0 TO DISABLE)]
 			ItemSprite: Item Sprite Header
 		}
 	}

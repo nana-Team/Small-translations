@@ -24,16 +24,11 @@ Configs: {
 		velocityLine: {
 			Label: Velocity Line
 			Tooltip: Shows the item's velocity. May not always be accurate due to items shooting multiple different projectiles, projectiles changing velocity mid flight, etc..
-			Display: " velocity"
 		}
 
 		priceLine: {
 			Label: Better Price Line
 			Tooltip: Correct sell price for items with custom price, always visible, better color coding, cleaner. Replaces vanilla price line.
-			platinum: "[c/{0}:{1} {$LegacyInterface.15} ]"
-			gold: "[c/{0}:{1} {$LegacyInterface.16} ]"
-			silver: "[c/{0}:{1} {$LegacyInterface.17} ]"
-			copper: "[c/{0}:{1} {$LegacyInterface.18}]"
 		}
 
 		speedLine: {
@@ -45,7 +40,12 @@ Configs: {
 		knockbackLine: {
 			Label: Better Knockback Line
 			Tooltip: Shows knockback as a number. Replaces vanilla knockback line.
-			Display: " knockback"
+		}
+
+		wingFlyTimeLine: {
+			Label: Wing Fly Time
+			Tooltip: Shows the flight time of wings
+			Unit: Fly Time: {0}
 		}
 
 		wpnPlusAmmoDmg: {
@@ -333,7 +333,7 @@ Configs: {
 			Background: Background
 			Offset: Offset
 			Miscellaneous: Miscellaneous
-			VanillaTooltipLines: Vanilla Tooltip Lines & Color
+			VanillaTooltipLines: Vanilla Tooltip Lines & Color [c/ff2222:(ALPHA=0 TO DISABLE)]
 			ItemSprite: Item Sprite Header
 		}
 	}

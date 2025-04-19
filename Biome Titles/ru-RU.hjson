@@ -1,6 +1,6 @@
 Mods: {
 	BiomeTitles: {
-		ChatAdvertisementPart1: "Спасибо за использование Biome Titles! Также попробуйте мой другой мод: "
+		ChatAdvertisementPart1: "Спасибо за использование Biome Titles! Также попробуйте другой мой мод: "
 		ChatAdvertisementPart2: Global Chat!
 
 		Title: {
@@ -234,6 +234,7 @@ Mods: {
 					Advanced_Customization: Кастомизация
 					Animation: Анимации
 					Auto_Detection: Автоопределение
+					// System: System Header
 				}
 
 				Position: {
@@ -258,7 +259,7 @@ Mods: {
 					Label: Иконки биомов
 					Tooltip: Рядом с названиями биомов на плашке будут отображаться их иконки из бестиария, если они есть
 				}
-				
+
 				DisplaySubtitle: {
 					Label: Плашка с источником биомов
 					Tooltip: Под названиями биомов будет также отображаться из какого они мода
@@ -295,8 +296,8 @@ Mods: {
 				}
 
 				VisibilityDuration: {
-					Label: Длительность отображения
-					Tooltip: 
+					Label: Длительность отображения плашки с названиями
+					Tooltip:
 						'''
 						Сколько секунд плашка с названиями будет отображаться на экране
 						Установите значение на 0, чтобы плашка не пропадала вообще
@@ -326,7 +327,7 @@ Mods: {
 				PositionOption: {
 					Top.Label: сверху посередине
 					Bottom.Label: снизу посередине
-					RPGStyle.Label: снизу слева
+					RPGStyle.Label: как в RPG играх (снизу слева)
 					Custom.Label: своё
 				}
 
@@ -363,12 +364,22 @@ Mods: {
 					Label: Автоматически определять новые биомы
 					Tooltip: Плашка биома будет атоматически генерироваться у биомов из модов, с которыми не настроена поддержка
 				}
+
+				HasShownAdvertisement: {
+					// Label: Has Shown Advertisement
+					// Tooltip: ""
+				}
+
+				HasShownFirstTimeMessage: {
+					// Label: First Time Message Shown
+					// Tooltip: Internal flag to track if the welcome message has been shown
+				}
 			}
 
 			PositionOption: {
 				Top.Label: сверху посередине
 				Bottom.Label: снизу посередине
-				RPGStyle.Label: снизу слева
+				RPGStyle.Label: как в RPG играх (снизу слева)
 				Custom.Label: своё
 			}
 

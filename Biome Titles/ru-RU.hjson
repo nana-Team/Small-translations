@@ -296,7 +296,7 @@ Mods: {
 				}
 
 				VisibilityDuration: {
-					Label: Длительность отображения плашки с названиями
+					Label: Длительность отображения плашки
 					Tooltip:
 						'''
 						Сколько секунд плашка с названиями будет отображаться на экране
@@ -327,7 +327,7 @@ Mods: {
 				PositionOption: {
 					Top.Label: сверху посередине
 					Bottom.Label: снизу посередине
-					RPGStyle.Label: как в RPG играх (снизу слева)
+					RPGStyle.Label: снизу слева
 					Custom.Label: своё
 				}
 

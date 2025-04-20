@@ -99,7 +99,7 @@ Mods: {
 
 			BrainofCthulhuMusicBox: {
 				DisplayName: Музыкальная шкатулка (Мозг Ктулху)
-				Tooltip: Воспроизводит «Madness Incarnate» от Heart Plus Up! è SkippyZii
+				Tooltip: Воспроизводит «Madness Incarnate» от Heart Plus Up! и SkippyZii
 			}
 
 			CavernsMusicBox: {
@@ -144,7 +144,7 @@ Mods: {
 
 			EyeofCthulhuMusicBox: {
 				DisplayName: Музыкальная шкатулка (Глаз Ктулху)
-				Tooltip: Воспроизводит «Bloodshot Barrage» от Heart Plus Up! è novaGnomes
+				Tooltip: Воспроизводит «Bloodshot Barrage» от Heart Plus Up! и novaGnomes
 			}
 
 			FalseEpilogueMusicBox: {

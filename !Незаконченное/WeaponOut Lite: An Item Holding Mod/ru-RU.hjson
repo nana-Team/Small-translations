@@ -1,0 +1,700 @@
+Mods: {
+	# TIL hjson supports comments
+	WeaponOutLite: {
+		Common: {
+			Instructions: To customise item hold styles:
+			Preview: Предпросмотр
+
+			PoseGroup: {
+				Unassigned: Не назначен
+				Item: Обычный предмет
+				LargeItem: Большой предмет
+				VanityItem: Экиперовка
+				Potion: Зелье
+				SmallMelee: Оружие воина
+				LargeMelee: Большое оружие воина
+				Rapier: Кинжал
+				Spear: Копьё
+				Yoyo: Йо-йо
+				Flail: Кистень
+				Whips: Хлыст
+				Thrown: Метательное оружие
+				ThrownThin: Метательный нож
+				PowerTool: Обычный инструмент
+				Bow: Лук
+				Repeater: Арбалет
+				Pistol: Пистолет
+				Gun: Автомат
+				GunManual: Полуавтомат
+				Shotgun: Дробовик
+				Launcher: Ракетница
+				Staff: Магический посох
+				MagicBook: Книга заклинаний
+				MagicItem: Необычное магическое оружие
+				GiantItem: Гигантский предмет
+				GiantWeapon: Гиганское оружие воина
+				GiantBow: Гигантский лук
+				GiantGun: Гигансткое стрелковое оружие
+				GiantMagic: Гигантское магическое оружие
+			}
+		}
+
+		Configs: {
+			WeaponOutClientConfig: {
+				DisplayName: Клиентская конфигурация
+
+				Headers: {
+					PlayerHeader: Отображение и позы
+					LocalGraphics: Местная графика
+					ModIntegrationHeader: Модовая совместимость
+				}
+
+				ShowHeldItem: {
+					Label: Показывать предметы в руках
+					Tooltip:
+						'''
+						Отображает в руках вашего персонажа выбранный вами предмет. Другие игроки также смогут видеть выбранные вами предметы.
+						По умолчанию включено.
+						'''
+				}
+
+				CombatDelayTimerMax: {
+					Label: Длительность боевой позы (в секундах)
+					Tooltip:
+						'''
+						Сколько секунд предметы будут отображаться в боевой позе после их использования. Эта функция относится только к предметам, у которых есть боевая поза.
+						По умолчанию: 3 секунды.
+						'''
+				}
+
+				CombatStanceAlwaysOn: {
+					Label: Боевая поза всегда активна
+					Tooltip:
+						'''
+						Отключает позу ожидания, делая боевую позу постоянной.
+						По умолчанию выключено.
+						'''
+				}
+
+				CombatStanceWhenHurt: {
+					Label: Активация боевой позы при получении урона
+					Tooltip:
+						'''
+						Персонаж будет автоматически переходить в боевую позу удержания предмета после получения урона.
+						По умолчанию включено.
+						'''
+				}
+
+				SmallItemPose: {
+					Label: "[i:2]Обычные предметы"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.Hold.Label}
+				}
+
+				SmallItemPosePV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				LargeItemPose: {
+					Label: "[i:33]Большие предметы"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.TwoHandCarry.Label}
+				}
+
+				LargeItemPosePV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				PotionPose: {
+					Label: "[i:126]Зелья"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.HoldForward.Label}
+				}
+
+				PotionPosePV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				SmallMeleePose: {
+					Label: "[i:3508]Оружие ближнего боя"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatReady.Label}
+				}
+
+				SmallMeleePV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				LargeMeleePose: {
+					Label: "[i:190]Больш. оружие воина"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatTwoHand.Label}
+				}
+
+				LargeMeleePV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				VanityItemPose: {
+					Label: "[i:1007]Экиперовка"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.OffHand.Label}
+				}
+
+				VanityItemPosePV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				RapierPose: {
+					Label: "[i:3507]Кинжалы"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatHold.Label}
+				}
+
+				RapierPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				SpearPose: {
+					Label: "[i:280]Копья"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatPoleReady.Label}
+				}
+
+				SpearPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				YoyoPose: {
+					Label: "[i:3278]Йо-йо"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.Hold.Label}
+				}
+
+				YoyoPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				YoyoHalfScale: {
+					Label: "[i:3278]Уменьшать размер йо-йо"
+					Tooltip: По умолчанию включено.
+				}
+
+				FlailPose: {
+					Label: "[i:5011]Кистени"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatFlailReady.Label}
+				}
+
+				FlailPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				WhipPose: {
+					Label: "[i:4672]Хлысты"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.Hold.Label}
+				}
+
+				WhipPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				ThrownPose: {
+					Label: "[i:42]Метательное оружие"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatUpright.Label}
+				}
+
+				ThrownPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				ThrownThinPose: {
+					Label: "[i:279] Метательные ножи"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.Hold.Label}
+				}
+
+				ThrownThinPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				PowerToolPose: {
+					Label: "[i:579] Обыч. инструменты"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatTwoHandPowerTool.Label}
+				}
+
+				PowerToolPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				BowPose: {
+					Label: "[i:39] Луки"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatTwoHandBow.Label}
+				}
+
+				BowPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				RepeaterPose: {
+					Label: "[i:435]Арбалеты"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatTwoHandRifleDown.Label}
+				}
+
+				RepeaterPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				BowDrawAmmo: {
+					Label: "Отображать используемый боеприпас на луках и арбалетах"
+					Tooltip:
+						'''
+						Отображается только у игрока
+						По умолчанию включено
+						'''
+				}
+
+				PistolPose: {
+					Label: "[i:95]Пистолеты"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.Hold.Label}
+				}
+
+				PistolPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				GunPose: {
+					Label: "[i:98] Автоматы"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatTwoHandRifleHip.Label}
+				}
+
+				GunPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				GunManualPose: {
+					Label: "[i:96]Полуавтоматы"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatTwoHandBoltAction.Label}
+				}
+
+				GunManualPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				ShotgunPose: {
+					Label: "[i:964]Дробовики"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatTwoHandPumpAction.Label}
+				}
+
+				ShotgunPosePV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				LauncherPose: {
+					Label: "[i:759]Ракетницы"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.OffHandShoulder.Label}
+				}
+
+				LauncherPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				StaffPose: {
+					Label: "[i:739]Магические посохи"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.OffHandPole.Label}
+				}
+
+				StaffPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				MagicBookPose: {
+					Label: "[i:165]Книги заклинаний"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.HoldTome.Label}
+				}
+
+				MagicBookPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				MagicItemPose: {
+					Label: "[i:4270]Необыч. маг. оружие"
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.FloatingOffHand.Label}
+				}
+
+				MagicItemPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				EnableWeaponPhysics: {
+					Label: Enable Item Physics
+					Tooltip: Allows some held items to react to motion. Disable to prevent motion based item movement. Default is On. (Local Only)
+				}
+
+				EnableSheathingAnim: {
+					Label: Enable Sheathing Animations
+					Tooltip: Allows some poses to smoothly transition to an idle pose. Default is On. (Local Only)
+				}
+
+				EnableItemScaling: {
+					Label: Enable Extreme Item scaling
+					Tooltip: Allows items to show their size modifiers (if greater than +-10%). Disable to keep all item sizes pixel perfect. Default is On. (Local Only)
+				}
+
+				SmallSwordThreshold: {
+					Label: One Handed Sword Threshold (Pixels)
+					Tooltip: Maximum average of width/height to classify a Sword as one handed. Default is 50. (Local Only)
+				}
+
+				SmallGunThreshold: {
+					Label: One Handed Gun Threshold (Pixels)
+					Tooltip: Maximum width to classify a Gun as one handed. Default is 36. (Local Only)
+				}
+
+				GiantItemThreshold: {
+					Label: Giant Item Threshold (Pixels)
+					Tooltip: Maximum width or height before attempting to scale down. Default is 80. (Local Only)
+				}
+
+				GiantItemScalePercent: {
+					Label: Giant Item Scaling (%)
+					Tooltip: Scale down giant items to this percentage. If the item is still over the threshold, it will use one of the poses below. Default is 100%. (Local Only)
+				}
+
+				GiantItemPose: {
+					Label: Гигантские предметы
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.TwoHandCarry.Label}
+				}
+
+				GiantItemPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				GiantWeaponPose: {
+					Label: Гиг. оружие воина
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatTwoHandBerserk.Label}
+				}
+
+				GiantMeleePV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				GiantBowPose: {
+					Label: Гигантские луки
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatTwoHandBow.Label}
+				}
+
+				GiantBowPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				GiantGunPose: {
+					Label: Гиг. оружие стрелка
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.CombatOffHandShoulder.Label}
+				}
+
+				GiantGunPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				GiantMagicPose: {
+					Label: Гиг. оружие мага
+					Tooltip: Анимация по умолчанию: {$Mods.WeaponOutLite.Configs.LabelledItemPose.FloatingAimed.Label}
+				}
+
+				GiantMagicPV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+
+				EnableMenuDisplay: {
+					Label: Enable Menu Display (Experimental)
+					Tooltip: Enable showing player preview with first item in the Player Select screen. Default is On. (Local Only)
+				}
+
+				EnableMeleeEffects: {
+					Label: Enable Melee Effects (Experimental)
+					Tooltip: Allows weapons to continue showing melee effects after being swung. Default is Off. (Local Only)
+				}
+
+				EnableProjSpears: {
+					Label: Enable Full Spears (Experimental)
+					Tooltip: Use spear projectile sprites. Default is On. (Local Only)
+				}
+
+				EnableProjYoyos: {
+					Label: Enable Small Yoyos (Experimental)
+					Tooltip: Use yoyo projectile sprites. Default is On. (Local Only)
+				}
+
+				ModIntegrationTerrariaOverhaul: {
+					Label: "[i:509] Toggle: Terraria Overhaul"
+					Tooltip: Hide item drawing when aimable weapons are selected. See the Terraria Overhaul setting: AlwaysShowAimableWeapons. Default is On.
+				}
+
+				ModIntegrationMeleeEffectsPlus: {
+					Label: "[i:509] Toggle: Melee Effects+"
+					Tooltip: Applies a fix to attempt to help identify different types of swords. Default is On.
+				}
+
+				ModIntegrationVibrantReverie: {
+					Label: "[i:1344] Automatic: Vibrant Reverie"
+					Tooltip: Default preferences for certain items. Thanks W1K [i:58]!
+				}
+
+				ModIntegrationOverhaulGunAnimations: {
+					Label: "[i:2701] Manual: Overhaul Gun Animations"
+					Tooltip: Enable Overhaul Gun Animations Setting: Vanilla aim animation to remove rendering conflicts.
+				}
+
+				ModIntegrationArmamentDisplay: {
+					Label: "[i:2701] Manual: ArmamentDisplay"
+					Tooltip: Disable ArmamentDisplay Visual Effect Setting: Weapon display switch to remove rendering conflicts.
+				}
+
+				ModIntegrationArmamentDisplayLite: {
+					Label: "[i:1344] Automatic: ArmamentDisplayLite"
+					Tooltip: Disables this mod's idle poses for weapons. I can only assume this is the reason why both of these mods are installed.
+				}
+
+				ModIntegrationCoolerItemVisualEffect: {
+					Label: "[i:2701] Manual: CoolerItemVisualEffect"
+					Tooltip: Disable CoolerItemVisualEffect Advanced Setting: Other Settings: Weapon display switch to remove rendering conflicts.
+				}
+			}
+
+			WeaponOutClientHoldOverride: {
+				DisplayName: Item Manual Override
+
+				StyleOverrideList: {
+					Label: Style Override List
+					Tooltip: ""
+				}
+
+				CurrentPoseGroup: {
+					Label: Held Item Pose Group
+					Tooltip: The pose group the currently held item belongs to.
+				}
+
+				CurrentDrawItemPose: {
+					Label: Held Item Pose
+					Tooltip: The pose the currently held item is using.
+				}
+
+				CurrentItemPosePV: {
+					Label: "{$Mods.WeaponOutLite.Common.Preview}"
+					Tooltip: ""
+				}
+			}
+
+			WeaponOutServerConfig: {
+				DisplayName: Global/Server
+				Headers.ServerSide: Feature Toggles
+
+				EnableWeaponOutVisuals: {
+					Label: Enable WeaponOut Visuals
+					Tooltip: Enables players to show held weapons, tools, items etc. Turning this off this will disable WeaponOut Lite for everybody. (Global Setting)
+				}
+
+				EnableForcedWeaponOutVisuals: {
+					Label: Enable Forced Visuals
+					Tooltip: Forces all players to show held items, regardless of clientside settings. (Global Setting)
+				}
+			}
+
+			ItemDrawOverrideData: {
+				Tooltip: ""
+
+				Item: {
+					Label: Item
+					Tooltip: ""
+				}
+
+				ForcePoseGroup: {
+					Label: Item Pose Group
+					Tooltip: Manually assign the item to a pose group.
+				}
+
+				ForceDrawItemPose: {
+					Label: Forced Item Pose
+					Tooltip: Override and force the item to use this specific pose, if not set to Default.
+				}
+			}
+
+			PoseGroup: {
+				Tooltip: ""
+				Unassigned.Label: Unassigned
+				Item.Label: Normal Item
+				LargeItem.Label: Large Item
+				VanityItem.Label: Equippable Item
+				Potion.Label: Potion
+				SmallMelee.Label: Melee Weapon
+				LargeMelee.Label: Large Melee Weapon
+				Rapier.Label: Shortsword/Rapier
+				Spear.Label: Spear
+				Yoyo.Label: Yoyo
+				Flail.Label: Flail
+				Whips.Label: Whip
+				Thrown.Label: Throwing Weapon
+				ThrownThin.Label: Throwing Knife
+				PowerTool.Label: Power Tool
+				Bow.Label: Bow
+				Repeater.Label: Crossbow/Repeater
+				Pistol.Label: Handgun
+				Gun.Label: Automatic Gun
+				GunManual.Label: Semi-automatic Gun
+				Shotgun.Label: Shotgun
+				Launcher.Label: Launcher
+				Staff.Label: Magical Staff
+				MagicBook.Label: Spell Tome
+				MagicItem.Label: Magical Focus
+				GiantItem.Label: Giant Item
+				GiantWeapon.Label: Giant Melee Weapon
+				GiantBow.Label: Giant Bow
+				GiantGun.Label: Giant Ranged Weapon
+				GiantMagic.Label: Giant Magic Weapon
+			}
+
+			LabelledItemPose: {
+				Tooltip: ""
+				None.Label: Нет
+				Back.Label: Сзади
+				BackUpright.Label: Сзади в право
+				BackDownward.Label: Сзади в лево
+				BackBow.Label: За ключицей
+				Waist.Label: За талией
+				WaistHolster.Label: За талией в сторону
+				Hold.Label: В руках
+				HoldForward.Label: В руках спереди
+				HoldReverse.Label: В руках за собой
+				HoldTome.Label: Книга в руках
+				OffHand.Label: Без рук
+				OffHandFlailShoulder.Label: За плечом
+				OffHandPole.Label: Перед плечом
+				OffHandShoulder.Label: На плече
+				OffHandUpright.Label: Вертикально без рук
+				TwoHandCarry.Label: В двух руках
+				TwoHandJoustingLance.Label: Турнирное копьё
+				FloatingBack.Label: Парит сзади
+				FloatingBackUpright.Label: Верт. парит сзади 
+				FloatingBackAimed.Label: Парит за головой
+				FloatingFront.Label: Парит спереди
+				FloatingOffHand.Label: Парит без рук
+				FloatingAimed.Label: Парит перед головой
+				OrbitClockwiseFast.Label: Вращается по часовой
+				OrbitAntiClockFast.Label: Вращ. против часовой
+				OrbitClockwiseSlow.Label: Медлн. по часовой
+				OrbitAntiClockSlow.Label: Медлн. против часовой
+				CombatHold.Label: Боевая стойка
+				CombatReady.Label: Боевая стойка 2
+				CombatUpright.Label: Боевая стойка 3
+				CombatRaised.Label: Боевая стойка 4
+				CombatTrail.Label: Боевая стойка 5
+				CombatRapier.Label: Боевая стойка 6
+				CombatPoleUpright.Label: Боевая стойка 7
+				CombatPoleReady.Label: Боевая стойка 8
+				CombatFlailReady.Label: Боевая стойка 9
+				CombatBowHold.Label: Боевая стойка 10
+				CombatPistol.Label: Боевая стойка 11
+				CombatOffHandPoleShoulder.Label: Боевая стойка 12
+				CombatOffHandPistol.Label: Боевая стойка 13
+				CombatOffHandShoulder.Label: Боевая стойка 14
+				CombatTwoHand.Label: Боевая двуручная 15
+				CombatTwoHandBrave.Label: Боевая двуручная 2
+				CombatTwoHandTail.Label: Боевая двуручная 3
+				CombatTwoHandHighlander.Label: Боевая двуручная 4
+				CombatTwoHandBerserk.Label: Боевая двуручная 5
+				CombatTwoHandGuard.Label: Боевая двуручная 6
+				CombatTwoHandPoleTwoHand.Label: Боевая двуручная 7
+				CombatTwoHandPowerTool.Label: Боевая двуручная 8
+				CombatTwoHandBow.Label: Боевая двуручная 9
+				CombatTwoHandRifleHip.Label: Боевая двуручная 10
+				CombatTwoHandRifleUp.Label: Боевая двуручная 11
+				CombatTwoHandRifleDown.Label: Боевая двуручная 12
+				CombatTwoHandRifleDown2.Label: Боевая двуручная 13
+				CombatTwoHandBoltAction.Label: Боевая двуручная 14
+				CombatTwoHandPumpAction.Label: Боевая двуручная 15
+			}
+
+			DrawItemPose: {
+				Tooltip: ""
+				Unassigned.Label: Unassigned
+				None.Label: None
+				Back.Label: Back
+				BackUpright.Label: Back Upright
+				WaistSheathe.Label: Waist Sheathe
+				WaistHolster.Label: Waist Holster
+				HoldInHand.Label: Hold In Hand
+				StanceInHand.Label: Stance In Hand
+				HoldReversedInHand.Label: Hold Reversed In Hand
+				HoldInHandFront.Label: Hold In Hand Front
+				HoldSpellTome.Label: Hold Spell Tome
+				HoldInOffHand.Label: Hold In Off Hand
+				CarryInBothHands.Label: Carry In Both Hands
+				StanceMachineTool.Label: Stance Machine Tool
+				StanceMeleeReady.Label: Stance Melee Ready
+				StanceMeleeTrail.Label: Stance Melee Trail
+				StanceMeleeRaised.Label: Stance Melee Raised
+				StanceMeleeUpright.Label: Stance Melee Upright
+				StanceTwoHand.Label: Stance Two Hand
+				StanceTwoHandBrave.Label: Stance Two Hand Brave
+				StanceTwoHandTail.Label: Stance Two Hand Tail
+				StanceTwoHandHighlander.Label: Stance Two Hand Highlander
+				StanceTwoHandBerserk.Label: Stance Two Hand Berserk
+				StanceTwoHandGuard.Label: Stance Two Hand Guard
+				StanceRapierFootForward.Label: Stance Rapier Foot Forward
+				PoleOffHand.Label: Pole Off Hand
+				StancePoleReady.Label: Stance Pole Ready
+				StancePoleShoulder.Label: Stance Pole Shoulder
+				StancePoleUpright.Label: Stance Pole Upright
+				StancePoleTwoHand.Label: Stance Pole Two Hand
+				JoustingLance.Label: Jousting Lance
+				BackFlail.Label: Back Flail
+				BackFlailShoulder.Label: Back Flail Shoulder
+				StanceFlailReady.Label: Stance Flail Ready
+				BackBow.Label: Back Bow
+				StanceBowInHand.Label: Stance Bow In Hand
+				StanceBowHunt.Label: Stance Bow Hunt
+				StancePistolHoldUp.Label: Stance Pistol Hold Up
+				StancePistolCowboy.Label: Stance Pistol Cowboy
+				BackDownward.Label: Back Downward
+				HoldRifleOffHandUpright.Label: Hold Rifle Off Hand Upright
+				StanceRifleHipReady.Label: Stance Rifle Hip Ready
+				StanceRiflePointDown.Label: Stance Rifle Point Down
+				StanceRiflePointDown2.Label: Stance Rifle Point Down2
+				StanceRifleHoldUp.Label: Stance Rifle Hold Up
+				StanceRifleBoltAction.Label: Stance Rifle Bolt Action
+				StanceRiflePumpAction.Label: Stance Rifle Pump Action
+				BackGunShoulder.Label: Back Gun Shoulder
+				StanceLauncherShoulder.Label: Stance Launcher Shoulder
+				FloatingBack.Label: Floating Back
+				FloatingBackUpright.Label: Floating Back Upright
+				FloatingBackAimed.Label: Floating Back Aimed
+				FloatingInFront.Label: Floating In Front
+				FloatingOffHandAimed.Label: Floating Off Hand Aimed
+				FloatingOffHand.Label: Floating Off Hand
+				FloatingOrbitAntiClockwiseSlow.Label: Floating Orbit Anti Clockwise Slow
+				FloatingOrbitClockwiseSlow.Label: Floating Orbit Clockwise Slow
+				FloatingOrbitAntiClockwiseFast.Label: Floating Orbit Anti Clockwise Fast
+				FloatingOrbitClockwiseFast.Label: Floating Orbit Clockwise Fast
+			}
+		}
+	}
+}

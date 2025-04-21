@@ -223,9 +223,18 @@ Configs: {
 			Tooltip: Установите значение на 0, чтобы выключить их полностью
 		}
 
-		entityFootsteps: {
-			// Label: Entity Footsteps
-			// Tooltip: Toggles footstep audio for numerous NPCs, including Town NPCs, Zombies, and more.
+		entityFootstepsVolume: {
+			// Label: Entity Footsteps Volume
+			/* Tooltip:
+				'''
+				Sets the volume of footstep audio for numerous NPCs, including Town NPCs, Zombies, and more.
+				Set to 0 to disable.
+				''' */
+		}
+
+		showAmbientForecastUi: {
+			// Label: Show Ambient Forecast UI
+			// Tooltip: Enables/disables the ambient forecast UI next to the hotbar
 		}
 	}
 }

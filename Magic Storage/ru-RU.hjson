@@ -120,203 +120,211 @@ Mods: {
 			}
 
 			StorageHeart: {
-				DisplayName: Storage Heart
+				DisplayName: Сердце хранилища
 				Tooltip:
 					'''
-					The core component for any Magic Storage storage system
-					Required for a storage system to function
+					Центральный элемент любой системы Магического хранилища
+					Необходимо для работы системы хранения
 					'''
 			}
 
 			StorageUnit: {
-				DisplayName: Storage Unit
+				DisplayName: Блок хранения
 				Tooltip:
 					'''
-					A component for storing items in a Magic Storage storage system
-					Can store up to 40 items
+					Элемент системы Магического хранилища, используемые для хранения предметов
+					Вмещает в себя до 40 предметов
 					'''
 			}
 
 			StorageUnitBlueChlorophyte: {
-				DisplayName: Blue Chlorophyte Storage Unit
+				DisplayName: Синехлорофитовый блок хранения
 				Tooltip:
 					'''
-					A component for storing items in a Magic Storage storage system
-					Can store up to 240 items
+					Элемент системы Магического хранилища, используемые для хранения предметов
+					Вмещает в себя до 240 предметов
 					'''
 			}
 
 			StorageUnitCrimtane: {
-				DisplayName: Crimtane Storage Unit
+				DisplayName: Багротановый блок хранения
 				Tooltip:
 					'''
-					A component for storing items in a Magic Storage storage system
-					Can store up to 80 items
+					Элемент системы Магического хранилища, используемые для хранения предметов
+					Вмещает в себя до 80 предметов
 					'''
 			}
 
 			StorageUnitDemonite: {
-				DisplayName: Demonite Storage Unit
+				DisplayName: Демонитовый блок хранения
 				Tooltip:
 					'''
-					A component for storing items in a Magic Storage storage system
-					Can store up to 80 items
+					Элемент системы Магического хранилища, используемые для хранения предметов
+					Вмещает в себя до 80 предметов
 					'''
 			}
 
 			StorageUnitHallowed: {
-				DisplayName: Hallowed Storage Unit
+				DisplayName: Освящённый блок хранения
 				Tooltip:
 					'''
-					A component for storing items in a Magic Storage storage system
-					Can store up to 160 items
+					Элемент системы Магического хранилища, используемые для хранения предметов
+					Вмещает в себя до 160 предметов
 					'''
 			}
 
 			StorageUnitHellstone: {
-				DisplayName: Hellstone Storage Unit
+				DisplayName: Адский блок хранения
 				Tooltip:
 					'''
-					A component for storing items in a Magic Storage storage system
-					Can store up to 120 items
+					Элемент системы Магического хранилища, используемые для хранения предметов
+					Вмещает в себя до 120 предметов
 					'''
 			}
 
 			StorageUnitLuminite: {
-				DisplayName: Luminite Storage Unit
+				DisplayName: Люминитовый блок хранения
 				Tooltip:
 					'''
-					A component for storing items in a Magic Storage storage system
-					Can store up to 320 items
+					Элемент системы Магического хранилища, используемые для хранения предметов
+					Вмещает в себя до 320 предметов
 					'''
 			}
 
 			StorageUnitTerra: {
-				DisplayName: Terra Storage Unit
+				DisplayName: Терра-блок хранения
 				Tooltip:
 					'''
-					A component for storing items in a Magic Storage storage system
-					Can store up to 640 items
+					Элемент системы Магического хранилища, используемые для хранения предметов
+					Вмещает в себя до 640 предметов
 					'''
 			}
 
 			StorageUnitTiny: {
-				DisplayName: Tiny Storage Unit
+				DisplayName: Маленький блок хранения
 				Tooltip:
 					'''
-					A component for storing items in a Magic Storage storage system
-					Can store up to 4 items
+					Элемент системы Магического хранилища, используемые для хранения предметов
+					Вмещает в себя до 4 предметов
 					'''
 			}
 
 			UpgradeBlueChlorophyte: {
-				DisplayName: Blue Chlorophyte Storage Upgrade
+				DisplayName: Синехлорофитовое улучшение хранилища
 				Tooltip:
 					'''
-					Upgrades Storage Unit to 240 capacity
-					<right> a Hallowed Storage Unit to use
+					Увеличивает вместимость блока хранения до 240 предметов
+					Используйте на освящённом блоке хранения с помощью ПКМ
 					'''
 			}
 
 			UpgradeCrimtane: {
-				DisplayName: Crimtane Storage Upgrade
+				DisplayName: Багротановое улучшение хранилища
 				Tooltip:
 					'''
-					Upgrades Storage Unit to 80 capacity
-					<right> a Storage Unit to use
+					Увеличивает вместимость блока хранения до 90 предметов
+					Используйте на блоке хранения с помощью ПКМ
 					'''
 			}
 
 			UpgradeDemonite: {
-				DisplayName: Demonite Storage Upgrade
+				DisplayName: Демонитовое улучшение хранилища
 				Tooltip:
 					'''
-					Upgrades Storage Unit to 80 capacity
-					<right> a Storage Unit to use
+					Увеличивает вместимость блока хранения до 90 предметов
+					Используйте на блоке хранения с помощью ПКМ
 					'''
 			}
 
 			UpgradeHallowed: {
-				DisplayName: Hallowed Storage Upgrade
+				DisplayName: Освящённое улучшение хранилища
 				Tooltip:
 					'''
-					Upgrades Storage Unit to 160 capacity
-					<right> a Hellstone Storage Unit to use
+					Увеличивает вместимость блока хранения до 160 предметов
+					Используйте на адском блоке хранения с помощью ПКМ
 					'''
 			}
 
 			UpgradeHellstone: {
-				DisplayName: Hellstone Storage Upgrade
+				DisplayName: Адское улучшение хранилища
 				Tooltip:
 					'''
-					Upgrades Storage Unit to 120 capacity
-					<right> a Demonite/Crimtane Storage Unit to use
+					Увеличивает вместимость блока хранения до 120 предметов
+					Используйте на демонитовом или багротановом блоке хранения с помощью ПКМ
 					'''
 			}
 
 			UpgradeLuminite: {
-				DisplayName: Luminite Storage Upgrade
+				DisplayName: Люминитовое улучшение хранилища
 				Tooltip:
 					'''
-					Upgrades Storage Unit to 320 capacity
-					<right> a Blue Chlorophyte Storage Unit to use
+					Увеличивает вместимость блока хранения до 320 предметов
+					Используйте на синехлорофитовом блоке хранения с помощью ПКМ
 					'''
 			}
 
 			UpgradeTerra: {
-				DisplayName: Terra Storage Upgrade
+				DisplayName: Терра-улучшение хранилища
 				Tooltip:
 					'''
-					Upgrades Storage Unit to 640 capacity
-					<right> a Luminite Storage Unit to use
+					Увеличивает вместимость блока хранения до 640 предметов
+					Используйте на люминитовом блоке хранения с помощью ПКМ
 					'''
 			}
 
 			CrimsonAltar: {
-				DisplayName: Crimson Altar
-				Tooltip: A placeable Crimson Altar. Cannot be mined to get hardmode ores
+				DisplayName: Багровый алтарь
+				Tooltip:
+					'''
+					Размещает багровый алтарь, который можно забрать в любой момент с помощью кирки
+					Не разрушается с помощью молота и не приводит к появлению хардмодных руд
+					'''
 			}
 
 			DemonAltar: {
-				DisplayName: Demon Altar
-				Tooltip: A placeable Demon Altar. Cannot be mined to get hardmode ores
+				DisplayName: Демонический алтарь
+				Tooltip:
+					'''
+					Размещает демонический алтарь, который можно забрать в любой момент с помощью кирки
+					Не разрушается с помощью молота и не приводит к появлению хардмодных руд
+					'''
 			}
 
 			CombinedFurnitureStations1Item: {
-				DisplayName: Combined Furniture Stations (Tier 1)
-				Tooltip: Combines the functionality of several crafting stations for furniture
+				DisplayName: Объединённый станок изготовления мебели 1 ур.
+				Tooltip: Объединяет функционал некоторых станций для создания мебели
 			}
 
 			CombinedFurnitureStations2Item: {
-				DisplayName: Combined Furniture Stations (Tier 2)
-				Tooltip: Combines the functionality of several crafting stations for furniture
+				DisplayName: Объединённый станок изготовления мебели 2 ур.
+				Tooltip: Объединяет функционал некоторых станций для создания мебели
 			}
 
 			CombinedStations1Item: {
-				DisplayName: Combined Stations (Tier 1)
-				Tooltip: Combines the functionality of several crafting stations
+				DisplayName: Объединённый станок 1 ур.
+				Tooltip: Объединяет функционал некоторых станций для создания предметов
 			}
 
 			CombinedStations2Item: {
-				DisplayName: Combined Stations (Tier 2)
-				Tooltip: Combines the functionality of several crafting stations
+				DisplayName: Объединённый станок 2 ур.
+				Tooltip: Объединяет функционал некоторых станций для создания предметов
 			}
 
 			CombinedStations3Item: {
-				DisplayName: Combined Stations (Tier 3)
-				Tooltip: Combines the functionality of several crafting stations
+				DisplayName: Объединённый станок 3 ур.
+				Tooltip: Объединяет функционал некоторых станций для создания предметов
 			}
 
 			CombinedStations4Item: {
-				DisplayName: Combined Stations (Final Tier)
-				Tooltip: Combines the functionality of several crafting stations
+				DisplayName:Объединённый станок финального ур.
+				Tooltip: Объединяет функционал некоторых станций для создания предметов
 			}
 
 			EnvironmentAccess: {
-				DisplayName: Storage Configuration Interface
+				DisplayName: Конфигурация интерфейса хранилища
 				Tooltip:
 					'''
-					A component for cross-mod accessibility with a Magic Storage storage system
+					Элемент системы, обеспецивающий доступ других модов к системе Магического хранилища
 					Displays a list of toggleable environment modules added by other mods, or nothing if no modules are present
 					Available Modules:
 					<MODULES>

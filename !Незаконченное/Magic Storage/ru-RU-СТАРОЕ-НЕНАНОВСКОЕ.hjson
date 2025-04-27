@@ -26,11 +26,12 @@ Mods: {
 
 			CreativeStorageUnit: {
 				DisplayName: Творческая ячейка хранилища
-				/* Tooltip:
+				Tooltip:
 					'''
-					Stores an unlimited amount of every item type.
-					Does not count toward storage limits when in a storage system.
-					''' */
+					Ячейка хранилища, которая используется для системы хранения
+					Может хранить неограниченное кол-во предметов
+					Не учитывается при лимите.
+					'''
 			}
 
 			Locator: {
@@ -64,7 +65,7 @@ Mods: {
 			}
 
 			PortableCraftingAccess: {
-				DisplayName: Портативный удаленный доступ к созданию предметов
+				DisplayName: Портативный удаленный доступ к созданию предметов (Эпический)
 				Tooltip:
 					'''
 					<right> по модулю создания предметов, чтобы запомнить его местоположение
@@ -370,27 +371,103 @@ Mods: {
 			}
 
 			PortableCraftingAccessPreHM: {
-				// DisplayName: Basic Portable Remote Crafting Access
-				/* Tooltip:
+				DisplayName: Портативный удаленный доступ к созданию предметов (Обычный)
+				Tooltip:
 					'''
-					<right> Crafting Interface to store location
-					Currently not set to any location
-					Use item to access your crafting
-					Linked Interface must be at most 100' from any valid pylon to gain extended reach on each pylon
-					Player must be at most 1000' away from the linked Interface or pylon to access crafting
-					''' */
+					<right> по модулю создания предметов, чтобы запомнить его местоположение
+					В данный момент местоположение не установлено
+					Используйте предмет, чтобы получить удаленный доступ к созданию предметов
+					Связанный модуль должен находиться не дальше 100 блоков от любого действующего пилона, 
+					чтобы обеспечить расширенный доступ через каждый пилон.
+					Игрок должен находиться не дальше 1000 блоков от связанного модуля или пилона, чтобы иметь доступ к созданию.
+					'''
 			}
 
 			PortableCraftingAccessHM: {
-				// DisplayName: Advanced Portable Remote Crafting Access
-				/* Tooltip:
+				DisplayName: Портативный удаленный доступ к созданию предметов (Необычный)
+				Tooltip:
 					'''
-					<right> Crafting Interface to store location
-					Currently not set to any location
-					Use item to access your crafting
-					Linked Interface must be at most 100' from any valid pylon to gain extended reach on each pylon
-					Player must be at most 1000' away from the linked Interface or pylon to access crafting
+					<right> по модулю создания предметов, чтобы запомнить его местоположение
+					В данный момент местоположение не установлено
+					Используйте предмет, чтобы получить удаленный доступ к созданию предметов
+					Связанный модуль должен находиться не дальше 200 блоков от любого действующего пилона, 
+					чтобы обеспечить расширенный доступ через каждый пилон.
+					Игрок должен находиться не дальше 3000 блоков от связанного модуля или пилона, чтобы иметь доступ к созданию.
+					'''
+			}
+
+			DecraftingAccess: {
+				DisplayName: Модуль мерцания
+				Tooltip: Позволяет использовать преобразование для предметов в хранилище. 
+			}
+
+			Shimmer_CoinLuck: {
+				// DisplayName: Meta//Shimmer/Coin_Luck
+				// Tooltip: ""
+			}
+
+			StorageCore: {
+				DisplayName: Ядро хранилища
+				// Tooltip: "{$Mods.MagicStorage.Items.StorageCore.CommonTooltip}"
+				CommonTooltip:
+					'''
+					Хранит предметы, которые находились в ячейке хранилища.
+					<right> по пустой ячейке хранилища, чтобы вставить.
+					<CAPACITY>
+					<HASH>
 					''' */
+				ItemsStored: "[c/{0}:{1} / {2} предметов]"
+				// Hash: Data hash: {0:x08}
+			}
+
+			StorageCoreBlueChlorophyte: {
+				DisplayName: Синее хлорофитовое ядро хранилища
+				// Tooltip: "{$Mods.MagicStorage.Items.StorageCore.CommonTooltip}"
+			}
+
+			StorageCoreCrimtane: {
+				DisplayName: Кримтанитовое ядро хранилища
+				// Tooltip: "{$Mods.MagicStorage.Items.StorageCore.CommonTooltip}"
+			}
+
+			StorageCoreDemonite: {
+				DisplayName: Демонитовое ядро хранилища
+				// Tooltip: "{$Mods.MagicStorage.Items.StorageCore.CommonTooltip}"
+			}
+
+			StorageCoreHallowed: {
+				DisplayName: Святое ядро хранилища
+				// Tooltip: "{$Mods.MagicStorage.Items.StorageCore.CommonTooltip}"
+			}
+
+			StorageCoreHellstone: {
+				DisplayName: Адское ядро хранилища
+				// Tooltip: "{$Mods.MagicStorage.Items.StorageCore.CommonTooltip}"
+			}
+
+			StorageCoreLuminite: {
+				DisplayName: Люминитовое ядро хранилища
+				// Tooltip: "{$Mods.MagicStorage.Items.StorageCore.CommonTooltip}"
+			}
+
+			StorageCoreTerra: {
+				DisplayName: Терра ядро хранилища
+				// Tooltip: "{$Mods.MagicStorage.Items.StorageCore.CommonTooltip}"
+			}
+
+			StorageExtractor: {
+				DisplayName: Жезл ядра хранилища
+				// Tooltip: Может извлечь ядро хранилища с ячейки хранилища
+			}
+
+			StorageUnitEmpty: {
+				DisplayName: Пустая ячейка хранилища
+				Tooltip:
+					'''
+					Ячейка хранилища, которая используется для системы хранения
+					Требуется ядро хранилища для работы
+					Нажмите ПКМ, держа ядро хранилища, чтобы вставить его.
+					'''
 			}
 		}
 
@@ -418,18 +495,21 @@ Mods: {
 					LikeNPC_Princess: "{NPCName} - лучший друг моего создателя."
 					Princess_LovesNPC: "{NPCName} - такой классный робот, интересно , как он двигается?"
 				}
+
+				# Census support
+				// Census.SpawnCondition: '''"{$Mods.MagicStorage.Configs.MagicStorageServerConfig.allowAutomatonToMoveIn.Label}" config in the "{$$Mods.MagicStorage.Configs.MagicStorageServerConfig.DisplayName}" set to On'''
 			}
 		}
 
 		EnvironmentModule: {
 			UseInventoryModule: {
 				DisplayName: Использовать предметы из инвентаря игрока
-				// DisabledTooltip: This module is currently disabled.
+				DisabledTooltip: В данный момент это отключено.
 			}
 
 			UseInventoryNoFavoritesModule: {
 				DisplayName: Использовать неизбранные предметы из инвентаря игрока
-				// DisabledTooltip: This module is currently disabled.
+				DisabledTooltip: В данный момент это отключено.
 			}
 
 			JourneyInfiniteItems: {
@@ -454,7 +534,22 @@ Mods: {
 			CombinedStations3Tile.MapEntry: "{$Mods.MagicStorage.Items.CombinedStations3Item.DisplayName}"
 			CombinedStations4Tile.MapEntry: "{$Mods.MagicStorage.Items.CombinedStations4Item.DisplayName}"
 			EnvironmentAccess.MapEntry: "{$Mods.MagicStorage.Items.EnvironmentAccess.DisplayName}"
-			// EvilAltarTile.MapEntry: Evil Altar
+			EvilAltarTile.MapEntry: Алтарь
+			DecraftingAccess.MapEntry: "{$Mods.MagicStorage.Items.DecraftingAccess.DisplayName}"
+		}
+
+		GameTips: {
+			// Automaton: The Automaton can teach you all there is to know about Magic Storage.
+			// ShadowDiamonds: Shadow Diamonds are dropped when a boss is defeated for the first time. They can be used as an alternative to Diamonds in Magic Storage recipes.
+			// RadiantJewel: The Moon Lord drops the Radiant Jewel, which can be used to craft Portable Remote Accesses with unlimited access range.
+			// StorageUpgrades: Running out of storage? Upgrade your Storage Units with Storage Upgrades!
+			// RemoteStorage: Access your storage at other locations in the world with a Remote Access after linking it to a Storage Heart with a Locator or Locator Disk.
+			// CombinedStations: Magic Storage provides Combined Crafting Stations to reduce the number of crafting stations you have to put in the Crafting Interface.
+			// EnvironmentAccess: The Storage Configuration Interface allows other mods to add "crafting modules" which can affect how the Crafting Interface functions.
+			// PortableAccess: Craft a Portable Remote Storage Access to access your storage while you're away from home.
+			// StorageCores: Use a Storage Core Wrench to remove the Storage Core from a Storage Unit, which can then be inserted into an Empty Storage Unit.
+			// DisableUnit: Use a Storage Unit Wand to disable a Storage Unit. A disabled Storage Unit cannot store items and will attempt to move its items to connected Storage Units.
+			// BiomeGlobe: The Biome Globe enables recipes for the Snow biome, Ecto Mist, the Campfire, Water, Lava, Honey and the Demon/Crimson Altars.
 		}
 
 		Bestiary.Golem: Робот, который расскажет вам о системе хранения.
@@ -555,18 +650,34 @@ Mods: {
 					Рецепты:
 					[rg:MagicStorage:AnyWorkBench] [i:Furnace] [rg:MagicStorage:AnyPreHmAnvil] [rg:MagicStorage:AnyBottle] [rg:MagicStorage:AnySink] [i:Sawmill] [i:Loom] [rg:MagicStorage:AnyTable] @ hand = [i:MagicStorage/CombinedStations1Item]
 					[i:MagicStorage/CombinedStations1Item] [i:Hellforge] [i:AlchemyTable] [rg:MagicStorage:AnyCookingPot] [i:TinkerersWorkshop] [i:DyeVat] [i:HeavyWorkBench] [i:Keg] [i:TeaKettle] @ hand = [i:MagicStorage/CombinedStations2Item]
-					[i:MagicStorage/CombinedStations2Item] [i:ImbuingStation] [rg:MagicStorage:AnyHmAnvil] [rg:MagicStorage:AnyHmFurnace] [rg:MagicStorage:AnyBookcase] [i:CrystalBall] [i:BlendOMatic] @ hand = [i:MagicStorage/CombinedStations3Item]
+					[i:MagicStorage/CombinedStations2Item] [i:ImbuingStation] [rg:MagicStorage:AnyHmAnvil] [rg:MagicStorage:AnyHmFurnace] [rg:MagicStorage:AnyBookcase] [i:CrystalBall] @ hand = [i:MagicStorage/CombinedStations3Item]
 					'''
 				Help17:
 					'''
 					В качестве одной из многих функций, позволяющих сократить количество крафтовых станций, которые вам приходится размещать в модуле создания предметов, Magic Storage предоставляет несколько комбинированных крафтовых станций. Каждая комбинированная станция крафта наследует свойства своих станций крафта материалов.
 					Рецепты:
 					[i:BoneWelder] [i:GlassKiln] [i:HoneyDispenser] [i:IceMachine] [i:LivingLoom] [i:SkyMill] [i:Solidifier] @ hand = [i:MagicStorage/CombinedFurnitureStations1Item]
-					[i:MagicStorage/CombinedFurnitureStations1Item] [i:MeatGrinder] [i:LesionStation] [i:FleshCloningVaat] [i:SteampunkBoiler] [i:LihzahrdFurnace] @ hand = [i:MagicStorage/CombinedFurnitureStations2Item]
+					[i:MagicStorage/CombinedFurnitureStations1Item] [i:MeatGrinder] [i:LesionStation] [i:FleshCloningVaat] [i:SteampunkBoiler] [i:LihzahrdFurnace] [i:BlendOMatic] @ hand = [i:MagicStorage/CombinedFurnitureStations2Item]
 					[i:MagicStorage/CombinedStations3Item] [i:MagicStorage/CombinedFurnitureStations2Item] [i:Autohammer] [i:LunarCraftingStation] [i/s10:LavaBucket] [i/s10:HoneyBucket] @ hand = [i:MagicStorage/CombinedStations4Item]
 					'''
+				Help17_NoFargo:
+					'''
+					{$Mods.MagicStorage.Dialogue.Golem.Help17}
+					[i:MagicStorage/CombinedStations3Item] [i:MagicStorage/CombinedFurnitureStations2Item] [i:Autohammer] [i:LunarCraftingStation] [i/s10:LavaBucket] [i/s10:HoneyBucket] @ hand = [i:MagicStorage/CombinedStations4Item]
+					'''
+				Help17_WithFargo:
+					'''
+					{$Mods.MagicStorage.Dialogue.Golem.Help17}
+					[i:MagicStorage/CombinedStations3Item] [i:MagicStorage/CombinedFurnitureStations2Item] [i:Autohammer] [i:LunarCraftingStation] [i:Fargowiltas/GoldenDippingVat] [i/s10:LavaBucket] [i/s10:HoneyBucket] @ hand = [i:MagicStorage/CombinedStations4Item]
+					'''
 				Help18: Лунный лорд охраняет Сияющую драгоценность, драгоценный камень невероятной силы. Вы можете использовать его для создания портативных средств удаленного доступа с неограниченным диапазоном доступа!
-				Help19: "[i:MagicStorage/EnvironmentAccess] является довольно причудливым компонентом. Ходят слухи, что он допускает внешнее вмешательство в системы хранения Magic Storage, но только разработчик мода сможет использовать его."
+				/* Help19:
+					'''
+					The Configuration Interface allows other mods to add "crafting modules" which can affect how the [i:MagicStorage/CraftingAccess] functions.
+					These modules can be toggled on and off in the UI for the Configuration Interface.
+					By default, Magic Storage provides modules for reading from the player's inventory and Journey Mode duplication menu.
+					[rg/s2:MagicStorage:AnyDiamond] [i/s50:DirtBlock] [i/s50:StoneBlock] [i/s50:MudBlock] [i/s50:SnowBlock] [i/s50:SandBlock] @ [rg:MagicStorage:AnyWorkBench] = [i:MagicStorage/EnvironmentAccess]
+					''' */
 				Help20:
 					'''
 					[i:MagicStorage/RemoteAccess] Очень удобнен, иногда вам нужно иметь доступ к своему хранилищу, находясь вдали от дома.
@@ -594,6 +705,24 @@ Mods: {
 					[i:MagicStorage/StorageUnitHellstone] + [i:MagicStorage/UpgradeHallowed] -> [i:MagicStorage/StorageUnitHallowed]    [i:MagicStorage/StorageUnitHallowed] + [i:MagicStorage/UpgradeBlueChlorophyte] -> [i:MagicStorage/StorageUnitBlueChlorophyte]
 					[i:MagicStorage/StorageUnitBlueChlorophyte] + [i:MagicStorage/UpgradeLuminite] -> [i:MagicStorage/StorageUnitLuminite]    [i:MagicStorage/StorageUnitLuminite] + [i:MagicStorage/UpgradeTerra] -> [i:MagicStorage/StorageUnitTerra]
 					'''
+				/* Help22:
+					'''
+					This unit has noticed that you are currently playing in a multiplayer world.  Hence, some features within the [i:MagicStorage/StorageHeart] are locked behind the [c/cccc00:Server Operator] status.
+					To become a [c/cccc00:Server Operator], you must either be the host of the world via Host&Play, or you must use the [c/ff6a00:/reqop] command.  Using this command successfully will grant you the [c/cc0000:Server Admin] status.
+					Once you have the [c/cc0000:Server Admin] status, you can use the [c/ff6a00:/op] command to grant other players the [c/cccc00:Server Operator] status or [c/ff6a00:/deop] to remove it.
+					Either status will stay active until you disconnect from the server.
+					''' */
+				/* Help23:
+					'''
+					Moving a storage system can be a hassle, especially if you have a lot of items stored.  To make it easier, you can use the Storage Core Wrench to remove the Storage Core from a placed Storage Unit.
+					[i:Wrench] + [i:MagicStorage/StorageComponent] + [i/s10:Wire] + [rg/s5:IronBar] @ [rg:MagicStorage:AnyPreHmAnvil] = [i:MagicStorage/StorageExtractor]
+					Removing the Storage Core will turn the Storage Unit into an [i:MagicStorage/StorageUnitEmpty], which can then be picked up and placed elsewhere.
+					To insert the Storage Core back into the [i:MagicStorage/StorageUnitEmpty], simply right click it while holding the Storage Core.
+					  [i:MagicStorage/StorageUnit] -> [i:MagicStorage/StorageCore]    [i:MagicStorage/StorageUnitDemonite] -> [i:MagicStorage/StorageCoreDemonite]
+					  [i:MagicStorage/StorageUnitCrimtane] -> [i:MagicStorage/StorageCoreCrimtane]    [i:MagicStorage/StorageUnitHellstone] -> [i:MagicStorage/StorageCoreHellstone]
+					  [i:MagicStorage/StorageUnitHallowed] -> [i:MagicStorage/StorageCoreHallowed]    [i:MagicStorage/StorageUnitBlueChlorophyte] -> [i:MagicStorage/StorageCoreBlueChlorophyte]
+					  [i:MagicStorage/StorageUnitLuminite] -> [i:MagicStorage/StorageCoreLuminite]    [i:MagicStorage/StorageUnitTerra] -> [i:MagicStorage/StorageCoreTerra]
+					''' */
 			}
 
 			ChatOptions: {
@@ -674,6 +803,11 @@ Mods: {
 			Не удается открыть пользовательский интерфейс Magic Storage.Причина: Высота панели была слишком мала для правильного отображения элементов пользовательского интерфейса.
 			Пожалуйста, уменьшите масштаб вашего пользовательского интерфейса в настройках или увеличьте разрешение игры в настройках видео.
 			'''
+		/* ForcedLayoutChange:
+			'''
+			Current UI layout resulted in a panel that was too short to properly display the UI elements.
+			Forcing the UI layout to "Modern Paged" to allocate more vertical space.
+			''' */
 
 		Warnings: {
 			StorageDefaultToAllItems: Предметы не отображаются, даже если они есть в хранилище. По умолчанию используется режим фильтрации "Все".
@@ -682,18 +816,50 @@ Mods: {
 			CraftingDefaultToAllMods: Рецепты не отображаются, даже если есть рецепты из других модов.  По умолчанию используется режим фильтрации "{$Mods.MagicStorage.FilterAllMods}".
 			DeleteItemsFailed: Операция удаления не удалась по неизвестным причинам. Пожалуйста, попробуйте еще раз или при необходимости удалите предметы вручную.
 			DeleteDataFailed: Операция удаления не удалась по неизвестным причинам. Некоторые предметы могут по-прежнему содержать незагруженные данные мода.
+			// DecraftingNoBlacklist: No items displayed even though blacklisted items exist.  Ignoring item blacklisting.
+			// DecraftingDefaultToAllMods: No items displayed even though items exist from other mods.  Defaulting to "{$Mods.MagicStorage.FilterAllMods}" mod filter.
 		}
 
 		RecipeHidden: '''"{0}" рецептов были скрыты.'''
 		RecipeRevealed: '''"{0}" рецептов были показаны.'''
+		RecipeHiddenGlobal: "{0}" рецептов были скрыты в мире.
+		RecipeRevealedGlobal: "{0}" рецептов были показаны в мире.
 
 		RecipeConditions: {
 			EctoMistOverride: "{$Conditions.InGraveyard} / {$Mods.MagicStorage.Items.CombinedStations4Item.DisplayName}"
 			CookedMarshmallowCondition: Биом в шаре в модуле создания предметов
 		}
 
-		DepositTooltip: Положить - клик, Положить все - ctrl+клик, Пополнить запасы - ПКМ
-		DepositTooltipAlt: Положить - ctrl+клик, Положить все - клик, Пополнить запасы - ПКМ
+		DepositTooltip: Положить - ЛКМ, Положить все - Ctrl+ЛКМ/ПКМ, Пополнить запасы - ПКМ
+		DepositTooltipAlt: Положить - Ctrl+ЛКМ/ПКМ, Положить все - ЛКМ, Пополнить запасы - ПКМ
+
+		ServerOperator: {
+ 			ConfigChangeDenied: Только пользователи со статусом оператора сервера или выше могут изменять эту настройку
+			ControlRequirement: Эта функция требует статус оператора сервера
+
+			CommandInfo: {
+				Descriptions: {
+					reqop: Запрашивает у сервера статус администратора (для Magic Storage)
+					op: Назначает статус оператора сервера (для Magic Storage) игроку <номер>
+					deop: Снимает статус оператора сервера (для Magic Storage) с игрока <номер>
+					whois: Выводит индекс для каждого игрока
+					whoami: Выводит индекс текущего игрока
+				}
+
+				// NoArguments: Аргументы не требуются
+				MultiplayerOnly: Эта команда доступна только для многопользовательских клиентов
+				AlreadyAdmin: Этот игрок уже имеет статус Администратора сервера
+				OneIntArgument: Требуется один числовой аргумент
+				ArgumentNotByte: Аргумент должен быть положительным числом от 0 до 255
+				MultiplayerAdminOnly: Эта команда доступна только для игроков с статусом Администратора сервера
+				NotConnected: Игрок {0} не подключен к серверу
+				ClientAlreadyOp: Игрок {0} уже имеет статус Оператора сервера
+				ClientAlreadyDeop: Игрок {0} уже не имеет статус Оператора сервера
+				MultiplayerOperatorOnly: Эта команда доступна только для игроков с статусом Оператора сервера
+				Players: Игроки:
+				YouAreClient: Вы игрок {0}
+			}
+		}
 
 		StorageGUI: {
 			ForceRefreshButton: Принуд. обновление интерфейса
@@ -707,13 +873,45 @@ Mods: {
 			InitShowcaseButton: Создание предпросмотра
 			ResetShowcaseButton: Сброс предметов предпросмотра
 			ClearItemsButton: Очистить все предметы
+			FillWithGarbage: Заполнить случайными предметами
 			SellDuplicatesHeader: Продажа дубликатов
 			SellDuplicatesButton: Продать
+			SetAStorageName: Введите имя хранилища...
+			NameWasCleared: Имя было удалено
+			NameWasSetTo: Имя было установлено на: {0}
+
+			ItemDeletionMode: {
+				Label: Режим удаления предметов
+				Enabled: Режим удаления предметов: [c/00ff00:enabled].  Двойное нажатие по предмету, чтобы удалить.
+				Disabled: Режим удаления предметов: [c/ff0000:disabled].
+			}
 
 			SellDuplicatesMenu: {
+				Label: Режим продажи предметов
+				Enabled: Режим продажи предметов: [c/00ff00:enabled].  Нажмите на предмет, чтобы отметить его как товар для продажи.
+				Disabled: Режим продажи предметов: [c/ff0000:disabled].
 				NoPrefix: Продать дубликаты без модификаторов
 				KeepMostValue: Оставить дорогие предметы
 				KeepLeastValue: Оставить дешевые предметы
+
+				SoldItemsReport: {
+					GotCoins: "{0}/{1} предметов было продано за {2}"
+					NoCoins: "{0}/{1} предметы были проданы, но ни один из них не имел ценности."
+					NoSell: Ни один предмет не был продан.
+					PacketTooLarge: Слишком много предметов для продажи за раз. Пожалуйста, попробуйте снова с меньшим количеством.
+				}
+			}
+
+			// Popup.Label: Quantity:
+		}
+
+		CraftingGUI: {
+			ShowAllIngredients: Показать все возможные ингредиенты.
+
+			RecursionErrors: {
+				// NoRecipe: "[c/ff0000:Simulation failed to find a valid recursion tree, defaulting to original recipe]"
+				// NoObjects: "[c/ff0000:Simulation failed to find a valid recursion tree, defaulting to original recipe's required objects]"
+				// NoIngredients: "[c/ff0000:Simulation failed to find a valid recursion tree, defaulting to original recipe's ingredients]"
 			}
 		}
 
@@ -726,6 +924,29 @@ Mods: {
 				Другие модули не найдены.
 				Другим модам нужно будет добавить некоторые из них, чтобы они появились здесь.
 				'''
+		}
+
+		DecraftingGUI: {
+			StoredResults: Сохраненные результаты предметов
+			ShimmeringReports: Сохраненные преобразования
+			ItemHidden: Предмет "{0}" был занесен в черный список.
+			ItemRevealed: Предмет "{0}" был занесен в белый список.
+			ItemHiddenGlobal: Предмет "{0}" был занесен в мировой черный список.
+			ItemRevealedGlobal: Предмет "{0}" был занесен в мировой белый список.
+			ShimmerButton: Мерцание
+			ShimmerButtonTooltip: ЛКМ, чтобы преобразовать предмет
+			ShimmerButtonTooltipOld: ЛКМ, чтобы преобразовать предмет (ctrl, чтобы максимальное кол-во)
+			ShimmerAmount: Преобразование: {0}
+
+			ShimmerReports: {
+				DoesNotShimmer: Нет результатов преобразования
+				CoinLuck: +{0}% удачи (+{1:0.##} значение)
+
+				NPCSpawn: {
+					DirectTransform: "{0}"
+					IndirectTransform: "{0} (вид #{1})"
+				}
+			}
 		}
 
 		FilteringOption: {
@@ -752,6 +973,10 @@ Mods: {
 			NotFullyResearched.Tooltip: Фильтр (Непросмотренное)
 			FullyResearched.Tooltip: Фильтр (Просмотренное)
 			Materials.Tooltip: Фильтр (Материалы)
+			ToolsAndFishing.Tooltip: Фильтр (Инструменты и рыбалка)
+			Fishing.Tooltip: Фильтр (Рыбалка)
+			MiscGameplayItems.Tooltip: Фильтр (Разное)
+			SellingItems.Tooltip: Фильтр (Предметы на продажу)
 		}
 
 		SortingOption: {
@@ -765,6 +990,12 @@ Mods: {
 			Damage.Tooltip: Сортировка по урону
 		}
 
+		SellingDuplicateFinders: {
+			SellAllExceptLeastExpensiveFinder.Label: Продать все, кроме самого дешевого
+			SellAllExceptMostExpensiveFinder.Label: Продать все, кроме самого дорогого
+			SellAllItemsWithNoPrefixFinder.Label: Продать все предметы без префикса
+		}
+
 		ButtonConfigGear: Открыть панель конфигурации
 
 		UIPages: {
@@ -772,20 +1003,21 @@ Mods: {
 			Filtering: Фильтрация
 			Crafting: Создание
 			Storage: Хранилище
-			Controls: Настройки
+			Shimmering: Мерцание
 			# StorageGUI page for the extra controls
-			Modules: Модули
+			Controls: Настройки
 			# EnvironmentGUI page for the modules
+			Modules: Модули
 			History: История
 		}
 
 		Config: {
-			BetaLabel: Magic Storage BETA конфигурация
+			BetaLabel: Настройки Magic Storage (BETA)
 
 			Headers: {
-				Storage: "[i:MagicStorage/StorageHeart]  Конфигурация интерфейса хранилища"
-				Crafting: "[i:MagicStorage/CraftingAccess]  Конфигурация интерфейса создания"
-				StorageAndCrafting: "[i:MagicStorage/StorageHeart] [i:MagicStorage/CraftingAccess]  Конфигурация интерфейсов хранения и крафта"
+				Storage: "[i:MagicStorage/StorageHeart]  Настройки интерфейса хранилища"
+				Crafting: "[i:MagicStorage/CraftingAccess]  Настройки интерфейса создания"
+				StorageAndCrafting: "[i:MagicStorage/StorageHeart] [i:MagicStorage/CraftingAccess]  Настройки интерфейсов хранения и крафта"
 				General: Дополнительно
 			}
 
@@ -808,11 +1040,11 @@ Mods: {
 			}
 		}
 
-		// Keybinds.PrintItemData.DisplayName: Print Item Data
+		Keybinds.PrintItemData.DisplayName: Вывести данные о предмете.
 
 		Configs: {
 			MagicStorageConfig: {
-				DisplayName: Magic Storage конфигурация
+				DisplayName: Настройки Magic Storage
 
 				quickStackDepositMode: {
 					Label: "[i:Chest]  Режим быстрой стопки"
@@ -835,8 +1067,13 @@ Mods: {
 				}
 
 				recipeBlacklist: {
-					Label: Белый/черный список рецептов
+					Label: Черный/белый список рецептов
 					Tooltip: Включите, чтобы разрешить добавление исключений в рецептах в интерфейсе создания
+				}
+
+				globalRecipeBlacklist: {
+					Label: Мировой черный/белый список рецептов
+					Tooltip: Нажмите левый Ctrl + левый Shift чтобы добавить в черный/белый список
 				}
 
 				clearHistory: {
@@ -917,6 +1154,11 @@ Mods: {
 					Label: Робот запоминает последнюю подсказку
 					Tooltip: Робот запомнит, какую подсказку он в последний раз показывал пользователю, и отобразит эту подсказку при взаимодействии с ней.
 				}
+
+				globalShimmerItemBlacklist: {
+					Label: Мировой черный/белый список преобразования предметов
+					Tooltip: Нажмите левый Ctrl + левый Shift чтобы добавить в черный/белый список
+				}
 			}
 
 			ButtonConfigurationMode: {
@@ -938,8 +1180,8 @@ Mods: {
 				}
 
 				auditLog: {
-					// Label: Server Audit Log
-					// Tooltip: Enable to make client interactions with any storage system be reported to an audit log
+					Label: Логи сервера
+					Tooltip: Включите, чтобы действия игрока с любой системой хранения фиксировались в логах.
 				}
 			}
 

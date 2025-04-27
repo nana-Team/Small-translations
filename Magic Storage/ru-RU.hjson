@@ -6,76 +6,74 @@ Mods: {
 	MagicStorage: {
 		Items: {
 			BiomeGlobe: {
-				DisplayName: Biome Globe
+				DisplayName: Сфера биомов
 				Tooltip:
 					'''
-					'The world's power is at your fingertips'
-					Allows the crafting of recipes that require the Snow biome, Ecto Mist, Demon/Crimson Altar and Water/Lava/Honey
-					Can be in the inventory or a Crafting Interface's station slot
-					While in the inventory, Marshmallows can be cooked without needing to stand near a Campfire
-					Allows crafting of Cooked Marshmallows in the Crafting Interface
-					Acts like a Beach Ball when thrown
+					Считается за снежный биом, туман кладбища, костёр, демонический алтарь и источник воды, мёда и лавы для создания предметов
+					Работает как в инвентаре, так и находясь в слотах станций для создания предметов в хранилище
+					Можно бросить как пляжный мяч
+					«Весь мир, как на ладони»
 					'''
 			}
 
 			CraftingAccess: {
-				DisplayName: Storage Crafting Interface
-				Tooltip: Enables crafting with the items in a storage system
+				DisplayName: Модуль создания предметов
+				Tooltip: Позволяет создавать предметы из материалов в хранилище
 			}
 
 			CreativeStorageUnit: {
-				DisplayName: Creative Storage Unit
+				DisplayName: Ячейка хранилища творческого режима
 				Tooltip:
 					'''
-					Stores an unlimited amount of every item type.
-					Does not count toward storage limits when in a storage system.
+					Хранит в себе бесконечное количество всех предметов в игре
+					Не увеличивает лимит доступных слотов в хранилище
 					'''
 			}
 
 			Locator: {
-				DisplayName: Locator
+				DisplayName: Локатор хранилища
 				Tooltip:
 					'''
-					<right> Storage Heart to store location
-					<right> Remote Storage Access to set it
+					Нажмите ПКМ по модулю сердца хранилища, чтобы устройство запомнило его местоположение
+					Нажмите ПКМ по модулю удалённого доступа, чтобы ??????????????????????
 					'''
 			}
 
 			LocatorDisk: {
-				DisplayName: Locator Drive
+				DisplayName: Локатор хранилища делюкс
 				Tooltip:
 					'''
-					<right> Storage Heart to store location
-					<right> Remote Storage Access to set it
-					Does not get destroyed upon use
+					Нажмите ПКМ по модулю сердца хранилища, чтобы устройство запомнило его местоположение
+					Нажмите ПКМ по модулю удалённого доступа, чтобы ??????????????????????
+					Не пропадает после использования
 					'''
 			}
 
 			PortableAccess: {
-				DisplayName: Ultimate Portable Remote Storage Access
+				DisplayName: Портативный удалённый доступ к хранилищу (Ультимтивный)
 				Tooltip:
 					'''
-					<right> Storage Heart to store location
-					Currently not set to any location
-					Use item to access your storage
-					Has an unlimited access range
+					Нажмите ПКМ по модулю сердца хранилища, чтобы устройство запомнило его местоположение
+					На данный момент местоположение хранилища не установлено
+					Используйте этот предмет, чтобы открыть хранилище издалека
+					Дальность действия неограничена
 					'''
 			}
 
 			PortableCraftingAccess: {
-				DisplayName: Ultimate Portable Remote Crafting Access
+				DisplayName: Портативный удалённый доступ к модулю создания (Ультимтивный)
 				Tooltip:
 					'''
-					<right> Crafting Interface to store location
-					Currently not set to any location
-					Use item to access your crafting
-					Has an unlimited access range
+					Нажмите ПКМ по модулю создания предметов, чтобы устройство запомнило его местоположение
+					На данный момент местоположение модуля создания не установлено
+					Используйте этот предмет, чтобы открыть панель создания предметов хранилища издалека
+					Дальность действия неограничена
 					'''
 			}
 
 			RadiantJewel: {
-				DisplayName: Radiant Jewel
-				Tooltip: "'Shines with a dazzling light'"
+				DisplayName: Сияющая драгоценность
+				Tooltip: «Излучает ослепительно яркий свет»
 			}
 
 			RemoteAccess: {

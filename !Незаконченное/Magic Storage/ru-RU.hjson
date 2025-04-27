@@ -614,22 +614,22 @@ Mods: {
 			}
 		}
 
-		Active: Active
-		Inactive: Inactive
-		PortableAccessUnlocated: Locator is not set to any Storage Heart
-		PortableAccessMissing: Storage Heart is missing!
+		Active: Активен
+		Inactive: Неактивен
+		PortableAccessUnlocated: Локатор не установлен ни на одно из сердец хранилища.
+		PortableAccessMissing: Сердце хранилища отсутствует!
 		PortableAccessOutOfRange: Locator could not connect to its linked storage system
 		PortableAccessNoPylons: No pylons were close enough to the linked storage system
-		PortableCraftingUnlocated: Locator is not set to any Crafting Access
-		PortableCraftingMissing: Crafting Access is missing!
+		PortableCraftingUnlocated: Locator is not set to any Crafting Interface
+		PortableCraftingMissing: Crafting Interface is missing!
 		RemoteAccessSuccess: Success!
 		RemoteAccessHasLocator: This Access already has a locator, please mine then replace to reset it
 		RemoteAccessUnlocated: The locator has not been set to a destination
 		StorageUnitActivated: Storage Unit has been Activated
 		StorageUnitDeactivated: Storage Unit has been Deactivated
 		FilterAllMods: All mods
-		Capacity: "{0} / {1} Items"
-		LocatorSet: Locator successfully set to: X={0}, Y={1}
+		Capacity: Содержит {0} / {1} предметов
+		LocatorSet: Локатор успешно установлен по координатам: x = {0}, y = {1}
 		StorageAccessFail: Could not load Storage Heart tile entity!
 		StorageAccessFailAlt: This access is not connected to a Storage Heart!
 		StorageAccessFailLoad: Storage Heart area not loaded! Try again.
@@ -648,9 +648,9 @@ Mods: {
 			Minus1: "-1"
 			Minus10: "-10"
 			Minus100: "-100"
-			MaxStack: Max. Stack
-			Reset: Reset
-			Amount: Crafting: {0}
+			MaxStack: Максимум
+			Reset: Сбросить
+			Amount: К созданию: {0}
 		}
 
 		Search: Search
@@ -659,26 +659,26 @@ Mods: {
 		SortWaiting: Loading ...
 
 		SearchTips: {
-			SearchName: Search Name
-			SearchMod: @ModName Search Name
-			SearchTooltip: "#Search Tooltip"
-			SearchModAndTooltip: @ModName #Search Tooltip
-			TipModAndTooltip: "[c/ffff00:@ModName] to search by mod, [c/ffff00:#Search Tooltip] to search by tooltip (can be combined in that order)"
-			TipTooltipOnly: "[c/ffff00:#Search Tooltip] to search by tooltip"
+			SearchName: Название
+			SearchMod: @ИмяМода и/или название
+			SearchTooltip: "#Описание"
+			SearchModAndTooltip: @ИмяМода и/или #Описание
+			TipModAndTooltip: Используйте [c/ffff00:@ИмяМода] для поиска по моду и/или [c/ffff00:#Описание] для поиска по описаниям предметов
+			TipTooltipOnly: Искользуйте [c/ffff00:#Описание] для поиска по описаниям предметов
 		}
 
 		Recipes: Recipes
-		RecipeAvailable: Show available recipes
-		RecipeAll: Show all known recipes
+		RecipeAvailable: Показывать только доступные рецепты
+		RecipeAll: Показыватьв все рецепты
 		RecipeBlacklist: Show hidden recipes (ctrl+click on recipe to (un)hide)
-		SelectedRecipe: Selected Recipe
-		Ingredients: Ingredients
-		StoredItems: Stored Ingredients
+		SelectedRecipe: Текущ. рецепт
+		Ingredients: Материалы
+		StoredItems: Имеющиеся материалы
 		ShowOnlyFavorited: Only Favorited
-		ViewHistory: Click to View Recipe History
-		ClearHistory: Clear
-		PrevHistory: Previous Recipe in History
-		NextHistory: Next Recipe in History
+		ViewHistory: Нажмите для просмотра истории рецепьлв
+		ClearHistory: Очистить
+		PrevHistory: Предыдущий рецепт в истории
+		NextHistory: Следующий рецепт в истории
 		PanelTooSmol:
 			'''
 			Unable to open a Magic Storage UI.  Reason: Panel height was too short to properly display the UI elements.

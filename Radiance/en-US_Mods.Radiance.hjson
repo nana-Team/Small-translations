@@ -1,0 +1,378 @@
+Common: {
+	RecallBlocked: You can't use that right now
+	RecallBlockedByOpeningAttack: You must survive the next attack before you can teleport away!
+	RecallBlockedByMultipleOpeningAttacks: You must survive the next {0} attacks before you can teleport away!
+	InsigniaConflict0: Mutually exclusive with [i:4823]Empress Wings while [i:Radiance/RadiantCharm]Radiant Charm is equipped
+	InsigniaConflict1: No stats will be gained
+	LightsWrathCurseCritter: Light's Wrath prevents you from harming this creature!
+	LightsWrathCurseBoss: Light's Wrath prevents you from harming this entity!
+}
+
+DropConditions: {
+	RadiantCharm: Drops if the Empress of Light is defeated during daytime
+	RadiantDye: Drops if the Empress of Light is defeated during daytime without taking any damage from her attacks
+}
+
+DeathMessages: {
+	# Ruin death messages. {0} is the player's name, {1} is the killing entity's name (NPC/Projectile), {2} is the world name
+	RuinDeath0: "{0} was obliterated from existence by {1}."
+	RuinDeath1: "{0} was annihilated by {1}."
+	RuinDeath2: "{0} was erased by {1}."
+	RuinDeath3: "{0} was immaterialized by {1}."
+	RuinDeath4: "{0} was sent to the void by {1}."
+	RuinDeath5: "{0} was deleted by {1}"
+	RuinDeath6: "{0} was evaporated into nonexistence by {1}"
+	RuinDeath0Alt: "{0} was banished from existence by {1}."
+	RuinDeath2Alt: "{0} was erased from {2} by {1}."
+	# Sun Dance death messages. {0} is the player's name, contact damage variant is occasionally used when the player dies to boss contact damage instead of projectiles
+	SunDanceContactDamageRare: "{0} received an uncomfortably warm hug."
+	SunDance0: "{0} fell into the sun."
+	SunDance1: "{0} got vaporized."
+	SunDance2: "{0} returned to stardust."
+	SunDance3: "{0} didn't quite reach orbit."
+}
+
+Buffs: {
+	ArtifactShielded: {
+		DisplayName: Recently Protected
+		Description: You were shielded from damage
+	}
+
+	RadiantKaleidoscope: {
+		DisplayName: Radiant Kaleidoscope
+		Description: You shouldn't be able to see this
+	}
+
+	Ruin: {
+		DisplayName: Ruin
+		Description: "[c/fff6b7:All attacks that inflict this debuff now instantly kill you instead]"
+	}
+
+	ChaosStateLifestealTooltip: "[c/ff30c0:Any life lost will stolen, healing your attacker!]"
+}
+
+Items: {
+	AnomalousArtifact: {
+		DisplayName: Light's Wrath
+		Tooltip: "\n\n\n\n\n"
+		SpeedTooltip: Increases player speed and reach
+		ShieldTooltip: Provides a shield that blocks at least one instance of damage every {0} seconds and prevents most debuffs while active
+		OnHitTooltip: Projectile attacks have a chance to lifesteal and Radiant Beams periodically appear while attacking
+		CurseTooltip: With a couple strings attached...
+		PerfectTooltip: Perfected.
+		PerfectExpandedTooltip: Perfected. [Ability strength increased {0}%]
+		FlavorText0: "'Was it worth the struggle?'"
+		PerfectFlavorText0: "'You don't value your sanity, do you?'"
+	}
+
+	CrystalBell: {
+		DisplayName: Crystal Bell
+		Tooltip: "\n\n"
+		NormalTooltip: Summons the Empress of Light
+		CrackedTooltip: Summons the Empress of Light in her peak form
+		CrackedTooltipCursed: You will perish.
+		UnsummonTooltip: Practice: Use again to dismiss
+		OnlyUseDuringDayTooltip: Only usable during the day
+		OnlyUseDuringDayDontDigUpTooltip: Only usable on the surface during the day
+		CanUseAtNightTooltip: Config setting allows use at night
+		LightsWrathTooltip: Light's Wrath prevents this item from working properly
+	}
+
+	RadiantCharm: {
+		DisplayName: Radiant Charm
+		Tooltip:
+			'''
+			Imbues prismatic items with the power of the sun
+			-
+			'''
+		HiddenWarningTooltip: Application to a particular insect may have disastrous consequences...
+	}
+
+	RadiantDye: {
+		DisplayName: Radiant Dye
+		Tooltip: ""
+	}
+}
+
+RadiantCharmSynergies: {
+	BaseHint: Empowered by the sun...?
+	BaseEmpowered: "[i:Radiance/RadiantCharm]Empowered by the sun!"
+	RadiantWeaponDamageBonus: +{0}
+	RadiantWeaponMultiplierTooltip: "{0}x damage"
+	RadiantEmpressWings:
+		'''
+		Infinite flight time, faster acceleration and flight speed
+		Allows quick travel in water and partially normalizes gravity in space
+		Hold DOWN to hover, or UP to ascend faster and descend slower
+		'''
+	RadiantEventide:
+		'''
+		Homing and intangible projectiles
+		Explodes after piercing once
+		'''
+	RadiantEventideAlt: Fires a long piercing laser echoed by up to {0} small beams
+	RadiantKaleidoscope: Autoswing and extended reach unhindered by tiles
+	RadiantKaleidoscopeCritChanceTooltip: "{0}% summon tag critical strike chance"
+	RadiantNightglow:
+		'''
+		Stronger homing and intangible projectiles
+		Explodes instead of piercing
+		'''
+	RadiantStarlight: Releases homing lights and can strike through tiles
+	RadiantTerraprisma: Attacks faster, farther, and unaffected by tiles
+}
+
+Projectiles: {
+	Gift.DisplayName: Gift
+	MeltingLight.DisplayName: Melting Light
+	RadiantBeam.DisplayName: Radiant Beam
+	RadiantBolt.DisplayName: Concentrated Light
+	EventideLaser.DisplayName: Transient Lance
+	TransientLance.DisplayName: Transient Lance
+}
+
+Dialogue: {
+	PostSummonSecret0: With my very own gift to you...
+	PostSummonSecret1: Alright then.
+	PostSummonSecret2: Ready to see what I'm really capable of?
+
+	PostOpeningAttack: {
+		FirstTry0: That was quick.
+		FirstTry1: Your skills truly are remarkable.
+		FirstTry2: Let's see how long you last...
+		# --
+		FewTries0: Still alive, huh?
+		FewTries1: I hope you understand what you're getting yourself into.
+		# --
+		ManyTries0: You survived.
+		ManyTries1: Are you sure this is necessary?.
+		ManyTries2: It doesn't have to be this way...
+	}
+
+	BellCutscene0: You're going to make those critters extinct at this rate.
+	BellCutsceneAlt0: You really don't like those butterflies, huh?
+	BellCutscene1: I have an idea.
+	BellCutsceneAlt1: I have a solution to this.
+	BellCutscene2: How about you ring this to summon me instead?
+
+	Victory: {
+		# Empowered nighttime (only possible with custom setting, no major rewards)
+		Invalid0: ...
+		Invalid1: That's it?
+		Invalid2: My powers were kind of disappointing this time, weren't they?
+		Invalid3: Well, I suppose I should give you a reward of some sort.
+		Invalid4: If you want something greater you will have to challenge me when my abilities aren't so weak.
+		Invalid5: Take these for now.
+		Invalid3Alt: Well, I suppose I should give you something for your effort.
+		Invalid5Alt: Take these for now. They may be of some use to you.
+		# Regular daytime victory
+		Default0: Impressive.
+		Default1: I have to admit,
+		Default2: You're certainly stronger than you look.
+		Default3: Those butterflies are special to me, but as long as you leave them alone, we can share this world without issue.
+		Default4: I have something for you. An offering of peace, perhaps?
+		Default5: Do not misuse it.
+		Default1Alt: I must admit,
+		# Nohit daytime victory
+		Nohit0: Very impressive.
+		Nohit1: You're untouched.
+		Nohit2: Your abilities prove stronger than I thought. Maybe I was wrong to underestimate you.
+		Nohit3: Those butterflies are special to me, but as long as you leave them alone, we can share this world without issue.
+		Nohit4: I have something special for you. I think you deserve it.
+		Nohit5: Your skills are remarkable, but I hope you aren't trying to prove something...
+		# Secret victory
+		Secret0: Unbelievable. You're still alive.
+		Secret1: I feared this day would come eventually.
+		Secret2: You are something which I have not seen before. It seems no matter how many times I strike you down, you only come back stronger.
+		Secret3: Your skill grows quickly, too. Although you may not be able to kill me, it appears I am already not strong enough to end you, either.
+		Secret4: I do not have the strength to fight you any longer, so you have my concession, and I will offer you one last reward. Perhaps it will make up for the pain I have caused you.
+		Secret5: I now bestow upon you my final gift. Will it mark the end of your journey?
+		# Secret nohit victory
+		SecretNohit0: No. This can't be happening!
+		SecretNohit1: With the full force of my abilities, I couldn't hit you even a single time?!
+		SecretNohit2: ...
+		SecretNohit3: I believed my power was absolute. How arrogant that seems now...
+		SecretNohit4: I have a gift for you as usual, but your recent performance makes me question whether it will be of any use.
+		SecretNohit5: It is yours, regardless.
+		# Regular nighttime victory but under a very short kill time, complains about it. {0} is the time in seconds
+		NighttimeTooFast0: It's over already?
+		NighttimeTooFast1: "{0} {^0:second;seconds}? I hate nighttime..."
+		NighttimeTooFast2: Can't we do this when it's brighter outside?
+		# Regular nighttime victory with no damage, gives Terraprisma (and complains about it)
+		NighttimeTerraprisma0: Trying to show off?
+		NighttimeTerraprisma1: Are you trying to impress me?
+	}
+
+	Phase3Transform0: Already?
+	Phase3Transform1: How can this be possible?
+	Phase3Transform2: How is it that you continue to survive, even as I push my abilities closer and closer to their limits?
+	Phase3Transform3: ...No.
+	Phase3Transform4: I will not yield to you so easily.
+	Phase3Transform5: If you wish to win this battle, you will have to endure every last ounce of my strength.
+	Phase3Transform6: This isn't over yet.
+	Phase3Transform0Alt: That quickly?
+}
+
+Configs: {
+	Client: {
+		DisplayName: Client
+
+		nighttimeGlow: {
+			Label: Nighttime Glow
+			Tooltip: Applies a glow effect to boss projectiles at night.
+		}
+
+		blueFix: {
+			Label: Blue Fix
+			Tooltip: For whatever reason, tModloader makes daytime empress blue on certain days. This setting reverts that.
+		}
+
+		glowQuality: {
+			Label: Glow Quality
+			Tooltip:
+				'''
+				Quality of certain glow effects. Lowering or disabling may marginally improve performance.
+				-
+				Higher: Slightly better blending when multiple glow sources overlap
+				Normal: Default
+				Off: Disabled completely
+				-
+				'''
+		}
+
+		reducedFlashing: {
+			Label: Reduced Flashing
+			Tooltip: Disables some intense flashing effects.
+		}
+
+		screenShakeIntensity: {
+			Label: Screen Shake Intensity
+			Tooltip: Controls the intensity of screen shaking effects.
+		}
+
+		forceFiltersEnabled: {
+			Label: Force Filters Enabled
+			Tooltip:
+				'''
+				Forces filters to be enabled, even if lighting is set to retro/trippy.
+				Prevents certain effects from being invisible.
+				Disable this if another mod is trying to apply the same change.
+				'''
+		}
+
+		skyBrightness: {
+			Label: Sky Brightness
+			Tooltip: Increases how much the sky darkens in the presence of the boss.
+		}
+
+		lightsWrathBeamVolume: {
+			Label: Light's Wrath Beam Volume
+			Tooltip: Makes the beam from Light's Wrath quieter.
+		}
+
+		VisualTweaksHeader: Visual Tweaks
+	}
+
+	World: {
+		DisplayName: World
+
+		alwaysUseHardAttacks: {
+			Label: Use Daytime Attacks at Night
+			Tooltip:
+				'''
+				Can be useful for practice.
+				During nighttime, damage is substantially lower and the Ruin debuff is not applied.
+				Primary rewards are removed and secondary rewards are reduced while this is enabled.
+				'''
+		}
+
+		phasePractice: {
+			Label: Phase Practice
+			Tooltip:
+				'''
+				Starts the fight in the selected phase. The fight ends when the selected phase is finished.
+				-1: Off. The fight will run in its entirety and you will recieve full rewards.
+				0: Opening attack (if it is available, otherwise phase 1)
+				1: Phase 1
+				2: Phase 2
+				3: Phase 3 (if it is available, otherwise phase 2)
+				'''
+		}
+
+		nighttimeTerraprisma: {
+			Label: Night Time Terraprisma
+			Tooltip: Allows the Terraprisma (and potentially other mods' daytime-exclusive items) to drop at night if the player hasn't been hit.
+		}
+
+		attackDifficulty: {
+			Label: Attack Difficulty
+			Tooltip:
+				'''
+				Difficulty is normally determined by world difficulty, but you can force a specific difficulty here.
+				World-Based: Attack difficulty is determined by world difficulty. (Default)
+				Easier: Used by Expert and lower. Transient Lances are disabled and Melting Light is less accurate.
+				Harder: Used by Master. All attacks are used, and there are no difficulty reductions.
+				'''
+		}
+
+		radiantCharmNerf: {
+			Label: Radiant Charm Nerf
+			Tooltip:
+				'''
+				Reduces the strength of weapons affected by the Radiant Charm to improve compatibility with other mods.
+				None: Post-Zenith
+				Medium: Strong Post-Moonlord
+				Large: Post-Moonlord
+				'''
+		}
+
+		lightsWrathDebuffImmunity: {
+			Label: Light's Wrath Debuff Immunity
+			Tooltip:
+				'''
+				Light's Wrath prevents debuffs that are curable by the nurse. This can sometimes cause issues with other modded items.
+				Set this to 'Reduced' or 'Off' if your items aren't working.
+				Normal: Only recieve debuffs from item usage
+				Reduced: Only prevent debuffs from external sources. eg: Projectiles
+				Off: Don't prevent debuffs
+				'''
+		}
+
+		debugMode: {
+			Label: Debug Mode
+			Tooltip: Don't turn this on unless you know what you're doing.
+		}
+
+		GameplayTweaksHeader: Gameplay Tweaks
+		ItemTweaksHeader: Item Tweaks
+		MiscHeader: Misc
+	}
+
+	RadiantCharmNerfSize: {
+		Tooltip: ""
+		Large.Label: Large
+		Medium.Label: Medium
+		None.Label: None
+	}
+
+	LightsWrathDebuffImmunity: {
+		Tooltip: ""
+		Off.Label: Off
+		Reduced.Label: Reduced
+		Normal.Label: Normal
+	}
+
+	GlowQuality: {
+		Tooltip: ""
+		Higher.Label: Higher
+		Normal.Label: Normal
+		Off.Label: Disabled
+	}
+
+	AttackDifficulty: {
+		Tooltip: ""
+		World.Label: World-Based
+		Easier.Label: Easier
+		Harder.Label: Harder
+	}
+}

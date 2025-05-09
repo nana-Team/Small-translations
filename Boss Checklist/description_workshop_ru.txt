@@ -1,24 +1,28 @@
-[b]Bug reports in the workshop comments here will likely not be seen, come to our Discord or Github to report issues.[/b]
+[b]Багрепорты в комментариях под модом вероятнее всего будут игнорироваться, поэтому настоятельно просим отправлять их в нашем дискорде или на странице GitHub[/b]
 
-[h2]Boss Checklist[/h2]
-Boss Checklist lets you view a checklist of all available bosses while playing so you can progress through them as you defeat them. Toggle the checklist with the hotkey assigned to it in the settings. Visit [u]'Settings->Controls->Keybindings'[/u] to check or set the current hotkey. If you would like a mod to be supported, please encourage the modder to add support to this mod.
+[h2]Журнал боссов[/h2]
+Журнал боссов — главная фича этого мода, представляющая из себя небольшую книжечку в интерфейсе, в которой есть список всех существующих в игре боссов вместе с персональными страницами для каждого из них с полной информацией о том, как босс называется, как выглядит, каким предметом его можно призвать и как этот предмет скрафтить, что с босса выпадает и т.д.
+В этой книжке также будут отображаться боссы из всех других модов, что у вас установлены (если разработчики этих модов, конечно же, зарегистрировали своих боссов).
 
-[h2]Boss Log[/h2]
-The Boss Log is an enhancement of the traditional boss checklist and comes with many configurable features and customizations. Each entry on the checklist will have its own dedicated page with more information about the boss, including which mod it comes from, spawn information, spawn item crafting, loot table checklist and collectible item checklist. Modders are able to register their boss content to the log using Mod calls.
+[h2]Список боссов[/h2]
+Список боссов — старый и более упрощённый аналог журнала боссов, включающий в себя, собственно, сам список боссов и краткую информацию о его призыве. Список боссов можно открывать простым нажатием горячей клавиши, установить которую можно в настройках управления.
 
-[h2]Other Features[/h2]
-There are other optional features included as well, which can enhance boss fight gameplay. Features include:
+[h2]Прочие нововведения[/h2]
+Мод также добавляет прочие мелочи, улучшающие ваш процесс битв с боссами:
 [list]
-    [*]Boss Log Records, including boss fight duration and hits taken
-    [*]Boss despawn messages displayed in chat
-    [*]Boss radar for bosses that are off-screen
-    [*]Specific boss loot appears on the fullscreen map and mini-map
+    [*]Статистика битв с каждым из боссов на их страницах в журнале (например, количество потраченных попыток)
+    [*]Сообщения в чате, появляющиеся при деспавне боссов
+    [*]Босс-радар, указывающий стрелочкой на босса, если тот находится вне экрана
+    [*]Отображение мешков с сокровищами и прочих выпадающих с боссов предметов на карте
 [/list]
 
-[h1]Links[/h1]
-Learn how to register your boss content and more using the [url=https://github.com/JavidPack/BossChecklist/wiki/%5B1.4.4%5D-Boss-Log-Entry-Mod-Call]GitHub Guide[/url]
-Source code hosted on [url=github.com/JavidPack/BossChecklist]GitHub[/url], collaboration welcome.
-For questions or suggestions, come to my Discord: [url=discord.gg/w8Hcwby][img]https://discordapp.com/api/guilds/276235094622994433/widget.png?style=shield[/img][/url]
+[h1]Полезные ссылки[/h1]
+Узнать как зарегистрировать боссов из своих модов в журнале можно при помощи [url=https://github.com/JavidPack/BossChecklist/wiki/%5B1.4.4%5D-Boss-Log-Entry-Mod-Call]нашего гайда на GitHub[/url].
+Исходный код можно найти на [url=github.com/JavidPack/BossChecklist]нашем репозитории на GitHub[/url], помощь в разработке приветствуется!
+Задать вопросы или предложить идеи для новых фич можно в нашем англоязычном дискорде: [url=discord.gg/w8Hcwby][img]https://discordapp.com/api/guilds/276235094622994433/widget.png?style=shield[/img][/url]
 
-Check out [url=https://steamcommunity.com/profiles/76561198025715866/myworkshopfiles/?appid=1281930]Jopojelly's other mods[/url].
-Check out [url=https://steamcommunity.com/id/sheepishshepherd/myworkshopfiles/?appid=1281930]Sheepish Shepherd's other mods[/url].
+Также зацените:
+[list]
+    [*][url=https://steamcommunity.com/profiles/76561198025715866/myworkshopfiles/?appid=1281930]Другие моды от Jopojelly[/url]
+    [*][url=https://steamcommunity.com/id/sheepishshepherd/myworkshopfiles/?appid=1281930]Моды от Sheepish Shepard[/url]
+[/list]

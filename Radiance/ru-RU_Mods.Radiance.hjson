@@ -197,7 +197,7 @@ Dialogue: {
 		# Regular nighttime victory but under a very short kill time, complains about it. {0} is the time in seconds
 		NighttimeTooFast0: Уже всё?
 		NighttimeTooFast1: "{0} {^0:секунда;секунды;секунд}? Ненавижу ночь..."
-		NighttimeTooFast2: Может, сделает это после рассвета?
+		NighttimeTooFast2: Может, сделаем это после рассвета?
 		# Regular nighttime victory with no damage, gives Terraprisma (and complains about it)
 		NighttimeTerraprisma0: Пытаешься похвастаться?
 		NighttimeTerraprisma1: Хочешь произвести впечатление или что?

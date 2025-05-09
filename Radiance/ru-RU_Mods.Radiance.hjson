@@ -2,7 +2,7 @@ Common: {
 	RecallBlocked: Сейчас это нельзя использовать.
 	RecallBlockedByOpeningAttack: Вы должны пережить следующую атаку, прежде чем сможете телепортироваться!
 	RecallBlockedByMultipleOpeningAttacks: Вы должны пережить следующие {0} {^0:атака;атаки;атак}, прежде чем сможете телепортироваться!
-	InsigniaConflict0: Невозможно использовать одновременно с [i:4823]крыльями Императрицы, пока экипирован [i:Radiance/RadiantCharm]сияющий амулет
+	InsigniaConflict0: Невозможно использовать одновременно с [i:4823]крыльями Императрицы, пока экипирован [i:Radiance/RadiantCharm]Сияющий амулет
 	InsigniaConflict1: Не даёт никаких бонусов
 	LightsWrathCurseCritter: Гнев света не позволяет вам навредить этому существу!
 	LightsWrathCurseBoss: Гнев света не позволяет вам навредить этому существу!

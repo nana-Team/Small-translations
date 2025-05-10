@@ -1,28 +1,28 @@
 ﻿[img]https://i.imgur.com/W2c5CX6.gif[/img]
 
 [h1]Recipe Browser![/h1]
-Recipe Browser is an indispensable mod for any player. It provides a service to the user that the Guide could only dream of providing. [img]https://i.imgur.com/420S4WA.gif[/img] With Recipe Browser, you have access to powerful tools to help you plan out what items you want to craft. You'll be able to quickly find items that you can craft with the items in your possession, even if it takes several intermediate crafting steps.
+Recipe Browser — это незаменимый мод для любого игрока и прохождения. Он предоставляет такой функционал, о котором ванильный гид не мог и мечтать. [img]https://i.imgur.com/420S4WA.gif[/img] С Recipe Browser'ом у вас появится доступ к удобнейшим и многофункциональным инструментам, которые помогут вам спланировать, какие предметы вы хотите скрафтить. Вы сможете быстро просматривать список предметов, которых можно изготовить из имеющихся у вас материалов, даже если для этого потребуется несколько промежуточных этапов.
 
 [h1]Использование[/h1]
-To use, first you need to assign some hotkeys. Make sure to go into the Keybindings menu and assign hotkeys. The "Toggle Recipe Browser" hotkey is necessary, the other 2 are useful but somewhat optional. The "Query Hovered Item" hotkey streamlines checking recipes and the "Toggle Favorited Recipes Window" is useful when using the favorited recipes feature.
+Для использования мода, вам сначала будет необходимо назначить несколько горячих клавиш. Обязательно зайдите в настройки управления и назначьте горячие клавиши. Горячая клавиша «Открыть браузер рецептов» необходима для использования, остальные 2 также полезны, но необязательны. Горячая клавиша «Поместить предмет под курсором в ячейку» упрощает проверку рецептов, а «Вкл./Выкл. окно с избранными рецептами» полезно при использовании функции избранныых рецептов.
 [img]https://i.imgur.com/Bv1TOPR.png[/img]
 
 [h1]Основные функции[/h1]
 [img]https://i.imgur.com/wt2VPR0.png[/img]
-The main window consists of several tabs. You can click on the tabs to visit each tool. You can resize the window as well. The Help tab explains each tool in greater detail, be sure to check it out.
+Главное окно состоит из нескольких вкладок. Вы можете нажать по вкладкам, чтобы перейти к каждому меню. Вы также можете изменить размер окна. На вкладке «Руководство» более подробно описан каждый инструмент, обязательно ознакомьтесь с ним.
 
 [h1]Рецепты[/h1]
-This tool allows you to quickly explore all recipes in the game. You can place an item in the query slot to find recipes using or resulting in that item. You can also search and filter with the various options in the window to discover recipes you'd like to work towards. Crafting stations and recipe conditions for a selected recipe are listed at the bottom. The color will be red or green showing if the player is near one or not. The right side will show any NPC that drops the selected item. Double Click on an NPC to visit the Bestiary. Double Clicking on a Recipe or Ingredient will populate the query slot with the item, great for traversing crafting trees for items with multiple levels of crafting. Alt-click on a recipe to favorite a recipe, see Favorite section below.
+Этот инструмент позволяет быстро просматривать все рецепты в игре. Вы можете поместить предмет в ячейку, чтобы найти все рецепты, из которых предмет создаётся и в которх используется. Вы также можете использовать поиск и фильтры с помощью различных настроек в окне, чтобы найти те рецепты, которые вам необходимы. Внизу окна будут указаны материалы и рабочее место для создания. Красным и зелёным цветом будет отображено, находится ли игрок рядом с необходимой станцией или нет. Справа будет показан список существ, с которого выпадает выбранный предмет, если такие имеются. Дважды нажмите по существу в списке, чтобы открыть его страницу в меню существ. Двойное нажатие по рецепту или материалу переместит этот в основную ячейку, что очень удобно для просмотра дерева создания предметов с несколькими уровнями крафта. Нажмите по рецепту, чтобы добавить его в избранное, см. раздел «Избранное» ниже.
 [video mp4=https://github.com/user-attachments/assets/a1e74e40-73e7-4a83-9175-59a35cd4ec9b][/video]
 
-[h1]Крафты[/h1]
+[h1]Создание[/h1]
 This tool can be used to craft recipes, even recipes that require multiple steps to achieve! In the Recipes tool, right click on any recipe to bring up this tool. Recipes with the yellow background can be crafted via multiple steps. For example, if you have gold and iron ore and click on the Gold Watch recipe, this tool will show you the multiple steps needed to craft gold and iron ore, followed by crafting chains, and finally the gold watch itself. You can also enable the Loot option to allow farming as part of the multi-step process. Simply find and kill the specified enemies to farm the needed ingredient. By default, all crafting stations that you have seen will be available for the extended crafting paths. If you enable the Missing Stations option, unseen crafting stations will also be shown. See the Help tab for more information on this tool.
 [video mp4=https://github.com/user-attachments/assets/83eb8e02-b9dc-49de-a68e-00e56cb7a83b][/video]
 
 [h1]Предметы[/h1]
 Here you can explore all items in the game. Use the filters and sorts to find what you want. Double click an item to query it in the Recipe panel. Double right click an item to query the item in the Bestiary.
 
-[h1]Бестиарий[/h1]
+[h1]Сущщества[/h1]
 Here you can explore all NPC in the game. Use the filters to find what you want. Clicking on an NPC shows the loot from that NPC. Placing an item in the query slot filters the grid to show only NPC that drop that item. Double click an item to query it in the Recipe panel. Right click an item to populate the query slot, great for seeing who else drops the same item.
 
 [h1]Избранное[/h1]

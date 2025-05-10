@@ -1,13 +1,13 @@
-Better Blending simply modifies which tiles blend together, primarily blending environmental tiles to make the world look less disconnected, such as ores blending with stone, ice, or other ores. Sandstone, granite, and marble also blend with stone, dirt, and grass to increase the ease of blending for builders, while keeping building blocks untouched to not damage other tile combinations. It also includes an "All-Blend" feature in the mod's config.
+Better Blending — это простенький мод, позволяющий соединяться можду собой большему количеству блоков. Это в первую очередь относиться к природным блокам, что делает мир менее разрозненным, например, блоки руды будут соединяться с камнем, льдом и другими блоками. Блоки песчаника, гранита и мрамора также будут соединться с блоками камня, земли и травы, что упростит смешивание различных блоков строителями, но никак не помешает использованию остальных строительных блоков, разрозненность которых может использоваться специально. В конфигурации мода также есть функция «All-Blend», позволяющая включить соединение почти для всех видов блоков.
 
-[h3]Credits:[/h3]
-•Gryfu (Polish translation)
-•Alino4kaHvoshch & xenofite (Russian translation)
+[h3]Благодарности:[/h3]
+• Gryfu, за создание польской локализации
+• Alino4kaHvoshch и Xenofite, за создание русской локализации
 
-[h2]Also Try:[/h2]
+[h2]Также попробуйте:[/h2]
 [b]----- Polaris Texture Pack --------- Backgrounds o' Plenty -------- PRIME Texture Pack -----[/b]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2699930018][img]https://i.imgur.com/XPsiQOF.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971754944][img]https://i.imgur.com/eQQtP5B.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2440281777][img]https://i.imgur.com/zh0vhYR.png[/img][/url]
-[h2]My Other Mods:[/h2]
+[h2]Другие мои моды (также имеют поддержку русского языка):[/h2]
 [b]----- Atmospheric Torches ---- Improved Movement Visuals[/b]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2817496179][img]https://i.imgur.com/iKsSiS6.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2816557864][img]https://i.imgur.com/hxiNC0V.png[/img][/url]
 [b]----- Improved Teleporters ---------- Artificial Biomes ------ [/b]

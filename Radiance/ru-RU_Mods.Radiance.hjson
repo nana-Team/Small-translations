@@ -1,7 +1,7 @@
 Common: {
 	RecallBlocked: Сейчас это нельзя использовать.
 	RecallBlockedByOpeningAttack: Вы должны пережить следующую атаку, прежде чем сможете телепортироваться!
-	RecallBlockedByMultipleOpeningAttacks: Вы должны пережить следующие {0} {^0:атака;атаки;атак}, прежде чем сможете телепортироваться!
+	RecallBlockedByMultipleOpeningAttacks: Вы должны пережить следующие {0} {^0:;атаки;атак}, прежде чем сможете телепортироваться!
 	InsigniaConflict0: Невозможно использовать одновременно с [i:4823]крыльями Императрицы, пока экипирован [i:Radiance/RadiantCharm]Сияющий амулет
 	InsigniaConflict1: Не даёт никаких бонусов
 	LightsWrathCurseCritter: «Гнев света» не позволяет вам навредить этому существу!
@@ -25,11 +25,11 @@ DeathMessages: {
 	RuinDeath0Alt: "{1} изгоняет игрока {0} из слоя реальности."
 	RuinDeath2Alt: "{1} стирает игрока {0} из мира {2}."
 	# Sun Dance death messages. {0} is the player's name, contact damage variant is occasionally used when the player dies to boss contact damage instead of projectiles
-	SunDanceContactDamageRare: "{0} умирает от слишком уж тёплых обнимашек."
-	SunDance0: "{0} падает на солнце."
-	SunDance1: "{0} испаряется."
-	SunDance2: "{0} превращается в звёздную пыль."
-	SunDance3: "{0} даже до орбиты не долетел."
+	SunDanceContactDamageRare: Игрок {0} умирает от слишком уж тёплых обнимашек.
+	SunDance0: Игрок {0} падает на солнце.
+	SunDance1: Игрок {0} испаряется.
+	SunDance2: Игрок {0} превращается в звёздную пыль.
+	SunDance3: Игрок {0} даже до орбиты не долетел.
 }
 
 Buffs: {

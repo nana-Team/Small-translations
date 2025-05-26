@@ -39,13 +39,13 @@
 	PulseBlast.DisplayName: Импульсный взрыв
 	ExoelectricFieldDestabilizerOrb.DisplayName: Дестабилизирующий шар экзо-электрического поля
 	ExoelectricFieldDestabilizerProjectile.DisplayName: Дестабилизирующий шар экзо-электрического поля
-	RefractionRotorProjectile_Custom.DisplayName: Refraction Rotor Projectile_ Custom
+	RefractionRotorProjectile_Custom.DisplayName: Преломляющий винт Projectile_ Custom
 	SpineOfHadesProjectile_Custom.DisplayName: Хребет Аида Projectile_ Custom
 	SurgeDriverBlast.DisplayName: Взрыв перенапряжения
 	SurgeDriverProjectile.DisplayName: Перенапряжение
-	AtomSplitterSpamSource.DisplayName: Atom Splitter Spam Source
-	SplitAtomSplitterProjectile.DisplayName: Split Atom Splitter Projectile
-	TheAtomSplitterProjectile_Custom.DisplayName: The Atom Splitter Projectile_ Custom
+	AtomSplitterSpamSource.DisplayName: Источник двойников расщепителя атомов
+	SplitAtomSplitterProjectile.DisplayName: Раздвоение снарядов расщепителя атомов
+	TheAtomSplitterProjectile_Custom.DisplayName: Расщепитель атомов Projectile_ Custom
 	ApolloMissile2.DisplayName: Ракета Апполона
 	HadesLineTelegraph.DisplayName: Линия телеграфа Аида
 }
@@ -64,64 +64,64 @@ NPCs: {
 		IntroductionMonologue4: И покажешь свою суть через битву.
 		IntroductionMonologue5: Теперь, выбирай.
 		IntroductionMonologueBrief: Делай свой выбор.
-		ExoMechChoiceResponse1: Excellent. Your flight abilities will be enhanced as the experiment begins.
-		ExoMechChoiceResponse2: They will arrive shortly.
-		Interjection1: Hmm...
-		Interjection2_Thermal_Minor: It appears that you have thus far sustained minor thermal burns.
-		Interjection2_Thermal_Major: It appears that you have thus far sustained major thermal burns.
-		Interjection2_Thermal_NearLethal: It appears that you have thus far sustained near-lethal thermal burns.
-		Interjection2_Plasma_Minor: It appears that you have thus far sustained minor plasma burns.
-		Interjection2_Plasma_Major: It appears that you have thus far sustained major plasma burns.
-		Interjection2_Plasma_NearLethal: It appears that you have thus far sustained near-lethal plasma burns.
-		Interjection2_Electricity_Minor: It appears that you have sustained minor nerve damage from electric shocks.
-		Interjection2_Electricity_Major: It appears that you have sustained major nerve damage from electric shocks.
-		Interjection2_Electricity_NearLethal: It appears that you have sustained near-lethal nerve damage from electric shocks.
-		Interjection2_Internal_Minor: It appears that you are currently suffering from minor internal organ damage.
-		Interjection2_Internal_Major: It appears that you are currently suffering from major internal organ damage.
-		Interjection2_Internal_NearLethal: It appears that you are currently suffering from near-lethal internal organ damage.
-		Interjection2_BluntForceTrauma_Minor: It appears that you have been struck by minor blunt force trauma.
-		Interjection2_BluntForceTrauma_Major: It appears that you have been struck by major blunt force trauma.
-		Interjection2_BluntForceTrauma_NearLethal: It appears that you have been struck by near-lethal blunt force trauma.
-		Interjection2_Undamaged: It appears that you have not sustained any damage. Fascinating.
-		Interjection3: These results are excellent.
-		Interjection4: We shall now reset the variables to their controls for the next phase of testing.
-		Interjection5: Now, prepare yourself.
-		Interjection6: My remaining machines shall return shortly.
-		Interjection7: Marvelous.
-		Interjection8: Your abilities up to this point have captured my interest.
-		Interjection9: Now, it is time for the final phase of testing.
-		Interjection10: I have instructed my last machine to operate at maximum firepower.
-		Interjection10_Plural: I have instructed my last machines to operate at maximum firepower.
-		Interjection11: Good luck.
-		EndOfBattle_FirstDefeat1: Extraordinary!
-		EndOfBattle_FirstDefeat2: This outcome has fallen far outside the expectations of my hypotheses.
-		EndOfBattle_FirstDefeat3: I shall soon depart. There is much to be examined from this encounter. Before that, however...
-		EndOfBattle_FirstDefeat4: Take this, as an extension of gratitude for your time.
-		EndOfBattle_FirstDefeat5: If you wish to do combat with my machines again, you know how to operate the Codebreaker.
-		EndOfBattle_FirstDefeat6: Farewell.
-		EndOfBattle_SuccessiveDefeat1: Another completed experiment.
-		EndOfBattle_SuccessiveDefeat2: Allow me a moment to analyze the results...
-		EndOfBattle_SuccessiveDefeat3_Perfect: Extraordinary! Your combat engagement, patience, precision, and skill have not gone unnoticed.
-		EndOfBattle_SuccessiveDefeat3_Excellent: Your aptitude is excellent. With a bit more precision, a perfect outcome may be within reach.
-		EndOfBattle_SuccessiveDefeat3_Good: This outcome is useful.
-		EndOfBattle_SuccessiveDefeat3_Acceptable: This outcome is unremarkable, yet serviceable.
-		EndOfBattle_SuccessiveDefeat3_Bad: This data is of little use to me.
-		EndOfBattle_SuccessiveDefeat3_WhyDidYouMeltTheBoss: This data is of no use to me.
-		EndOfBattle_SuccessiveDefeat4_Perfect: This data is of sublime quality.
-		EndOfBattle_SuccessiveDefeat4_Excellent: Perhaps soon a revolutionary insight shall be discovered?
-		EndOfBattle_SuccessiveDefeat4_ImproveFightTime: Should you desire to engage my machines again, I would suggest a more drawn out fight.
-		EndOfBattle_SuccessiveDefeat4_ImproveAggression: Should you desire to engage my machines again, I would suggest a more risky combat approach.
-		EndOfBattle_SuccessiveDefeat4_ImproveBuffs: Should you desire to engage my machines again, I would suggest a reduction in consumable enhancements.
-		EndOfBattle_SuccessiveDefeat4_ImproveHitCounter: Should you desire to engage my machines again, I would suggest greater dodging precision.
-		EndOfBattle_SuccessiveDefeat4_Bad: A more refined combat approach would be more conducive to insightful analysis.
-		EndOfBattle_SuccessiveDefeat4_WhyDidYouMeltTheBoss: That was far, far too short for me to draw any insightful conclusions.
-		EndOfBattle_SuccessiveDefeat5: I await the next battle.
-		EndOfBattle_FirstDefeatReconBodyKill1: Intriguing...
-		EndOfBattle_FirstDefeatReconBodyKill2: A temperamental disposition was not a data point I had considered.
-		EndOfBattle_FirstDefeatReconBodyKill3: Regardless, as I was saying...
-		Death: Precisely within the margins of my calculations.
-		PlayerDeathAtAmusingTime: That was rather inopportune, but still within the margins of my calculations.
-		Error: The fabric of this reality rips at the seams.
+		ExoMechChoiceResponse1: Превосходно. Твои способности к полёту будут повышены мной для соответствия бою.
+		ExoMechChoiceResponse2: Они скоро будут здесь.
+		Interjection1: Хмм...
+		Interjection2_Thermal_Minor: Судя по всему, ты выдержал небольшие ожоги.
+		Interjection2_Thermal_Major: Судя по всему, ты выдержал сильные ожоги.
+		Interjection2_Thermal_NearLethal: Судя по всему, ты выдержал около-смертельные ожоги.
+		Interjection2_Plasma_Minor: Судя по всему, ты выдержал небольшие ожоги плазмой.
+		Interjection2_Plasma_Major: Судя по всему, ты выдержал сильные ожоги плазмой.
+		Interjection2_Plasma_NearLethal: Судя по всему, ты выдержал около-смертельные ожоги плазмой.
+		Interjection2_Electricity_Minor: Судя по всему, твои нервная система выдержала небольшой урон от электрического шока.
+		Interjection2_Electricity_Major: Судя по всему, твои нервная система выдержала высокий урон от электрического шока.
+		Interjection2_Electricity_NearLethal: Судя по всему, твои нервная система выдержала около-смертельный урон от электрического шока.
+		Interjection2_Internal_Minor: Судя по всему, ты страдаешь от небольшого повреждения органов.
+		Interjection2_Internal_Major: Судя по всему, ты страдаешь от сильного повреждения органов.
+		Interjection2_Internal_NearLethal: Судя по всему, ты страдаешь от около-смертельного повреждения органов.
+		Interjection2_BluntForceTrauma_Minor: Судя по всему, ты потерпел от несерьёзную тупую травму.
+		Interjection2_BluntForceTrauma_Major: Судя по всему, ты потерпел от сильную тупую травму.
+		Interjection2_BluntForceTrauma_NearLethal: Судя по всему, ты потерпел от около-смертельную тупую травму.
+		Interjection2_Undamaged: Судя по всему, ты вовсе не получил никакого урона. Восхитительно.
+		Interjection3: Твои результаты превосходны.
+		Interjection4: Теперь, мы сбросим переменные для следующего этапа тестирования.
+		Interjection5: Готовься.
+		Interjection6: Оставшиеся машины скоро вернутся.
+		Interjection7: Изумительно.
+		Interjection8: Твои возможности подогревают мой интерес.
+		Interjection9: Наступило время для финальной фазы тестирования.
+		Interjection10: Я дал инструкцию своей последней машине использовать все свои огневые возможности.
+		Interjection10_Plural: Я дал инструкцию своим последним машинам использовать все свои огневые возможности.
+		Interjection11: Удачи.
+		EndOfBattle_FirstDefeat1: Потрясающе!
+		EndOfBattle_FirstDefeat2: Текущий исход тестирования превысил все мои ожидания.
+		EndOfBattle_FirstDefeat3: Я скоро уйду. Мне нужно провести множество исследований. Однако...
+		EndOfBattle_FirstDefeat4: Возьми это в качестве благодарности за потраченное тобой время.
+		EndOfBattle_FirstDefeat5: Если пожелаешь вновь сразиться с моими машинами, вызови меня с помощью Дешифратора.
+		EndOfBattle_FirstDefeat6: До скорой встречи.
+		EndOfBattle_SuccessiveDefeat1: Очередной успешный эксперимент.
+		EndOfBattle_SuccessiveDefeat2: Позволь мне проанализировать твои результаты...
+		EndOfBattle_SuccessiveDefeat3_Perfect: Потрясающе! Твои упорство, терпение, точность, навык точно не прошли мимо моих глаз.
+		EndOfBattle_SuccessiveDefeat3_Excellent: Твои способности удивляют. С чуть большей точностью можно достичь идеала.
+		EndOfBattle_SuccessiveDefeat3_Good: Данный исход будет полезен.
+		EndOfBattle_SuccessiveDefeat3_Acceptable: Ничего примечательного, однако что-нибудь я из этого извлеку.
+		EndOfBattle_SuccessiveDefeat3_Bad: К сожалению, полученные мною данные бесполезны.
+		EndOfBattle_SuccessiveDefeat3_WhyDidYouMeltTheBoss: К сожалению, полученные мною данные бесполезны.
+		EndOfBattle_SuccessiveDefeat4_Perfect: Полученные мною данные составляют высшее качество.
+		EndOfBattle_SuccessiveDefeat4_Excellent: Возможно, меня преследует озарение?
+		EndOfBattle_SuccessiveDefeat4_ImproveFightTime: Если пожелаешь вновь сразится с моими машинами, я бы хотел видеть более длительную битву.
+		EndOfBattle_SuccessiveDefeat4_ImproveAggression: Если пожелаешь вновь сразится с моими машинами, я бы хотел видеть больше риска в твоей стратегии.
+		EndOfBattle_SuccessiveDefeat4_ImproveBuffs: Если пожелаешь вновь сразится с моими машинами, я бы хотел видеть меньшее количество усилений.
+		EndOfBattle_SuccessiveDefeat4_ImproveHitCounter: Если пожелаешь вновь сразится с моими машинами, я бы хотел видеть высокую точность уворотов.
+		EndOfBattle_SuccessiveDefeat4_Bad: Более изысканный подход к битве был бы полезен для моих исследований.
+		EndOfBattle_SuccessiveDefeat4_WhyDidYouMeltTheBoss: К сожалению, битва была слишком коротка, и я не смог ничего из неё извлечь.
+		EndOfBattle_SuccessiveDefeat5: Я жду следующей битвы.
+		EndOfBattle_FirstDefeatReconBodyKill1: Интригующе...
+		EndOfBattle_FirstDefeatReconBodyKill2: Определённая модель поведения это не то, что я ожидал.
+		EndOfBattle_FirstDefeatReconBodyKill3: В общем, как я и говорил...
+		Death: В точности по моим вычислениям.
+		PlayerDeathAtAmusingTime: Обидно, но исход соответствует моим вычислениям.
+		Error: Швы реальности разрываются.
 	}
 
 	ThanatosRename: ВМ-04 Аид
@@ -131,26 +131,26 @@ NPCs: {
 
 Items: {
 	ExoelectricFieldDestabilizer: {
-		DisplayName: Exoelectric Field Destabilizer
-		Tooltip: Charges up and releases enormous electric spheres
+		DisplayName: Дестабилизатор экзоэлектрического поля
+		Tooltip: Заряжается и выпускает сумасшедшее количество электрических шипов
 	}
 
 	SpineOfHades: {
 		DisplayName: Хребет Аида
-		Tooltip: Releases an electrically supercharged whip
+		Tooltip: Выпускает перезаряженный электрохлыст
 	}
 }
 
 Bestiary: {
-	Draedon: A disposable recon body for the esteemed scientist, Draedon. His unyielding dedication to the pursuit of knowledge is as extraordinary as his marked amorality.
-	Hades: One of Draedon's finest creations. This automaton expels built up heat and pressure through its vents, concentrating the resulting energy into potent wide-range attacks.
-	Ares: One of Draedon's finest creations. This automaton is capable of dynamically detaching its mounted weapons as necessary, and boasts an astonishing affinity for melee combat.
-	Artemis: One of Draedon's finest creations. This automaton channels thermal energy through its orange crystalline lattices. It operates in unfaltering unison with Apollo when engaged in combat.
-	Apollo: One of Draedon's finest creations. This automaton excels at high-velocity aerial attacks involving its plasma reserves. It is seemingly programmed to be protective of Artemis.
+	Draedon: Расходная оболочка-разведчик для уважаемого учёного — Дрейдона. Его непоколебимая преданность погоне за исследованиями столь же исключительна, сколь и его подчёркнутая аморальность..
+	Hades: Одно из лучших творений Дрейдона. Эта машина сбрасывает накопленные тепло и давление через вентиляционные порты, концентрируя высвобождаемую энергию в мощные атаки широкого радиуса.
+	Ares: Одно из лучших творений Дрейдонаs. Эта машина способна оперативно отстреливать установленное вооружение по мере необходимости, демонстрируя при этом поразительное мастерство в ближнем бою.
+	Artemis: Одно из лучших творений Дрейдона. Эта машина направляет тепловую энергию через свои оранжевые кристаллические решётки. В бою она действует в безупречном единении с Аполлоном, словно единый механизм.
+	Apollo: Одно из лучших творений Дрейдона. Эта машина превосходно выполняет высокоскоростные атаки в воздухе, используя запасы плазмы. Судя по всему, её программа включает особый протокол защиты Артемиды.
 }
 
 UI: {
-	AresIconMessage: Ares, a heavyweight, diabolical monstrosity with four detachable Exo superweapons.
-	ArtemisAndApolloIconMessage: Artemis and Apollo, a pair of extraordinarily nimble automatons with unstable energy reserves.
-	HadesIconMessage: Hades, a serpentine terror with impervious armor and innumerable laser turrets.
+	AresIconMessage: Арес, тяжеловесное, дьявольское чудовище, оснащённое четырьмя отсоединяемыми экзо-супероружиями.
+	ArtemisAndApolloIconMessage: Артемида и Аполлон, пара невероятно проворных машин с нестабильными энергетическими резервами.
+	HadesIconMessage: Аид, змееподобный ужас, облаченный в неуязвимую броню и вооружённый бесчисленными лазерными турелями.
 }

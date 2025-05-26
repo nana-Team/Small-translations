@@ -46,7 +46,7 @@
 	AtomSplitterSpamSource.DisplayName: Источник двойников расщепителя атомов
 	SplitAtomSplitterProjectile.DisplayName: Раздвоение снарядов расщепителя атомов
 	TheAtomSplitterProjectile_Custom.DisplayName: Расщепитель атомов Projectile_ Custom
-	ApolloMissile2.DisplayName: Ракета Апполона
+	ApolloMissile2.DisplayName: Ракета Аполлона
 	HadesLineTelegraph.DisplayName: Линия телеграфа Аида
 }
 
@@ -59,12 +59,12 @@ NPCs: {
 
 	Draedon: {
 		IntroductionMonologue1: Как долго я ждал этого момента.
-		IntroductionMonologue2: Твоя природа столь же чарует меня, сколь я её не понимаю.
-		IntroductionMonologue3: Ты сразишься с моими творениями, что превзошли богов.
-		IntroductionMonologue4: И покажешь свою суть через битву.
+		IntroductionMonologue2: Твоя природа поражает меня, ведь я так и не смог её постичь.
+		IntroductionMonologue3: Ты сразишься с моими творениями, что превзошли даже богов.
+		IntroductionMonologue4: И покажешь свою истинную натуру в битве.
 		IntroductionMonologue5: Теперь, выбирай.
 		IntroductionMonologueBrief: Делай свой выбор.
-		ExoMechChoiceResponse1: Превосходно. Твои способности к полёту будут повышены мной для соответствия бою.
+		ExoMechChoiceResponse1: Превосходно. Твои способности к полёту будут улучшены для чистоты эксперимента.
 		ExoMechChoiceResponse2: Они скоро будут здесь.
 		Interjection1: Хмм...
 		Interjection2_Thermal_Minor: Судя по всему, ты выдержал небольшие ожоги.
@@ -79,16 +79,16 @@ NPCs: {
 		Interjection2_Internal_Minor: Судя по всему, ты страдаешь от небольшого повреждения органов.
 		Interjection2_Internal_Major: Судя по всему, ты страдаешь от сильного повреждения органов.
 		Interjection2_Internal_NearLethal: Судя по всему, ты страдаешь от около-смертельного повреждения органов.
-		Interjection2_BluntForceTrauma_Minor: Судя по всему, ты потерпел от несерьёзную тупую травму.
-		Interjection2_BluntForceTrauma_Major: Судя по всему, ты потерпел от сильную тупую травму.
-		Interjection2_BluntForceTrauma_NearLethal: Судя по всему, ты потерпел от около-смертельную тупую травму.
+		Interjection2_BluntForceTrauma_Minor: Судя по всему, ты потерпел несерьёзную тупую травму.
+		Interjection2_BluntForceTrauma_Major: Судя по всему, ты потерпел сильную тупую травму.
+		Interjection2_BluntForceTrauma_NearLethal: Судя по всему, ты потерпел около-смертельную тупую травму.
 		Interjection2_Undamaged: Судя по всему, ты вовсе не получил никакого урона. Восхитительно.
 		Interjection3: Твои результаты превосходны.
 		Interjection4: Теперь, мы сбросим переменные для следующего этапа тестирования.
 		Interjection5: Готовься.
 		Interjection6: Оставшиеся машины скоро вернутся.
 		Interjection7: Изумительно.
-		Interjection8: Твои возможности подогревают мой интерес.
+		Interjection8: Твои возможности лишь подогревают мой интерес.
 		Interjection9: Наступило время для финальной фазы тестирования.
 		Interjection10: Я дал инструкцию своей последней машине использовать все свои огневые возможности.
 		Interjection10_Plural: Я дал инструкцию своим последним машинам использовать все свои огневые возможности.
@@ -97,23 +97,23 @@ NPCs: {
 		EndOfBattle_FirstDefeat2: Текущий исход тестирования превысил все мои ожидания.
 		EndOfBattle_FirstDefeat3: Я скоро уйду. Мне нужно провести множество исследований. Однако...
 		EndOfBattle_FirstDefeat4: Возьми это в качестве благодарности за потраченное тобой время.
-		EndOfBattle_FirstDefeat5: Если пожелаешь вновь сразиться с моими машинами, вызови меня с помощью Дешифратора.
+		EndOfBattle_FirstDefeat5: Если пожелаешь вновь сразиться с моими машинами, вызови меня с помощью дешифратора.
 		EndOfBattle_FirstDefeat6: До скорой встречи.
 		EndOfBattle_SuccessiveDefeat1: Очередной успешный эксперимент.
 		EndOfBattle_SuccessiveDefeat2: Позволь мне проанализировать твои результаты...
-		EndOfBattle_SuccessiveDefeat3_Perfect: Потрясающе! Твои упорство, терпение, точность, навык точно не прошли мимо моих глаз.
-		EndOfBattle_SuccessiveDefeat3_Excellent: Твои способности удивляют. С чуть большей точностью можно достичь идеала.
-		EndOfBattle_SuccessiveDefeat3_Good: Данный исход будет полезен.
+		EndOfBattle_SuccessiveDefeat3_Perfect: Потрясающе! Твои упорство, терпение, точность и мастерство точно не прошли мимо моих глаз.
+		EndOfBattle_SuccessiveDefeat3_Excellent: Твои способности удивляют. Будь у тебя чуть больше точности, ты бы достиг идеального результата.
+		EndOfBattle_SuccessiveDefeat3_Good: Данный исход событий будет полезен.
 		EndOfBattle_SuccessiveDefeat3_Acceptable: Ничего примечательного, однако что-нибудь я из этого извлеку.
-		EndOfBattle_SuccessiveDefeat3_Bad: К сожалению, полученные мною данные бесполезны.
-		EndOfBattle_SuccessiveDefeat3_WhyDidYouMeltTheBoss: К сожалению, полученные мною данные бесполезны.
-		EndOfBattle_SuccessiveDefeat4_Perfect: Полученные мною данные составляют высшее качество.
-		EndOfBattle_SuccessiveDefeat4_Excellent: Возможно, меня преследует озарение?
-		EndOfBattle_SuccessiveDefeat4_ImproveFightTime: Если пожелаешь вновь сразится с моими машинами, я бы хотел видеть более длительную битву.
-		EndOfBattle_SuccessiveDefeat4_ImproveAggression: Если пожелаешь вновь сразится с моими машинами, я бы хотел видеть больше риска в твоей стратегии.
-		EndOfBattle_SuccessiveDefeat4_ImproveBuffs: Если пожелаешь вновь сразится с моими машинами, я бы хотел видеть меньшее количество усилений.
-		EndOfBattle_SuccessiveDefeat4_ImproveHitCounter: Если пожелаешь вновь сразится с моими машинами, я бы хотел видеть высокую точность уворотов.
-		EndOfBattle_SuccessiveDefeat4_Bad: Более изысканный подход к битве был бы полезен для моих исследований.
+		EndOfBattle_SuccessiveDefeat3_Bad: К сожалению, полученные мною данные почти бесполезны.
+		EndOfBattle_SuccessiveDefeat3_WhyDidYouMeltTheBoss: К сожалению, полученные мною данные абсолютно бесполезны.
+		EndOfBattle_SuccessiveDefeat4_Perfect: Полученные мною данные — высшего качества.
+		EndOfBattle_SuccessiveDefeat4_Excellent: Возможно, совершённые открытия вскоре повлекут за собой настоящий прорыв?
+		EndOfBattle_SuccessiveDefeat4_ImproveFightTime: В следующий раз, как пожелаешь вновь сразиться с моими машинами, я бы хотел увидеть от вас более длительную битву.
+		EndOfBattle_SuccessiveDefeat4_ImproveAggression: В следующий раз, как пожелаешь вновь сразиться с моими машинами, я бы хотел увидеть от тебя больше агрессивных манёвров.
+		EndOfBattle_SuccessiveDefeat4_ImproveBuffs: В следующий раз, как пожелаешь вновь сразится с моими машинами, я бы хотел увидеть, на что ты способен без такого абсурдного количества усилений.
+		EndOfBattle_SuccessiveDefeat4_ImproveHitCounter: В следующий раз, как пожелаешь вновь сразится с моими машинами, я бы хотел увидеть от тебя более точные увороты.
+		EndOfBattle_SuccessiveDefeat4_Bad: Более продуманный подход к битве был бы куда полезнее для моих исследований.
 		EndOfBattle_SuccessiveDefeat4_WhyDidYouMeltTheBoss: К сожалению, битва была слишком коротка, и я не смог ничего из неё извлечь.
 		EndOfBattle_SuccessiveDefeat5: Я жду следующей битвы.
 		EndOfBattle_FirstDefeatReconBodyKill1: Интригующе...

@@ -74,7 +74,7 @@ Mods: {
 				}
 
 				GlowingMushroomMultiplier: {
-					Label: "[i:183] Количество пещер светящихся грибов"
+					Label: "[i:183] Количество грибных пещер"
 					Tooltip: ""
 				}
 
@@ -196,7 +196,7 @@ Mods: {
 				}
 
 				MushroomToggle: {
-					Label: "[i:183] Пещеры светящихся грибов"
+					Label: "[i:183] Грибные пещеры"
 					Tooltip: ""
 				}
 
@@ -314,7 +314,7 @@ Mods: {
 				}
 
 				MushroomLayer: {
-					Label: "[i:183] Слой пещер светящихся грибов"
+					Label: "[i:183] Слой грибных пещер"
 					Tooltip: ""
 				}
 
@@ -324,7 +324,7 @@ Mods: {
 				}
 
 				SurfaceMushroom: {
-					Label: "[i:183] Количество биомов светящихся грибов на поверхности"
+					Label: "[i:183] Кол-во грибных биомов на поверхности"
 					Tooltip: ""
 				}
 
@@ -349,7 +349,7 @@ Mods: {
 				}
 
 				HardModeOreMulti: {
-					Label: "[i:364] Количество генерируемых хардмодных руд"
+					Label: "[i:364] Кол-во генерируемых хардмодных руд"
 					Tooltip: ""
 				}
 
@@ -381,7 +381,7 @@ Mods: {
 				}
 
 				liquidReplace: {
-					Label: "[i:3031][i:4820][i:5302][i:5364] Заменить все жидкости в мире на"
+					Label: "[i:205] Заменить все жидкости на"
 					Tooltip: ""
 				}
 
@@ -406,7 +406,7 @@ Mods: {
 				Lava.Label: лаву
 				Honey.Label: мёд
 				Shimmer.Label: мерцание
-				Random.Label: случайные жидкости
+				Random.Label: случ. жидкости
 			}
 
 			StartingNPC: {
@@ -415,7 +415,7 @@ Mods: {
 				PartyGirl.Label: Тусовщица
 				Merchant.Label: Торговец
 				Demolitionist.Label: Подрывник
-				PartyGroup.Label: тусовка нескольких НИПов
+				PartyGroup.Label: тусовка НИПов
 				TaxCollector.Label: Сборщик налогов
 				Angler.Label: Рыбак
 			}

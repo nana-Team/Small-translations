@@ -39,7 +39,7 @@ Mods: {
 
 				InvertedHell: {
 					Tooltip: ""
-					Label: "-"
+					Label: "[i:207] Перевёрнутая Преисподняя"
 				}
 
 				BothOres: {

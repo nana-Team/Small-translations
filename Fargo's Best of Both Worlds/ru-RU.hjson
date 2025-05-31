@@ -4,420 +4,420 @@ Mods: {
 			WorldConfig: {
 				MoreSpiders: {
 					Tooltip: ""
-					Label: "[i:952] Extra Spider Caves"
+					Label: "-"
 				}
 
 				HugeTemple: {
 					Tooltip: ""
-					Label: "[i:1153] Huge Jungle Temple"
+					Label: "[i:1153] Увеличенный размер Храма джунглей"
 				}
 
 				OceanSpawn: {
 					Tooltip: ""
-					Label: "[i:324] Ocean Spawn Point"
+					Label: "-"
 				}
 
 				PyramidEntrance: {
 					Tooltip: ""
-					Label: "[i:848] Guarantee Pyramid Entrance to Underground Desert"
+					Label: "[i:848] Гарантированный вход в подземную пустыню из пирамиды"
 				}
 
 				BigHives: {
 					Tooltip: ""
-					Label: "[i:5066] Big Bee Hives"
+					Label: "[i:5066] Увеличенный размер пчелиных ульев"
 				}
 
 				LivingTrees: {
 					Tooltip: ""
-					Label: "[i:832] More Surface Living Trees"
+					Label: "[i:832] Дополнительные живые деревья на поверхности"
 				}
 
 				OceanCaves: {
 					Tooltip: ""
-					Label: "[i:275] Guarantee Ocean Caves"
+					Label: "[i:275] Гарантированная пещера на дне океана"
 				}
 
 				InvertedHell: {
 					Tooltip: ""
-					Label: "[i:207] Inverted Underworld"
+					Label: "-"
 				}
 
 				BothOres: {
 					Tooltip: ""
-					Label: "[i:12][i:699] Spawn Both Ore Sets"
+					Label: "[i:12][i:699] Генерация всех видов руд раннего прехардмода"
 				}
 
 				BothEvils: {
 					Tooltip: ""
-					Label: "[i:68][i:1330] Both Evils"
+					Label: "[i:68][i:1330] Генерация обоих биомов мирового зла"
 				}
 
-				DisplayName: Best of Both Worlds Config
-				Header0: Multipliers
-				Header1: Drunk Seed
-				Header2: Celebration Seed
-				Header3: For the Worthy Seed
+				DisplayName: Конфигурация
+				Header0: Ползунки
+				Header1: Сид пьяного мира
+				Header2: Сид Celebrationmk10
+				Header3: Сид For the worthy
 
 				MarbleMultiplier: {
-					Label: "[i:3157] Marble Multiplier"
+					Label: "[i:3157] Количество мраморных пещер"
 					Tooltip: ""
 				}
 
 				GraniteMultiplier: {
-					Label: "[i:3086] Granite Multiplier"
+					Label: "[i:3086] Количество гранитных пещер"
 					Tooltip: ""
 				}
 
 				MarbleGraniteSwapped: {
-					Label: "[i:3157][i:3086] Marble and Granite Swapped"
+					Label: "[i:3157][i:3086] Поменять местами генерацию мраморных и гранитных пещер"
 					Tooltip: ""
 				}
 
 				GlowingMushroomMultiplier: {
-					Label: "[i:183] Glowing Mushroom Multiplier"
+					Label: "[i:183] Количество пещер светящихся грибов"
 					Tooltip: ""
 				}
 
 				LarvaMultiplier: {
-					Label: "[i:1133] Bee Larva Multiplier"
+					Label: "[i:1133] Количество личинок королевы пчёл"
 					Tooltip: ""
 				}
 
 				LifeCrystalMultiplier: {
-					Label: "[i:29] Life Crystal Multiplier"
+					Label: "[i:29] Количество кристаллов жизни"
 					Tooltip: ""
 				}
 
 				StatueMultiplier: {
-					Label: "[i:52] Statue Multiplier"
+					Label: "[i:52] Количество статуй"
 					Tooltip: ""
 				}
 
 				ChestMultiplier: {
-					Label: "[i:306] Chest Multiplier"
+					Label: "[i:306] Количество сундуков"
 					Tooltip: ""
 				}
 
 				SpiderMultiplier: {
-					Label: "[i:952] Spider Cave Multiplier"
+					Label: "[i:952] Количество паучьих пещер"
 					Tooltip: ""
 				}
 
 				PotMultiplier: {
-					Label: "[i:345] Pot Multiplier"
+					Label: "[i:345] Количество горшочков"
 					Tooltip: ""
 				}
 
 				TrapMultiplier: {
-					Label: "[i:539] Trap Multiplier"
+					Label: "[i:539] Количество ловушек"
 					Tooltip: ""
 				}
 
 				DungeonMultiplier: {
-					Label: "[i:134] Dungeon Toggle"
+					Label: "-"
 					Tooltip: ""
 				}
 
 				CaveMultiplier: {
-					Label: "[i:4761] Cave Multiplier"
+					Label: "[i:4761] Количество пещер"
 					Tooltip: ""
 				}
 
 				GemMultiplier: {
-					Label: "[i:182] Gem Multiplier"
+					Label: "[i:182] Количество драгоценных камней"
 					Tooltip: ""
 				}
 
 				AltarMultiplier: {
-					Label: "[i:86] Altar Multiplier"
+					Label: "[i:86] Количество алтарей"
 					Tooltip: ""
 				}
 
 				HiveMultiplier: {
-					Label: "[i:1126] Hive Multiplier"
+					Label: "[i:1126] Количество пчелиных ульев"
 					Tooltip: ""
 				}
 
 				DungeonToggle: {
-					Label: "[i:134] Dungeon Toggle"
+					Label: "[i:134] Темница"
 					Tooltip: ""
 				}
 
 				FloatingIslandMultiplier: {
-					Label: "[i:838] Floating Island Multiplier"
+					Label: "[i:838] Количество небесных островов"
 					Tooltip: ""
 				}
 
 				OreMultiplier: {
-					Label: "[i:13] Ore Multiplier"
+					Label: "[i:13] Количество руд"
 					Tooltip: ""
 				}
 
 				LakeMultiplier: {
-					Label: "[i:3086] Lake Multiplier"
+					Label: "[i:3086] Количество озёр"
 					Tooltip: ""
 				}
 
-				HeaderToggles: Toggles
+				HeaderToggles: Включение/выключение биомов и структур
 
 				UnderworldToggle: {
-					Label: "[i:318] Underworld Toggle"
+					Label: "[i:318] Преисподняя"
 					Tooltip: ""
 				}
 
 				EvilToggle: {
-					Label: "[i:86][i:1329] World Evil Toggle"
+					Label: "[i:86][i:1329] Биомы мирового зла (Багрянец/Искажение)"
 					Tooltip: ""
 				}
 
 				DesertToggle: {
-					Label: "[i:276] Desert Toggle"
+					Label: "[i:276] Пустыня"
 					Tooltip: ""
 				}
 
 				JungleToggle: {
-					Label: "[i:208] Jungle Toggle"
+					Label: "[i:208] Джунгли"
 					Tooltip: ""
 				}
 
 				IceToggle: {
-					Label: "[i:2358] Ice Toggle"
+					Label: "[i:2358] Снежный биом"
 					Tooltip: ""
 				}
 
 				ShimmerMultiplier: {
-					Label: "[i:5357] Aether Multiplier"
+					Label: "-"
 					Tooltip: ""
 				}
 
 				OceanToggle: {
-					Label: "[i:2625] Ocean Toggle"
+					Label: "[i:2625] Океаны"
 					Tooltip: ""
 				}
 
 				MushroomToggle: {
-					Label: "[i:183] Glowing Mushroom Toggle"
+					Label: "[i:183] Пещеры светящихся грибов"
 					Tooltip: ""
 				}
 
 				TreeMultiplier: {
-					Label: "[i:4765] Tree Multiplier"
+					Label: "[i:4765] Количество деревьев"
 					Tooltip: ""
 				}
 
 				LivingTreeMultiplier: {
-					Label: "[i:832] Living Tree Multiplier"
+					Label: "[i:832] Количество живых деревьев"
 					Tooltip: ""
 				}
 
-				HeaderExtras: Extras
+				HeaderExtras: Прочее
 
 				SecondDungeon: {
-					Label: "[i:1169] Two Dungeons"
+					Label: "[i:1169] Генерация двух Темниц"
 					Tooltip: ""
 				}
 
 				AllLava: {
-					Label: "[i:4820] Replace all Liquids with Lava"
+					Label: "-"
 					Tooltip: ""
 				}
 
 				AllWater: {
-					Label: "[i:3031] Replace all Liquids with Water"
+					Label: "-"
 					Tooltip: ""
 				}
 
 				AllHoney: {
-					Label: "[i:5302] Replace all Liquids with Honey"
+					Label: "-"
 					Tooltip: ""
 				}
 
 				AllShimmer: {
-					Label: "[i:5364] Replace all Liquids with Shimmer"
+					Label: "-"
 					Tooltip: ""
 				}
 
 				LiquidSwap: {
-					Label: "[i:3031][i:4820][i:5302][i:5364] Randomly Swap Liquids"
+					Label: "-"
 					Tooltip: ""
 				}
 
 				CavesToggle: {
-					Label: "[i:315] Caves Toggle"
+					Label: "[i:315] Пещеры"
 					Tooltip: ""
 				}
 
 				EarlyHardMode: {
-					Label: "[i:3335] Start in HardMode"
+					Label: "[i:3335] Начинать мир сразу же в хардмоде"
 					Tooltip: ""
 				}
 
 				UndergroundDungeon: {
-					Label: "[i:1274] Underground Dungeon"
+					Label: "[i:1274] Генерация Темницы глубоко под землёй"
 					Tooltip: ""
 				}
 
 				RainbowCabins: {
-					Label: "[i:662] Rainbow Underground Cabins"
+					Label: "[i:662] Радужные подземные хижины"
 					Tooltip: ""
 				}
 
 				ExtraShimmer: {
-					Label: "[i:5340] Extra Shimmer Pools"
+					Label: "-"
 					Tooltip: ""
 				}
 
-				HeaderConstant: Constant Seed
+				HeaderConstant: Сид The Constant
 
 				SurfaceSpiders: {
-					Label: "[i:2607] Surface Spider Caves"
+					Label: "[i:2607] Генерация паучьих пещер на поверхности"
 					Tooltip: ""
 				}
 
 				SurfaceMarble: {
-					Label: "[i:3157] Surface Marble"
+					Label: "[i:3157] Генерация мраморных пещер на поверхности"
 					Tooltip: ""
 				}
 
 				WavyCaves: {
-					Label: "[i:4524] Wavy Caves"
+					Label: "[i:4524] Волнообразная генерация пещер"
 					Tooltip: ""
 				}
 
 				PaintEverything: {
-					Label: "[i:1073] Paint Everything"
+					Label: "[i:1073] Покрыть все блоки в мире краской"
 					Tooltip: ""
 				}
 
-				HeaderTraps: No Traps Seed
+				HeaderTraps: Сид No traps
 
 				NoTraps: {
-					Label: '''[i:5384] "No" Traps'''
+					Label: '''[i:5384] "Отключить" все ловушки'''
 					Tooltip: ""
 				}
 
-				HeaderRemix: Remix Seed
+				HeaderRemix: Сид Get fixed boi
 
 				EvilSurface: {
-					Label: "[i:59][i:2171] Evil Surface"
+					Label: "[i:59][i:2171] Полностью заражённая поверхность"
 					Tooltip: ""
 				}
 
 				SurfaceTemple: {
-					Label: "[i:1153] Surface Temple"
+					Label: "[i:1153] Генерация Храма джунглей на поверхности"
 					Tooltip: ""
 				}
 
 				UnderworldSpawn: {
-					Label: "[i:207] Underworld Spawn"
+					Label: "-"
 					Tooltip: ""
 				}
 
 				MushroomLayer: {
-					Label: "[i:183] Mushroom Layer"
+					Label: "[i:183] Слой пещер светящихся грибов"
 					Tooltip: ""
 				}
 
 				AetherToggle: {
-					Label: "[i:5340] Aether Toggle"
+					Label: "[i:5340] Эфир"
 					Tooltip: ""
 				}
 
 				SurfaceMushroom: {
-					Label: "[i:183] Surface Mushroom Biome"
+					Label: "[i:183] Количество биомов светящихся грибов на поверхности"
 					Tooltip: ""
 				}
 
 				AetherIsland: {
-					Label: "[i:5340] Aether Floating Island"
+					Label: "-"
 					Tooltip: ""
 				}
 
 				MinecartMultiplier: {
-					Label: "[i:2340] Minecart Track Multiplier"
+					Label: "-"
 					Tooltip: ""
 				}
 
 				SecondShimmer: {
-					Label: "[i:5340] Two Shimmers"
+					Label: "[i:5340] Генерация двух биомов Эфира"
 					Tooltip: ""
 				}
 
 				MicroMultiplier: {
-					Label: "[i:2340][i:989] Microbiome Multiplier"
+					Label: "[i:2340][i:989] Количество микробиомов и структур"
 					Tooltip: ""
 				}
 
 				HardModeOreMulti: {
-					Label: "[i:364] HardMode Ore"
+					Label: "[i:364] Количество генерируемых хардмодных руд"
 					Tooltip: ""
 				}
 
-				HeaderPost: No Evil Spread Header
+				HeaderPost: -
 
 				NoEvilSpread: {
-					Label: "[i:66] No Evil Spread"
+					Label: "-"
 					Tooltip: ""
 				}
 
 				RemixUnderworld: {
-					Label: "[i:207] Remix Underworld"
+					Label: "[i:207] Остров с пепельными деревьями в преисподней"
 					Tooltip: ""
 				}
 
 				RandomSpawn: {
-					Label: "[i:267] Random Spawn Location"
+					Label: "-"
 					Tooltip: ""
 				}
 
 				MahoganyTrees: {
-					Label: "[i:3360] Mahogany Trees Everywhere"
+					Label: "[i:3360] Генерация живых красных деревьев повсюду"
 					Tooltip: ""
 				}
 
 				spawnLocation: {
-					Label: "[i:267] Spawn Location"
+					Label: "[i:267] Точка возрождения"
 					Tooltip: ""
 				}
 
 				liquidReplace: {
-					Label: "[i:3031][i:4820][i:5302][i:5364] Replace all Liquids With"
+					Label: "[i:3031][i:4820][i:5302][i:5364] Заменить все жидкости в мире на"
 					Tooltip: ""
 				}
 
 				startingNPC: {
-					Label: "[i:267] Starting NPC"
+					Label: "[i:267] Первый НИП в мире"
 					Tooltip: ""
 				}
 			}
 
 			SpawnLocation: {
 				Tooltip: ""
-				Normal.Label: Normal
-				Ocean.Label: Ocean
-				Underworld.Label: Underworld
-				Random.Label: Random
+				Normal.Label: на поверхности
+				Ocean.Label: у океана
+				Underworld.Label: в преисподней
+				Random.Label: в случайном месте
 			}
 
 			LiquidReplace: {
 				Tooltip: ""
-				None.Label: None
-				Water.Label: Water
-				Lava.Label: Lava
-				Honey.Label: Honey
-				Shimmer.Label: Shimmer
-				Random.Label: Random
+				None.Label: не заменять
+				Water.Label: воду
+				Lava.Label: лаву
+				Honey.Label: мёд
+				Shimmer.Label: мерцание
+				Random.Label: случайные жидкости
 			}
 
 			StartingNPC: {
 				Tooltip: ""
-				Guide.Label: Guide
-				PartyGirl.Label: Party Girl
-				Merchant.Label: Merchant
-				Demolitionist.Label: Demolitionist
-				PartyGroup.Label: Party Group
-				TaxCollector.Label: Tax Collector
-				Angler.Label: Angler
+				Guide.Label: Гид
+				PartyGirl.Label: Тусовщица
+				Merchant.Label: Торговец
+				Demolitionist.Label: Подрывник
+				PartyGroup.Label: тусовка нескольких НИПов
+				TaxCollector.Label: Сборщик налогов
+				Angler.Label: Рыбак
 			}
 		}
 	}

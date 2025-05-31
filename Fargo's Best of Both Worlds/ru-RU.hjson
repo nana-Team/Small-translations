@@ -59,12 +59,12 @@ Mods: {
 				Header3: Сид «For the worthy»
 
 				MarbleMultiplier: {
-					Label: "[i:3157] Количество мраморных пещер"
+					Label: "[i:3157] Кол-во мраморных пещер"
 					Tooltip: ""
 				}
 
 				GraniteMultiplier: {
-					Label: "[i:3086] Количество гранитных пещер"
+					Label: "[i:3086] Кол-во гранитных пещер"
 					Tooltip: ""
 				}
 
@@ -74,42 +74,42 @@ Mods: {
 				}
 
 				GlowingMushroomMultiplier: {
-					Label: "[i:183] Количество грибных пещер"
+					Label: "[i:183] Кол-во грибных пещер"
 					Tooltip: ""
 				}
 
 				LarvaMultiplier: {
-					Label: "[i:1133] Количество личинок Королевы пчёл"
+					Label: "[i:1133] Кол-во личинок Королевы пчёл"
 					Tooltip: ""
 				}
 
 				LifeCrystalMultiplier: {
-					Label: "[i:29] Количество кристаллов жизни"
+					Label: "[i:29] Кол-во кристаллов жизни"
 					Tooltip: ""
 				}
 
 				StatueMultiplier: {
-					Label: "[i:52] Количество статуй"
+					Label: "[i:52] Кол-во статуй"
 					Tooltip: ""
 				}
 
 				ChestMultiplier: {
-					Label: "[i:306] Количество сундуков"
+					Label: "[i:306] Кол-во сундуков"
 					Tooltip: ""
 				}
 
 				SpiderMultiplier: {
-					Label: "[i:952] Количество паучьих пещер"
+					Label: "[i:952] Кол-во паучьих пещер"
 					Tooltip: ""
 				}
 
 				PotMultiplier: {
-					Label: "[i:345] Количество горшков"
+					Label: "[i:345] Кол-во горшков"
 					Tooltip: ""
 				}
 
 				TrapMultiplier: {
-					Label: "[i:539] Количество ловушек"
+					Label: "[i:539] Кол-во ловушек"
 					Tooltip: ""
 				}
 
@@ -119,22 +119,22 @@ Mods: {
 				}
 
 				CaveMultiplier: {
-					Label: "[i:4761] Количество пещер"
+					Label: "[i:4761] Кол-во пещер"
 					Tooltip: ""
 				}
 
 				GemMultiplier: {
-					Label: "[i:182] Количество драгоценных камней"
+					Label: "[i:182] Кол-во драгоценных камней"
 					Tooltip: ""
 				}
 
 				AltarMultiplier: {
-					Label: "[i:86] Количество алтарей"
+					Label: "[i:86] Кол-во алтарей"
 					Tooltip: ""
 				}
 
 				HiveMultiplier: {
-					Label: "[i:1126] Количество пчелиных ульев"
+					Label: "[i:1126] Кол-во пчелиных ульев"
 					Tooltip: ""
 				}
 
@@ -144,17 +144,17 @@ Mods: {
 				}
 
 				FloatingIslandMultiplier: {
-					Label: "[i:838] Количество небесных островов"
+					Label: "[i:838] Кол-во небесных островов"
 					Tooltip: ""
 				}
 
 				OreMultiplier: {
-					Label: "[i:13] Количество руд"
+					Label: "[i:13] Кол-во руд"
 					Tooltip: ""
 				}
 
 				LakeMultiplier: {
-					Label: "[i:3086] Количество озёр"
+					Label: "[i:3086] Кол-во озёр"
 					Tooltip: ""
 				}
 
@@ -201,12 +201,12 @@ Mods: {
 				}
 
 				TreeMultiplier: {
-					Label: "[i:4765] Количество деревьев"
+					Label: "[i:4765] Кол-во деревьев"
 					Tooltip: ""
 				}
 
 				LivingTreeMultiplier: {
-					Label: "[i:832] Количество живых деревьев"
+					Label: "[i:832] Кол-во живых деревьев"
 					Tooltip: ""
 				}
 
@@ -344,7 +344,7 @@ Mods: {
 				}
 
 				MicroMultiplier: {
-					Label: "[i:2340][i:989] Количество микробиомов и структур"
+					Label: "[i:2340][i:989] Кол-во микробиомов и структур"
 					Tooltip: ""
 				}
 

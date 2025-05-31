@@ -54,9 +54,9 @@ Mods: {
 
 				DisplayName: Конфигурация
 				Header0: Ползунки
-				Header1: Сид пьяного мира
-				Header2: Сид Celebrationmk10
-				Header3: Сид For the worthy
+				Header1: Сид «пьяного» мира
+				Header2: Сид «Celebrationmk10»
+				Header3: Сид «For the worthy»
 
 				MarbleMultiplier: {
 					Label: "[i:3157] Количество мраморных пещер"
@@ -79,7 +79,7 @@ Mods: {
 				}
 
 				LarvaMultiplier: {
-					Label: "[i:1133] Количество личинок королевы пчёл"
+					Label: "[i:1133] Количество личинок Королевы пчёл"
 					Tooltip: ""
 				}
 
@@ -104,7 +104,7 @@ Mods: {
 				}
 
 				PotMultiplier: {
-					Label: "[i:345] Количество горшочков"
+					Label: "[i:345] Количество горшков"
 					Tooltip: ""
 				}
 
@@ -158,7 +158,7 @@ Mods: {
 					Tooltip: ""
 				}
 
-				HeaderToggles: Включение/выключение биомов и структур
+				HeaderToggles: Переключение биомов и структур
 
 				UnderworldToggle: {
 					Label: "[i:318] Преисподняя"
@@ -166,7 +166,7 @@ Mods: {
 				}
 
 				EvilToggle: {
-					Label: "[i:86][i:1329] Биомы мирового зла (Багрянец/Искажение)"
+					Label: "[i:86][i:1329] Биомы мирового зла (багрянец/искажение)"
 					Tooltip: ""
 				}
 
@@ -181,7 +181,7 @@ Mods: {
 				}
 
 				IceToggle: {
-					Label: "[i:2358] Снежный биом"
+					Label: "[i:2358] Снега"
 					Tooltip: ""
 				}
 
@@ -267,7 +267,7 @@ Mods: {
 					Tooltip: ""
 				}
 
-				HeaderConstant: Сид The Constant
+				HeaderConstant: Сид «The Constant»
 
 				SurfaceSpiders: {
 					Label: "[i:2607] Генерация паучьих пещер на поверхности"
@@ -289,14 +289,14 @@ Mods: {
 					Tooltip: ""
 				}
 
-				HeaderTraps: Сид No traps
+				HeaderTraps: Сид «No traps»
 
 				NoTraps: {
-					Label: '''[i:5384] "Отключить" все ловушки'''
+					Label: '''[i:5384] «Отключить» все ловушки'''
 					Tooltip: ""
 				}
 
-				HeaderRemix: Сид Get fixed boi
+				HeaderRemix: Сид «Get fixed boi»
 
 				EvilSurface: {
 					Label: "[i:59][i:2171] Полностью заражённая поверхность"

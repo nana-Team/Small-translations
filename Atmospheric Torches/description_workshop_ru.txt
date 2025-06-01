@@ -1,17 +1,17 @@
-This mod simply adds an orange tint to normal torches and tiki torches, with their placed tiles and biome torches getting a slight flicker for atmosphere. The flicker can be disabled and brightness edited in the mod's config. 
+Это мод, просто добавляющий оранжевый оттенок обычным факелам и факелам тики. Размещённые версии этих факелов, а также биомные факелы получают лёгкое мерцание для создания атмосферы. Мерцание можно отключить, а яркость — настроить в конфигурации мода.
 
-Unfortunately, due to complicated code stuff the flicker can't be added to the held or dropped torch item.
-Also, there is an extremely unlikely but possible chance for IL conflicts with other mods, so if you're running a mod that IL edits the exact same obscure line of code this one does, it might cause problems. The [b]only[/b] case for this would be another mod editing the torch item's held or dropped light colors through IL.
+К сожалению, из-за сложности кода мерцание нельзя добавить факелам, находящемся в руках или выброшенным на землю.
+Кроме того, существует крайне маловероятная, но всё же возможная вероятность конфликта на уровне IL (промежуточного языка) с другими модами. Проблемы могут возникнуть только в том случае, если другой мод редактирует точно ту же строку кода через IL — а именно, изменяет цвета освещения у факела в руке или в выброшенном виде.
 
-[h3]Credits:[/h3]
-•MutantWafflez (IL editing)
-•Gryfu (Polish translation)
-•Alino4kaHvoshch & xenofite (Russian translation)
+[h3]Благодарности:[/h3]
+• MutantWafflez, за помощь с IL-редактированием
+• Gryfu, за создание польской локализации
+• Alino4kaHvoshch и Xenofite, за создание русской локализации
 
-[h2]Also Try:[/h2]
+[h2]Также попробуйте:[/h2]
 [b]----- Polaris Texture Pack --------- Backgrounds o' Plenty -------- PRIME Texture Pack -----[/b]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2699930018][img]https://i.imgur.com/XPsiQOF.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971754944][img]https://i.imgur.com/eQQtP5B.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2440281777][img]https://i.imgur.com/zh0vhYR.png[/img][/url]
-[h2]My Other Mods:[/h2]
+[h2]Другие мои моды (также имеют поддержку русского языка):[/h2]
 [b]-------- Better Blending ------- Improved Movement Visuals[/b]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2816941454][img]https://i.imgur.com/1tX3a4N.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2816557864][img]https://i.imgur.com/hxiNC0V.png[/img][/url]
 [b]----- Improved Teleporters ---------- Artificial Biomes ------ [/b]

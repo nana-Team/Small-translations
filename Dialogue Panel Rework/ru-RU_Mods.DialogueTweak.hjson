@@ -22,7 +22,7 @@ Configs: {
 		}
 
 		PortraitDrawStyle: {
-			Label: Стиль портретов а диалогах
+			Label: Стиль портретов в диалогах
 			Tooltip: Устанавливает способ отображения НИПа на его портрете в диалоговой панели
 		}
 
@@ -39,7 +39,7 @@ Configs: {
 	PortraitStyle: {
 		Tooltip: ""
 		LiveReaction.Label: в прямом эфире
-		Static.Label: статичнынй
+		Static.Label: статичный
 		Bestiary.Label: как в бестиарии
 	}
 }

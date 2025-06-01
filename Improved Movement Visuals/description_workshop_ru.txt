@@ -1,21 +1,19 @@
-This mod changes the player's visuals without affecting gameplay. It allows the player to look at the cursor, turn to face the cursor, and lean forwards or backwards while moving. It also includes NPC rotation changes which allow slimes to lean while they jump and enemies with zombie AI or critters to lean similarly to the player.
+Этот мод изменяет визуальные анимации персонажа, никак не влияя на игровой процесс. Персонаж игрока будет смотреть в сторону курсора, поворачиваться к нему и наклоняться вперёд или назад при движении. Также мод включает повороты для некоторых мобов: слизни будут немного наклоняться при прыжках, а враги с ИИ зомби и живность — наклоняться подобно игроку.
 
-•This mod is highly configurable, so it is recommended to look through the mod's config to find your preferences.
-•Also, this mod now includes multiplayer compatibility! You can now see other players' head rotation, body rotation, and direction in real-time.
--Note that multiplayer compatibility will only work if the server host is running IMV.
+• Мод широко настраиваем, поэтому рекомендуется заглянуть в конфигурацию и подобрать параметры под себя.
+• Также мод теперь поддерживает мультиплеер! Вы можете видеть поворот головы, корпуса и направление других игроков в реальном времени.
+- Обратите внимание: совместимость в мультиплеере работает только в том случае, если хост сервера использует этот мод.
 
-[h3]Credits:[/h3]
-•davidfdev (Multiplayer Compatability Help)
-•Corinna (Code)
-•GoodPro712 (Code)
-•energyKid (Code)
-•Gryfu (Polish translation)
-•Alino4kaHvoshch & xenofite (Russian translation)
+[h3]Благодарности:[/h3]
+• davidfdev, за помощь с добавлением поддержки мультиплеера
+• Corinna, GoodPro712 и energyKid, за помощь с кодом
+• Gryfu, за создание польской локализации
+• Alino4kaHvoshch и Xenofite, за создание русской локализации
 
-[h2]Also Try:[/h2]
+[h2]Также попробуйте:[/h2]
 [b]----- Polaris Texture Pack ----- Frigid Backgrounds o' Plenty ----- PRIME Texture Pack -----[/b]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2699930018][img]https://i.imgur.com/XPsiQOF.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3365042192][img]https://i.imgur.com/bL7MVdL.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2440281777][img]https://i.imgur.com/zh0vhYR.png[/img][/url]
-[h2]My Other Mods:[/h2]
+[h2]Другие мои моды (также имеют поддержку русского языка):[/h2]
 [b]------- Better Blending ----------- Atmospheric Torches ----[/b]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2816941454][img]https://i.imgur.com/1tX3a4N.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2817496179][img]https://i.imgur.com/iKsSiS6.png[/img][/url]
 [b]----- Improved Teleporters ---------- Artificial Biomes ------ [/b]

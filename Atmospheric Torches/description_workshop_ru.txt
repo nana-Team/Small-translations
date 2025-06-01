@@ -1,0 +1,18 @@
+This mod simply adds an orange tint to normal torches and tiki torches, with their placed tiles and biome torches getting a slight flicker for atmosphere. The flicker can be disabled and brightness edited in the mod's config. 
+
+Unfortunately, due to complicated code stuff the flicker can't be added to the held or dropped torch item.
+Also, there is an extremely unlikely but possible chance for IL conflicts with other mods, so if you're running a mod that IL edits the exact same obscure line of code this one does, it might cause problems. The [b]only[/b] case for this would be another mod editing the torch item's held or dropped light colors through IL.
+
+[h3]Credits:[/h3]
+•MutantWafflez (IL editing)
+•Gryfu (Polish translation)
+•Alino4kaHvoshch & xenofite (Russian translation)
+
+[h2]Also Try:[/h2]
+[b]----- Polaris Texture Pack --------- Backgrounds o' Plenty -------- PRIME Texture Pack -----[/b]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2699930018][img]https://i.imgur.com/XPsiQOF.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971754944][img]https://i.imgur.com/eQQtP5B.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2440281777][img]https://i.imgur.com/zh0vhYR.png[/img][/url]
+[h2]My Other Mods:[/h2]
+[b]-------- Better Blending ------- Improved Movement Visuals[/b]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2816941454][img]https://i.imgur.com/1tX3a4N.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2816557864][img]https://i.imgur.com/hxiNC0V.png[/img][/url]
+[b]----- Improved Teleporters ---------- Artificial Biomes ------ [/b]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2817952707][img]https://i.imgur.com/C6i0WxQ.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2836811600][img]https://i.imgur.com/lhrAHuI.png[/img][/url]

@@ -1,0 +1,22 @@
+This mod changes the player's visuals without affecting gameplay. It allows the player to look at the cursor, turn to face the cursor, and lean forwards or backwards while moving. It also includes NPC rotation changes which allow slimes to lean while they jump and enemies with zombie AI or critters to lean similarly to the player.
+
+•This mod is highly configurable, so it is recommended to look through the mod's config to find your preferences.
+•Also, this mod now includes multiplayer compatibility! You can now see other players' head rotation, body rotation, and direction in real-time.
+-Note that multiplayer compatibility will only work if the server host is running IMV.
+
+[h3]Credits:[/h3]
+•davidfdev (Multiplayer Compatability Help)
+•Corinna (Code)
+•GoodPro712 (Code)
+•energyKid (Code)
+•Gryfu (Polish translation)
+•Alino4kaHvoshch & xenofite (Russian translation)
+
+[h2]Also Try:[/h2]
+[b]----- Polaris Texture Pack ----- Frigid Backgrounds o' Plenty ----- PRIME Texture Pack -----[/b]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2699930018][img]https://i.imgur.com/XPsiQOF.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3365042192][img]https://i.imgur.com/bL7MVdL.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2440281777][img]https://i.imgur.com/zh0vhYR.png[/img][/url]
+[h2]My Other Mods:[/h2]
+[b]------- Better Blending ----------- Atmospheric Torches ----[/b]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2816941454][img]https://i.imgur.com/1tX3a4N.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2817496179][img]https://i.imgur.com/iKsSiS6.png[/img][/url]
+[b]----- Improved Teleporters ---------- Artificial Biomes ------ [/b]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2817952707][img]https://i.imgur.com/C6i0WxQ.png[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2836811600][img]https://i.imgur.com/lhrAHuI.png[/img][/url]

@@ -1,0 +1,93 @@
+Mods: {
+	CoolerMenu: {
+		DisplayName: Cooler Menu
+		Description: A cooler main menu experience
+		SinglePlayer: Single Player
+		Multiplayer: Multiplayer
+		Achievements: Achievements
+		Settings: Settings
+		Workshop: Workshop
+		Exit: Exit
+
+		Config: {
+			ButtonPosition: Button Position
+			ButtonPositionTooltip: Choose whether buttons appear on the left or right
+			LogoPosition: Logo Position
+			LogoPositionTooltip: Choose whether the logo appears on the left or right
+			HoverBackgrounds: Hover Backgrounds
+			HoverBackgroundsTooltip: Enable hover backgrounds for buttons
+			SplashMessages: Splash Messages
+			SplashMessagesTooltip: Enable random splash messages under the logo
+		}
+
+		WorkshopError: Failed to open Workshop
+		AchievementsError: Failed to open Achievements
+	}
+}
+
+Configs: {
+	CoolerMenuConfig: {
+		ButtonPosition: {
+			Label: Button Position
+			Tooltip: Switch the buttons position to left or right.
+		}
+
+		DisplayName: Cooler Menu Config
+
+		LogoPosition: {
+			Label: Logo Position
+			Tooltip: Switch the logo position to left or right.
+		}
+
+		EnableHoverBackgrounds: {
+			Label: Backgrounds
+			Tooltip: Enable/Disable the hover backgrounds.
+		}
+
+		EnableSplashMessages: {
+			Label: Splash Messages
+			Tooltip: Enable/Disable Splash Messages.
+		}
+
+		Headers: {
+			Language: Language
+			Appearance: Appearance
+			Animations: Animations
+			Icons: Icons
+		}
+
+		Language: {
+			Label: Menu Language
+			Tooltip: Language for menu buttons (changes take effect immediately)
+		}
+
+		EnableFloatingAnimation: {
+			Label: Floating Buttons
+			Tooltip: Enable floating/bobbing animation for buttons
+		}
+
+		EnableButtonIcons: {
+			Label: Button Icons
+			Tooltip: Show icons next to menu buttons
+		}
+	}
+
+	HorizontalPosition: {
+		Right.Label: Right
+		Left.Label: Left
+		Tooltip: ""
+	}
+
+	MenuLanguage: {
+		Tooltip: ""
+		English.Label: English
+		Español.Label: Español
+		Français.Label: Français
+		Deutsch.Label: Deutsch
+		Italiano.Label: Italiano
+		Português.Label: Português
+		Русский.Label: Русский
+		中文.Label: 中文
+		日本語.Label: 日本語
+	}
+}

@@ -1,4 +1,4 @@
-BuffDespawner: {
+﻿BuffDespawner: {
 	DisplayName: Clear buffs
 	Description: Removes all buffs and debuffs from yourself
 }
@@ -58,6 +58,11 @@ ItemEditor: {
 		here!
 		'''
 	SetDefaults: Reset (SetDefaults)
+
+	Filters: {
+		FromMod: From mod:
+		FromVanilla: From Vanilla
+	}
 
 	Editors: {
 		Damage: {
@@ -650,6 +655,16 @@ CustomizeTool: {
 	DisplayName: Customize tool
 	Description: Customize your toolbar layout!
 	ToolBrowser: Add tool
+	FilterCategories.Mod: Mod filters
+
+	Filters: {
+		Mod.Description: Tools added by the mod {0}
+
+		DragonLens: {
+			Name: DragonLens
+			Description: Tools added by DragonLens
+		}
+	}
 }
 
 SoundSpawner: {
@@ -884,4 +899,50 @@ PlayerManager: {
 		Velocity: {3}
 		Alive: {4}
 		'''
+}
+
+AssetManager: {
+	DisplayName: Asset Manager
+	Description: Browse, export, or reload the assets of mods; this includes textures and shaders.
+	NotSourseMod: Mod is not loaded from source, reloading this asset will have no effect.
+	LoadedNewValue: Loaded new value from [c/CCCCFF:{0}]
+	PathDoesntExist: Could not reload as path does not exist! Tried: [c/FFCCCC:{0}]
+	CannotReload: You cannot reload this asset
+	Exported: Exported to [c/CCCCFF:{0}]
+	ClickToReload: Click to force reload
+	NotFromSourse: Not loaded from source
+	RBMToExport: Right click to export
+	SourceCodeFound: Source code found at [c/CCCCFF:{0}]
+	NotFindSourceCode: Could not find source code...
+	StartingCompilation: Starting shader compilation for {0}
+
+	Rescan: {
+		DisplayName: Re-scan
+		Description: re-scans for modded assets. This may be needed if mods lazy load assets.
+	}
+
+	FilterCategories: {
+		Mod: Mod filters
+		Type: Type filters
+	}
+
+	Filters: {
+		Mod.Description: Assets from {0}
+
+		Texture: {
+			Name: Texture assets
+			Description: Assets which are textures (Texture2D), these are .png files in your mod typically
+		}
+
+		Effect: {
+			Name: Effect/Shader assets
+			Description: Assets which are shaders (Effect), these are .xnb files in your mod typically, and usually have a .fx source code file aswell
+		}
+	}
+}
+
+Pause: {
+	DisplayName: Pause
+	Description: Pauses the game. You can right click this tool to advance by a single frame while paused.
+	RightClickName: (Pause) Step single frame
 }

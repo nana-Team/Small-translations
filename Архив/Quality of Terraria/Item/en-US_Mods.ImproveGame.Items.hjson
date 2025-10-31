@@ -1,0 +1,426 @@
+MagickWand: {
+	DisplayName: Wand of Blasts
+	Tooltip:
+		'''
+		Destroys tiles in both fixed area and free selection
+		The mining power is equivalent to your strongest pickaxe
+		<right> while holding to edit destruction settings
+		<right> while selecting area to cancel
+		'''
+}
+
+SpaceWand: {
+	DisplayName: Wand of Space
+	Tooltip:
+		'''
+		[c/0099ff:<right> to open the Control Panel]
+		Places selected type of tile in the indicated area
+		Uses the first applicable item in your inventory
+		<right> while selecting area to cancel placement
+		'I pity the tools'
+		'''
+}
+
+StarburstWand: {
+	DisplayName: Wand of Starblasts
+	Tooltip:
+		'''
+		Destroys tiles in both fixed area and free selection
+		The mining power is equivalent to your strongest pickaxe
+		<right> while holding to edit destruction settings
+		<right> while selecting area to cancel
+		'''
+}
+
+CreateWand: {
+	DisplayName: Wand of Architecture
+	Tooltip:
+		'''
+		Builds a house using materials stored in it
+		If there are no materials stored, it will use the materials from your inventory
+		<right> to open the material storage and house style switch panel
+		Please prepare enough materials, or the house will not be built completely!
+		[c/ff0000:If the item is trashed, the stored materials inside will not be returned!] 
+		'''
+}
+
+WallPlace: {
+	PureName: Wand of Technology
+	DisplayName: Wand of Technology (Placing)
+	Tooltip:
+		'''
+		Summons a wall placer at your cursor
+		Automatically recognizes possible rooms and places walls from your inventory
+		Recognized rooms can have up to 10000 tiles of space
+		Considers solid blocks, platforms and doors as boundaries
+		Each player can only summon one, use again to recall it
+		<right> to switch to selection mode
+		'''
+}
+
+LiquidWand: {
+	DisplayName: Wand of Liquids
+	Tooltip:
+		'''
+		Absorbs/Places chosen liquid in a selected area
+		<right> while holding to open the liquid control panel
+		If there is too little liquid, no excess liquid will be placed
+		'''
+}
+
+PotionBag: {
+	DisplayName: Potion Bag
+	Tooltip:
+		'''
+		Stores your buff potions
+		[c/0099ff:<left>] while holding a potion to deposit
+		[c/0099ff:<right>] to open potion bag
+		{TooltipByKeybind}
+		Automatically collects picked up potions,
+		but only when this Potion Bag is the first in the inventory
+		Can store up to 200 stacks of potions
+		'''
+	TooltipByKeybind: Press [c/0099ff:{KeybindName}] to collect potions from portable storages
+}
+
+BannerChest: {
+	DisplayName: Banner Box
+	Tooltip:
+		'''
+		Stores your banners
+		[c/0099ff:<left>] while holding a banner to deposit
+		[c/0099ff:<right>] to open banner box
+		{TooltipByKeybind}
+		Automatically collect picked up banners,
+		but only when this Banner Box is the first in the inventory
+		Can store up to 500 stacks of banners
+		'''
+	TooltipByKeybind: Press [c/0099ff:{KeybindName}] to collect banners from portable storages
+}
+
+Autofisher: {
+	DisplayName: Fishing Machine
+	Tooltip:
+		'''
+		Click the "+" in the panel to choose a pool. Put in a fishing rod and baits to start fishing
+		You may also put in accessories to increase fishing power or grant ability to fish in lava
+		Bait consumption is only 40% of the manual fishing
+		The initial fishing speed is 30% of the manual fishing speed, but it can be increased in different ways:
+		- Each [i:Bass] stored will provide a 5% fishing speed bonus, caps at 500% ([i/s100:Bass])
+		- [i:AnglerEarring], [i:AnglerTackleBag] and [i:LavaproofTackleBag] can increase fishing speed by 200%, 250%, and 300% respectively
+		- Fishing speed is increased by 200% in Hardmode
+		- Final efficiency = Base efficiency * Sum of all bonuses. The maximum efficiency is 300% of the manual-fishing
+		[c/AAAAAA:Works with modded accessories, but only if that mod has the QoT support]
+		'''
+}
+
+PaintWand: {
+	DisplayName: Wand of Painting
+	Tooltip:
+		'''
+		[c/0099ff:<right> to open Painting Mode Panel]
+		Select an area to paint/remove paint on tiles within the area
+		Also removes moss on the tiles while removing paints, like the [i:PaintScraper]
+		Paint in stacks above 999 will not be consumed
+		'''
+}
+
+ConstructWand: {
+	DisplayName: Wand of Construction
+	Tooltip:
+		'''
+		[c/0099ff:<right> to open Construction Panel]
+		Has ability to place structures freely, structures can be saved and placed while material is sufficient
+		Will not record/place liquids. Wires will not be shown in preview, but will be recorded and placed
+		Click the 'Introduction' at the right top for more information
+		[c/AAAAAA:Please report all tge bugs in this mod's Steam Workshop page]
+		'''
+}
+
+MoveChest: {
+	DisplayName: Wand of Void
+	Tooltip:
+		'''
+		Use on a chest to store it in this wand
+		Use again to place the chest
+		'''
+}
+
+CoinOne: {
+	DisplayName: Lucky Coin
+	Tooltip:
+		'''
+		You are a lucky person!
+		'This will probably sell well'
+		'''
+}
+
+ExtremeStorage: {
+	DisplayName: Storage Manager
+	Tooltip:
+		'''
+		[c/cc2200:Read this manual if you don't know what to do:] 
+		It is used for managing items in chests
+		Choose a category and then click [i:ImproveGame/AddChestIconDummy] to add a chest into that category
+		Chest sorting depends on identifiers prefixed on the chests' names. [c/0088dd:Please do NOT edit chest names afterwards!]
+		Put furniture and potions in their categories, and put all others in the "Everything" category
+		All players will gain effects from [c/0099ff:Portable Crafting Stations] and [c/0099ff:Infinite Potions] stored in the corresponding categories
+		[c/cc2200:Placing multiple Storage Managers in multiplayer mode may increase the packages sent and lag the game] 
+		'''
+}
+
+GlobeBase: {
+	DisplayName: "{0} Locator"
+	Tooltip:
+		'''
+		Marks {0} on the map.
+		You can hide the marker in [c/CC88AA:Personal Config]
+		'''
+	Tooltip_Multi:
+		'''
+		Marks the closest {0} on the map.
+		You can hide the marker in [c/CC88AA:Personal Config]
+		'''
+	AlreadyRevealed: "{0} has already been marked"
+	Reveal: "{1} marked up {0} on the map."
+	NotFound: Data of {0} is not present, it's likely that newest QoT was not enabled during world creation
+}
+
+DungeonGlobe.BiomeName: Dungeon
+FloatingIslandGlobe.BiomeName: Floating Island
+
+PyramidGlobe: {
+	BiomeName: Pyramid
+	NotFound: There is no Pyramid in this world.
+}
+
+TempleGlobe.BiomeName: Jungle Temple
+
+# NotFound在世界上没有花苞或花苞全部标记完了的情况下显示，附魔剑的文本亦是如此
+PlanteraGlobe: {
+	BiomeName: "{$NPCName.Plantera}"
+	NotFound: Couldn't find more {$MapObject.PlanterasBulb}
+	Reveal: "{0} marked up {$NPCName.Plantera} on the map."
+}
+
+EnchantedSwordGlobe: {
+	BiomeName: "{$ItemName.EnchantedSword}"
+	NotFound: Couldn't find more Enchanted Sword Shrines
+	Reveal: "{0} marked up {$ItemName.EnchantedSword} on the map."
+}
+
+# NotFound在大理石洞全部标记完了的情况下显示，花岗岩洞的文本亦是如此
+MarbleCaveGlobe: {
+	BiomeName: Marble Cave
+	NotFound: Couldn't find more Marble Cave
+}
+
+GraniteCaveGlobe: {
+	BiomeName: Granite Cave
+	NotFound: Couldn't find more Granite Cave
+}
+
+# NotFound在世界上没有足够的微光液体的情况下显示
+AetherGlobe: {
+	BiomeName: The Aether
+	NotFound: Couldn't find any Shimmer liquid
+	Reveal: "{0} marked up {ImproveGame.Mods.Items.AetherGlobe.BiomeName} on the map."
+}
+
+DetectorDrone: {
+	Tooltip:
+		'''
+		Flies high and low to explore terrains.
+		Updates your explored map and emits lighting to see in the dark.
+		CAUTION: Don't go too far, else it'll explode.
+		'''
+	DisplayName: Explorer Drone
+}
+
+DevMark: {
+	DisplayName: Developer's Mark
+	Tooltip:
+		'''
+		When in the inventory, Wand of Construction will not consume materials (Only works in single player)
+		Use with fishing machine opened to automatically fill it with fishing equipment
+		[c/ff0000:Developer's item]
+		'''
+}
+
+Expelliarmus: {
+	DisplayName: Expelliarmus!
+	Tooltip:
+		'''
+		[c/ff0000:Debug item]
+		Loots NPCs
+		Can test NPC loot
+		'''
+}
+
+ShimmerTech: {
+	DisplayName: Shimmemeter
+	Tooltip:
+		'''
+		[c/ff0000:Debug Item]
+		Removes shimmer bonuses of your player
+		<right> instead removes shimmer bonuses of the world
+		{$ItemName.AegisCrystal}
+		{$ItemName.ArcaneCrystal}
+		{$ItemName.AegisFruit}
+		{$ItemName.Ambrosia}
+		{$ItemName.GummyWorm}
+		{$ItemName.GalaxyPearl}
+		{$ItemName.CombatBookVolumeTwo}
+		{$ItemName.PeddlersSatchel}
+		"Oh God, I can see forever!"
+		'''
+}
+
+Dummy: {
+	DisplayName: Scarecrow Dummy
+	Tooltip:
+		'''
+		Can be used to test DPS.
+		Hold and press the middle mouse button to open the control interface.
+		Left click to spawn Dummy on mouse
+		Right click to remove the chosen dummy
+		Alt + Right click to remove all dummies.
+		You can also use commands to modify attributes:
+		 /dummy info → view dummy stats
+		 /help dummy → get dummy usage
+		"Don't hurt me :)"
+		'''
+	ConfigUIOpenTip: Press {0} to show configuration panel when holding it
+	NoneKeyBind: <None>
+	CannotUse: This item currently does not work in multiplayer.
+}
+
+StorageCommunicator: {
+	DisplayName: Storage Telecom
+	Tooltip:
+		'''
+		Allows you to remotely open a Storage Manager
+		<right> any Storage Manager to connect to it
+		Use the item to open the connected Storage Manager
+		'''
+	NotSet: Currently not connected
+	SetTo: Connected to Storage Manager at [{0}, {1}]
+	MissingStorage: Storage Manager not found
+	Unlocated: Not connected to any Storage Manager, <right> a Storage Manager while holding this item to connect them
+}
+
+WeatherBook: {
+	DisplayName: Book of Weathers
+	Tooltip:
+		'''
+		Unlocks weather control on the Control Panel
+		It alters wind direction, moon phase and rain,
+		as well as time after defeating Wall of Flesh
+		'''
+}
+
+AddChestIconDummy: {
+	DisplayName: Add Chest Icon Dummy
+	Tooltip: ""
+}
+
+SearchIcon: {
+	DisplayName: Recipe Not Found
+	Tooltip: No recipe macthes the conditions
+}
+
+BaitSupplier: {
+	DisplayName: Bait Chamber
+	Tooltip:
+		'''
+		Automatically takes bait from chests placed closely
+		to replenish all the baitless fishing machines in the world
+		'''
+}
+
+UniversalAmmoIcon: {
+	DisplayName: Unspecified Ammo
+	Tooltip:
+		'''
+		[c/00ffff:Does] [c/60ffff:not] specify the type of ammo,
+		Use the ammo that the weapon [c/00ffff:is] [c/20ffff:supposed] [c/40ffff:to] [c/60ffff:use]
+		'''
+}
+
+AmmoChainItem: {
+	DisplayName: Ammo Chain
+	Tooltip:
+		'''
+		Stores Ammo Chain info, can be shared with other players
+		Using this item will save that info to your computer
+		'''
+	FromPlayer: From player: {0}
+	Added: Ammo Chain added as: {0}
+}
+
+AddIconDummy: {
+	DisplayName: Add Icon Dummy
+	Tooltip: ""
+}
+
+OpenFolderDummy: {
+	DisplayName: Open Folder Dummy
+	Tooltip: ""
+}
+
+CrimsonAltarItem: {
+	DisplayName: Crimson Altar
+	Tooltip: ""
+}
+
+DemonAltarItem: {
+	DisplayName: Demon Altar
+	Tooltip: ""
+}
+
+LicenseBook: {
+	DisplayName: Licence
+	Tooltip: Use to view QoT's licence and references.
+}
+
+LiquidWandAdvanced: {
+	DisplayName: Ultimate Wand of Liquids
+	Tooltip:
+		'''
+		Absorbs/places chosen liquid in a selected area
+		<right> while holding to open the liquid control panel
+		Unlimited amount of liquids
+		'''
+}
+
+WallPlaceSelectorMode: {
+	DisplayName: Wand of Technology (Selecting)
+	Tooltip:
+		'''
+		Select a rectangular area and place walls from the inventory in it
+		<right> to switch to placement mode
+		'''
+}
+
+ActuationRodMkII: {
+	DisplayName: Ultimate Wand of Actuation
+	Tooltip:
+		'''
+		Select a rectangular area to actuate it
+		Doesn't need placed actuators
+		'''
+}
+
+ShellShipInBottle: {
+	DisplayName: Shell Ship In Bottle
+	Tooltip:
+		'''
+		Ask the Guide how to make it with Sea Shell
+		Then throw it into shimmer lake, and see what will happen!
+		'''
+}
+
+ShellShipInBottle_Shimmered: {
+	DisplayName: Shimmered Ship In Bottle
+	Tooltip: Unlocks Quick Shimmer on the Control Panel
+}

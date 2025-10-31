@@ -1,0 +1,53 @@
+﻿[img]https://i.imgur.com/W2c5CX6.gif[/img]
+
+[h1]Recipe Browser![/h1]
+Recipe Browser — это незаменимый мод для любого игрока и прохождения. Он предоставляет такой функционал, о котором ванильный гид не мог и мечтать. [img]https://i.imgur.com/420S4WA.gif[/img] С Recipe Browser'ом у вас появится доступ к удобнейшим и многофункциональным инструментам, которые помогут вам спланировать, какие предметы вы хотите скрафтить. Вы сможете быстро просматривать список предметов, которых можно изготовить из имеющихся у вас материалов, даже если для этого потребуется несколько промежуточных этапов.
+
+[h1]Использование[/h1]
+Для использования мода, вам сначала будет необходимо назначить несколько горячих клавиш. Обязательно зайдите в настройки управления и назначьте горячие клавиши. Горячая клавиша «Открыть браузер рецептов» необходима для использования, остальные 2 также полезны, но необязательны. Горячая клавиша «Поместить предмет под курсором в ячейку» упрощает проверку рецептов, а «Вкл./Выкл. окно с избранными рецептами» полезно при использовании функции избранныых рецептов.
+[img]https://i.imgur.com/Bv1TOPR.png[/img]
+
+[h1]Основные функции[/h1]
+[img]https://i.imgur.com/wt2VPR0.png[/img]
+Главное окно состоит из нескольких вкладок. Вы можете нажать по вкладкам, чтобы перейти к каждому меню. Вы также можете изменить размер окна. На вкладке «Руководство» более подробно описан каждый инструмент, обязательно ознакомьтесь с ним.
+
+[h1]Рецепты[/h1]
+Этот инструмент позволяет быстро просматривать все рецепты в игре. Вы можете поместить предмет в ячейку, чтобы найти все рецепты, из которых предмет создаётся и в которх используется. Вы также можете использовать поиск и фильтры с помощью различных настроек в окне, чтобы найти те рецепты, которые вам необходимы. Внизу окна будут указаны материалы и рабочее место для создания. Красным и зелёным цветом будет отображено, находится ли игрок рядом с необходимой станцией или нет. Справа будет показан список существ, с которого выпадает выбранный предмет, если такие имеются. Дважды нажмите по существу в списке, чтобы открыть его страницу в меню существ. Двойное нажатие по рецепту или материалу переместит этот в основную ячейку, что очень удобно для просмотра дерева создания предметов с несколькими уровнями крафта. Нажмите по рецепту, чтобы добавить его в избранное, см. раздел «Избранное» ниже.
+[video mp4=https://github.com/user-attachments/assets/a1e74e40-73e7-4a83-9175-59a35cd4ec9b][/video]
+
+[h1]Создание[/h1]
+This tool can be used to craft recipes, even recipes that require multiple steps to achieve! In the Recipes tool, right click on any recipe to bring up this tool. Recipes with the yellow background can be crafted via multiple steps. For example, if you have gold and iron ore and click on the Gold Watch recipe, this tool will show you the multiple steps needed to craft gold and iron ore, followed by crafting chains, and finally the gold watch itself. You can also enable the Loot option to allow farming as part of the multi-step process. Simply find and kill the specified enemies to farm the needed ingredient. By default, all crafting stations that you have seen will be available for the extended crafting paths. If you enable the Missing Stations option, unseen crafting stations will also be shown. See the Help tab for more information on this tool.
+[video mp4=https://github.com/user-attachments/assets/83eb8e02-b9dc-49de-a68e-00e56cb7a83b][/video]
+
+[h1]Предметы[/h1]
+Here you can explore all items in the game. Use the filters and sorts to find what you want. Double click an item to query it in the Recipe panel. Double right click an item to query the item in the Bestiary.
+
+[h1]Сущщества[/h1]
+Here you can explore all NPC in the game. Use the filters to find what you want. Clicking on an NPC shows the loot from that NPC. Placing an item in the query slot filters the grid to show only NPC that drop that item. Double click an item to query it in the Recipe panel. Right click an item to populate the query slot, great for seeing who else drops the same item.
+
+[h1]Избранное[/h1]
+In the Recipe panel, you can favorite recipes by alt-clicking on the recipe. If you have favorited recipes, the favorites panel will appear on screen. This panel will help you track progress towards collecting all ingredients. In multiplayer, recipes favorited by other players will also appear in the favorites panel. You can track the progress of other players and cooperate efficiently.
+[img]https://i.imgur.com/gvG1FpY.png[/img]
+[video mp4=https://github.com/user-attachments/assets/116666b8-dcb6-42c1-b410-2dc9e3ba3bf9][/video]
+
+[h1]Query Hovered Item[/h1]
+By assigning a hotkey in the keybindings menu, you can use this feature to quickly bring the item into one of the tools. You can use it anytime you are hovering over any item anywhere in the game.
+[video mp4=https://github.com/user-attachments/assets/08e0eb61-be39-4500-a1e4-4cda344c9c90][/video]
+
+[h1]Категории, подкатегории, сортировка и фильтры[/h1]
+There are powerful sorting and filtering options. You can search for specific weapon types, find the most powerful pickaxe you can craft, and more. See the Help tab for more information.
+[img]https://i.imgur.com/cGlveJX.png[/img]
+
+[h2]Комплекты брони[/h2]
+The Armor Set category lets you view armor sets. Plan out which armor set you want to work towards that fits your playstyle!
+[video mp4=https://github.com/user-attachments/assets/f8a52ee3-133c-4220-bbfe-9b722c5a14f3][/video]
+
+[h1]Руководство[/h1]
+There are many more features in Recipe Browser, see the Help tab to read and learn more about the features of this mod.
+
+[h1]Ссылки[/h1]
+Source code hosted on [url=github.com/JavidPack/RecipeBrowser]GitHub[/url], collaboration welcome
+For questions or suggestions, come to my Discord: [url=discord.gg/w8Hcwby][img]https://discordapp.com/api/guilds/276235094622994433/widget.png?style=shield[/img][/url]
+Bug reports in the comments here will not be seen, come to Discord or Github to report issues.
+If you'd like to support my mods, I have a Patreon [url=www.patreon.com/jopojelly][img]https://i.imgur.com/xII2DwJ.png[/img][/url]
+[url=https://steamcommunity.com/profiles/76561198025715866/myworkshopfiles/?appid=1281930]Check out all my mods[/url]

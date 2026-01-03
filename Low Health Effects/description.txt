@@ -1,0 +1,21 @@
+This mod adds visual and audio effects while on low health and after taking damage.
+
+The following effects can occur:
+ - Colored and distorted screen border
+ - A pulsating effect to go along with a heartbeat that gets faster at lower health
+ - Audio muffling
+ - Ringing after taking a particularly heavy hit
+
+These effects are all individually controllable. Though the default values were finely balanced, the mod's parameters were designed to be experimented with. Find the settings that work best for you!
+
+By default, low health effects are only active during boss fights and the muffling will affect the boss music as well. These can both be changed.
+The thresholds for what is considered "low health" or a "heavy hit" are customizable too.
+
+The mod is multiplayer compatible.
+
+Compatible with UltraSonic's custom music.
+
+[b]If your game crashes with this mod, please fill out the form below:[/b]
+https://forms.gle/z1B4Kzt9DZqPHAqr6
+
+[i]Russian localization by xenofite[/i]

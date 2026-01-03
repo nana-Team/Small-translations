@@ -1,0 +1,348 @@
+CommonItemTooltip: {
+	PercentThrowingDamageIncrease: Увеличивает метательный урон на {0}%
+	PercentThrowingCritChanceIncrease: Увеличивает метательный шанс критического удара на {0}%
+	PercentThrowingVelocityIncrease: Увеличивает скорость метания на {0}%
+	PercentThrowingConsumeDecrease: Даёт {0}% шанс не израсходовать метательное оружие
+	PercentAssassinCooldownDecrease: Снижает время перезарядки убийственного удара на {0}%
+	PercentAssassinDamageIncrease: Увеличивает урон убийственных ударов на {0}%
+	IsAssassinWeapon: Вы не сможете использовать «убийственное» оружие ещё <TIME> секунд после использования
+}
+
+Items: {
+	VelocityMaximizer: {
+		DisplayName: Ускоритель метания
+		Tooltip:
+			'''
+			Максимально увеличивает скорость метания и сокращает время перезарядки убийственных ударов до минимума
+			Предмет тестировки
+			'''
+	}
+
+	EnchantedDagger: {
+		DisplayName: Зачарованный кинжал
+		Tooltip: Бросает кинжал, теряющий своё зачарование в полёте
+	}
+
+	LightningRod: {
+		DisplayName: Молниеотвод
+		Tooltip:
+			'''
+			{$CommonItemTooltip.IsAssassinWeapon}
+			Поражённые враги будут периодически получать урон от искр в течение 7 секунд
+			Эффект имеет шанс стать интенсивнее на 3 секунды
+			'''
+	}
+
+	WingedStrike: {
+		DisplayName: Окрыляющий удар
+		Tooltip: ""
+	}
+
+	TravelersPouch: {
+		DisplayName: Дорожная сумка
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PercentThrowingConsumeDecrease}
+			Каждый десятый метательный удар будет выпускать дополнительный снаряд
+			'''
+	}
+
+	SilkCloak: {
+		DisplayName: Шёлковый плащ
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PercentThrowingConsumeDecrease}
+			{$CommonItemTooltip.PercentThrowingVelocityIncrease@1}
+			'''
+	}
+
+	DuskChakram: {
+		DisplayName: Сумрачный чакрам
+		Tooltip: Вместе с чакрамом также выпускаются его теневые проекции
+	}
+
+	BloodstainedKunai: {
+		DisplayName: Окровавленный кунай
+		Tooltip: Убийство врага накладывает бафф, увеличивающий метательный урон и регенерацию здоровья
+	}
+
+	BambooStick: {
+		DisplayName: Бамбуковая палочка
+		Tooltip: ""
+	}
+
+	SilkMask: {
+		DisplayName: Шёлковая маска
+		Tooltip: Увеличивает метательный урон на 1
+		SetBonus: "{$CommonItemTooltip.PercentAssassinCooldownDecrease}"
+	}
+
+	SilkPants: {
+		DisplayName: Шёлковые штаны
+		Tooltip: "{$CommonItemTooltip.PercentThrowingCritChanceIncrease}"
+	}
+
+	TwilightRing: {
+		DisplayName: Кольцо полутьмы
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PercentAssassinDamageIncrease}
+			Метательное оружие при попадании будет накладывать дебафф «Теневое пламя»
+			'''
+	}
+
+	ImpalingJavelin: {
+		DisplayName: Пронзающее метательное копьё
+		Tooltip:
+			'''
+			{$CommonItemTooltip.IsAssassinWeapon}
+			Защита пронзённых врагов будет снижена на 10 ед. на 10 секунд
+			'''
+	}
+
+	HydroMesanglyon: {
+		DisplayName: Гидромезанглион
+		Tooltip:
+			'''
+			Метает ножи, ускоряя их с помощью верёвки
+			Враги, получившие урон от оружия ещё до вылета ножей гарантированно получат критический урон
+			'''
+	}
+
+	BrambleShuriken: {
+		Tooltip: Отскакивает от поражённых врагов
+		DisplayName: Ежевичный сюрикен
+	}
+
+	BlazingFalarica: {
+		DisplayName: Пылающая фаларика
+		Tooltip: Застревает в поражённых врагах и взрывается при разрушении
+	}
+
+	Chromapurge: {
+		Tooltip:
+			'''
+			{$CommonItemTooltip.IsAssassinWeapon}
+			При попадании взывает хроматические мечи, быстро наносящие урон врагам
+			'''
+		DisplayName: Хромоочиститель
+	}
+
+	CoralHelm: {
+		DisplayName: Глубоководный шлем
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PercentThrowingDamageIncrease}
+			Обеспечивает дополнительным кораловым свечением, если не перекрыт головным убором
+			Увеличивает размер шкалы воздуха в 2 раза
+			'''
+		SetBonus: Метательные критические удары будут наносить дополнительный урон врагам
+	}
+
+	CoralPlate: {
+		DisplayName: Глубоководная нагрудная пластина
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PercentThrowingConsumeDecrease}
+			{$CommonItemTooltip.PercentAssassinCooldownDecrease@1}
+			'''
+	}
+
+	CoralLeggings: {
+		DisplayName: Глубоководные поножи
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PercentThrowingCritChanceIncrease}
+			{$ItemTooltip.Flipper}
+			'''
+	}
+
+	ObsidianKnife: {
+		DisplayName: Обсидиановый ножик
+		Tooltip: ""
+	}
+
+	ShimmerKnife: {
+		DisplayName: Мерцающий ножик
+		Tooltip: После попадания по врагу нож телепортируется за его спину и продолжает движение в обратном направлении
+	}
+
+	VoidBomb: {
+		DisplayName: Пустотная бомба
+		Tooltip:
+			'''
+			{$CommonItemTooltip.IsAssassinWeapon}
+			Взрывается при столкновении с врагами и поверхностями
+			Взрыв создаёт мощную ударную волну
+			'''
+	}
+
+	JunglesVengeance: {
+		Tooltip:
+			'''
+			{$CommonItemTooltip.IsAssassinWeapon}
+			Исцеляет здоровье игрока с наименьшим количеством здоровья в команде
+			'''
+		DisplayName: Возмездие джунглей
+	}
+}
+
+Projectiles: {
+	EnchantedDaggerProj.DisplayName: Зачарованный кинжал
+	EnchantedDaggerProjBeam.DisplayName: Луч зачарованого кинжала
+	EnchantedDaggerProjDepleted.DisplayName: Истощённый кинжал
+	LightningRodProj.DisplayName: Молниеотвод
+	LightningSpark.DisplayName: Электрическая искра
+	WingedStrikeProj.DisplayName: Окрыляющий удар
+	DuskChakramProj.DisplayName: Сумрачный чакрам
+	DuskShadow.DisplayName: Сумрачная тень
+	BloodstainedKunaiProj.DisplayName: Окровавленный кунай
+	BambooStickProj.DisplayName: Бамбуковая палочка
+	ImpalingJavelinProj.DisplayName: Пронзающее метательное копьё
+	HydroMesanglyonProj.DisplayName: Верёвка Гидромезанглиона
+	HydroMesanglyonReleased.DisplayName: Гидромезанглион
+	HydroMesanglyonSweetSpot.DisplayName: Критическое попадание Гидромезанглиона
+	BrambleShurikenProj.DisplayName: Ежевичный сюрикен
+	BlazingFalaricaProj.DisplayName: Пылающая фаларика
+	BlazingExplosion.DisplayName: Пылающий взрыв
+	ChromapurgeProj.DisplayName: Хромоочиститель
+	ChromapurgeSplit.DisplayName: Хромакинжал
+	ObsidianKnifeProj.DisplayName: Обсидиановый ножик
+	ShimmerKnifeProj.DisplayName: Мерцающий ножие
+	VoidBombProj.DisplayName: Пустотная бомбма
+	VoidBombShockwave.DisplayName: Взрывная волна пустотной бомбы
+	VoidExplosion.DisplayName: Пустотный взрыв
+	JunglesVengeanceProj.DisplayName: Возмездие джунглей
+	JunglesVengeanceHeal.DisplayName: Лечение «Возмездия джунглей»
+	CoralFlame.DisplayName: Глубоководный удар
+}
+
+Prefixes: {
+	SerratedPrefix.DisplayName: Пилообразный
+	VindictivePrefix.DisplayName: Мстительный
+	BarbaricPrefix.DisplayName: Варварский
+	MaleficentPrefix.DisplayName: Зловредный
+	RestlessPrefix.DisplayName: Неугомонный
+	TraitorousPrefix.DisplayName: Вероломный
+}
+
+Buffs: {
+	AssassinCooldown: {
+		DisplayName: Перезарядка убийственной атаки
+		Description: Вы не можете использовать «убийственное» оружие
+	}
+
+	Sparking: {
+		DisplayName: Искрящийся
+		Description: Раскалённые искры вылетают из вашего тела
+	}
+
+	Impaled: {
+		DisplayName: Пронзённый
+		Description: Защита снижена на 10 ед.
+	}
+
+	Blazing: {
+		DisplayName: Пылающий
+		Description: Обжигающе!
+	}
+
+	BloodyBoost: {
+		Description:
+			'''
+			Метательный урон увеличен на {0}%
+			Скорость регенерации увеличена
+			'''
+		DisplayName: Кровавое усиление
+	}
+
+	VoidRend: {
+		DisplayName: Пустотный разрыв
+		Description: Вас разрывает на части
+	}
+
+	JunglesWrath: {
+		Description: Вы пронзены «Возмездием джунглей»
+		DisplayName: Ярость джунглей
+	}
+}
+
+SetBonusNinja:
+	'''
+	{$CommonItemTooltip.PercentAssassinCooldownDecrease}
+	{$CommonItemTooltip.PercentThrowingVelocityIncrease@1}
+	'''
+
+Configs: {
+	ReclasserConfig: {
+		DisplayName: Конфигурация классовости оружия
+
+		formerThrowing: {
+			Label: Расходуемое оружие стрелка
+			Tooltip: Всё стрелковое оружие, раньше пренадлежащее метателю, снова станет таковым
+		}
+
+		Headers: {
+			itemClasses: Типы оружия
+			individualItems: Конкретные предметы
+		}
+
+		paperAirplanes: {
+			Label: Бумажные самолётики
+			Tooltip: Оба вида самолётиков станут наносить метательный урон
+		}
+
+		boomerangs: {
+			Label: Бумеранги
+			Tooltip: Всё оружие ближнего боя, возвращающееся после броска, станет наносить метательный урон. Мод не будет добавлять новых бумерангов.
+		}
+
+		yoyos: {
+			Label: Йо-йо
+			Tooltip:
+				'''
+				Технически йо-йо тоже метается, верно?
+				Все йо-йо станут наносить метательный урон. Мод не будет добавлять новых йо-йо.
+				'''
+		}
+
+		flyingKnife: {
+			Label: Летающий нож
+			Tooltip:
+				'''
+				Что-то типо бумеранга, но не совсем
+				Летающий нож станет наносить метательный урон
+				'''
+		}
+
+		scourgeOfTheCorruptor: {
+			Label: "{$ItemName.ScourgeoftheCorruptor}"
+			Tooltip: "{$ItemName.ScourgeoftheCorruptor} станет наносить метательный урон"
+		}
+
+		vampireKnives: {
+			Label: Вампирские ножи
+			Tooltip: Вампирские ножи станут наносить метательный урон, потому что они похожи на метательные ножи
+		}
+
+		magicDagger: {
+			Label: Магический кинжал
+			Tooltip: Магический кинжал станет наносить метательный урон и не будет требовать ману
+		}
+
+		toxicFlask: {
+			Label: Токсичный флакон
+			Tooltip: Токсичный флакон станет наносить метательный урон и не будет требовать ману
+		}
+
+		shadowflameKnife: {
+			Label: Нож теневого пламени
+			Tooltip: Нож теневого пламени станет наносить метательный урон
+		}
+
+		daybreak: {
+			Label: "{$ItemName.Daybreak}"
+			Tooltip: "{$ItemName.Daybreak} станет наносить метательный урон"
+		}
+	}
+}

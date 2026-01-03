@@ -1,0 +1,344 @@
+CommonItemTooltip: {
+	PercentThrowingDamageIncrease: "{0}% increased throwing damage"
+	PercentThrowingCritChanceIncrease: "{0}% increased throwing critical strike chance"
+	PercentThrowingVelocityIncrease: "{0}% increased throwing velocity"
+	PercentThrowingConsumeDecrease: "{0}% chance not to consume thrown weapon"
+	PercentAssassinCooldownDecrease: "{0}% decreased assassin strike cooldown"
+	PercentAssassinDamageIncrease: "{0}% increased assassin strike damage"
+	IsAssassinWeapon: <TIME> seconds of shared cooldown between all assassin weapons
+}
+
+Items: {
+	VelocityMaximizer: {
+		DisplayName: Velocity Maximizer
+		Tooltip:
+			'''
+			Maximizes both assassin strike cooldown reduction and throwing velocity
+			Used for debug purposes
+			'''
+	}
+
+	EnchantedDagger: {
+		DisplayName: Enchanted Dagger
+		Tooltip: Throws a dagger that loses its enchantment after flying
+	}
+
+	LightningRod: {
+		DisplayName: Lightning Rod
+		Tooltip:
+			'''
+			{$CommonItemTooltip.IsAssassinWeapon}
+			Enemies hit directly by this weapon will spark on hit for 7 seconds
+			Sparks have a chance to cause enemies to spark more for 3 seconds
+			'''
+	}
+
+	WingedStrike: {
+		DisplayName: Winged Strike
+		Tooltip: ""
+	}
+
+	TravelersPouch: {
+		DisplayName: Traveler's Pouch
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PercentThrowingConsumeDecrease}
+			Every tenth throwing attack shoots an additional projectile
+			'''
+	}
+
+	SilkCloak: {
+		DisplayName: Silk Cloak
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PercentThrowingConsumeDecrease}
+			{$CommonItemTooltip.PercentThrowingVelocityIncrease@1}
+			'''
+	}
+
+	DuskChakram: {
+		DisplayName: Dusk Chakram
+		Tooltip: Four shadows fire alongside the chakram
+	}
+
+	BloodstainedKunai: {
+		DisplayName: Bloodstained Kunai
+		Tooltip: Killing enemies grants a boost to life regeneration and throwing damage
+	}
+
+	BambooStick: {
+		DisplayName: Bamboo Stick
+		Tooltip: ""
+	}
+
+	SilkMask: {
+		DisplayName: Silk Mask
+		Tooltip: Throwing damage increased by 1
+		SetBonus: "{$CommonItemTooltip.PercentAssassinCooldownDecrease}"
+	}
+
+	SilkPants: {
+		DisplayName: Silk Pants
+		Tooltip: "{$CommonItemTooltip.PercentThrowingCritChanceIncrease}"
+	}
+
+	TwilightRing: {
+		DisplayName: Twilight Ring
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PercentAssassinDamageIncrease}
+			Thrown weapons inflict shadowflame
+			'''
+	}
+
+	ImpalingJavelin: {
+		DisplayName: Impaling Javelin
+		Tooltip:
+			'''
+			{$CommonItemTooltip.IsAssassinWeapon}
+			Impaled enemies have their defense reduced by 10 for 10 seconds
+			'''
+	}
+
+	HydroMesanglyon: {
+		DisplayName: Hydro Mesanglyon
+		Tooltip:
+			'''
+			Thrown with a rope for extra velocity
+			Enemies hit at the point of release take critical damage
+			'''
+	}
+
+	BrambleShuriken: {
+		Tooltip: Ricochets between enemies
+		DisplayName: Bramble Shuriken
+	}
+
+	BlazingFalarica: {
+		DisplayName: Blazing Falarica
+		Tooltip:
+			'''
+			Sticks into enemies
+			Explodes on destruction
+			'''
+	}
+
+	Chromapurge: {
+		Tooltip:
+			'''
+			{$CommonItemTooltip.IsAssassinWeapon}
+			Summons chromatic swords on hit to rapidly damage enemies
+			'''
+		DisplayName: Chromapurge
+	}
+
+	CoralHelm: {
+		DisplayName: Deep Helm
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PercentThrowingDamageIncrease}
+			Provides a coral light when visible
+			Doubles underwater air capacity
+			'''
+		SetBonus: Throwing critical strikes slash enemies for extra damage
+	}
+
+	CoralPlate: {
+		DisplayName: Deep Plate
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PercentThrowingConsumeDecrease}
+			{$CommonItemTooltip.PercentAssassinCooldownDecrease@1}
+			'''
+	}
+
+	CoralLeggings: {
+		DisplayName: Deep Leggings
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PercentThrowingCritChanceIncrease}
+			{$ItemTooltip.Flipper}
+			'''
+	}
+
+	ObsidianKnife: {
+		DisplayName: Obsidian Knife
+		Tooltip: ""
+	}
+
+	ShimmerKnife: {
+		DisplayName: Shimmer Knife
+		Tooltip: Teleports behind hit enemies
+	}
+
+	VoidBomb: {
+		DisplayName: Void Bomb
+		Tooltip:
+			'''
+			{$CommonItemTooltip.IsAssassinWeapon}
+			Explodes on contact with anything
+			Causes a massive shockwave
+			'''
+	}
+
+	JunglesVengeance: {
+		Tooltip:
+			'''
+			{$CommonItemTooltip.IsAssassinWeapon}
+			Heals the player with the lowest life on your team
+			'''
+		DisplayName: Jungle's Vengeance
+	}
+}
+
+Projectiles: {
+	EnchantedDaggerProj.DisplayName: Enchanted Dagger
+	EnchantedDaggerProjBeam.DisplayName: Enchanted Dagger Beam
+	EnchantedDaggerProjDepleted.DisplayName: Depleted Dagger
+	LightningRodProj.DisplayName: Lightning Rod
+	LightningSpark.DisplayName: Lightning Spark
+	WingedStrikeProj.DisplayName: Winged Strike
+	DuskChakramProj.DisplayName: Dusk Chakram
+	DuskShadow.DisplayName: Dusk Shadow
+	BloodstainedKunaiProj.DisplayName: Bloodstained Kunai
+	BambooStickProj.DisplayName: Bamboo Stick
+	ImpalingJavelinProj.DisplayName: Impaling Javelin
+	HydroMesanglyonProj.DisplayName: Hydro Mesanglyon Rope
+	HydroMesanglyonReleased.DisplayName: Hydro Mesanglyon
+	HydroMesanglyonSweetSpot.DisplayName: Hydro Mesanglyon Critical Spot
+	BrambleShurikenProj.DisplayName: Bramble Shuriken
+	BlazingFalaricaProj.DisplayName: Blazing Falarica
+	BlazingExplosion.DisplayName: Blazing Explosion
+	ChromapurgeProj.DisplayName: Chromapurge
+	ChromapurgeSplit.DisplayName: Chromaknife
+	ObsidianKnifeProj.DisplayName: Obsidian Knife
+	ShimmerKnifeProj.DisplayName: Shimmer Knife
+	VoidBombProj.DisplayName: Void Bomb
+	VoidBombShockwave.DisplayName: Void Bomb Shockwave
+	VoidExplosion.DisplayName: Void Explosion
+	JunglesVengeanceProj.DisplayName: Jungle's Vengeance
+	JunglesVengeanceHeal.DisplayName: Jungle's Vengeance Heal
+	CoralFlame.DisplayName: Deep Strike
+}
+
+Prefixes: {
+	SerratedPrefix.DisplayName: Serrated
+	VindictivePrefix.DisplayName: Vindictive
+	BarbaricPrefix.DisplayName: Barbaric
+	MaleficentPrefix.DisplayName: Maleficent
+	RestlessPrefix.DisplayName: Restless
+	TraitorousPrefix.DisplayName: Traitorous
+}
+
+Buffs: {
+	AssassinCooldown: {
+		DisplayName: Assassin Cooldown
+		Description: Cannot use assassin weapons
+	}
+
+	Sparking: {
+		DisplayName: Sparking
+		Description: Sparks fly out of your body
+	}
+
+	Impaled: {
+		DisplayName: Impaled
+		Description: Defense is reduced by 10
+	}
+
+	Blazing: {
+		DisplayName: Blazing
+		Description: It burns!
+	}
+
+	BloodyBoost: {
+		Description:
+			'''
+			{$CommonItemTooltip.PercentThrowingDamageIncrease}
+			Increased life regeneration
+			'''
+		DisplayName: Bloody Boost
+	}
+
+	VoidRend: {
+		DisplayName: Void Rend
+		Description: You're being ripped apart.
+	}
+
+	JunglesWrath: {
+		Description: Impaled by Jungle's Vengeance
+		DisplayName: Jungles Wrath
+	}
+}
+
+SetBonusNinja:
+	'''
+	{$CommonItemTooltip.PercentAssassinCooldownDecrease}
+	{$CommonItemTooltip.PercentThrowingVelocityIncrease@1}
+	'''
+
+Configs: {
+	ReclasserConfig: {
+		DisplayName: Reclasser Config
+
+		formerThrowing: {
+			Label: Ranged Consumables
+			Tooltip: The old thrower weapons
+		}
+
+		Headers: {
+			itemClasses: Item Types
+			individualItems: Unique Items
+		}
+
+		paperAirplanes: {
+			Label: Paper Airplanes
+			Tooltip: The two airplanes
+		}
+
+		boomerangs: {
+			Label: Boomerangs
+			Tooltip: Melee weapons that return on throw. No new boomerangs are added by this mod
+		}
+
+		yoyos: {
+			Label: Yoyos
+			Tooltip: You technically throw a yoyo, right? No new yoyos are added by this mod
+		}
+
+		flyingKnife: {
+			Label: Flying Knife
+			Tooltip: Kind of a boomerang, kind of not
+		}
+
+		scourgeOfTheCorruptor: {
+			Label: Scourge Of The Corruptor
+			Tooltip: Not used as much as Vampire Knives, and much more ranged
+		}
+
+		vampireKnives: {
+			Label: Vampire Knives
+			Tooltip: Technically throwing knives, but more fit to melee tank builds
+		}
+
+		magicDagger: {
+			Label: Magic Dagger
+			Tooltip: Removes the mana requirement
+		}
+
+		toxicFlask: {
+			Label: Toxic Flask
+			Tooltip: Removes the mana requirement
+		}
+
+		shadowflameKnife: {
+			Label: Shadowflame Knife
+			Tooltip: ""
+		}
+
+		daybreak: {
+			Label: Daybreak
+			Tooltip: ""
+		}
+	}
+}

@@ -1,0 +1,9 @@
+ItemTooltip: {
+	NinjaHood: 5% increased throwing critical strike chance
+	NinjaShirt: 3% increased throwing critical strike chance
+	NinjaPants:
+		'''
+		4% increased throwing critical strike chance
+		10% increased movement speed
+		'''
+}

@@ -1,11 +1,10 @@
 Mods: {
 	RareDropNotification: {
-		// Notification Texts
+		# Notification Texts
 		RareDrop: "[c/<color>:Rare Drop! <itemName>] [i:<item>] [c/<color>:(<chance>% chance)]"
 		SuperRareDrop: "[c/<color>:SUPER RARE DROP! <itemName>] [i:<item>] [c/<color>:(<chance>% chance)]"
 		SuperRareAnnouncement: "[c/<color>:<name> has found a <itemName>] [i:<item>] [c/<color>:with <chance>% chance!]"
-		//
-		// Configs Titles etc.
+		# Configs Titles etc.
 		ConfigName: Notification Customization
 		BlacklistedItems: Blacklisted Items
 		BlacklistedItemsTip:
@@ -16,16 +15,22 @@ Mods: {
 		Mechanics: Notification Mechanics
 		Sound: Rare Drop Sound Effect Settings
 		Experimental: Experimental Settings
-		//
-		// Regular Text Customization Settings
+		# Regular Text Customization Settings
 		TriggerThreshold: Trigger Threshold %
 		TriggerThresholdTip: Rare Drop Message and Sound effect only triggers when drop chance of dropped item is below this value.
 		TextColor: Color of rare drop text
 		TextColorTip: ""
 		ShowResearch: Enable Disabling Notifications For Researched Items
 		ShowResearchTip: Fully researched items in Journey Mode will not have a notification appear for them when dropped.
-		//
-		// Super Rare Drop Text Customization Settings
+		ShowAutoTrash: Enable Auto Trash Mod Compatibility
+		ShowAutoTrashTip:
+			'''
+			If an item is in auto-trash list of Auto Trash Mod,
+			you will not get any notification when that item drops.
+			Auto Trash needs to be enabled in game for this to work.
+			[c/FF0000:(Requires Auto Trash 0.8.1 and above to work!)]
+			'''
+		# Super Rare Drop Text Customization Settings
 		EnableSuperRare: Enable Super Rare Drop Message
 		EnableSuperRareTip: Disabling this will only have regular Rare Drop Text & Sound working.
 		SuperTriggerThreshold: Super Rare Notification Threshold %
@@ -45,8 +50,7 @@ Mods: {
 			With this option on; you will see other Players'
 			Super Rare drops while in Multiplayer.
 			'''
-		//
-		// Sound Customization Settings
+		# Sound Customization Settings
 		SoundVolume: Sound Effect Volume
 		SoundVolumeTip:
 			'''
@@ -77,18 +81,55 @@ Mods: {
 		Configs: {
 			SoundEffect: {
 				Tooltip: Selection of which sound effect to be played when a rare loot gets dropped.
-				HypixelSkyblock.Label: Hypixel Skyblock Rare Drop
-				CSGO.Label: CS:GO Case Legendary Drop
-				PSO2.Label: Phantasy Star Online 2 Rare Drop
-				PokemonRBY.Label: Pokemon R/B/Y Acquiring Item
-				Item35.Label: Terraria Bell Ring
-				Item129.Label: Terraria Golf Ball Sunking In
-				Item150.Label: Terraria Mimic Projectile Reflect
-				Zombie15.Label: Terraria Mouse Squeak
+
+				HypixelSkyblock: {
+					Label: Hypixel Skyblock
+					Tooltip: Sound that plays when a Rare Drop is obtained on Hypixel Skyblock.
+				}
+
+				CSGO: {
+					Label: CS:GO
+					Tooltip: Sound that plays when a Legendary Drop is obtained from a CS:GO case.
+				}
+
+				PSO2: {
+					Label: PSO2
+					Tooltip: Sound that plays when a Rare Drop is obtained on Phantasy Star Online 2.
+				}
+
+				PokemonRBY: {
+					Label: Pokemon
+					Tooltip: Sound that plays when you obtain a item in Pokemon Generation 1 games.
+				}
+
+				POE: {
+					Label: PoE
+					Tooltip: Sound that plays when a Divine Drop is obtained on Path of Exile.
+				}
+
+				Item35: {
+					Label: Bell
+					Tooltip: Bell sound effect from vanilla Terraria. (Item35)
+				}
+
+				Item129: {
+					Label: Golf Ball Sunk
+					Tooltip: Sound effect that plays when a Golf Ball Sunks in on vanilla Terraria. (Item129)
+				}
+
+				Item150: {
+					Label: Mimic Reflect
+					Tooltip: Sound effect that plays when Biome Mimics reflects a projectile in vanilla Terraria. (Item150)
+				}
+
+				Zombie15: {
+					Label: Mouse
+					Tooltip: Squeaking sound effect of Vanilla Terraria Mouse critter. (Zombie15)
+				}
 			}
 		}
 
-		// Experimental Customization Settings
+		# Experimental Customization Settings
 		EnableCustom: Enable Custom Sound Effect
 		EnableCustomTip:
 			'''
@@ -103,7 +144,7 @@ Mods: {
 			Create your 'own mod' and include the sound you want to use, then proceed to use path above to use any sound you want.
 			Use Terraria/Sounds/SoundsName for vanilla sounds. (Refer to 'File' at https://terraria.wiki.gg/wiki/Sound_IDs (use _ for spaces))
 			Its heavily recommended to write/find the path, and copy-paste here, as writing in this textbox may have its difficulties.
-			[c/FF0000:Experimental Feature: WRONG PATHS CAUSE ERRORS! ALTHOUGH LOSSES ETC. ARE UNLIKELY USE AT YOUR OWN RISK!]
+			[c/FF0000:Experimental Feature: WRONG PATHS CAUSE ERRORS! ALTHOUGH LOSSES ETC. ARE UNLIKELY, USE AT YOUR OWN RISK!]
 			'''
 		EnableSuperCustom: Enable Custom Sound Effect for Super Rare Drops
 		EnableSuperCustomTip:
@@ -119,7 +160,7 @@ Mods: {
 			Create your 'own mod' and include the sound you want to use, then proceed to use path above to use any sound you want.
 			Use Terraria/Sounds/SoundsName for vanilla sounds. (Refer to 'File' at https://terraria.wiki.gg/wiki/Sound_IDs (use _ for spaces))
 			Its heavily recommended to write/find the path, and copy-paste here, as writing in this textbox may have its difficulties.
-			[c/FF0000:Experimental Feature: WRONG PATHS CAUSE ERRORS! ALTHOUGH LOSSES ETC. ARE UNLIKELY USE AT YOUR OWN RISK!]
+			[c/FF0000:Experimental Feature: WRONG PATHS CAUSE ERRORS! ALTHOUGH LOSSES ETC. ARE UNLIKELY, USE AT YOUR OWN RISK!]
 			'''
 	}
 }

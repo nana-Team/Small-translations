@@ -55,16 +55,6 @@ Mods: {
 		}
 
 		Biomes: {
-			CorruptJungle: {
-				DisplayName: Corrupt Jungle
-				TownNPCDialogueName: the Corrupt Jungle
-			}
-
-			CrimsonJungle: {
-				DisplayName: Crimson Jungle
-				TownNPCDialogueName: the Crimson Jungle
-			}
-
 			HallowedJungle: {
 				DisplayName: Hallowed Jungle
 				TownNPCDialogueName: the Hallowed Jungle
@@ -130,8 +120,8 @@ Mods: {
 				Label: Divine Powder
 				Tooltip:
 					'''
-					Enables divine powder, allowing the player to create and purify the hallow biome through powders
-					Enabling this will also make purification powder purify hallow
+					Enables divine powder, a thrown powder variant for the hallow. Divine powder is to the hallow what vile powder is to the corruption
+					Purification powder behavior is unchanged, meaning it won't be able to revert hallow back
 					'''
 			}
 

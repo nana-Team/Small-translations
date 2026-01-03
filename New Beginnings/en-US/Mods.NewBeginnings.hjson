@@ -3,7 +3,12 @@ Projectiles: {
 	KylieProjectile.DisplayName: Kylie Projectile
 }
 
-MrPlaguesCompatLine: Click here to open New Beginning's menu!
+# This line is used for all crossmod fixes, which includes, so far: Mr Plague's Custom Races, One Piece Mod
+MrPlaguesCompatLine:
+	'''
+	Click here to open New Beginning's menu!
+	(Or hit CTRL+O)
+	'''
 # The space in the below key is intentional. If you're translating to a language with spaces, keep it.
 TitleLine: " [c/8B8B8B:the {0}]"
 
@@ -25,15 +30,45 @@ Configs: {
 				Whether origins with higher or lower starting health will scale to 400.
 				Scaled always maxes at 400, regardless of starting health.
 				Flat always maxes at starting health + 300.
-				Relative scales to starting health, where max life crystal health is 400 * (starting health / 100).
+				Relative scales to starting health, where max life crystal health is starting health * 4.
 				'''
 		}
 	}
 
 	Scaling: {
 		Tooltip: ""
-		Scaled.Label: Scaled
-		Flat.Label: Flat
-		Relative.Label: Relative
+
+		Scaled: {
+			Label: Scaled
+			Tooltip: ""
+		}
+
+		Flat: {
+			Label: Flat
+			Tooltip: ""
+		}
+
+		Relative: {
+			Label: Relative
+			Tooltip: ""
+		}
+	}
+
+	NewBeginningsClientConfig: {
+		DisplayName: New Beginnings Client Config
+
+		MrPlaguesButtonOffsetY: {
+			Label: Compatibility Button Vertical Offset
+			Tooltip:
+				'''
+				When using Mr Plague's Custom Races or the One Piece Mod, this will be the offset from the center of the screen that the "Click me" dialogue uses. 
+				Defaults to 300, and caps out at the center and bottom of the screen.
+				'''
+		}
+
+		HidePlayerOrigins: {
+			Label: Hide Player Origins
+			Tooltip: ""
+		}
 	}
 }

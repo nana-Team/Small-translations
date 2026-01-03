@@ -1,0 +1,101 @@
+Achievements: {
+	AchievementCopperMoonLord: {
+		FriendlyName: The Toothpick
+		Description: Defeat the Moon Lord while holding a Copper Shortsword for the whole fight, and without the help of minions or sentries.
+	}
+
+	AchievementEoCBiome: {
+		FriendlyName: Sight Seeing
+		Description: Lead the Eye of Cthulhu through every surface biome in a single night (Forest, Ocean, Snow, Desert, Jungle, Graveyard, Glowing Mushroom, The Corruption, The Crimson, and The Hallow).
+	}
+
+	AchievementBeeStatue: {
+		FriendlyName: Pollen' the Strings
+		Description: Have any statue-spawned enemy deliver the finishing blow to the Queen Bee.
+	}
+
+	AchievementLunaticOrange: {
+		FriendlyName: Merely a Pushover
+		Description: Defeat the Lunatic Cultist using only items and equipment of Orange rarity or lower. Will fail if any minions or sentries are active prior to the fight.
+	}
+
+	AchievementGoldCritter: {
+		FriendlyName: Shiny Crawlies
+		Description: Obtain every gold critter.
+	}
+
+	AchievementLivingWall: {
+		FriendlyName: Living Wall
+		Description: Reach 200 defense (190 in Classic Mode).
+	}
+
+	AchievementEoCShuriken: {
+		FriendlyName: Old-Fashioned
+		Description: Defeat the Eye of Cthulhu using only Shuriken for damage, no mounts, and equipment of Blue rarity or lower.
+	}
+
+	AchievementSpeed: {
+		FriendlyName: Faster than Light
+		Description: Reach a horizontal velocity of 250 mph or higher without mounts.
+	}
+
+	AchievementDutchman: {
+		FriendlyName: Fire in the Hole
+		Description: Defeat a Flying Dutchman using only Cannonballs.
+	}
+
+	AchievementDwarfFortress: {
+		FriendlyName: Dwarf Fortress
+		Description: Defeat a goblin invasion using only traps.
+	}
+
+	AchievementHighFive: {
+		FriendlyName: High Five
+		Description: Hit a Skeletron Hand with a Slap Hand.
+	}
+
+	AchievementTeamWolf: {
+		FriendlyName: Team Wolf
+		Description: Defeat a vampire with true melee damage while using the Lilith's Necklace transformation.
+	}
+
+	AchievementGolemTraps: {
+		FriendlyName: At Its Own Game
+		Description: Defeat Golem after dealing at least 5,000 direct damage with traps.
+	}
+
+	AchievementSpaTrip: {
+		FriendlyName: Spa Trip
+		Description: Spend 3 minutes submerged in lava with no form of lava immunity.
+	}
+
+	AchievementSlimeMount: {
+		FriendlyName: Taking Back the Throne
+		Description: Bounce on the Queen Slime 50 times in a single fight using the Slimy Saddle mount.
+	}
+
+	AchievementThisIsFine: {
+		FriendlyName: This is Fine
+		Description: Sit on a chair and drink a Teacup while afflicted with On Fire!, and either Frostburn or Cursed Inferno.
+	}
+
+	AchievementOverkill: {
+		FriendlyName: Absolute Overkill
+		Description: Annihilate a Blue Slime by dealing over 3,000 damage in a single Sniper Rifle shot (2,000 in Classic Mode).
+	}
+
+	AchievementDebuffs: {
+		FriendlyName: How Did We Get There?
+		Description: Have 15 vanilla debuffs active at once, excluding hunger-related and blue-icon debuffs and the use of a Red Potion.
+	}
+
+	AchievementCutDown: {
+		FriendlyName: Cut Down to Size
+		Description: Defeat any mechanical boss using only true melee damage and equipment of Light Purple rarity or lower.
+	}
+
+	AchievementBiomes: {
+		FriendlyName: Tourist
+		Description: Visit all the following biomes within 15 seconds: Forest, Space, Snow, Desert, The Crimson, The Corruption, Jungle, Dungeon, Ocean, Glowing Mushroom, The Hallow, The Underworld, Marble Cave, Granite Cave, Jungle Temple, and The Aether.
+	}
+}

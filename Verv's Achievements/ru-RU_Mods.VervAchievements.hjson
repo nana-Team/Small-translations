@@ -1,0 +1,101 @@
+Achievements: {
+	AchievementCopperMoonLord: {
+		FriendlyName: Зубочистка
+		Description: Одолеть Лунного лорда, держа медный клинок в руках на протяжении всей битвы и не используя миньонов и стражей.
+	}
+
+	AchievementEoCBiome: {
+		FriendlyName: Великое зрелище
+		Description: Привести Глаз Ктулху в каждый биом поверхности за одну ночь (лес, океан, снега, пустыня, джунгли, кладбище, лес светящихся грибов, искажение, багрянец и освящение).
+	}
+
+	AchievementBeeStatue: {
+		FriendlyName: Статуевод
+		Description: Одолеть Королеву пчёл, чтобы последний удар по ней был нанесён призванным статуей врагом.
+	}
+
+	AchievementLunaticOrange: {
+		FriendlyName: Лёгкая добыча
+		Description: Одолеть Культиста-лунатика, используя только предметы и экипировку не выше оранжевой редкости (использование предметов более высокой редкости перед призывом босса не засчитает достижение).
+	}
+
+	AchievementGoldCritter: {
+		FriendlyName: Сверкающие твари
+		Description: Поймать каждое золотое животное.
+	}
+
+	AchievementLivingWall: {
+		FriendlyName: Живая стена
+		Description: Повысить показатель защиты до 200 ед. (190 ед. в классическом режиме).
+	}
+
+	AchievementEoCShuriken: {
+		FriendlyName: Старая школа
+		Description: Одолеть Глаз Ктулху, используя только сюрикены, экипировку не выше синей редкости и не пользуясь ездовыми питомцами.
+	}
+
+	AchievementSpeed: {
+		FriendlyName: Быстрее света
+		Description: Достичь горизонтальной скорости в 250 миль/с (403 км/с или 187,5 тайлов/с).
+	}
+
+	AchievementDutchman: {
+		FriendlyName: Раз, два, пли!
+		Description: Одолеть «Летучего голландца», используя только пушечные ядра.
+	}
+
+	AchievementDwarfFortress: {
+		FriendlyName: Dwarf Fortress
+		Description: Пройти Армию гоблинов, используя только ловушки.
+	}
+
+	AchievementHighFive: {
+		FriendlyName: Дай пять!
+		Description: Атаковать руку Скелетрона с помощью «Рукошлёпа».
+	}
+
+	AchievementTeamWolf: {
+		FriendlyName: Волков боятся
+		Description: Убить вампира в ближнем бою, находясь в волчьей форме от ожерелья Лилит.
+	}
+
+	AchievementGolemTraps: {
+		FriendlyName: Его же оружием
+		Description: Одолеть Голема, нанеся ему не менее 5 000 ед. урона ловушками.
+	}
+
+	AchievementSpaTrip: {
+		FriendlyName: Банька-парилка
+		Description: Провести как минимум 3 минуты в лаве, не используя ничего, дающее полную невосприимчивость к лаве.
+	}
+
+	AchievementSlimeMount: {
+		FriendlyName: Вернуть престол
+		Description: Подпрыгнуть на Королеве слизней с помощью питомца липкого седла более 50 раз.
+	}
+
+	AchievementThisIsFine: {
+		FriendlyName: This is Fine
+		Description: Сесть на стул и выпить чашку чая, находясь под действием дебаффа «{$BuffName.OnFire}», и «{$BuffName.Frostburn}» или «{$BuffName.CursedInferno}».
+	}
+
+	AchievementOverkill: {
+		FriendlyName: Абсолютная аннигиляция
+		Description: Уничтожить синего слизня, нанеся ему 3 000 ед. однократного урона с помощью снайперской винтовки.
+	}
+
+	AchievementDebuffs: {
+		FriendlyName: Как мы до этого докатились?
+		Description: Попасть под влияние 15 ванильных дебаффов одновременно (за исключением связанных с голодом или имеющих синюю иконку), не используя красное зелье.
+	}
+
+	AchievementCutDown: {
+		FriendlyName: Срезать углы
+		Description: Одолеть любого механического босса в «истинном» ближнем бою (без выпускаемых снарядов), используя экипировку не выше лиловой редкости.
+	}
+
+	AchievementBiomes: {
+		FriendlyName: Турист
+		Description: Посетить все следующие биомы менее чем за 15 секунд: лес, космос, снега, пустыня, багрянец, искажение, джунгли, Темница, океан, биом светящихся грибов, освящение, преисподняя, мраморная и гранитная пещеры, храм джунглей и Эфир.
+	}
+}

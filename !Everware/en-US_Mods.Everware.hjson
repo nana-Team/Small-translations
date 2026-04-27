@@ -1,0 +1,209 @@
+Items: {
+	Kilnstone: {
+		DisplayName: Kilnstone
+		Tooltip: ""
+	}
+
+	KilnBrick: {
+		DisplayName: Kiln Brick
+		Tooltip: ""
+	}
+
+	KilnstoneHelmet: {
+		DisplayName: Kilnstone Helmet
+		Tooltip: ""
+		SetBonus: Lingering mining speed boost when breaking soft blocks or stone
+	}
+
+	KilnstoneBrickplate: {
+		DisplayName: Kilnstone Brickplate
+		Tooltip: ""
+	}
+
+	KilnstoneChausses: {
+		DisplayName: Kilnstone Chausses
+		Tooltip: ""
+	}
+
+	KilnBrickWall: {
+		DisplayName: Kiln Brick Wall
+		Tooltip: ""
+	}
+
+	TestItem: {
+		DisplayName: Dev Item
+		Tooltip: ""
+	}
+
+	ForgingKilnItem: {
+		DisplayName: Forging Kiln
+		Tooltip: ""
+	}
+
+	KilnBrickPlatform: {
+		DisplayName: Kiln Brick Platform
+		Tooltip: ""
+	}
+
+	KilnWorkbench: {
+		DisplayName: Kiln Workbench
+		Tooltip: ""
+	}
+
+	WornFence: {
+		DisplayName: Worn Fence
+		Tooltip: ""
+	}
+
+	WornWood: {
+		DisplayName: Worn Wood
+		Tooltip: ""
+	}
+
+	RebarRod: {
+		DisplayName: Rebar Rod
+		Tooltip: ""
+	}
+
+	SturdyBricks: {
+		DisplayName: Sturdy Brick
+		Tooltip: ""
+	}
+
+	WeldingStationItem: {
+		DisplayName: Welding Station
+		Tooltip: ""
+	}
+
+	RebarCrest: {
+		DisplayName: Rebar Crest
+		Tooltip: ""
+		SetBonus: Chance to duplicate most ores
+	}
+
+	RebarGridmail: {
+		DisplayName: Rebar Gridmail
+		Tooltip: ""
+	}
+
+	RebarSandals: {
+		DisplayName: Rebar Sandals
+		Tooltip: ""
+	}
+
+	Kilnpost: {
+		DisplayName: Kilnpost
+		Tooltip: Can break off into enemies when releasing <left>
+	}
+
+	Rebuker: {
+		DisplayName: Rebuker
+		Tooltip: Fires a piercing metal rod that deals less damage on subsequent hits
+	}
+
+	KilnMusicBox: {
+		DisplayName: Music Box (Kiln)
+		Tooltip: ""
+	}
+
+	QuarryMusicBox: {
+		DisplayName: Music Box (Quarry)
+		Tooltip: ""
+	}
+
+	MenuMusicBox: {
+		DisplayName: Music Box (Somewhere Else)
+		Tooltip: ""
+	}
+
+	EyeMusicBox: {
+		DisplayName: Music Box (Eye of Cthulhu)
+		Tooltip: ""
+	}
+
+	BloodRubyCharm: {
+		DisplayName: Devil's Ruby
+		Tooltip:
+			'''
+			Double tap a direction to dash, creating a damaging explosion behind you
+			Dashing also briefly stops you from falling
+			'''
+	}
+
+	Pyrocleavers: {
+		DisplayName: Pyrocleavers
+		Tooltip:
+			'''
+			Throws molten cleavers that melt into the floor, leaving lingering lava
+			If hitting a wall, the cleavers will bounce off of it
+			'''
+	}
+
+	SkullStaff: {
+		DisplayName: Obsidian Skull Staff
+		Tooltip:
+			'''
+			Summons a terrifying, laughing, screaming obsidian skull that explodes on contact
+			Regenerates shortly after hitting an enemy
+			'''
+	}
+
+	HotShot: {
+		DisplayName: Hot Shot
+		Tooltip:
+			'''
+			Right click to pump, increasing bullet count and speed while reducing spread
+			Three consecutive pumps before firing maxes your charge and causes heavy recoil when attacking
+			'''
+	}
+
+	UnwieldyStaff: {
+		DisplayName: Unwieldy Staff
+		Tooltip: After a long buildup, summons three magic spikes from the ground
+	}
+
+	BookOfBoulders: {
+		DisplayName: Book of Boulders
+		Tooltip: Conjures a boulder from above your cursor to crash down on your foes
+	}
+}
+
+Biomes: {
+	KilnMusic: {
+		DisplayName: Kiln
+		TownNPCDialogueName: the Kiln
+	}
+
+	QuarryMusic: {
+		DisplayName: Quarry
+		TownNPCDialogueName: the Quarry
+	}
+}
+
+Projectiles: {
+	KilnpostBreakaway.DisplayName: Kiln Shard
+	RebukerBolt.DisplayName: Metal Rod
+	CthulhuBloodProjectile.DisplayName: Eye Blood
+	BloodRubyExplosion.DisplayName: Explosion
+	FloorIsLava.DisplayName: Molten Lava
+	PyrocleaverProjectile.DisplayName: Pyrocleaver
+	SkullMinion.DisplayName: Terrifying, Laughing, Screaming Obsidian Skull
+	SkullMinionExplosion.DisplayName: Explosion
+	HotShotBurst.DisplayName: Muzzle Flare
+	HotShotBurstLarge.DisplayName: Muzzle Flare
+	ManaSpike.DisplayName: Mana Spike
+	EverCustomDrawProjectile.DisplayName: Custom Draw Projectile
+	ConjuredBoulder.DisplayName: Boulder
+}
+
+Buffs: {
+	SkullMinionBuff: {
+		DisplayName: Terrifying, Laughing, Screaming Obsidian Skull
+		Description: The terrifying, laughing, screaming obsidian skull will fight for you
+	}
+}
+
+BossIntroText: {
+	MusicianENNWAY: ENNWAY!
+	EyeOfCthulhu: Night Stalker
+}

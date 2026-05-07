@@ -1,0 +1,300 @@
+Items: {
+	SoulDrivenHeadphones: {
+		DisplayName: Душепроводящие наушники
+		Tooltip:
+			'''
+			Позволяет выбирать и проигрывать Infernum-темы побеждённых боссов, а также переключать специальные темы
+			Держа их, вы чувствуете отдалённое присутствие чего-то мистического
+			Вы также слышите звуки страстной игры инструментов
+			'''
+	}
+}
+
+Projectiles.SoulDrivenHeadphonesProj.DisplayName: Душепроводящие наушники
+
+HeadphonesText: {
+	1: Сейчас играет «{0}»!
+	2: «{0}» будет играть во время битв с боссами!
+}
+
+BossName: {
+	# Тире используется как сепаратор в коде для HeadphonesText.1, не менять
+	TitleScreen: Sky After Rain - Infernum
+	KingSlime: Gelatinous Dynasty - Король слизней
+	EyeOfCthulhu: Seer of the Night - Глаз Ктулху
+	EaterOfWorlds: Maw of the Corruption - Пожиратель миров
+	BrainOfCthulhu: Intellect of the Crimson - Мозг Ктулху
+	QueenBee: Royal Retaliation - Королева пчёл
+	Skeletron: Warden of the Damned - Скелетрон
+	WallOfFlesh: One's Ending, Another's Beginning - Стена плоти
+	Minibosses: Misanthropic Encounters - Мини-боссы
+	QueenSlime: Crowned before One's End - Королева слизней
+	MechBosses: Inferior Fabrications - Механическое трио
+	Plantera: Floral Animosity - Плантера
+	Golem: Icon of the Sun - Голем
+	DukeFishron: Razorblade Typhoon - Герцог Рыброн
+	EmpressOfLight: Shining Kaleidoscope - Императрица света
+	LunaticCultist: Eidolic Ancestry - Культист-лунатик
+	BereftVassal: Duel for a Lost Kingdom - Обездоленный вассал
+	MoonLord: The End of an Olden Era - Лунный лорд
+	PrimordialWyrm: Vocitus Terminus - Первозданный змий
+	ExoMechsOld: Inferior Fabrications (Exo Remix) - Экзо-механизмы
+	ExoMechs: Catastrophic Fabrications - Экзо-механизмы
+	ExoMechsAlt: Zenith Fabrications - Экзо-механизмы
+	Draedon: Their Fabricator - Дрэйдон
+	Calamitas: Scars of Calamity - Высшая Каламитас
+	StormBeforeDawn: Storm Before Dawn - Infernum
+}
+
+Configs: {
+	InfernumMusicConfig: {
+		DisplayName: Клиентская конфигурация
+
+		Headers: {
+			MusicOverrides: Переключение музыки
+			ExoMechs: Экзо-механизмы
+		}
+
+		OverrideKingSlimeTheme: {
+			Label: Король слизней
+			Tooltip: Во время битвы с боссом будет играть «Gelatinous Dynasty».
+		}
+
+		OverrideEyeOfCthulhuTheme: {
+			Label: Глаз Ктулху
+			Tooltip: Во время битвы с боссом будет играть «Seer of the Night».
+		}
+
+		OverrideEaterOfWorldsTheme: {
+			Label: Пожиратель миров
+			Tooltip: Во время битвы с боссом будет играть «Maw of the Corruption».
+		}
+
+		OverrideBrainOfCthulhuTheme: {
+			Label: Мозг Ктулху
+			Tooltip: Во время битвы с боссом будет играть «Intellect of the Crimson».
+		}
+
+		OverrideQueenBeeTheme: {
+			Label: Королева пчёл
+			Tooltip: Во время битвы с боссом будет играть «Royal Retaliation».
+		}
+
+		OverrideSkeletronTheme: {
+			Label: Скелетрон
+			Tooltip: Во время битвы с боссом будет играть «Warden of the Damned».
+		}
+
+		OverrideWallOfFleshTheme: {
+			Label: Стена плоти
+			Tooltip: Во время битвы с боссом будет играть «One's Ending, Another's Beginning».
+		}
+
+		OverrideMinibossTheme: {
+			Label: Мини-боссы
+			Tooltip: Во время битвы с мини-боссами будет играть «Misanthropic Encounters».
+		}
+
+		OverrideDreadnautilusTheme: {
+			Label: Дреднаутилус
+			Tooltip: Во время битвы с боссом будет играть «Misanthropic Encounters».
+		}
+
+		OverrideQueenSlimeTheme: {
+			Label: Королева слизней
+			Tooltip: Во время битвы с боссом будет играть «Crowned Before One's End».
+		}
+
+		OverrideTwinsTheme: {
+			Label: Близнецы
+			Tooltip: Во время битвы с боссом будет играть «Inferior Fabrications».
+		}
+
+		OverrideDestroyerTheme: {
+			Label: Уничтожитель
+			Tooltip: Во время битвы с боссом будет играть «Inferior Fabrications».
+		}
+
+		OverrideSkeletronPrimeTheme: {
+			Label: Скелетрон Прайм
+			Tooltip: Во время битвы с боссом будет играть «Inferior Fabrications».
+		}
+
+		OverridePlanteraTheme: {
+			Label: Плантера
+			Tooltip: Во время битвы с боссом будет играть «Floral Animosity».
+		}
+
+		OverrideGolemTheme: {
+			Label: Голем
+			Tooltip: Во время битвы с боссом будет играть «Icon of the Sun».
+		}
+
+		OverrideDukeFishronTheme: {
+			Label: Герцог Рыброн
+			Tooltip: Во время битвы с боссом будет играть «Razorblade Monsoon».
+		}
+
+		OverrideEmpressOfLightTheme: {
+			Label: Императрица света
+			Tooltip: Во время битвы с боссом будет играть «Shining Kaleidoscope ~ Prismatic Radiance».
+		}
+
+		OverrideLunaticCultistTheme: {
+			Label: Культист-лунатик
+			Tooltip: Во время битвы с боссом будет играть «Eidolic Ancestry».
+		}
+
+		OverrideMoonLordTheme: {
+			Label: Лунный лорд
+			Tooltip: Во время битвы с боссом будет играть «The End Of An Olden Era».
+		}
+
+		OverrideAdultEidolonWyrmTheme: {
+			Label: Первозданный змий
+			Tooltip: Во время битвы с боссом будет играть «Vocitus Terminus».
+		}
+
+		PlayCatastrophicFabrications: {
+			Label: Catastrophic Fabrications
+			Tooltip: Во время битвы с Экзо-механизмами будет играть «Catastrophic Fabrications».
+		}
+
+		PlayZenithFabrications: {
+			Label: Zenith Fabrications
+			Tooltip: Во второй половине битвы с Экзо-механизмами в режиме Инфернум будет играть «Zenith Fabrications».
+		}
+
+		PlayTheirFabricator: {
+			Label: Their Fabricator
+			Tooltip: В конце битвы с Экзо-механизмами будет играть «Their Fabricator».
+		}
+
+		OverrideCalTheme: {
+			Label: Высшая ведьма, Каламитас
+			Tooltip: Во время битвы с боссом будет играть «Scars of Calamity».
+		}
+
+		ToggleAllMusic: {
+			Label: Переключить всю музыку
+			Tooltip: Позволяет переключить сразу всю музыку мода разом.
+		}
+	}
+}
+
+MusicDisplay: {
+	AdultEidolonWyrm: {
+		DisplayName: Vocitus Terminus
+		Author: от PinpinNeon
+	}
+
+	BrainOfCthulhu: {
+		DisplayName: Intellect of the Crimson
+		Author: от PinpinNeon
+	}
+
+	Calamitas: {
+		DisplayName: Scars of Calamity
+		Author: от PinpinNeon
+	}
+
+	LunaticCultist: {
+		DisplayName: Eidolic Ancestry
+		Author: от PinpinNeon
+	}
+
+	DukeFishron: {
+		DisplayName: Razorblade Monsoon
+		Author: от PinpinNeon
+	}
+
+	EaterOfWorlds: {
+		DisplayName: Maw of the Corruption
+		Author: от PinpinNeon
+	}
+
+	EmpressOfLight: {
+		DisplayName: Shining Kaleidoscope ~ Prismatic Radiance
+		Author: от PinpinNeon
+	}
+
+	EyeOfCthulhu: {
+		DisplayName: Seer of the Night
+		Author: от PinpinNeon
+	}
+
+	Golem: {
+		DisplayName: Icon of the Sun
+		Author: от PinpinNeon
+	}
+
+	KingSlime: {
+		DisplayName: Gelatinous Dynasty
+		Author: от PinpinNeon
+	}
+
+	MechBosses: {
+		DisplayName: Inferior Fabrications
+		Author: от PinpinNeon
+	}
+
+	Minibosses: {
+		DisplayName: Misanthropic Encounters
+		Author: от PinpinNeon
+	}
+
+	MoonLord: {
+		DisplayName: The End Of An Olden Era
+		Author: от PinpinNeon
+	}
+
+	Plantera: {
+		DisplayName: Floral Animosity
+		Author: от PinpinNeon
+	}
+
+	QueenBee: {
+		DisplayName: Royal Retaliation
+		Author: от PinpinNeon
+	}
+
+	QueenSlime: {
+		DisplayName: Crowned Before One's End
+		Author: от PinpinNeon
+	}
+
+	Skeletron: {
+		DisplayName: Warden of the Damned
+		Author: от PinpinNeon
+	}
+
+	WallOfFlesh: {
+		DisplayName: One's Ending, Another's Beginning
+		Author: от PinpinNeon
+	}
+
+	Draedon: {
+		DisplayName: Their Fabricator
+		Author: от PinpinNeon
+	}
+
+	ExoMechBosses: {
+		DisplayName: Catastrophic Fabrications
+		Author: от PinpinNeon
+	}
+
+	ZenithFabrications: {
+		DisplayName: Zenith Fabrications
+		Author: от PinpinNeon
+	}
+
+	TitleScreen: {
+		DisplayName: Sky After Rain
+		Author: от PinpinNeon
+	}
+
+	StormBeforeDawn: {
+		DisplayName: Storm Before Dawn
+		Author: от PinpinNeon
+	}
+}

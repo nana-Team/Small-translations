@@ -1,0 +1,277 @@
+﻿Tooltips: {
+	Breakable: Генерируется в мире
+	Craftable: Можно создать
+	Shimmered: Получается при трансмутации
+	Decrafted: Получается при разборе в мерцании
+	Grabbed: Можно найти в предметах с содержимым
+	FoundInChests: Можно найти в сундуках
+	FromExtractinator: Можно получить в промывателе
+	FromChlorophyteExtractinator: Можно получить в хлорофитовом промывателе
+	Purchasable: Можно купить у НИПа
+	Droppable: Может выпасть из существ
+	Catchable: Можно поймать сачком
+	ObtainableAsBanner: Получается за определённое количество убийств
+	FishingCatch: Можно выловить при рыбалке
+	ObtainedByBreaking: Получается при разрушении тайла: {0}
+	CraftedWith: Создаётся из: {0}
+	ShimmeredFrom: Получается при трансмутации: {0}
+	DecraftedFrom: Получается при разборке: {0}
+	GrabbedFrom: Можно получить из: {0}
+	FoundIn: Можно найти в: {0}
+	ExtractedFrom: "[i:997] Можно получить при промывке: {0}"
+	ChlorophyteExtractedFrom: "[i:5269] Можно получить при промывке: {0}"
+	SoldBy: Продаёт {0}
+	DroppedBy: Выпадает из: {0}
+	ObtainedAfterKilling: Получается после убийства {0} раз: {1}
+	CatchedFrom: Получается при поимке сачком: {0}
+	# {0} = Rarity, {1} = Environment
+	FishingCatchDetails: Можно поймать в: {1} ({0})
+	# Hint text
+	PressShiftHint: Удерживайте клавишу LeftShift для просмотра информации о получении
+	More: ... (и ещё {0})
+	AnyNPC: любой НИП
+	WhenPlayerHave: Когда у игрока есть {0}
+	UnknownChest: Неизвестный сундук
+	MusicBoxFormat: Получается при записи «{0}» с помощью [i:576]
+	
+	# Quests & NPCs
+	AnglerQuest: Награда заданий рыбака
+	DyeTraderQuest: Награда заданий красильщика
+	PartyGirlGiven: Даёт тусовщица
+	
+	# Shaking Trees
+	ShakingForestTree: Может выпасть при встряхивании лесного дерева
+	ShakingMahoganyTree: Может выпасть при встряхивании красного дерева
+	ShakingEbonwoodTree: Может выпасть при встряхивании черного дерева
+	ShakingShadewoodTree: Может выпасть при встряхивании мрачного дерева
+	ShakingPearlwoodTree: Может выпасть при встряхивании жемчужных дерева
+	ShakingPalmTree: Может выпасть при встряхивании пальмы
+	ShakingBorealTree: Может выпасть при встряхивании северного дерева
+	ShakingAshTree: Может выпасть при встряхивании пепельного дерева
+	ShakingGlowingMushroom: Может выпасть при встряхивании больших светящихся грибов
+	
+	# Breaking Objects
+	BreakingPots: Может выпасть при разбитии горшков
+	BreakingShadowOrb: Выпадает при разбитии теневых сфер
+	BreakingCrimsonHeart: Выпадает при разбитии багряных сердец
+	SlimeDrops: Может переноситься слизнями
+	AbigailsFlower: Может появиться на траве рядом с надгробьем
+	MechCart: Получено при использовании [i:5289]
+	TorchGodsFavor: Получается после прохождения испытания Бога факелов
+	GardenGnome: Застывает, когда гном выходит на солнце
+	CookedMarshmallow: Можно получить при жарке зефира на костре
+	MagicalPumpkinSeed: Можно получить при сборе тыквы
+	PlayerDeath: Выпадает при смерти игрока 
+	DroppedInBiomeHardmode: Может выпасть со всех существ в {0} в хардмоде
+	DroppedInBiome: Может выпасть со всех существ в {0}
+	DroppedDuringEvent: Может выпасть со всех существ события {0}
+	CascadeDrop: Может выпасть со всех существ в преисподней после победы над Скелетроном
+	YeletsDrop: Может выпасть со всех существ в джунглях после победы над одним механическим боссом
+	KrakenDrop: Может выпасть со всех существ в Темнице после победы над Плантерой
+	Fishing: {
+		HardmodeSuffix: " (в хардмоде)"
+
+		Rarities: {
+			Plentiful: Распротранённый
+			Common: Обычный
+			Uncommon: Необычный
+			Rare: Редкий
+			VeryRare: Очень редкий
+			ExtremelyRare: Крайне редкий
+			Junk: Мусор
+			Quest: Предмет задания
+		}
+
+		Environments: {
+			Any: Любой биом
+			AnyLowPower: Любой биом
+			Underground: "{$Bestiary_Biomes.Underground}"
+			Cavern: "{$Bestiary_Biomes.Caverns}"
+			Underworld: "{$Bestiary_Biomes.TheUnderworld}"
+			Surface: "{$Bestiary_Biomes.Surface}"
+			Forest: Лес
+			Jungle: "{$Bestiary_Biomes.Jungle}"
+			Sky: "{$Bestiary_Biomes.Sky}"
+			Snow: "{$Bestiary_Biomes.Snow}"
+			Corruption: "{$Bestiary_Biomes.TheCorruption}"
+			Crimson: "{$Bestiary_Biomes.Crimson}"
+			Hallow: "{$Bestiary_Biomes.Hallow}"
+			Desert: "{$Bestiary_Biomes.Desert}"
+			Oasis: "{$Bestiary_Biomes.Oasis}"
+			Honey: Мёд
+			Lava: Лава
+			Ocean: "{$Bestiary_Biomes.Ocean}"
+			Dungeon: "{$Bestiary_Biomes.TheDungeon}"
+			GlowingMushroom: Биом светящихся грибов
+			LargeLakes: Большой водоём
+			OverlappingIceEvilHallow: Заражённом ледяной биом
+			BloodMoon: "{$Bestiary_Events.BloodMoon}"
+		}
+	}
+}
+
+Configs: {
+	TooltipConfig: {
+		ShowMode: {
+			Label: Режим отображения
+			Tooltip: ""
+			Always.Label: Всегда
+			Never.Label: Никогда
+			OnShift.Label: На Shift
+		}
+
+		TooltipColor: {
+			Label: Цвет подсказок
+			Tooltip: ""
+		}
+
+		# Headers for each setting
+		Crafting: {
+			Label: Создание
+			Tooltip: ""
+		}
+
+		Shops: {
+			Label: Продажа
+			Tooltip: ""
+		}
+
+		Drops: {
+			Label: Добыча с существ
+			Tooltip: ""
+		}
+
+		Catching: {
+			Label: Ловля сачком
+			Tooltip: ""
+		}
+
+		Shimmering: {
+			Label: Трансмутация в мерцании
+			Tooltip: ""
+		}
+
+		Decrafting: {
+			Label: Разборка в мерцании
+			Tooltip: ""
+		}
+
+		GrabBags: {
+			Label: Предметы с содержимым
+			Tooltip: ""
+		}
+
+		Chests: {
+			Label: Сундуки
+			Tooltip: ""
+		}
+
+		Fishing: {
+			Label: Рыбалка
+			Tooltip: ""
+		}
+
+		Extractinator: {
+			Label: Промыватель
+			Tooltip: ""
+		}
+
+		ChlorophyteExtractinator: {
+			Label: Хлорофитовый промыватель
+			Tooltip: ""
+		}
+
+		TooltipSettings: {
+			Enabled.Label: Отображать
+
+			MaxCount: {
+				Label: Максимальное количество предметов/существ для отображения
+				Tooltip: Установите значение 0, чтобы отображать только то, что можно получить таким способом (например, «Создаваемое»).
+			}
+		}
+
+		DisplayName: Конфигурация
+
+		Customized: {
+			Label: Прочее (модовое)
+			Tooltip: ""
+		}
+
+		ItemShowMode: {
+			Label: Режим отображения предметов
+			Tooltip: ""
+		}
+
+		ShowShopCondition: {
+			Label: Отображать условия продажи
+			Tooltip: ""
+		}
+
+		MaxTooltipLength: {
+			Label: Максимальная длина строки
+			Tooltip: ""
+		}
+
+		BreakableTiles: {
+			Label: Разрушаемые тайлы
+			Tooltip: ""
+		}
+
+		Banners: {
+			Label: Знамёна
+			Tooltip: ""
+		}
+	}
+
+	TooltipShowMode: {
+		Tooltip: ""
+
+		Never: {
+			Label: Никогда
+			Tooltip: ""
+		}
+
+		OnShift: {
+			Label: Зажатый Shift
+			Tooltip: ""
+		}
+
+		Always: {
+			Label: Всегда
+			Tooltip: ""
+		}
+	}
+
+	TooltipSettings: {
+		Tooltip: ""
+
+		Enabled: {
+			Label: Включено
+			Tooltip: ""
+		}
+
+		MaxCount: {
+			Label: Отображаемое количество
+			Tooltip: ""
+		}
+	}
+
+	ItemShowMode: {
+		Tooltip: ""
+
+		Icon: {
+			Label: Иконка
+			Tooltip: ""
+		}
+
+		Name: {
+			Label: Название
+			Tooltip: ""
+		}
+
+		IconAndName: {
+			Label: Иконка и название
+			Tooltip: ""
+		}
+	}
+}

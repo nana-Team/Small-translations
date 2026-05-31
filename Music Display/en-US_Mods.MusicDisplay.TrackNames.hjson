@@ -6,6 +6,9 @@ OtherworldFrankKlepacki: by Jeff Broadbent, Jonathan van den Wijngaarden, James 
 TerrariaName: Terraria
 OtherworldName: Terraria Otherworld
 UnknownTrack: (Unknown Track)
+SampleTrack: Sample Name
+SampleMusician: Sample Musician
+MusicDisplay: Music Display
 
 Vanilla: {
 	1: Overworld Day

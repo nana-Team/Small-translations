@@ -6,6 +6,9 @@ OtherworldFrankKlepacki: от Джеффа Бродбената, Джоната�
 TerrariaName: Terraria
 OtherworldName: Terraria Otherworld
 UnknownTrack: (Неизвестный трек)
+SampleTrack: Название трека
+SampleMusician: Автор трека
+MusicDisplay: Название мода
 
 Vanilla: {
 	1: Overworld Day

@@ -26,6 +26,15 @@ Configs: {
 			Label: Text Scale
 			Tooltip: Size of the display's text.
 		}
+
+		TextPlacement: {
+			Label: Text Placement
+			Tooltip:
+				'''
+				Controls the placement of the music track display.
+				Works only when Display Placement is set to Custom.
+				'''
+		}
 	}
 
 	Placements: {
@@ -45,7 +54,18 @@ Configs: {
 			Label: Left
 			Tooltip: ""
 		}
+
+		Custom: {
+			Label: Custom
+			Tooltip: ""
+		}
 	}
 }
 
 CurrentMusic: Current Music:
+
+Errors: {
+	Detected: Invalid MusicText detected. Music Display requires main text, author and subtitle to be populated.
+	Info: MusicText info: {0}, {1}, {2}
+	Notice: A mod has added an invalid music entry! Report this issue and check logs. This error only appears once per game restart.
+}

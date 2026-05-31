@@ -1,24 +1,29 @@
 Configs: {
 	Configuration: {
-		TextScrolling: {
-			Tooltip: Determines whether NPC dialogue text will appear letter by letter
+		TextScrollingMode: {
 			Label: Text Scrolling
+			Tooltip: Determines how fast NPC dialogue text will appear letter by letter. This can be disabled
 		}
 
 		DisplayName: Configuration
 
 		DisplayPreference: {
 			Label: Display NPC Living Preferences
-			Tooltip: Shows NPC's preferences for biomes and other NPCs, this is a qol feature added by this mod
+			Tooltip: Shows NPC's preferences for biomes and other NPCs. This is a qol feature added by this mod
+		}
+
+		DisplayHappiness: {
+			Label: Display NPC Happiness Percentage
+			Tooltip: Shows NPC's happiness percentage (price modifier). This is a qol feature from Terraria v1.4.5
 		}
 
 		VanillaUI: {
+			Label: Use Vanilla Chat GUI
 			Tooltip:
 				'''
 				Allows you to open the vanilla dialogue panel in the game
 				If the UI of this mod is not compatible with other mods or there are bugs, try enable this option
 				'''
-			Label: Use Vanilla Chat GUI
 		}
 
 		PortraitDrawStyle: {
@@ -28,6 +33,20 @@ Configs: {
 				Change the way the NPC chat portraits are drawn
 				If there is a problem with the default portrait display, try change the style
 				'''
+		}
+
+		PortraitFbStyle: {
+			Label: Portrait Fallback Style
+			Tooltip:
+				'''
+				Change the way the NPC chat portraits are drawn, if the NPC don't have v1.4.5 portrait
+				Only works when 'Portrait Style' is set to 'Portrait'
+				'''
+		}
+
+		PortraitAnimation: {
+			Label: Portrait Animation
+			Tooltip: Determines whether NPC portraits will have the bouncing animation when they are talking
 		}
 
 		ShowSwapButton: {
@@ -40,11 +59,38 @@ Configs: {
 		}
 	}
 
+	TextScrollingSpeed: {
+		Tooltip: ""
+		Slow.Label: Slow
+		Slow.Tooltip: ""
+		Regular.Label: Default
+		Regular.Tooltip: ""
+		Fast.Label: Fast
+		Fast.Tooltip: ""
+		Disabled.Label: Disabled
+		Disabled.Tooltip: ""
+	}
+
 	PortraitStyle: {
 		Tooltip: ""
 		LiveReaction.Label: Live Reaction
-		Static.Label: Static
-		Bestiary.Label: Bestiary
+		LiveReaction.Tooltip: ""
+		Portrait.Label: Portrait
+		Portrait.Tooltip: Terraria v1.4.5 style
+		Retro.Label: Full Body
+		Retro.Tooltip: ""
+		Profile.Label: Profile
+		Profile.Tooltip: ""
+	}
+
+	PortraitFallbackStyle: {
+		Tooltip: ""
+		LiveReaction.Label: Live Reaction
+		LiveReaction.Tooltip: ""
+		Retro.Label: Full Body
+		Retro.Tooltip: ""
+		Profile.Label: Profile
+		Profile.Tooltip: ""
 	}
 }
 

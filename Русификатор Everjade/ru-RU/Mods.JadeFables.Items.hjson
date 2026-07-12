@@ -1,0 +1,380 @@
+Bulfrauble: {
+	DisplayName: Лягушка-побрякушка
+	Tooltip:
+		'''
+		Прыжки по время движения подталкивают вас вперёд
+		Увеличивает скорость передвижения и ускорение
+		Освещает при ношении
+		'''
+}
+
+BullfrogBaubleBelt: {
+	DisplayName: Пояс быколягушачих побрякушек
+	Tooltip:
+		'''
+		Прыжки по время движения подталкивают вас вперёд
+		Увеличивает скорость горизонтального передвижения при двойных прыжках
+		Увеличивает скорость передвижения и ускорение
+		Освещает при ношении
+		'''
+}
+
+BullfrogLegs: {
+	DisplayName: Быколягушачьи лапки
+	Tooltip: Прыжки по время движения подталкивают вас вперёд
+}
+
+BullfrogTongue: {
+	DisplayName: Язык лягушки-быка
+	Tooltip:
+		'''
+		6 ед. урона от метки призывателя
+		{$CommonItemTooltip.Whips}
+		'''
+}
+
+FrogInFroggle: {
+	DisplayName: Лягушка в лягушанке
+	Tooltip:
+		'''
+		Прыжки по время движения подталкивают вас вперёд
+		Увеличивает скорость горизонтального передвижения при двойных прыжках
+		'''
+}
+
+KoiItem: {
+	DisplayName: Кои
+	Tooltip: «В кои то веки»
+}
+
+Arowana: {
+	DisplayName: Летучая арована
+	Tooltip: Летит за вашим курсором, отвлекая на себя врагов
+}
+
+DragonCrate: {
+	DisplayName: Ящик дракона
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+SpringCrate: {
+	DisplayName: Ящик источника
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+KoiPopper: {
+	DisplayName: Пузырьковый кои
+	Tooltip:
+		'''
+		Стреляет пузырями с большим разбросом
+		Нажмите ПКМ, чтобы взорвать все пузыри, нанося урон ближайшим к ним врагам
+		'''
+}
+
+FestivalLantern: {
+	DisplayName: Фестивальные фонари
+	Tooltip: Начинает ночь фонарей
+}
+
+JadeHat: {
+	DisplayName: Нефритовая шляпа
+	Tooltip: Увеличивает урон и шанс критического удара на 10%
+}
+
+JadeRobe: {
+	DisplayName: Нефритовое одеяние
+	Tooltip: Увеличивает скорость передвижения и ускорение на 7%
+}
+
+JadeAxe: {
+	DisplayName: Нефритовый топор
+	Tooltip: Немного увеличивает шанс выпадения фруктов при тряске деревьев
+}
+
+JadeBow: {
+	DisplayName: Нефритовый лук
+	Tooltip:
+		'''
+		Выстрелы в живность заставляют их сражаться за вас
+		Выстрелы в городских НИПов дают им щит
+		'''
+}
+
+JadeChunk: {
+	DisplayName: Кусок нефрита
+	Tooltip: ""
+}
+
+JadeHarpoon: {
+	DisplayName: Нефритовый гарпун
+	Tooltip: Цепляется за врагов, сначала притягивая вас к ним, а затем отбрасывая
+}
+
+JadeHookItem: {
+	DisplayName: Нефритовый крюк
+	Tooltip: Тестовый предмет
+}
+
+JadeKunai: {
+	DisplayName: Нефритовые кунаи
+	Tooltip: Каждые 10 застрявших во враге кунаев усиливают следующую атаку другим оружием
+}
+
+JadePickaxe: {
+	DisplayName: Нефритовая кирка
+	Tooltip: Немного увеличивает шанс выпадения живности при разбивании камней
+}
+
+JadeStaff: {
+	DisplayName: Нефритовый посох
+	Tooltip:
+		'''
+		Удерживайте, чтобы выпускать огненные всплески
+		Удерживайте некоторое время, чтобы призвать дракона, и отпустите, чтобы запустить его
+		'''
+}
+
+LotusChestplate: {
+	DisplayName: Нагрудник лотоса
+	Tooltip: Увеличивает навык рыбной ловли на 10 ед.
+}
+
+LotusHelmet: {
+	DisplayName: Шлем лотоса
+	Tooltip: Увеличивает навык рыбной ловли на 10 ед.
+}
+
+LotusLeggings: {
+	DisplayName: Поножи лотоса
+	Tooltip: Увеличивает навык рыбной ловли на 10 ед.
+}
+
+LotusFiber: {
+	DisplayName: Волокна лотоса
+	Tooltip: ""
+}
+
+LotusHammer: {
+	DisplayName: Молот лотоса
+	Tooltip: Может собирать все виды натуральных стен
+}
+
+Dumpling: {
+	DisplayName: Пельмень
+	Tooltip:
+		'''
+		{$BuffDescription.WellFed2}
+		«Почти неузнаваем»
+		'''
+}
+
+BigHeartItem: {
+	DisplayName: Большое сердце
+	Tooltip: Вы не должны были это видеть
+}
+
+HeartbeatPotion: {
+	DisplayName: Зелье сердечного ритма
+	Tooltip: Подбираемые сердца становятся больше и восстанавливают больше здоровья
+}
+
+JasmineTea: {
+	DisplayName: Жасминовый чай
+	Tooltip: «Я никогда не рассказывал почему меня зовут “Дракон Запада”?»
+}
+
+SpineItem: {
+	DisplayName: Игла
+	Tooltip: ""
+}
+
+SpinePotion: {
+	DisplayName: Зелье игл
+	Tooltip: Запускает иглы в ближайших врагов, когда вы получаете урон
+}
+
+SpringWater: {
+	DisplayName: Родниковая вода
+	Tooltip:
+		'''
+		Снимает большинство видов дебаффов
+		Вызывает 15 секунд послезельевой болезни
+		'''
+}
+
+Chopsticks: {
+	DisplayName: Палочки для еды
+	Tooltip:
+		'''
+		Увеличивает размер мечей
+		Позволяет разворачиваться во время использования мечей
+		'''
+}
+
+FireworkPack: {
+	DisplayName: Набор фейерверков
+	Tooltip:
+		'''
+		15 ед. урона
+		Из убитый врагов будут вылетать фейерверки
+		'''
+}
+
+GongItem: {
+	DisplayName: Гонг и маллет
+	Tooltip:
+		'''
+		Нажмите ЛКМ, чтобы бросить гонг
+		Нажмите ПКМ, чтобы ударить в гонг, увеличивая его урон
+		'''
+}
+
+Hwacha: {
+	DisplayName: Хвачха
+	Tooltip:
+		'''
+		Призывает стража
+		Призывает хвачху, которая стреляет в ближайших врагов, если ударить её хлыстом
+		При наличии, хвачха будет использовать стрелы из вашего инвентаря
+		Хвачху можно двигать, если подойти к ней с зажатой ПКМ
+		'''
+}
+
+TanookiLeaf: {
+	DisplayName: Листик тануки
+	Tooltip:
+		'''
+		Увеличивает высоту прыжка по мере роста скорости бега
+		Нажмите клавишу прыжка, чтобы замедлить падение
+		'''
+}
+
+BlossomWallItem: {
+	DisplayName: Стена цветущей вишни
+	Tooltip: ""
+}
+
+HardenedJadeSandItem: {
+	DisplayName: Затвердевший песок источника
+	Tooltip: ""
+}
+
+JadeFountainItem: {
+	DisplayName: Фонтан воды источника
+	Tooltip: ""
+}
+
+JadeLanternItem: {
+	DisplayName: Фонарь источника
+	Tooltip:
+		'''
+		Подвешивает фонарь на верхней части блока
+		Разместите в верхней части уже подвешенного фонаря, чтобы его цепь сделать длиннее
+		Удлинение цепи не расходует фонарь
+		'''
+}
+
+JadeLanternItemDebug: {
+	DisplayName: Фонарь источника (отладка)
+	Tooltip: ""
+}
+
+JadeSandItem: {
+	DisplayName: Песок источника
+	Tooltip: ""
+}
+
+JadeSandstoneItem: {
+	DisplayName: Песчаник источника
+	Tooltip: ""
+}
+
+JadeSandWallItem: {
+	DisplayName: Каменистая стена источника
+	Tooltip: ""
+}
+
+JadeSeaweedItem: {
+	DisplayName: Водоросли источника
+	Tooltip: ""
+}
+
+JadeWaterfallBucket: {
+	DisplayName: Ведро с водопадом
+	Tooltip:
+		'''
+		Содержит ограниченное количество воды водопада
+		Можно вылить
+		'''
+}
+
+JasmineFlower: {
+	DisplayName: Жасмин
+	Tooltip: «Неописуемо насыщенный вкус»
+}
+
+JadeGrassSeeds: {
+	DisplayName: Семена травы источника
+	Tooltip: ""
+}
+
+SpringChestItem: {
+	DisplayName: Сундук источника
+	Tooltip: ""
+}
+
+WarriorStatueItem: {
+	DisplayName: Статуя воина
+	Tooltip: ""
+}
+
+JadeTorch: {
+	DisplayName: Нефритовый факел
+	Tooltip: "{$ItemTooltip.CursedTorch}"
+}
+
+# Banners
+BullfrogBannerItem: {
+	DisplayName: Знамя лягушки-быка
+	Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.Bullfrog.DisplayName}"
+}
+
+GiantSnailBannerItem: {
+	DisplayName: Знамя гигантской улитки
+	Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.GiantSnail.DisplayName}"
+}
+
+MediumKoiBannerItem: {
+	DisplayName: Знамя большого кои
+	Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.MediumKoi.DisplayName}"
+}
+
+PufferfishBannerItem: {
+	DisplayName: Знамя рыбы-фугу
+	Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.Pufferfish.DisplayName}"
+}
+
+DuelingSpirits: {
+	DisplayName: Духи дуализма
+	Tooltip:
+		'''
+		Удерживайте ЛКМ, чтобы атаковать Инь, отбрасывающим врагов
+		Удерживайте ПКМ, чтобы атаковать Янь, притягивающим врагов
+		Чередуйте типы атак, чтобы гарантированно наносить критические удары
+		'''
+}
+
+JadeMantisBannerItem: {
+	Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.JadeMantis.DisplayName}"
+	DisplayName: Знамя мастера-богомола
+}
+
+JadePylonItem: {
+	DisplayName: Нефритовый пилон
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
+}
+
+EelFists: {
+	Tooltip: ""
+	DisplayName: Угри-кулаки
+}

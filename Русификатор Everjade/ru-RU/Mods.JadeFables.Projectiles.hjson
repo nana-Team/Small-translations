@@ -1,0 +1,43 @@
+BullfrogLegRing.DisplayName: Лягушачий толчок
+BullfrogLegRingAlt.DisplayName: Лягушачий толчок
+BullfrogTongueProj.DisplayName: "{$Items.BullfrogTongue.DisplayName}"
+ArowanaProj.DisplayName: Арована
+KoiPop.DisplayName: Взрыв пузыря
+KoiPopperBubble.DisplayName: Пузырь
+FestivalLanternProj.DisplayName: "{$Items.FestivalLantern.DisplayName}"
+JadeBowHitbox.DisplayName: "{$Items.JadeBow.DisplayName}"
+JadeBowProj.DisplayName: "{$Items.JadeBow.DisplayName}"
+JadeHarpoonHook.DisplayName: "{$Items.JadeHarpoon.DisplayName}"
+JadeHarpoonJumpRing.DisplayName: Отскок нефритового гарпуна
+JadeHarpoonShockwave.DisplayName: Ударная волна нефритового гарпуна
+JadeHookProjectile.DisplayName: "{$Items.JadeHookItem.DisplayName}"
+JadeKunaiHitEffect.DisplayName: Удар нефритового куная
+JadeKunaiProjectile.DisplayName: Нефритовый кунай
+JadeStaffDragon.DisplayName: Дракон нефритового посоха
+JadeStaffFirePulse.DisplayName: Огненный всплеск
+JadeStaffPortal.DisplayName: Драконий портал
+JadeStaffProj.DisplayName: "{$Items.JadeStaff.DisplayName}"
+JasmineTeaFire.DisplayName: Жасминовое пламя
+SpineProj.DisplayName: Игла
+ChopstickProj.DisplayName: Палочка для еды
+MiniYang.DisplayName: Маленький Инь
+MiniYing.DisplayName: Маленький Янь
+Yang.DisplayName: Инь
+Ying.DisplayName: Янь
+FireworkPackExplosion.DisplayName: Взрыв фейерверка
+FireworkPackProj.DisplayName: "{$Items.FireworkPack.DisplayName}"
+GongProj.DisplayName: Гонг
+RingerProj.DisplayName: Маллет
+HwachaArrow.DisplayName: Стрела хвачхи
+HwachaProj.DisplayName: Хвачха
+AirBubble.DisplayName: Пузырь
+Bullfrog_Tongue.DisplayName: Язык лягушки-быка
+GiantSnailDamager.DisplayName: Гигантская улитка
+JadeMantisSpear.DisplayName: Копьё мастера-богомола
+PufferfishProj.DisplayName: Игла рыбы-фугу
+JadeSandProjectile.DisplayName: "{$Items.JadeSandItem.DisplayName}"
+JadeSeaweedProj.DisplayName: "{$Items.JadeSeaweedItem.DisplayName}"
+JadeWaterfallProj.DisplayName: Водопад
+WarriorStatueProj.DisplayName: Свечение статуи воина
+NewJadeStaffPulse.DisplayName: Огненный всплеск
+EelFistProj.DisplayName: Угорь-кулак

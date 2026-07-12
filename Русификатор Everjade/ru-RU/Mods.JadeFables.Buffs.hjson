@@ -1,0 +1,24 @@
+HeartbeatBuff: {
+	DisplayName: Сердечный ритм
+	Description: Подбираемые сердца увеличиваются в размере
+}
+
+JasmineTeaBuff: {
+	DisplayName: Жасминовый чай
+	Description: Тебе бы пригодилась мятная конфетка!
+}
+
+SpineBuff: {
+	DisplayName: Иглы
+	Description: Вы запускаете игры в ближайших врагов, когда получаете урон
+}
+
+SpringWaterBuff: {
+	DisplayName: Родниковая вода
+	Description: Дебаффы сняты
+}
+
+BullfrogTongueTag: {
+	DisplayName: Метка языка лягушки-быка
+	Description: ""
+}

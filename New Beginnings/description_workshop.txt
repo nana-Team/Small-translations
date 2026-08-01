@@ -1,0 +1,27 @@
+--- New Beginnings ---
+- By Team Spirit -
+
+This mod adds in player origins (or backgrounds), which allow you to start a new player off with different max life, mana, items, or even world changes like a different spawn.
+These are all accessible by default through the character creation screen; a little button next to the player name switches the menu to player origin mode.
+From then on, choose whichever background you like and enjoy!
+
+There are also a bunch of unlockable origins - play more to discover how to unlock these, or check the achievements list.
+
+If you find bugs or want to discuss the mod, join Spirit's discord! discord.gg/uBNnznSfur
+If you need to check the mod's origins outside of the game, check out the GitHub wiki! https://github.com/GabeHasWon/NewBeginnings/wiki
+
+- Developers -
+
+GabeHasWon: programming, art
+Sal: programming, art
+Vin: art
+Moon Bee: art
+Nao: art
+
+GitHub: https://github.com/GabeHasWon/NewBeginnings
+Read the README if you want to use any code!
+The GitHub also has cross mod info for those who want to add their own origins.
+
+- FAQ -
+Q: Does this work with (any other mod)?
+A: Every mod should work! Report bugs to the discord.

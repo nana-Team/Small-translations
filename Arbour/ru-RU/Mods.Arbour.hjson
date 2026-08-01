@@ -1,0 +1,67 @@
+MapObject.Microbirch: Мини-берёзка
+
+Tiles: {
+	MicrobirchSapling.MapEntry: Саженец мини-берёзки
+	Microbirch.MapEntry: Мини-берёзка
+	BirchWorkbench.MapEntry: Верстак
+	BirchDoorOpen.MapEntry: Дверь
+	BirchDoorClosed.MapEntry: Дверь
+	BirchCandle.MapEntry: Свеча
+	ArborSapling.MapEntry: Саженец
+	BirchDresser.MapEntry: Берёзовый комод
+	ArborPylonTile.MapEntry: Пилон кущи
+	StarlitWindsBox.MapEntry: Музыкальная шкатулка
+	FloatingFallBox.MapEntry: Музыкальная шкатулка
+	BirchChest.MapEntry: Берёзовый сундук
+}
+
+Biomes: {
+	ArborBiome: {
+		TownNPCDialogueName: Куща
+		DisplayName: Куща
+	}
+}
+
+Projectiles.FallingMicrobirch.DisplayName: Падающая мини-берёзка
+
+MusicDisplay: {
+	ModName: Arbor
+
+	DayOld: {
+		DisplayName: Куща (старая тема): Floating Fall
+		Author: от Heltonyan
+	}
+
+	Day: {
+		DisplayName: Куща: Starlit Winds
+		Author: от GabeHasWon
+	}
+}
+
+Configs: {
+	ArborConfig: {
+		DisplayName: Конфигурация
+
+		NewMusic: {
+			Label: Новая тема кущи
+			Tooltip:
+				'''
+				Отключите, чтобы включить старую тему кущи от Heltonyan.
+				По умолчанию включено.
+				'''
+		}
+
+		NoMusic: {
+			Label: Отключить музыку
+			Tooltip: Отключает уникальную музыкальную тему кущи.
+		}
+	}
+}
+
+InBiome: В куще
+
+MicrobirchKill: {
+	0: Игрок {0} срубил дерево прямо над собой.
+	1: Игрок {0} открыл гравитацию... снова.
+	2: Дерево свалилось на голову игрока {0}.
+}

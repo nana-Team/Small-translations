@@ -1,0 +1,144 @@
+ArborGrassSeeds: {
+	DisplayName: Семена травы кущи
+	Tooltip: Можно посадить в землю
+}
+
+ArborLeafWallBlock: {
+	DisplayName: Стена из листвы кущи
+	Tooltip: «Пахнет опавшими листьями и воспоминаниями»
+}
+
+BirchChairBlock: {
+	DisplayName: Берёзовый стул
+	Tooltip: ""
+}
+
+BirchDoorBlock: {
+	DisplayName: Берёзовая дверь
+	Tooltip: ""
+}
+
+BirchFenceBlock: {
+	DisplayName: Берёзовый забор
+	Tooltip: ""
+}
+
+BirchLanternBlock: {
+	DisplayName: Берёзовый фонарь
+	Tooltip: ""
+}
+
+BirchPlatformBlock: {
+	DisplayName: Берёзовая платформа
+	Tooltip: ""
+}
+
+BirchWoodCandleBlock: {
+	DisplayName: Берёзовая свеча
+	Tooltip: ""
+}
+
+BirchWoodLampBlock: {
+	DisplayName: Берёзовая напольная лампа
+	Tooltip: ""
+}
+
+BirchWoodWallBlock: {
+	DisplayName: Берёзовая стена
+	Tooltip: ""
+}
+
+BirchWorkbenchBlock: {
+	DisplayName: Берёзовый верстак
+	Tooltip: ""
+}
+
+BirchWoodBlock: {
+	DisplayName: Берёзовая древесина
+	Tooltip: ""
+}
+
+MicrobirchAcorn: {
+	DisplayName: Жёлудь мини-берёзки
+	Tooltip: Можно посадить только на нижнюю часть блока
+}
+
+FlightlingBannerItem: {
+	DisplayName: Знамя летёныша
+	Tooltip: ""
+}
+
+BrushToothBannerItem: {
+	DisplayName: Знамя кустозуба
+	Tooltip: ""
+}
+
+BirchBathtubBlock: {
+	DisplayName: Берёзовая ванна
+	Tooltip: ""
+}
+
+BirchTableBlock: {
+	DisplayName: Берёзовый стол
+	Tooltip: ""
+}
+
+BirchBedBlock: {
+	DisplayName: Берёзовая кровать
+	Tooltip: ""
+}
+
+BirchChandelierBlock: {
+	DisplayName: Берёзовая люстра
+	Tooltip: ""
+}
+
+BirchDresserBlock: {
+	DisplayName: Берёзовый комод
+	Tooltip: ""
+}
+
+ArborPylonItem: {
+	DisplayName: Пилон кущи
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
+}
+
+Debug: {
+	DisplayName: Отладка
+	Tooltip: ""
+}
+
+ArborFlowerWallBlock: {
+	DisplayName: Цветущая стена кущи
+	Tooltip: ""
+}
+
+StarlitWindsBoxItem: {
+	DisplayName: Музыкальная шкатулка («Starlit Winds»)
+	Tooltip: ""
+}
+
+FloatingFallBoxItem: {
+	DisplayName: Музыкальная шкатулка («Floating Fall»)
+	Tooltip: ""
+}
+
+BirchBookcaseBlock: {
+	DisplayName: Берёзовый книжный шкаф
+	Tooltip: ""
+}
+
+BirchCandelabraBlock: {
+	DisplayName: Берёзовый подсвечник
+	Tooltip: ""
+}
+
+ArborLeafBlock: {
+	DisplayName: Листва кущи
+	Tooltip: ""
+}
+
+BirchChestBlock: {
+	DisplayName: Берёзовый сундук
+	Tooltip: ""
+}

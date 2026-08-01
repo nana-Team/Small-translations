@@ -1,0 +1,144 @@
+ArborGrassSeeds: {
+	DisplayName: Arbor Grass Seeds
+	Tooltip: Can be placed on dirt
+}
+
+ArborLeafWallBlock: {
+	DisplayName: Arbor Leaf Wall
+	Tooltip: "'Smells of falling leaves and memories'"
+}
+
+BirchChairBlock: {
+	DisplayName: Birch Chair
+	Tooltip: ""
+}
+
+BirchDoorBlock: {
+	DisplayName: Birch Door
+	Tooltip: ""
+}
+
+BirchFenceBlock: {
+	DisplayName: Birch Fence
+	Tooltip: ""
+}
+
+BirchLanternBlock: {
+	DisplayName: Birch Lantern
+	Tooltip: ""
+}
+
+BirchPlatformBlock: {
+	DisplayName: Birch Platform
+	Tooltip: ""
+}
+
+BirchWoodCandleBlock: {
+	DisplayName: Birch Candle
+	Tooltip: ""
+}
+
+BirchWoodLampBlock: {
+	DisplayName: Birch Lamp
+	Tooltip: ""
+}
+
+BirchWoodWallBlock: {
+	DisplayName: Birch Wall
+	Tooltip: ""
+}
+
+BirchWorkbenchBlock: {
+	DisplayName: Birch Workbench
+	Tooltip: ""
+}
+
+BirchWoodBlock: {
+	DisplayName: Birch Wood
+	Tooltip: ""
+}
+
+MicrobirchAcorn: {
+	DisplayName: Microbirch Acorn
+	Tooltip: Can only be placed on ceilings
+}
+
+FlightlingBannerItem: {
+	DisplayName: Flightling Banner
+	Tooltip: ""
+}
+
+BrushToothBannerItem: {
+	DisplayName: Brush Tooth Banner
+	Tooltip: ""
+}
+
+BirchBathtubBlock: {
+	DisplayName: Birch Bathtub
+	Tooltip: ""
+}
+
+BirchTableBlock: {
+	DisplayName: Birch Table
+	Tooltip: ""
+}
+
+BirchBedBlock: {
+	DisplayName: Birch Bed
+	Tooltip: ""
+}
+
+BirchChandelierBlock: {
+	DisplayName: Birch Chandelier
+	Tooltip: ""
+}
+
+BirchDresserBlock: {
+	DisplayName: Birch Dresser
+	Tooltip: ""
+}
+
+ArborPylonItem: {
+	DisplayName: Arbor Pylon
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
+}
+
+Debug: {
+	DisplayName: Debug
+	Tooltip: ""
+}
+
+ArborFlowerWallBlock: {
+	DisplayName: Arbor Flower Wall
+	Tooltip: ""
+}
+
+StarlitWindsBoxItem: {
+	DisplayName: Music Box (Starlit Winds)
+	Tooltip: ""
+}
+
+FloatingFallBoxItem: {
+	DisplayName: Music Box (Floating Fall)
+	Tooltip: ""
+}
+
+BirchBookcaseBlock: {
+	DisplayName: Birch Bookcase
+	Tooltip: ""
+}
+
+BirchCandelabraBlock: {
+	DisplayName: Birch Candelabra
+	Tooltip: ""
+}
+
+ArborLeafBlock: {
+	DisplayName: Arbor Leaf
+	Tooltip: ""
+}
+
+BirchChestBlock: {
+	DisplayName: Birch Chest
+	Tooltip: ""
+}

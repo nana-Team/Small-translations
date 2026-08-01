@@ -1,0 +1,19 @@
+This mod adds in the Arbor minibiome, which is found as a new type of floating island in the sky.
+It was made as a submission for a modjam! Modjams are very fun and I wish there were more of them.
+
+Thanks for playing!
+Report any issues or discuss the mod here: https://discord.gg/FAnwxtM2vc
+And if you can, support me on Patreon: https://www.patreon.com/gabehaswon
+
+-- Developers --
+- GabeHasWon: Code, Art, Music -
+Twitter: @GabeHasWon
+YouTube: youtube.com/@gabehaswon
+
+- Heltonyan: Music -
+SoundCloud: soundcloud.com/heltonyan
+Twitter: @heltonyan
+Discord: heltonyan
+
+-- Contributors --
+alinahvoshch (GitHub): Russian localization & fixes

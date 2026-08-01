@@ -1,0 +1,16 @@
+Этот мод добавляет новый мини-биом: кущу, которая будет генерироваться на новых небесных островах.
+Мод был создан в рамках участия в Modjam! Подобные ивенты очень весёлые, и хотелось бы, чтобы их было больше в будущем.
+
+Спасибо за игру!
+Сообщить об ошибке или обсудить мод можно здесь: https://discord.gg/FAnwxtM2vc
+Если у вас есть возможность, я буду очень рад поддержке на Patreon: https://www.patreon.com/gabehaswon
+
+-- Разработчики --
+- GabeHasWon: программист, художник, композитор -
+Twitter: @GabeHasWon
+YouTube: youtube.com/@gabehaswon
+
+- Heltonyan: композитор -
+SoundCloud: soundcloud.com/heltonyan
+Twitter: @heltonyan
+Discord: heltonyan

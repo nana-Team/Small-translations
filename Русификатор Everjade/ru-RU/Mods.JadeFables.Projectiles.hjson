@@ -27,7 +27,7 @@ Ying.DisplayName: Янь
 FireworkPackExplosion.DisplayName: Взрыв фейерверка
 FireworkPackProj.DisplayName: "{$Items.FireworkPack.DisplayName}"
 GongProj.DisplayName: Гонг
-RingerProj.DisplayName: Маллет
+RingerProj.DisplayName: Колотушка
 HwachaArrow.DisplayName: Стрела хвачхи
 HwachaProj.DisplayName: Хвачха
 AirBubble.DisplayName: Пузырь

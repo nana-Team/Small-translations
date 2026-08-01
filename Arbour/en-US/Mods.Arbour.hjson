@@ -1,0 +1,63 @@
+MapObject.Microbirch: Microbirch
+
+Tiles: {
+	MicrobirchSapling.MapEntry: Microbirch Sapling
+	Microbirch.MapEntry: Microbirch
+	BirchWorkbench.MapEntry: Birch Workbench
+	BirchDoorOpen.MapEntry: Birch Door
+	BirchDoorClosed.MapEntry: Birch Door
+	BirchCandle.MapEntry: Birch Candle
+	ArborSapling.MapEntry: Sapling
+	BirchDresser.MapEntry: Birch Dresser
+	ArborPylonTile.MapEntry: Arbor Pylon
+	StarlitWindsBox.MapEntry: Starlit Winds Box
+	FloatingFallBox.MapEntry: Floating Fall Box
+	BirchChest.MapEntry: Birch Chest
+}
+
+Biomes: {
+	ArborBiome: {
+		TownNPCDialogueName: the Arbour
+		DisplayName: Arbour
+	}
+}
+
+Projectiles.FallingMicrobirch.DisplayName: Falling Microbirch
+
+MusicDisplay: {
+	ModName: Arbor
+
+	DayOld: {
+		DisplayName: Floating Fall (Old Arbor Theme)
+		Author: by Heltonyan
+	}
+
+	Day: {
+		DisplayName: Starlit Winds (Arbor Theme)
+		Author: by GabeHasWon
+	}
+}
+
+Configs: {
+	ArborConfig: {
+		DisplayName: Arbor Config
+
+		NewMusic: {
+			Label: New Music
+			Tooltip: If false, uses the old, unfinished song by Heltonyan. Defaults to true.
+		}
+
+		NoMusic: {
+			Label: No Music
+			Tooltip: Turns off Arbor's custom music entirely.
+		}
+	}
+}
+
+InBiome: In Arbor
+
+MicrobirchKill: {
+	0: "{0} cut a tree right above their head."
+	1: "{0} discovered gravity...again."
+	2: A tree landed on {0}'s head.
+}
